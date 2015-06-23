@@ -4814,9 +4814,9 @@ icalp:
         name2: 
             @0:         "ICALP 2015: 42nd " # icalpname # ", Part II"
             @2:         "ICALP 2015" # icalpname # ", Part II"
-        ed:             "Magnus M. Halldorsson and Naoki Kobayashi and Bettina Speckman" 
-        vol1:           ""
-        vol2:           ""
+        ed:             "Magn{\'u}s M. Halld{\'o}rsson and Kazuo Iwama and Naoki Kobayashi and Bettina Speckmann" 
+        vol1:           "9134"
+        vol2:           "9135"
         addr: 
             @0:         "Kyoto, Japan"
             @1:         ""
@@ -7393,7 +7393,9 @@ ndss:
         addr: 
             @0:         "San Diego, California, USA"
             @1:         ""
-        month:          ""
+        month: 
+            @0:         feb # "~8--11,"
+            @1:         feb
     16:                 "NDSS16"
         key:            "NDSS 2016"
         name:           ndssname # "~2016"
@@ -9515,9 +9517,13 @@ stoc:
     15:                 "STOC15"
         key:            "STOC 2015"
         name:           "47th " # stocname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Rocco A. Servedio and Ronitt Rubinfeld"
+        addr: 
+            @0:         "Portland, OR, USA"
+            @1:         ""
+        month: 
+            @0:         jun # "~14--17,"
+            @1:         jun
     16:                 "STOC16"
         key:            "STOC 2016"
         name:           "48th " # stocname
