@@ -325,10 +325,14 @@ acisp:
         name: 
             @0:         "ACISP 15: 20th " # acispname
             @2:         "ACISP 15" # acispname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ernest Foo and Douglas Stebila"
+        vol:            "9144"
+        addr: 
+            @0:         "Wollongong, NSW, Australia"
+            @1:         ""
+        month: 
+            @0:         jun # "~29~--~" # jul # "~1,"
+            @1:         jun # "~/~" # jul
     16:                 "ACISP16"
         key:            "ACISP 2016"
         name: 
