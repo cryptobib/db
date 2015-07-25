@@ -3438,10 +3438,14 @@ fc:
         name: 
             @0:         "FC 2015: 19th " # fcname_v2
             @2:         "FC 2015" # fcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Rainer B{\"o}hme and Tatsuaki Okamoto"
+        vol:            "8975"
+        addr: 
+            @0:         "San Juan, Puerto Rico"
+            @1:         ""
+        month: 
+            @0:         jan # "~26--30,"
+            @1:         jan 
     16:                 "FC16"
         key:            "FC 2016"
         name: 
@@ -8207,9 +8211,13 @@ podc:
     15:                 "PODC15"
         key:            "PODC 2015"
         name:           "34th " # podcname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Chryssis Georgiou and Paul G. Spirakis"
+        addr: 
+            @0:         "Donostia-San Sebasti{\'a}n, Spain"
+            @1:         ""
+        month: 
+            @0:         jul # "~21--23,"
+            @1:         jul
     16:                 "PODC16"
         key:            "PODC 2016"
         name:           "35th " # podcname
