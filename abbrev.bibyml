@@ -5966,8 +5966,12 @@ ieeesp:
         key:            "IEEE S\&P 2015"
         name:           "2015 " # ieeespname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr: 
+            @0:         "San Jose, California, USA"
+            @1:         ""
+        month: 
+            @0:         may # "~17--21,"
+            @1:         may
     16:                 "SP16"
         key:            "IEEE S\&P 2016"
         name:           "2016 " # ieeespname
