@@ -2253,10 +2253,10 @@ crypto:
         name1:          cryptoname # "~2015, Part I" 
         name2:          cryptoname # "~2015, Part II" 
         ed:             "Rosario Gennaro and Matthew J. B. Robshaw"
-        vol1:           ""
-        vol2:           ""
+        vol1:           "9215"
+        vol2:           "9216"
         month: 
-            @0:         aug # ""
+            @0:         aug # "~16--20,"
             @1:         aug
     16: 
         -1:             "C16-1"
@@ -5275,10 +5275,14 @@ icics:
         name: 
             @0:         "ICICS 14: 16th " # icicsname
             @2:         "ICICS 14" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Lucas Chi Kwong Hui and S. H. Qing and Elaine Shi and S. M. Yiu"
+        vol:            "8958"
+        addr: 
+            @0:         "Hong Kong"
+            @1:         ""
+        month: 
+            @0:         dec # "~16--17,"
+            @1:         dec
     15:                 "ICICS15"
         key:            "ICICS 2015"
         name: 
