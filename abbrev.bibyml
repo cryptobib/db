@@ -1907,10 +1907,14 @@ ches:
     15:                 "CHES15"
         key:            "CHES 2015"
         name:           chesname # "~2015"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Tim G{\"u}neysu and Helena Handschuh"
+        vol:            "9293"
+        addr: 
+            @0:         "Saint-Malo, France"
+            @1:         ""
+        month: 
+            @0:         sep # "~13--16,"
+            @1:         sep
     16:                 "CHES16"
         key:            "CHES 2016"
         name:           chesname # "~2016"
@@ -3537,10 +3541,12 @@ fcw:
     15:                 "FCW15"
         key:            "FCW 2015"
         name:           "FC 2015 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Michael Brenner and Nicolas Christin and Benjamin Johnson and Kurt Rohloff"
+        vol:            "8976"
         addr:           fc15addr
-        month:          fc15month
+        month: 
+            @0:         jan # "~30,"
+            @1:         jan 
 focsname: 
     @0:                 "Annual Symposium on Foundations of Computer Science"
     @2:                 "FOCS"
@@ -4178,10 +4184,14 @@ fse:
     15:                 "FSE15"
         key:            "FSE 2015"
         name:           fsename # "~2015"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Gregor Leander"
+        vol:            "9054"
+        addr: 
+            @0:         "Istanbul, Turkey"
+            @1:         ""
+        month: 
+            @0:         mar # "~8--11,"
+            @1:         mar
     16:                 "FSE16"
         key:            "FSE 2016"
         name:           fsename # "~2016"
@@ -6636,10 +6646,14 @@ isc:
         name: 
             @0:         "ISC~2015: 18th " # iscname_v2
             @2:         "ISC~2015" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Javier Lopez and Chris J. Mitchell"
+        vol:            "9290"
+        addr: 
+            @0:         "Trondheim, Norway"
+            @1:         ""
+        month: 
+            @0:         sep # "~9--11,"
+            @1:         sep
     16:                 "ISC16"
         key:            "ISC 2016"
         name: 
@@ -6896,10 +6910,14 @@ iwsec:
         name: 
             @0:         "IWSEC 15: 10th " # iwsecname
             @2:         "IWSEC 15" # iwsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Keisuke Tanaka and Yuji Suga"
+        vol:            "9241"
+        addr: 
+            @0:         "Nara, Japan"
+            @1:         ""
+        month: 
+            @0:         aug # "~26--28,"
+            @1:         aug
     16:                 "IWSEC16"
         key:            "IWSEC 2016"
         name: 
@@ -7172,10 +7190,14 @@ latincrypt:
         name: 
             @0:         latincryptname # "~2015: 4th " # latincryptsuffix
             @2:         latincryptname # "~2015" # latincryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kristin E. Lauter and Francisco {Rodr{\'\i}guez-Henr{\'\i}quez}"
+        vol:            "9230"
+        addr: 
+            @0:         "Guadalajara, Mexico"
+            @1:         ""
+        month: 
+            @0:         aug # "~23--26,"
+            @1:         aug
     17:                 "LC17"
         key:            "LATINCRYPT 2017"
         name: 
@@ -9938,10 +9960,14 @@ trustbus:
         name: 
             @0:         "TrustBus 2015: Trust and Privacy in Digital Business, 12th " # trustbusname
             @2:         "TrustBus 2015" # trustbusname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Simone Fischer-H{\"u}bner and Costas Lambrinoudakis and Javier Lopez"
+        vol:            "9264"
+        addr: 
+            @0:         "Valencia, Spain"
+            @1:         ""
+        month: 
+            @0:         sep # "~1--2,"
+            @1:         sep
     16:                 "TRUSTBUS16"
         key:            "TRUSTBUS 2016"
         name: 
