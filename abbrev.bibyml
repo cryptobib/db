@@ -1054,8 +1054,8 @@ asiaccs:
     06:                 "ASIACCS06"
         key:            "ASIACCS 2006"
         name: 
-            @0:         "ASIACCS 06: 1st " # ccsname
-            @2:         "ASIACCS 06" # ccsname
+            @0:         "ASIACCS 06: 1st " # asiaccsname
+            @2:         "ASIACCS 06" # asiaccsname
         ed:             "Ferng-Ching Lin and Der-Tsai Lee and Bao-Shuh Lin and Shiuhpyng Shieh and Sushil Jajodia"
         addr: 
             @0:         "Taipei, Taiwan"
@@ -1066,8 +1066,8 @@ asiaccs:
     07:                 "ASIACCS07"
         key:            "ASIACCS 2007"
         name: 
-            @0:         "ASIACCS 07: 2nd " # ccsname
-            @2:         "ASIACCS 07" # ccsname
+            @0:         "ASIACCS 07: 2nd " # asiaccsname
+            @2:         "ASIACCS 07" # asiaccsname
         ed:             "Feng Bao and Steven Miller"
         addr: 
             @0:         "Singapore"
@@ -1078,8 +1078,8 @@ asiaccs:
     08:                 "ASIACCS08"
         key:            "ASIACCS 2008"
         name: 
-            @0:         "ASIACCS 08: 3rd " # ccsname
-            @2:         "ASIACCS 08" # ccsname
+            @0:         "ASIACCS 08: 3rd " # asiaccsname
+            @2:         "ASIACCS 08" # asiaccsname
         ed:             "Masayuki Abe and Virgil Gligor"
         addr: 
             @0:         "Tokyo, Japan"
@@ -1090,8 +1090,8 @@ asiaccs:
     09:                 "ASIACCS09"
         key:            "ASIACCS 2009"
         name: 
-            @0:         "ASIACCS 09: 4th " # ccsname
-            @2:         "ASIACCS 09" # ccsname
+            @0:         "ASIACCS 09: 4th " # asiaccsname
+            @2:         "ASIACCS 09" # asiaccsname
         ed:             "Wanqing Li and Willy Susilo and Udaya Kiran Tupakula and Reihaneh Safavi-Naini and Vijay Varadharajan"
         addr: 
             @0:         "Sydney, Australia"
@@ -1102,8 +1102,8 @@ asiaccs:
     10:                 "ASIACCS10"
         key:            "ASIACCS 2010"
         name: 
-            @0:         "ASIACCS 10: 5th " # ccsname
-            @2:         "ASIACCS 10" # ccsname
+            @0:         "ASIACCS 10: 5th " # asiaccsname
+            @2:         "ASIACCS 10" # asiaccsname
         ed:             "Dengguo Feng and David A. Basin and Peng Liu"
         addr: 
             @0:         "Beijing, China"
@@ -1114,8 +1114,8 @@ asiaccs:
     11:                 "ASIACCS11"
         key:            "ASIACCS 2011"
         name: 
-            @0:         "ASIACCS 11: 6th " # ccsname
-            @2:         "ASIACCS 11" # ccsname
+            @0:         "ASIACCS 11: 6th " # asiaccsname
+            @2:         "ASIACCS 11" # asiaccsname
         ed:             "Bruce S. N. Cheung and Lucas Chi Kwong Hui and Ravi S. Sandhu and Duncan S. Wong"
         addr: 
             @0:         "Hong Kong, China"
@@ -1126,8 +1126,8 @@ asiaccs:
     12:                 "ASIACCS12"
         key:            "ASIACCS 2012"
         name: 
-            @0:         "ASIACCS 12: 7th " # ccsname
-            @2:         "ASIACCS 12" # ccsname
+            @0:         "ASIACCS 12: 7th " # asiaccsname
+            @2:         "ASIACCS 12" # asiaccsname
         ed:             "Heung Youl Youm and Yoojae Won"
         addr: 
             @0:         "Seoul, Korea"
@@ -1138,8 +1138,8 @@ asiaccs:
     13:                 "ASIACCS13"
         key:            "ASIACCS 2013"
         name: 
-            @0:         "ASIACCS 13: 8th " # ccsname
-            @2:         "ASIACCS 13" # ccsname
+            @0:         "ASIACCS 13: 8th " # asiaccsname
+            @2:         "ASIACCS 13" # asiaccsname
         ed:             "Kefei Chen and Qi Xie and Weidong Qiu and Ninghui Li and Wen-Guey Tzeng"
         addr: 
             @0:         "Hangzhou, China"
@@ -1150,8 +1150,8 @@ asiaccs:
     14:                 "ASIACCS14"
         key:            "ASIACCS 2014"
         name: 
-            @0:         "ASIACCS 14: 9th " # ccsname
-            @2:         "ASIACCS 14" # ccsname
+            @0:         "ASIACCS 14: 9th " # asiaccsname
+            @2:         "ASIACCS 14" # asiaccsname
         ed:             "Shiho Moriai and Trent Jaeger and Kouichi Sakurai"
         addr: 
             @0:         "Kyoto, Japan"
@@ -1162,8 +1162,8 @@ asiaccs:
     15:                 "ASIACCS15"
         key:            "ASIACCS 2015"
         name: 
-            @0:         "ASIACCS 15: 10th " # ccsname
-            @2:         "ASIACCS 15" # ccsname
+            @0:         "ASIACCS 15: 10th " # asiaccsname
+            @2:         "ASIACCS 15" # asiaccsname
         ed:             "Feng Bao and Steven Miller and Jianying Zhou and Gail-Joon Ahn"
         addr: 
             @0:         "Singapore"
@@ -1174,40 +1174,40 @@ asiaccs:
     16:                 "ASIACCS16"
         key:            "ASIACCS 2016"
         name: 
-            @0:         "ASIACCS 16: 11th " # ccsname
-            @2:         "ASIACCS 16" # ccsname
+            @0:         "ASIACCS 16: 11th " # asiaccsname
+            @2:         "ASIACCS 16" # asiaccsname
         ed:             ""
         addr:           ""
         month:          ""
     17:                 "ASIACCS17"
         key:            "ASIACCS 2017"
         name: 
-            @0:         "ASIACCS 17: 12th " # ccsname
-            @2:         "ASIACCS 17" # ccsname
+            @0:         "ASIACCS 17: 12th " # asiaccsname
+            @2:         "ASIACCS 17" # asiaccsname
         ed:             ""
         addr:           ""
         month:          ""
     18:                 "ASIACCS18"
         key:            "ASIACCS 2018"
         name: 
-            @0:         "ASIACCS 18: 13th " # ccsname
-            @2:         "ASIACCS 18" # ccsname
+            @0:         "ASIACCS 18: 13th " # asiaccsname
+            @2:         "ASIACCS 18" # asiaccsname
         ed:             ""
         addr:           ""
         month:          ""
     19:                 "ASIACCS19"
         key:            "ASIACCS 2019"
         name: 
-            @0:         "ASIACCS 19: 14th " # ccsname
-            @2:         "ASIACCS 19" # ccsname
+            @0:         "ASIACCS 19: 14th " # asiaccsname
+            @2:         "ASIACCS 19" # asiaccsname
         ed:             ""
         addr:           ""
         month:          ""
     20:                 "ASIACCS20"
         key:            "ASIACCS 2020"
         name: 
-            @0:         "ASIACCS 20: 15th " # ccsname
-            @2:         "ASIACCS 20" # ccsname
+            @0:         "ASIACCS 20: 15th " # asiaccsname
+            @2:         "ASIACCS 20" # asiaccsname
         ed:             ""
         addr:           ""
         month:          ""
