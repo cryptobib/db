@@ -851,10 +851,14 @@ acns:
         name: 
             @0:         "ACNS 15: 13th " # acnsname
             @2:         "ACNS 15" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Tal Malkin and Vladimir Kolesnikov and Allison {Bishop Lewko} and Michalis Polychronakis"
+        vol:            "9092"
+        addr: 
+            @0:         "New York, NY, USA"
+            @1:         ""
+        month: 
+            @0:         jun # "~2--5,"
+            @1:         jun
     16:                 "ACNS16"
         key:            "ACNS 2016"
         name: 
@@ -6919,6 +6923,66 @@ itcs:
             @1:         ""
         month: 
             @0:         jan # "~11--13,"
+            @1:         jan
+    16:               "ITCS16"
+        key:            "ITCS 2016"
+        name: 
+            @0:         "ITCS 2016: 7th " # itcsname_v2
+            @2:         "ITCS 2016" # itcsname_v2
+        ed:             "Madhu Sudan"
+        addr: 
+            @0:         "Cambridge, MA, USA"
+            @1:         ""
+        month: 
+            @0:         jan # "~14--16,"
+            @1:         jan
+    17:               "ITCS17"
+        key:            "ITCS 2017"
+        name: 
+            @0:         "ITCS 2017: 8th " # itcsname_v2
+            @2:         "ITCS 2017" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
+            @1:         jan
+    18:               "ITCS18"
+        key:            "ITCS 2018"
+        name: 
+            @0:         "ITCS 2018: 9th " # itcsname_v2
+            @2:         "ITCS 2018" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
+            @1:         jan
+    19:               "ITCS19"
+        key:            "ITCS 2019"
+        name: 
+            @0:         "ITCS 2019: 10th " # itcsname_v2
+            @2:         "ITCS 2019" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
+            @1:         jan
+    20:               "ITCS20"
+        key:            "ITCS 2020"
+        name: 
+            @0:         "ITCS 2020: 11th " # itcsname_v2
+            @2:         "ITCS 2020" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
             @1:         jan
 iwsecname: 
     @0:                 "International Workshop on Security, Advances in Information and Computer Security"
