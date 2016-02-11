@@ -851,7 +851,7 @@ acns:
         name: 
             @0:         "ACNS 15: 13th " # acnsname
             @2:         "ACNS 15" # acnsname
-        ed:             "Tal Malkin and Vladimir Kolesnikov and Allison {Bishop Lewko} and Michalis Polychronakis"
+        ed:             "Tal Malkin and Vladimir Kolesnikov and Allison Bishop Lewko and Michalis Polychronakis"
         vol:            "9092"
         addr: 
             @0:         "New York, NY, USA"
@@ -2514,10 +2514,14 @@ rsa:
     16:                 "RSA16"
         key:            "CT-RSA 2016"
         name:           rsaname # "~2016"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kazue Sako"
+        vol:            "9610"
+        addr: 
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month: 
+            @0:         feb # "~29~--~" # mar # "~4,"
+            @1:         feb # "~/~" # mar
     17:                 "RSA17"
         key:            "CT-RSA 2017"
         name:           rsaname # "~2017"
@@ -6766,10 +6770,14 @@ isc:
         name: 
             @0:         "ISC~2013: 16th " # iscname_v2
             @2:         "ISC~2013" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Yvo Desmedt"
+        vol:            "7807"
+        addr: 
+            @0:         "Dallas, Texas, USA"
+            @1:         ""
+        month: 
+            @0:         nov # "~13--15,"
+            @1:         nov
     14:                 "ISC14"
         key:            "ISC 2014"
         name: 
