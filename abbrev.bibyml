@@ -5438,10 +5438,14 @@ icics:
         name: 
             @0:         "ICICS 15: 17th " # icicsname
             @2:         "ICICS 15" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Sihan Qing and Eiji Okamoto and Kwangjo Kim and Dongmei Liu"
+        vol:            "9543"
+        addr: 
+            @0:         "Beijing, China"
+            @1:         ""
+        month: 
+            @0:         dec # "~9--11,"
+            @1:         dec
     16:                 "ICICS16"
         key:            "ICICS 2016"
         name: 
@@ -8064,15 +8068,26 @@ pkc:
         month: 
             @0:         mar # "~30~--~" # apr # "~1,"
             @1:         mar # "~/~" # apr
-    16:                 "PKC16"
-        key:            "PKC 2016"
-        name: 
-            @0:         "PKC~2016: 19th " # pkcname_v2
-            @2:         "PKC~2016" # pkcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+    16:
+        -1:             "PKC16-1"
+        -2:             "PKC16-2"
+        key1:           "PKC 2016, Part I"
+        key2:           "PKC 2016, Part II"
+        name1: 
+            @0:         "PKC~2016: 19th " # pkcname_v2 # ", Part I"
+            @2:         "PKC~2016" # pkcname_v2 # ", Part I"
+        name2: 
+            @0:         "PKC~2016: 19th " # pkcname_v2 # ", Part II"
+            @2:         "PKC~2016" # pkcname_v2 # ", Part II"
+        ed:             "Chen-Mou Cheng and Kai-Min Chung and Giuseppe Persiano and Bo-Yin Yang"
+        vol1:           "9614"
+        vol2:           "9615"
+        addr: 
+            @0:         "Taipei, Taiwan"
+            @1:         ""
+        month: 
+            @0:         mar # "~6--9,"
+            @1:         mar
     17:                 "PKC17"
         key:            "PKC 2017"
         name: 
