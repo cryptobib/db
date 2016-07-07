@@ -70,6 +70,9 @@ jsac:
 mylncs: 
     @0:                 "Lecture Notes in Computer Science"
     @2:                 "{LNCS}"
+myisc:
+    @0:                 "Information Security and Cryptography"
+    @2:                 "{ISC}"
 acispname: 
     @0:                 "Australasian Conference on Information Security and Privacy"
     @2:                 ""
