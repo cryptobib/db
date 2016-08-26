@@ -70,6 +70,9 @@ jsac:
 mylncs: 
     @0:                 "Lecture Notes in Computer Science"
     @2:                 "{LNCS}"
+myisc:
+    @0:                 "Information Security and Cryptography"
+    @2:                 "{ISC}"
 acispname: 
     @0:                 "Australasian Conference on Information Security and Privacy"
     @2:                 ""
@@ -638,9 +641,13 @@ ccs:
         name: 
             @0:         "ACM CCS 15: 22nd " # ccsname
             @2:         "ACM CCS 15" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Indrajit Ray and Ninghui Li and Christopher Kruegel:"
+        addr: 
+            @0:         "Denver, CO, USA"
+            @1:         ""
+        month: 
+            @0:         oct # "~12--16,"
+            @1:         oct
     16:                 "CCS16"
         key:            "ACM CCS 2016"
         name: 
@@ -847,10 +854,14 @@ acns:
         name: 
             @0:         "ACNS 15: 13th " # acnsname
             @2:         "ACNS 15" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Tal Malkin and Vladimir Kolesnikov and Allison Bishop Lewko and Michalis Polychronakis"
+        vol:            "9092"
+        addr: 
+            @0:         "New York, NY, USA"
+            @1:         ""
+        month: 
+            @0:         jun # "~2--5,"
+            @1:         jun
     16:                 "ACNS16"
         key:            "ACNS 2016"
         name: 
@@ -1492,48 +1503,102 @@ asiacrypt:
         month: 
             @0:         dec # "~7--11,"
             @1:         dec
-    15:                 "AC15"
-        key:            "ASIACRYPT 2015"
-        name:           asiacryptname # "~2015"
+    15: 
+        -1:             "AC15-1"
+        -2:             "AC15-2"
+        key1:           "ASIACRYPT 2015, Part I"
+        key2:           "ASIACRYPT 2015, Part II"
+        name1:          asiacryptname # "~2015, Part I" 
+        name2:          asiacryptname # "~2015, Part II" 
+        ed:             "Tetsu Iwata and Jung Hee Cheon"
+        vol1:           "9452"
+        vol2:           "9453"
+        addr: 
+            @0:         "Auckland, New Zealand"
+            @1:         ""
+        month: 
+            @0:         nov # "~30~--~" # dec # "~3,"
+            @1:         nov # "~/~" # dec
+    16: 
+        -1:             "AC16-1"
+        -2:             "AC16-2"
+        key1:           "ASIACRYPT 2016, Part I"
+        key2:           "ASIACRYPT 2016, Part II"
+        name1:          asiacryptname # "~2016, Part I" 
+        name2:          asiacryptname # "~2016, Part II" 
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          dec
-    16:                 "AC16"
-        key:            "ASIACRYPT 2016"
-        name:           asiacryptname # "~2016"
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         dec
+            @1:         dec
+    17: 
+        -1:             "AC17-1"
+        -2:             "AC17-2"
+        key1:           "ASIACRYPT 2017, Part I"
+        key2:           "ASIACRYPT 2017, Part II"
+        name1:          asiacryptname # "~2017, Part I" 
+        name2:          asiacryptname # "~2017, Part II" 
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          dec
-    17:                 "AC17"
-        key:            "ASIACRYPT 2017"
-        name:           asiacryptname # "~2017"
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         dec
+            @1:         dec
+    18: 
+        -1:             "AC18-1"
+        -2:             "AC18-2"
+        key1:           "ASIACRYPT 2018, Part I"
+        key2:           "ASIACRYPT 2018, Part II"
+        name1:          asiacryptname # "~2018, Part I" 
+        name2:          asiacryptname # "~2018, Part II" 
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          dec
-    18:                 "AC18"
-        key:            "ASIACRYPT 2018"
-        name:           asiacryptname # "~2018"
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         dec
+            @1:         dec
+    19: 
+        -1:             "AC19-1"
+        -2:             "AC19-2"
+        key1:           "ASIACRYPT 2019, Part I"
+        key2:           "ASIACRYPT 2019, Part II"
+        name1:          asiacryptname # "~2019, Part I" 
+        name2:          asiacryptname # "~2019, Part II" 
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          dec
-    19:                 "AC19"
-        key:            "ASIACRYPT 2019"
-        name:           asiacryptname # "~2019"
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         dec
+            @1:         dec
+    20: 
+        -1:             "AC20-1"
+        -2:             "AC20-2"
+        key1:           "ASIACRYPT 2020, Part I"
+        key2:           "ASIACRYPT 2020, Part II"
+        name1:          asiacryptname # "~2020, Part I" 
+        name2:          asiacryptname # "~2020, Part II" 
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          dec
-    20:                 "AC20"
-        key:            "ASIACRYPT 2020"
-        name:           asiacryptname # "~2020"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          dec
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         dec
+            @1:         dec
 cansname: 
     @0:                 "International Conference on Cryptology and Network Security"
     @2:                 ""
@@ -1674,10 +1739,14 @@ cans:
         name: 
             @0:         "CANS 15: 14th " # cansname
             @2:         "CANS 15" # cansname
-        ed:             ""
+        ed:             "Michael Reiter and David Naccache"
         vol:            ""
-        addr:           ""
-        month:          ""
+        addr: 
+            @0:         "Marrakesh, Morocco"
+            @1:         ""
+        month: 
+            @0:         dec # "~10--12,"
+            @1:         dec
     16:                 "CANS16"
         key:            "CANS 2016"
         name: 
@@ -2448,10 +2517,14 @@ rsa:
     16:                 "RSA16"
         key:            "CT-RSA 2016"
         name:           rsaname # "~2016"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kazue Sako"
+        vol:            "9610"
+        addr: 
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month: 
+            @0:         feb # "~29~--~" # mar # "~4,"
+            @1:         feb # "~/~" # mar
     17:                 "RSA17"
         key:            "CT-RSA 2017"
         name:           rsaname # "~2017"
@@ -2740,60 +2813,126 @@ esorics:
         month: 
             @0:         sep # "~7--11,"
             @1:         sep
-    15:                 "ESORICS15"
-        key:            "ESORICS 2015"
-        name: 
-            @0:         "ESORICS~2015: 20th " # esoricsname
-            @2:         "ESORICS~2015" # esoricsname
+    15: 
+        -1:             "ESORICS15-1"
+        -2:             "ESORICS15-2"
+        key1:           "ESORICS 2015, Part I"
+        key2:           "ESORICS 2015, Part II"
+        name1:
+            @0:         "ESORICS~2015: 20th " # esoricsname # ", Part I"
+            @2:         "ESORICS~2015" # esoricsname # ", Part I"
+        name2:
+            @0:         "ESORICS~2015: 20th " # esoricsname # ", Part II"
+            @2:         "ESORICS~2015" # esoricsname # ", Part II"
+        ed:             "G{\"u}nther Pernul and Peter Y. A. Ryan and Edgar R. Weippl"
+        vol1:           "9326"
+        vol2:           "9327"
+        addr: 
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month: 
+            @0:         sep # "~21--25,"
+            @1:         sep
+    16: 
+        -1:             "ESORICS16-1"
+        -2:             "ESORICS16-2"
+        key1:           "ESORICS 2016, Part I"
+        key2:           "ESORICS 2016, Part II"
+        name1:
+            @0:         "ESORICS~2016: 21st " # esoricsname # ", Part I"
+            @2:         "ESORICS~2016" # esoricsname # ", Part I"
+        name2:
+            @0:         "ESORICS~2016: 21st " # esoricsname # ", Part II"
+            @2:         "ESORICS~2016" # esoricsname # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    16:                 "ESORICS16"
-        key:            "ESORICS 2016"
-        name: 
-            @0:         "ESORICS~2016: 21st " # esoricsname
-            @2:         "ESORICS~2016" # esoricsname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         sep
+            @1:         sep
+    17: 
+        -1:             "ESORICS17-1"
+        -2:             "ESORICS17-2"
+        key1:           "ESORICS 2017, Part I"
+        key2:           "ESORICS 2017, Part II"
+        name1:
+            @0:         "ESORICS~2017: 22nd " # esoricsname # ", Part I"
+            @2:         "ESORICS~2017" # esoricsname # ", Part I"
+        name2:
+            @0:         "ESORICS~2017: 22nd " # esoricsname # ", Part II"
+            @2:         "ESORICS~2017" # esoricsname # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    17:                 "ESORICS17"
-        key:            "ESORICS 2017"
-        name: 
-            @0:         "ESORICS~2017: 22nd " # esoricsname
-            @2:         "ESORICS~2017" # esoricsname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         sep
+            @1:         sep
+    18: 
+        -1:             "ESORICS18-1"
+        -2:             "ESORICS18-2"
+        key1:           "ESORICS 2018, Part I"
+        key2:           "ESORICS 2018, Part II"
+        name1:
+            @0:         "ESORICS~2018: 23rd " # esoricsname # ", Part I"
+            @2:         "ESORICS~2018" # esoricsname # ", Part I"
+        name2:
+            @0:         "ESORICS~2018: 23rd " # esoricsname # ", Part II"
+            @2:         "ESORICS~2018" # esoricsname # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    18:                 "ESORICS18"
-        key:            "ESORICS 2018"
-        name: 
-            @0:         "ESORICS~2018: 23rd " # esoricsname
-            @2:         "ESORICS~2018" # esoricsname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         sep
+            @1:         sep
+    19: 
+        -1:             "ESORICS19-1"
+        -2:             "ESORICS19-2"
+        key1:           "ESORICS 2019, Part I"
+        key2:           "ESORICS 2019, Part II"
+        name1:
+            @0:         "ESORICS~2019: 24th " # esoricsname # ", Part I"
+            @2:         "ESORICS~2019" # esoricsname # ", Part I"
+        name2:
+            @0:         "ESORICS~2019: 24th " # esoricsname # ", Part II"
+            @2:         "ESORICS~2019" # esoricsname # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    19:                 "ESORICS19"
-        key:            "ESORICS 2019"
-        name: 
-            @0:         "ESORICS~2019: 24th " # esoricsname
-            @2:         "ESORICS~2019" # esoricsname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         sep
+            @1:         sep
+    20: 
+        -1:             "ESORICS20-1"
+        -2:             "ESORICS20-2"
+        key1:           "ESORICS 2020, Part I"
+        key2:           "ESORICS 2020, Part II"
+        name1:
+            @0:         "ESORICS~2020: 25th " # esoricsname # ", Part I"
+            @2:         "ESORICS~2020" # esoricsname # ", Part I"
+        name2:
+            @0:         "ESORICS~2020: 25th " # esoricsname # ", Part II"
+            @2:         "ESORICS~2020" # esoricsname # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    20:                 "ESORICS20"
-        key:            "ESORICS 2020"
-        name: 
-            @0:         "ESORICS~2020: 25th " # esoricsname
-            @2:         "ESORICS~2020" # esoricsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         sep
+            @1:         sep
 eurocryptname: 
     @0:                 "Advances in Cryptology -- {EUROCRYPT}"
     @2:                 "EUROCRYPT"
@@ -3905,9 +4044,13 @@ focs:
     15:                 "FOCS15"
         key:            "FOCS 2015"
         name:           "56th " # focsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Venkatesan Guruswami"
+        addr: 
+            @0:         "Berkeley, CA, USA"
+            @1:         ""
+        month: 
+            @0:         oct # "~17--20,"
+            @1:         oct
     16:                 "FOCS16"
         key:            "FOCS 2016"
         name:           "57th " # focsname
@@ -5298,10 +5441,14 @@ icics:
         name: 
             @0:         "ICICS 15: 17th " # icicsname
             @2:         "ICICS 15" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Sihan Qing and Eiji Okamoto and Kwangjo Kim and Dongmei Liu"
+        vol:            "9543"
+        addr: 
+            @0:         "Beijing, China"
+            @1:         ""
+        month: 
+            @0:         dec # "~9--11,"
+            @1:         dec
     16:                 "ICICS16"
         key:            "ICICS 2016"
         name: 
@@ -6136,19 +6283,21 @@ ima:
     15:                 "IMA15"
         key:            "IMA 2015"
         name:           "15th " # imaname
-        ed:             ""
-        vol:            ""
+        ed:             "Jens Groth"
+        vol:            "9496"
         addr: 
-            @0:         "Cirencester, UK"
+            @0:         "Oxford, UK"
             @1:         ""
-        month:          dec
+        month: 
+            @0:         dec # "~15--17,"
+            @1:         dec
     17:                 "IMA17"
         key:            "IMA 2017"
         name:           "16th " # imaname
         ed:             ""
         vol:            ""
         addr: 
-            @0:         "Cirencester, UK"
+            @0:         "Oxford, UK"
             @1:         ""
         month:          dec
     19:                 "IMA19"
@@ -6157,7 +6306,7 @@ ima:
         ed:             ""
         vol:            ""
         addr: 
-            @0:         "Cirencester, UK"
+            @0:         "Oxford, UK"
             @1:         ""
         month:          dec
 indocryptname: 
@@ -6368,10 +6517,14 @@ indocrypt:
         name: 
             @0:         indocryptname # "~2015: 16th " # indocryptsuffix
             @2:         indocryptname # "~2015" # indocryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Alex Biryukov and Vipul Goyal"
+        vol:            "9462"
+        addr: 
+            @0:         "Bangalore, India"
+            @1:         ""
+        month: 
+            @0:         dec # "~6--9,"
+            @1:         dec
     16:                 "INDOCRYPT16"
         key:            "INDOCRYPT 2016"
         name: 
@@ -6624,10 +6777,14 @@ isc:
         name: 
             @0:         "ISC~2013: 16th " # iscname_v2
             @2:         "ISC~2013" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Yvo Desmedt"
+        vol:            "7807"
+        addr: 
+            @0:         "Dallas, Texas, USA"
+            @1:         ""
+        month: 
+            @0:         nov # "~13--15,"
+            @1:         nov
     14:                 "ISC14"
         key:            "ISC 2014"
         name: 
@@ -6781,6 +6938,66 @@ itcs:
             @1:         ""
         month: 
             @0:         jan # "~11--13,"
+            @1:         jan
+    16:               "ITCS16"
+        key:            "ITCS 2016"
+        name: 
+            @0:         "ITCS 2016: 7th " # itcsname_v2
+            @2:         "ITCS 2016" # itcsname_v2
+        ed:             "Madhu Sudan"
+        addr: 
+            @0:         "Cambridge, MA, USA"
+            @1:         ""
+        month: 
+            @0:         jan # "~14--16,"
+            @1:         jan
+    17:               "ITCS17"
+        key:            "ITCS 2017"
+        name: 
+            @0:         "ITCS 2017: 8th " # itcsname_v2
+            @2:         "ITCS 2017" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
+            @1:         jan
+    18:               "ITCS18"
+        key:            "ITCS 2018"
+        name: 
+            @0:         "ITCS 2018: 9th " # itcsname_v2
+            @2:         "ITCS 2018" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
+            @1:         jan
+    19:               "ITCS19"
+        key:            "ITCS 2019"
+        name: 
+            @0:         "ITCS 2019: 10th " # itcsname_v2
+            @2:         "ITCS 2019" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
+            @1:         jan
+    20:               "ITCS20"
+        key:            "ITCS 2020"
+        name: 
+            @0:         "ITCS 2020: 11th " # itcsname_v2
+            @2:         "ITCS 2020" # itcsname_v2
+        ed:             ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         jan
             @1:         jan
 iwsecname: 
     @0:                 "International Workshop on Security, Advances in Information and Computer Security"
@@ -7854,15 +8071,26 @@ pkc:
         month: 
             @0:         mar # "~30~--~" # apr # "~1,"
             @1:         mar # "~/~" # apr
-    16:                 "PKC16"
-        key:            "PKC 2016"
-        name: 
-            @0:         "PKC~2016: 19th " # pkcname_v2
-            @2:         "PKC~2016" # pkcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+    16:
+        -1:             "PKC16-1"
+        -2:             "PKC16-2"
+        key1:           "PKC 2016, Part I"
+        key2:           "PKC 2016, Part II"
+        name1: 
+            @0:         "PKC~2016: 19th " # pkcname_v2 # ", Part I"
+            @2:         "PKC~2016" # pkcname_v2 # ", Part I"
+        name2: 
+            @0:         "PKC~2016: 19th " # pkcname_v2 # ", Part II"
+            @2:         "PKC~2016" # pkcname_v2 # ", Part II"
+        ed:             "Chen-Mou Cheng and Kai-Min Chung and Giuseppe Persiano and Bo-Yin Yang"
+        vol1:           "9614"
+        vol2:           "9615"
+        addr: 
+            @0:         "Taipei, Taiwan"
+            @1:         ""
+        month: 
+            @0:         mar # "~6--9,"
+            @1:         mar
     17:                 "PKC17"
         key:            "PKC 2017"
         name: 
@@ -8388,10 +8616,14 @@ provsec:
         name: 
             @0:         "ProvSec 2015: 9th " # provsecname
             @2:         "ProvSec 2015" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Man Ho Au and Atsuko Miyaji"
+        vol:            "9451"
+        addr: 
+            @0:         "Kanazawa, Japan"
+            @1:         ""
+        month: 
+            @0:         nov # "~24--26,"
+            @1:         nov
     16:                 "PROVSEC16"
         key:            "PROVSEC 2016"
         name: 
@@ -9176,9 +9408,13 @@ soda:
     16:                 "SODA16"
         key:            "SODA 2016"
         name:           "27th " # sodaname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Robert Krauthgamer"
+        addr: 
+            @0:         "Arlington, VA, USA"
+            @1:         ""
+        month: 
+            @0:         jan # "~10--12,"
+            @1:         jan
     17:                 "SODA17"
         key:            "SODA 2017"
         name:           "28th " # sodaname
@@ -9762,51 +9998,127 @@ tcc:
         month: 
             @0:         mar # "~23--25,"
             @1:         mar
-    16:                 "TCC16"
-        key:            "TCC 2016"
-        name: 
-            @0:         "TCC~2016: 13th " # tccname
-            @2:         "TCC~2016" # tccname
+    16: 
+        a1:             "TCC16A-1"
+        a2:             "TCC16A-2"
+        b1:             "TCC16B-1"
+        b2:             "TCC16B-2"
+        a:
+            key1:           "TCC 2016-A, Part I"
+            key2:           "TCC 2016-A, Part II"
+            name1: 
+                @0:         "TCC~2016-A: 13th " # tccname # ", Part I"
+                @2:         "TCC~2016-A" # tccname  # ", Part I"
+            name2: 
+                @0:         "TCC~2016-A: 13th " # tccname # ", Part II"
+                @2:         "TCC~2016-A" # tccname  # ", Part II"
+            ed:             "Eyal Kushilevitz and Tal Malkin"
+            vol1:           "9562"
+            vol2:           "9563"
+            addr: 
+                @0:         "Tel Aviv, Israel"
+                @1:         ""
+            month: 
+                @0:         jan # "~10--13,"
+                @1:         jan
+        b:
+            key1:           "TCC 2016-B, Part I"
+            key2:           "TCC 2016-B, Part II"
+            name1: 
+                @0:         "TCC~2016-B: 14th " # tccname # ", Part I"
+                @2:         "TCC~2016-B" # tccname  # ", Part I"
+            name2: 
+                @0:         "TCC~2016-B: 14th " # tccname # ", Part II"
+                @2:         "TCC~2016-B" # tccname  # ", Part II"
+            ed:             ""
+            vol1:           ""
+            vol2:           ""
+            addr: 
+                @0:         "Beijing, China"
+                @1:         ""
+            month: 
+                @0:         nov # "~1--3,"
+                @1:         nov
+    17: 
+        -1:             "TCC17-1"
+        -2:             "TCC17-2"
+        key1:           "TCC 2017, Part I"
+        key2:           "TCC 2017, Part II"
+        name1: 
+            @0:         "TCC~2017: 15th " # tccname # ", Part I"
+            @2:         "TCC~2017" # tccname  # ", Part I"
+        name2: 
+            @0:         "TCC~2017: 15th " # tccname # ", Part II"
+            @2:         "TCC~2017" # tccname  # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    17:                 "TCC17"
-        key:            "TCC 2017"
-        name: 
-            @0:         "TCC~2017: 14th " # tccname
-            @2:         "TCC~2017" # tccname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         mar
+            @1:         mar
+    18: 
+        -1:             "TCC18-1"
+        -2:             "TCC18-2"
+        key1:           "TCC 2018, Part I"
+        key2:           "TCC 2018, Part II"
+        name1: 
+            @0:         "TCC~2018: 16th " # tccname # ", Part I"
+            @2:         "TCC~2018" # tccname  # ", Part I"
+        name2: 
+            @0:         "TCC~2018: 16th " # tccname # ", Part II"
+            @2:         "TCC~2018" # tccname  # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    18:                 "TCC18"
-        key:            "TCC 2018"
-        name: 
-            @0:         "TCC~2018: 15th " # tccname
-            @2:         "TCC~2018" # tccname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         mar
+            @1:         mar
+    19: 
+        -1:             "TCC19-1"
+        -2:             "TCC19-2"
+        key1:           "TCC 2019, Part I"
+        key2:           "TCC 2019, Part II"
+        name1: 
+            @0:         "TCC~2019: 17th " # tccname # ", Part I"
+            @2:         "TCC~2019" # tccname  # ", Part I"
+        name2: 
+            @0:         "TCC~2019: 17th " # tccname # ", Part II"
+            @2:         "TCC~2019" # tccname  # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    19:                 "TCC19"
-        key:            "TCC 2019"
-        name: 
-            @0:         "TCC~2019: 16th " # tccname
-            @2:         "TCC~2019" # tccname
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         mar
+            @1:         mar
+    20: 
+        -1:             "TCC20-1"
+        -2:             "TCC20-2"
+        key1:           "TCC 2020, Part I"
+        key2:           "TCC 2020, Part II"
+        name1: 
+            @0:         "TCC~2020: 18th " # tccname # ", Part I"
+            @2:         "TCC~2020" # tccname  # ", Part I"
+        name2: 
+            @0:         "TCC~2020: 18th " # tccname # ", Part II"
+            @2:         "TCC~2020" # tccname  # ", Part II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    20:                 "TCC20"
-        key:            "TCC 2020"
-        name: 
-            @0:         "TCC~2020: 17th " # tccname
-            @2:         "TCC~2020" # tccname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        vol1:           ""
+        vol2:           ""
+        addr: 
+            @0:         ""
+            @1:         ""
+        month: 
+            @0:         mar
+            @1:         mar
 trustbusname: 
     @0:                 "International Conference"
     @2:                 ""
