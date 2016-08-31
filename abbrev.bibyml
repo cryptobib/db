@@ -1836,7 +1836,7 @@ ches:
         ed:             "Burton S. {Kaliski Jr.} and {\c{C}etin Kaya} Ko\c{c} and Christof Paar"
         vol:            "2523"
         addr: 
-            @0:         "Redwood Shores, California, USA"
+            @0:         "Redwood Shores, CA, USA"
             @1:         ""
         month: 
             @0:         aug # "~13--15,"
@@ -1924,7 +1924,7 @@ ches:
         ed:             "Stefan Mangard and Fran\c{c}ois-Xavier Standaert"
         vol:            "6225"
         addr: 
-            @0:         "Santa Barbara, California, USA"
+            @0:         "Santa Barbara, CA, USA"
             @1:         ""
         month: 
             @0:         aug # "~17--20,"
@@ -1957,7 +1957,7 @@ ches:
         ed:             "Guido Bertoni and Jean-S{\'e}bastien Coron"
         vol:            "8086"
         addr: 
-            @0:         "Santa Barbara, California, US"
+            @0:         "Santa Barbara, CA, USA"
             @1:         ""
         month: 
             @0:         aug # "~20--23,"
@@ -1987,10 +1987,14 @@ ches:
     16:                 "CHES16"
         key:            "CHES 2016"
         name:           chesname # "~2016"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Benedikt Gierlichs and Axel Y. Poschmann"
+        vol:            "9813"
+        addr: 
+            @0:         "Santa Barbara, CA, USA"
+            @1:         ""
+        month: 
+            @0:         aug # "~17--19,"
+            @1:         aug
     17:                 "CHES17"
         key:            "CHES 2017"
         name:           chesname # "~2017"
@@ -2334,15 +2338,19 @@ crypto:
     16: 
         -1:             "C16-1"
         -2:             "C16-2"
+        -3:             "C16-3"
         key1:           "CRYPTO 2016, Part I"
         key2:           "CRYPTO 2016, Part II"
+        key3:           "CRYPTO 2016, Part III"
         name1:          cryptoname # "~2016, Part I" 
         name2:          cryptoname # "~2016, Part II" 
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:          cryptoname # "~2016, Part III" 
+        ed:             "Matthew Robshaw and Jonathan Katz"
+        vol1:           "9814"
+        vol2:           "9815"
+        vol3:           "9816"
         month: 
-            @0:         aug # ""
+            @0:         aug # "~14--18,"
             @1:         aug
 rsaname: 
     @0:                 "Topics in Cryptology -- CT-RSA"
@@ -3301,12 +3309,21 @@ eurocrypt:
             @0:         apr # "~26--30,"
             @1:         apr
     16:                 "EC16"
-        key:            "EUROCRYPT 2016"
-        name:           eurocryptname # "~2016"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        -1:             "EC16-1"
+        -2:             "EC16-2"
+        key1:           "EUROCRYPT 2016, Part I"
+        key2:           "EUROCRYPT 2016, Part II"
+        name1:          eurocryptname # "~2016, Part I" 
+        name2:          eurocryptname # "~2016, Part II" 
+        ed:             "Marc Fischlin and Jean-S{\'{e}}bastien Coron"
+        vol1:           "9665"
+        vol2:           "9666"
+        addr: 
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month: 
+            @0:         may # "~8--12,"
+            @1:         may
     17:                 "EC17"
         key:            "EUROCRYPT 2017"
         name:           eurocryptname # "~2017"
@@ -3876,7 +3893,7 @@ focs:
         name:           "39th " # focsname
         ed:             ""
         addr: 
-            @0:         "Palo Alto, California, USA"
+            @0:         "Palo Alto, CA, USA"
             @1:         ""
         month: 
             @0:         nov # "~8--11,"
@@ -3886,7 +3903,7 @@ focs:
         name:           "40th " # focsname
         ed:             ""
         addr: 
-            @0:         "New York, New York, USA"
+            @0:         "New York, NY, USA"
             @1:         ""
         month: 
             @0:         oct # "~17--19,"
@@ -3896,7 +3913,7 @@ focs:
         name:           "41st " # focsname
         ed:             ""
         addr: 
-            @0:         "Redondo Beach, California, USA"
+            @0:         "Redondo Beach, CA, USA"
             @1:         ""
         month: 
             @0:         nov # "~12--14,"
@@ -3906,7 +3923,7 @@ focs:
         name:           "42nd " # focsname
         ed:             ""
         addr: 
-            @0:         "Las Vegas, Nevada, USA"
+            @0:         "Las Vegas, NV, USA"
             @1:         ""
         month: 
             @0:         oct # "~14--17,"
@@ -3926,7 +3943,7 @@ focs:
         name:           "44th " # focsname
         ed:             ""
         addr: 
-            @0:         "Cambridge, Massachusetts, USA"
+            @0:         "Cambridge, MA, USA"
             @1:         ""
         month: 
             @0:         oct # "~11--14,"
@@ -3966,7 +3983,7 @@ focs:
         name:           "48th " # focsname
         ed:             ""
         addr: 
-            @0:         "Providence, USA"
+            @0:         "Providence, RI, USA"
             @1:         ""
         month: 
             @0:         oct # "~20--23,"
@@ -3976,7 +3993,7 @@ focs:
         name:           "49th " # focsname
         ed:             ""
         addr: 
-            @0:         "Philadelphia, Pennsylvania, USA"
+            @0:         "Philadelphia, PA, USA"
             @1:         ""
         month: 
             @0:         oct # "~25--28,"
@@ -3986,7 +4003,7 @@ focs:
         name:           "50th " # focsname
         ed:             ""
         addr: 
-            @0:         "Atlanta, Georgia, USA"
+            @0:         "Atlanta, GA, USA"
             @1:         ""
         month: 
             @0:         oct # "~25--27,"
@@ -3996,7 +4013,7 @@ focs:
         name:           "51st " # focsname
         ed:             ""
         addr: 
-            @0:         "Las Vegas, Nevada, USA"
+            @0:         "Las Vegas, NV, USA"
             @1:         ""
         month: 
             @0:         oct # "~23--26,"
@@ -4006,7 +4023,7 @@ focs:
         name:           "52nd " # focsname
         ed:             "Rafail Ostrovsky"
         addr: 
-            @0:         "Palm Springs, California, USA"
+            @0:         "Palm Springs, CA, USA"
             @1:         ""
         month: 
             @0:         oct # "~22--25,"
@@ -4338,10 +4355,14 @@ fse:
     16:                 "FSE16"
         key:            "FSE 2016"
         name:           fsename # "~2016"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Thomas Peyrin"
+        vol:            "9783"
+        addr: 
+            @0:         "Bochum, Germany"
+            @1:         ""
+        month: 
+            @0:         mar # "~20--23,"
+            @1:         mar
     17:                 "FSE17"
         key:            "FSE 2017"
         name:           fsename # "~2017"
@@ -5914,7 +5935,7 @@ ieeesp:
         name:           "1990 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          ""
     91:                 "SP91"
@@ -5922,7 +5943,7 @@ ieeesp:
         name:           "1991 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          ""
     92:                 "SP92"
@@ -5954,7 +5975,7 @@ ieeesp:
         name:           "1996 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          ""
     97:                 "SP97"
@@ -5962,7 +5983,7 @@ ieeesp:
         name:           "1997 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          ""
     98:                 "SP98"
@@ -5970,7 +5991,7 @@ ieeesp:
         name:           "1998 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          ""
     99:                 "SP99"
@@ -5978,7 +5999,7 @@ ieeesp:
         name:           "1999 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          may
     00:                 "SP00"
@@ -5986,7 +6007,7 @@ ieeesp:
         name:           "2000 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          may
     01:                 "SP01"
@@ -5994,7 +6015,7 @@ ieeesp:
         name:           "2001 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month:          may
     02:                 "SP02"
@@ -6002,7 +6023,7 @@ ieeesp:
         name:           "2002 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~12--15,"
@@ -6012,7 +6033,7 @@ ieeesp:
         name:           "2003 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~11--14,"
@@ -6022,7 +6043,7 @@ ieeesp:
         name:           "2004 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~9--12,"
@@ -6032,7 +6053,7 @@ ieeesp:
         name:           "2005 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~8--11,"
@@ -6042,7 +6063,7 @@ ieeesp:
         name:           "2006 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~21--24,"
@@ -6052,7 +6073,7 @@ ieeesp:
         name:           "2007 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~20--23,"
@@ -6062,7 +6083,7 @@ ieeesp:
         name:           "2008 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~18--21,"
@@ -6072,7 +6093,7 @@ ieeesp:
         name:           "2009 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Oakland, California, USA"
+            @0:         "Oakland, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~17--20,"
@@ -6082,7 +6103,7 @@ ieeesp:
         name:           "2010 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley/Oakland, California, USA"
+            @0:         "Berkeley/Oakland, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~16--19,"
@@ -6092,7 +6113,7 @@ ieeesp:
         name:           "2011 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~22--25,"
@@ -6102,7 +6123,7 @@ ieeesp:
         name:           "2012 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~21--23,"
@@ -6112,7 +6133,7 @@ ieeesp:
         name:           "2013 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~19--22,"
@@ -6122,7 +6143,7 @@ ieeesp:
         name:           "2014 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~18--21,"
@@ -6132,7 +6153,7 @@ ieeesp:
         name:           "2015 " # ieeespname
         ed:             ""
         addr: 
-            @0:         "San Jose, California, USA"
+            @0:         "San Jose, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~17--21,"
@@ -6780,7 +6801,7 @@ isc:
         ed:             "Yvo Desmedt"
         vol:            "7807"
         addr: 
-            @0:         "Dallas, Texas, USA"
+            @0:         "Dallas, TX, USA"
             @1:         ""
         month: 
             @0:         nov # "~13--15,"
@@ -6898,7 +6919,7 @@ itcs:
             @2:         "ITCS 2012" # itcsname_v2
         ed:             "Shafi Goldwasser"
         addr: 
-            @0:         "Cambridge, Massachusetts, USA"
+            @0:         "Cambridge, MA, USA"
             @1:         ""
         month: 
             @0:         jan # "~8--10,"
@@ -7446,7 +7467,7 @@ ndss:
         name:           ndssname # "'95"
         ed:             "James T. Ellis and David M. Balenson and Robert W. Shirey"
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~16--17,"
@@ -7456,7 +7477,7 @@ ndss:
         name:           ndssname # "'96"
         ed:             "James T. Ellis and B. Clifford Neuman and David M. Balenson"
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~22--23,"
@@ -7466,7 +7487,7 @@ ndss:
         name:           ndssname # "'97"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~10--11,"
@@ -7476,7 +7497,7 @@ ndss:
         name:           ndssname # "'98"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         mar # "~11--13,"
@@ -7486,7 +7507,7 @@ ndss:
         name:           ndssname # "'99"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~3--5,"
@@ -7496,7 +7517,7 @@ ndss:
         name:           ndssname # "~2000"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~2--4,"
@@ -7506,7 +7527,7 @@ ndss:
         name:           ndssname # "~2001"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~7--9,"
@@ -7516,7 +7537,7 @@ ndss:
         name:           ndssname # "~2002"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~6--8,"
@@ -7526,7 +7547,7 @@ ndss:
         name:           ndssname # "~2003"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~5--7,"
@@ -7536,7 +7557,7 @@ ndss:
         name:           ndssname # "~2004"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~4--6,"
@@ -7546,7 +7567,7 @@ ndss:
         name:           ndssname # "~2005"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~3--4,"
@@ -7556,7 +7577,7 @@ ndss:
         name:           ndssname # "~2006"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~2--3,"
@@ -7566,7 +7587,7 @@ ndss:
         name:           ndssname # "~2007"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~28~--~" # mar # "~2,"
@@ -7576,7 +7597,7 @@ ndss:
         name:           ndssname # "~2008"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~10--13,"
@@ -7586,7 +7607,7 @@ ndss:
         name:           ndssname # "~2009"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~8--11,"
@@ -7596,7 +7617,7 @@ ndss:
         name:           ndssname # "~2010"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~28~--~" # mar # "~3,"
@@ -7606,7 +7627,7 @@ ndss:
         name:           ndssname # "~2011"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~6--9,"
@@ -7616,7 +7637,7 @@ ndss:
         name:           ndssname # "~2012"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~5--8,"
@@ -7626,7 +7647,7 @@ ndss:
         name:           ndssname # "~2013"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~24--27,"
@@ -7636,7 +7657,7 @@ ndss:
         name:           ndssname # "~2014"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~23--26,"
@@ -7646,7 +7667,7 @@ ndss:
         name:           ndssname # "~2015"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         feb # "~8--11,"
@@ -7656,7 +7677,7 @@ ndss:
         name:           ndssname # "~2016"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:          ""
     17:                 "NDSS17"
@@ -7664,7 +7685,7 @@ ndss:
         name:           ndssname # "~2017"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:          ""
     18:                 "NDSS18"
@@ -7672,7 +7693,7 @@ ndss:
         name:           ndssname # "~2018"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:          ""
     19:                 "NDSS19"
@@ -7680,7 +7701,7 @@ ndss:
         name:           ndssname # "~2019"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:          ""
     20:                 "NDSS20"
@@ -7688,7 +7709,7 @@ ndss:
         name:           ndssname # "~2020"
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:          ""
 pairingname: 
@@ -7910,7 +7931,7 @@ pkc:
         ed:             "Yvo Desmedt"
         vol:            "2567"
         addr: 
-            @0:         "Miami, USA"
+            @0:         "Miami, FL, USA"
             @1:         ""
         month: 
             @0:         jan # "~6--8,"
@@ -8247,7 +8268,7 @@ podc:
         name:           "12th " # podcname
         ed:             "Jim Anderson and Sam Toueg"
         addr: 
-            @0:         "Ithaca, New York, USA"
+            @0:         "Ithaca, NY, USA"
             @1:         ""
         month: 
             @0:         aug # "~15--18,"
@@ -8257,7 +8278,7 @@ podc:
         name:           "13th " # podcname
         ed:             "James H. Anderson and David Peleg and Elizabeth Borowsky"
         addr: 
-            @0:         "Los Angeles, California, USA"
+            @0:         "Los Angeles, CA, USA"
             @1:         ""
         month: 
             @0:         aug # "~14--17,"
@@ -8287,7 +8308,7 @@ podc:
         name:           "16th " # podcname
         ed:             "James E. Burns and Hagit Attiya"
         addr: 
-            @0:         "Santa Barbara, California, USA"
+            @0:         "Santa Barbara, CA, USA"
             @1:         ""
         month: 
             @0:         aug # "~21--24,"
@@ -8307,7 +8328,7 @@ podc:
         name:           "18th " # podcname
         ed:             "Brian A. Coan and Jennifer L. Welch"
         addr: 
-            @0:         "Atlanta, Georgia, USA"
+            @0:         "Atlanta, GA, USA"
             @1:         ""
         month: 
             @0:         may # "~3--6,"
@@ -8317,7 +8338,7 @@ podc:
         name:           "19th " # podcname
         ed:             "Gil Neiger"
         addr: 
-            @0:         "Portland, Oregon, USA"
+            @0:         "Portland, OR, USA"
             @1:         ""
         month: 
             @0:         jul # "~16--19,"
@@ -8337,7 +8358,7 @@ podc:
         name:           "21st " # podcname
         ed:             "Aleta Ricciardi"
         addr: 
-            @0:         "Monterey, California, USA"
+            @0:         "Monterey, CA, USA"
             @1:         ""
         month: 
             @0:         jul # "~21--24,"
@@ -8347,7 +8368,7 @@ podc:
         name:           "22nd " # podcname
         ed:             "Elizabeth Borowsky and Sergio Rajsbaum"
         addr: 
-            @0:         "Boston, Massachusetts, USA"
+            @0:         "Boston, MA, USA"
             @1:         ""
         month: 
             @0:         jul # "~13--16,"
@@ -8367,7 +8388,7 @@ podc:
         name:           "24th " # podcname
         ed:             "Marcos Kawazoe Aguilera and James Aspnes"
         addr: 
-            @0:         "Las Vegas, Nevada, USA"
+            @0:         "Las Vegas, NV, USA"
             @1:         ""
         month: 
             @0:         jul # "~17--20,"
@@ -8377,7 +8398,7 @@ podc:
         name:           "25th " # podcname
         ed:             "Eric Ruppert and Dahlia Malkhi"
         addr: 
-            @0:         "Denver, Colorado, USA"
+            @0:         "Denver, CO, USA"
             @1:         ""
         month: 
             @0:         jul # "~23--26,"
@@ -8387,7 +8408,7 @@ podc:
         name:           "26th " # podcname
         ed:             "Indranil Gupta and Roger Wattenhofer"
         addr: 
-            @0:         "Portland, Oregon, USA"
+            @0:         "Portland, OR, USA"
             @1:         ""
         month: 
             @0:         aug # "~12--15,"
@@ -8427,7 +8448,7 @@ podc:
         name:           "30th " # podcname
         ed:             "Cyril Gavoille and Pierre Fraigniaud"
         addr: 
-            @0:         "San Jose, California, USA"
+            @0:         "San Jose, CA, USA"
             @1:         ""
         month: 
             @0:         jun # "~6--8,"
@@ -9150,7 +9171,7 @@ soda:
         name:           "1st " # sodaname
         ed:             "David S. Johnson"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~22--24,"
@@ -9160,7 +9181,7 @@ soda:
         name:           "2nd " # sodaname
         ed:             "Alok Aggarwal"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~28--20,"
@@ -9180,7 +9201,7 @@ soda:
         name:           "4th " # sodaname
         ed:             "Vijaya Ramachandran"
         addr: 
-            @0:         "Austin, Texas, USA"
+            @0:         "Austin, TX, USA"
             @1:         ""
         month: 
             @0:         jan # "~25--27,"
@@ -9190,7 +9211,7 @@ soda:
         name:           "5th " # sodaname
         ed:             "Daniel Dominic Sleator"
         addr: 
-            @0:         "Arlington, Virginia, USA"
+            @0:         "Arlington, VA, USA"
             @1:         ""
         month: 
             @0:         jan # "~23--25,"
@@ -9200,7 +9221,7 @@ soda:
         name:           "6th " # sodaname
         ed:             "Kenneth L. Clarkson"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~22--24,"
@@ -9220,7 +9241,7 @@ soda:
         name:           "8th " # sodaname
         ed:             "Michael E. Saks"
         addr: 
-            @0:         "New Orleans, Louisiana, USA"
+            @0:         "New Orleans, LA, USA"
             @1:         ""
         month: 
             @0:         jan # "~5--7,"
@@ -9230,7 +9251,7 @@ soda:
         name:           "9th " # sodaname
         ed:             "Howard J. Karloff"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~25--27,"
@@ -9250,7 +9271,7 @@ soda:
         name:           "11th " # sodaname
         ed:             "David B. Shmoys"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~9--11,"
@@ -9280,7 +9301,7 @@ soda:
         name:           "14th " # sodaname
         ed:             ""
         addr: 
-            @0:         "Baltimore, Maryland, USA"
+            @0:         "Baltimore, MD, USA"
             @1:         ""
         month: 
             @0:         jan # "~12--14,"
@@ -9290,7 +9311,7 @@ soda:
         name:           "15th " # sodaname
         ed:             "J. Ian Munro"
         addr: 
-            @0:         "New Orleans, Louisiana, USA"
+            @0:         "New Orleans, LA, USA"
             @1:         ""
         month: 
             @0:         jan # "~11--13,"
@@ -9320,7 +9341,7 @@ soda:
         name:           "18th " # sodaname
         ed:             "Nikhil Bansal and Kirk Pruhs and Clifford Stein"
         addr: 
-            @0:         "New Orleans, Louisiana, USA"
+            @0:         "New Orleans, LA, USA"
             @1:         ""
         month: 
             @0:         jan # "~7--9,"
@@ -9330,7 +9351,7 @@ soda:
         name:           "19th " # sodaname
         ed:             "Shang-Teng Huang"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~20--22,"
@@ -9350,7 +9371,7 @@ soda:
         name:           "21st " # sodaname
         ed:             "Moses Charika"
         addr: 
-            @0:         "Austin, Texas, USA"
+            @0:         "Austin, TX, USA"
             @1:         ""
         month: 
             @0:         jan # "~17--19,"
@@ -9360,7 +9381,7 @@ soda:
         name:           "22nd " # sodaname
         ed:             "Dana Randall"
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         jan # "~23--25,"
@@ -9380,7 +9401,7 @@ soda:
         name:           "24th " # sodaname
         ed:             "Sanjeev Khanna"
         addr: 
-            @0:         "New Orleans, Louisiana, USA"
+            @0:         "New Orleans, LA, USA"
             @1:         ""
         month: 
             @0:         jan # "~6--8,"
@@ -9390,7 +9411,7 @@ soda:
         name:           "25th " # sodaname
         ed:             "Chandra Chekuri"
         addr: 
-            @0:         "Portland, Oregon, USA"
+            @0:         "Portland, OR, USA"
             @1:         ""
         month: 
             @0:         jan # "~5--7,"
@@ -9449,7 +9470,7 @@ stoc:
         name:           "12th " # stocname
         ed:             ""
         addr: 
-            @0:         "Los Angeles, California, USA"
+            @0:         "Los Angeles, CA, USA"
             @1:         ""
         month: 
             @0:         apr # "~28--30,"
@@ -9459,7 +9480,7 @@ stoc:
         name:           "13th " # stocname
         ed:             ""
         addr: 
-            @0:         "Milwaukee, Wisconsin, USA"
+            @0:         "Milwaukee, WI, USA"
             @1:         ""
         month: 
             @0:         may # "~11--13,"
@@ -9469,7 +9490,7 @@ stoc:
         name:           "14th " # stocname
         ed:             ""
         addr: 
-            @0:         "San Francisco, California, USA"
+            @0:         "San Francisco, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~5--7,"
@@ -9479,7 +9500,7 @@ stoc:
         name:           "15th " # stocname
         ed:             ""
         addr: 
-            @0:         "Boston, Massachusetts, USA"
+            @0:         "Boston, MA, USA"
             @1:         ""
         month: 
             @0:         apr # "~25--27,"
@@ -9489,7 +9510,7 @@ stoc:
         name:           "16th " # stocname
         ed:             ""
         addr: 
-            @0:         "Washington, D.C., USA"
+            @0:         "Washington, DC, USA"
             @1:         ""
         month:          ""
     85:                 "STOC85"
@@ -9497,7 +9518,7 @@ stoc:
         name:           "17th " # stocname
         ed:             ""
         addr: 
-            @0:         "Providence, Rhode Island, USA"
+            @0:         "Providence, RI, USA"
             @1:         ""
         month: 
             @0:         may # "~6--8,"
@@ -9507,7 +9528,7 @@ stoc:
         name:           "18th " # stocname
         ed:             ""
         addr: 
-            @0:         "Berkeley, California, USA"
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~28--30,"
@@ -9517,7 +9538,7 @@ stoc:
         name:           "19th " # stocname
         ed:             "Alfred Aho"
         addr: 
-            @0:         "New York City,, New York, USA"
+            @0:         "New York City, NY, USA"
             @1:         ""
         month: 
             @0:         may # "~25--27,"
@@ -9527,7 +9548,7 @@ stoc:
         name:           "20th " # stocname
         ed:             ""
         addr: 
-            @0:         "Chicago, Illinois, USA"
+            @0:         "Chicago, IL, USA"
             @1:         ""
         month: 
             @0:         may # "~2--4,"
@@ -9537,7 +9558,7 @@ stoc:
         name:           "21st " # stocname
         ed:             ""
         addr: 
-            @0:         "Seattle, Washington, USA"
+            @0:         "Seattle, WA, USA"
             @1:         ""
         month: 
             @0:         may # "~15--17,"
@@ -9547,7 +9568,7 @@ stoc:
         name:           "22nd " # stocname
         ed:             ""
         addr: 
-            @0:         "Baltimore, Maryland, USA"
+            @0:         "Baltimore, MD, USA"
             @1:         ""
         month: 
             @0:         may # "~14--16,"
@@ -9557,7 +9578,7 @@ stoc:
         name:           "23rd " # stocname
         ed:             ""
         addr: 
-            @0:         "New Orleans, Louisiana, USA"
+            @0:         "New Orleans, LA, USA"
             @1:         ""
         month: 
             @0:         may # "~6--8,"
@@ -9577,7 +9598,7 @@ stoc:
         name:           "25th " # stocname
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         may # "~16--18,"
@@ -9597,7 +9618,7 @@ stoc:
         name:           "27th " # stocname
         ed:             ""
         addr: 
-            @0:         "Las Vegas, Nevada, USA"
+            @0:         "Las Vegas, NV, USA"
             @1:         ""
         month: 
             @0:         may # "~29~--~" # jun # "~1,"
@@ -9607,7 +9628,7 @@ stoc:
         name:           "28th " # stocname
         ed:             ""
         addr: 
-            @0:         "Philadephia, Pennsylvania, USA"
+            @0:         "Philadephia, PA, USA"
             @1:         ""
         month: 
             @0:         may # "~22--24,"
@@ -9617,7 +9638,7 @@ stoc:
         name:           "29th " # stocname
         ed:             ""
         addr: 
-            @0:         "El Paso, Texas, USA"
+            @0:         "El Paso, TX, USA"
             @1:         ""
         month: 
             @0:         may # "~4--6,"
@@ -9627,7 +9648,7 @@ stoc:
         name:           "30th " # stocname
         ed:             ""
         addr: 
-            @0:         "Dallas, Texas, USA"
+            @0:         "Dallas, TX, USA"
             @1:         ""
         month: 
             @0:         may # "~23--26,"
@@ -9637,7 +9658,7 @@ stoc:
         name:           "31st " # stocname
         ed:             ""
         addr: 
-            @0:         "Atlanta, Georgia, USA"
+            @0:         "Atlanta, GA, USA"
             @1:         ""
         month: 
             @0:         may # "~1--4,"
@@ -9647,7 +9668,7 @@ stoc:
         name:           "32nd " # stocname
         ed:             ""
         addr: 
-            @0:         "Portland, Oregon, USA"
+            @0:         "Portland, OR, USA"
             @1:         ""
         month: 
             @0:         may # "~21--23,"
@@ -9677,7 +9698,7 @@ stoc:
         name:           "35th " # stocname
         ed:             ""
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         jun # "~9--11,"
@@ -9687,7 +9708,7 @@ stoc:
         name:           "36th " # stocname
         ed:             "L{\'a}szl{\'o} Babai"
         addr: 
-            @0:         "Chicago, Illinois, USA"
+            @0:         "Chicago, IL, USA"
             @1:         ""
         month: 
             @0:         jun # "~13--16,"
@@ -9697,7 +9718,7 @@ stoc:
         name:           "37th " # stocname
         ed:             "Harold N. Gabow and Ronald Fagin"
         addr: 
-            @0:         "Baltimore, Maryland, USA"
+            @0:         "Baltimore, MA, USA"
             @1:         ""
         month: 
             @0:         may # "~22--24,"
@@ -9707,7 +9728,7 @@ stoc:
         name:           "38th " # stocname
         ed:             "Jon M. Kleinberg"
         addr: 
-            @0:         "Seattle, Washington, USA"
+            @0:         "Seattle, WA, USA"
             @1:         ""
         month: 
             @0:         may # "~21--23,"
@@ -9717,7 +9738,7 @@ stoc:
         name:           "39th " # stocname
         ed:             "David S. Johnson and Uriel Feige"
         addr: 
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month: 
             @0:         jun # "~11--13,"
@@ -9737,7 +9758,7 @@ stoc:
         name:           "41st " # stocname
         ed:             "Michael Mitzenmacher"
         addr: 
-            @0:         "Bethesda, Maryland, USA"
+            @0:         "Bethesda, MD, USA"
             @1:         ""
         month: 
             @0:         may # "~31~--~" # jun # "~2,"
@@ -9747,7 +9768,7 @@ stoc:
         name:           "42nd " # stocname
         ed:             "Leonard J. Schulman"
         addr: 
-            @0:         "Cambridge, Massachusetts, USA"
+            @0:         "Cambridge, MA, USA"
             @1:         ""
         month: 
             @0:         jun # "~5--8,"
@@ -9757,7 +9778,7 @@ stoc:
         name:           "43rd " # stocname
         ed:             "Lance Fortnow and Salil P. Vadhan"
         addr: 
-            @0:         "San Jose, California, USA"
+            @0:         "San Jose, CA, USA"
             @1:         ""
         month: 
             @0:         jun # "~6--8,"
@@ -9805,9 +9826,13 @@ stoc:
     16:                 "STOC16"
         key:            "STOC 2016"
         name:           "48th " # stocname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Daniel Wichs and Yishay Mansour"
+        addr: 
+            @0:         "Cambridge, MA, USA"
+            @1:         ""
+        month: 
+            @0:         jun # "~18--21,"
+            @1:         jun
     17:                 "STOC17"
         key:            "STOC 2017"
         name:           "49th " # stocname
