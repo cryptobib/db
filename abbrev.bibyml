@@ -1526,14 +1526,14 @@ asiacrypt:
         key2:           "ASIACRYPT 2016, Part II"
         name1:          asiacryptname # "~2016, Part I" 
         name2:          asiacryptname # "~2016, Part II" 
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Jung Hee Cheon and Tsuyoshi Takagi"
+        vol1:           "10031"
+        vol2:           "10032"
         addr: 
-            @0:         ""
+            @0:         "Hanoi, Vietnam"
             @1:         ""
         month: 
-            @0:         dec
+            @0:         dec # "~4--8,"
             @1:         dec
     17: 
         -1:             "AC17-1"
