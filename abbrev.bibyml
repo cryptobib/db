@@ -2852,14 +2852,14 @@ esorics:
         name2:
             @0:         "ESORICS~2016: 21st " # esoricsname # ", Part II"
             @2:         "ESORICS~2016" # esoricsname # ", Part II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Ioannis G. Askoxylakis and Sotiris Ioannidis and Sokratis K. Katsikas and Catherine A. Meadows"
+        vol1:           "9878"
+        vol2:           "9879"
         addr: 
-            @0:         ""
+            @0:         "Heraklion, Greece"
             @1:         ""
         month: 
-            @0:         sep
+            @0:         sep # "~26--30,"
             @1:         sep
     17: 
         -1:             "ESORICS17-1"
