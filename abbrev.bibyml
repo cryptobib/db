@@ -6598,10 +6598,14 @@ indocrypt:
         name: 
             @0:         indocryptname # "~2016: 17th " # indocryptsuffix
             @2:         indocryptname # "~2016" # indocryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Orr Dunkelman and Somitra Kumar Sanadhya"
+        vol:            "10095"
+        addr: 
+            @0:         "Kolkata, India"
+            @1:         ""
+        month: 
+            @0:         dec # "~11--14,"
+            @1:         dec
     17:                 "INDOCRYPT17"
         key:            "INDOCRYPT 2017"
         name: 
