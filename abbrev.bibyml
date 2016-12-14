@@ -3635,8 +3635,12 @@ fc:
             @2:         "FC 2016" # fcname_v2
         ed:             ""
         vol:            ""
-        addr:           ""
-        month:          ""
+        addr: 
+            @0:         "Christ Church, Barbados"
+            @1:         ""
+        month: 
+            @0:         feb # "~22--26,"
+            @1:         feb 
     17:                 "FC17"
         key:            "FC 2017"
         name: 
@@ -5506,10 +5510,14 @@ icics:
         name: 
             @0:         "ICICS 16: 18th " # icicsname
             @2:         "ICICS 16" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kwok-Yan Lam and Chi-Hung Chi and Sihan Qing"
+        vol:            "9977"
+        addr: 
+            @0:         "Singapore"
+            @1:         ""
+        month: 
+            @0:         nov # "~29~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
     17:                 "ICICS17"
         key:            "ICICS 2017"
         name: 
@@ -5780,10 +5788,14 @@ icisc:
         name: 
             @0:         "ICISC 15: 18th " # iciscname
             @2:         "ICISC 15" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Soonhak Kwon and Aaram Yun"
+        vol:            "9558"
+        addr: 
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month: 
+            @0:         nov # "~25--27,"
+            @1:         nov
     16:                 "ICISC16"
         key:            "ICISC 2016"
         name: 
