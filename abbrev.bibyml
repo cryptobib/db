@@ -336,15 +336,26 @@ acisp:
         month: 
             @0:         jun # "~29~--~" # jul # "~1,"
             @1:         jun # "~/~" # jul
-    16:                 "ACISP16"
-        key:            "ACISP 2016"
-        name: 
-            @0:         "ACISP 16: 21st " # acispname
-            @2:         "ACISP 16" # acispname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+    16:
+        -1:             "ACISP16-1"
+        -2:             "ACISP16-2"
+        key1:           "ACISP 2016, Part I"
+        key2:           "ACISP 2016, Part II"
+        name1: 
+            @0:         "ACISP 16: 21st " # acispname # ", Part I"
+            @2:         "ACISP 16" # acispname # ", Part I"
+        name2: 
+            @0:         "ACISP 16: 21st " # acispname # ", Part II"
+            @2:         "ACISP 16" # acispname # ", Part II"
+        ed:             "Joseph K. Liu and Ron Steinfeld"
+        vol1:           "9722"
+        vol2:           "9723"
+        addr: 
+            @0:         "Melbourne, VIC, Australia"
+            @1:         ""
+        month: 
+            @0:         jul # "~4--6,"
+            @1:         jul
     17:                 "ACISP17"
         key:            "ACISP 2017"
         name: 
