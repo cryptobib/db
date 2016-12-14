@@ -882,10 +882,14 @@ acns:
         name: 
             @0:         "ACNS 16: 14th " # acnsname
             @2:         "ACNS 16" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Mark Manulis and Ahmad-Reza Sadeghi and Steve Schneider"
+        vol:            "9696"
+        addr: 
+            @0:         "Guildford, UK"
+            @1:         ""
+        month: 
+            @0:         jun # "~19--22,"
+            @1:         jun
     17:                 "ACNS17"
         key:            "ACNS 2017"
         name: 
@@ -1018,28 +1022,23 @@ africacrypt:
         month: 
             @0:         may # "~28--30,"
             @1:         may
-    15:                 "AFRICACRYPT15"
-        key:            "AFRICACRYPT 2015"
-        name: 
-            @0:         "AFRICACRYPT 15: 8th " # africacryptname
-            @2:         "AFRICACRYPT 15" # africacryptname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
     16:                 "AFRICACRYPT16"
         key:            "AFRICACRYPT 2016"
         name: 
-            @0:         "AFRICACRYPT 16: 9th " # africacryptname
+            @0:         "AFRICACRYPT 16: 8th " # africacryptname
             @2:         "AFRICACRYPT 16" # africacryptname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "David Pointcheval and Abderrahmane Nitaj and Tajjeeddine Rachidi"
+        vol:            "9646"
+        addr: 
+            @0:         "Fes, Morocco"
+            @1:         ""
+        month: 
+            @0:         apr # "~13--15,"
+            @1:         apr
     17:                 "AFRICACRYPT17"
         key:            "AFRICACRYPT 2017"
         name: 
-            @0:         "AFRICACRYPT 17: 10th " # africacryptname
+            @0:         "AFRICACRYPT 17: 9th " # africacryptname
             @2:         "AFRICACRYPT 17" # africacryptname
         ed:             ""
         vol:            ""
@@ -1048,7 +1047,7 @@ africacrypt:
     18:                 "AFRICACRYPT18"
         key:            "AFRICACRYPT 2018"
         name: 
-            @0:         "AFRICACRYPT 18: 11th " # africacryptname
+            @0:         "AFRICACRYPT 18: 10th " # africacryptname
             @2:         "AFRICACRYPT 18" # africacryptname
         ed:             ""
         vol:            ""
@@ -1057,7 +1056,7 @@ africacrypt:
     19:                 "AFRICACRYPT19"
         key:            "AFRICACRYPT 2019"
         name: 
-            @0:         "AFRICACRYPT 19: 12th " # africacryptname
+            @0:         "AFRICACRYPT 19: 11th " # africacryptname
             @2:         "AFRICACRYPT 19" # africacryptname
         ed:             ""
         vol:            ""
@@ -1066,7 +1065,7 @@ africacrypt:
     20:                 "AFRICACRYPT20"
         key:            "AFRICACRYPT 2020"
         name: 
-            @0:         "AFRICACRYPT 20: 13th " # africacryptname
+            @0:         "AFRICACRYPT 20: 12th " # africacryptname
             @2:         "AFRICACRYPT 20" # africacryptname
         ed:             ""
         vol:            ""
