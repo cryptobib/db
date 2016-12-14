@@ -3728,12 +3728,12 @@ fcw:
     16:                 "FCW16"
         key:            "FCW 2016"
         name:           "FC 2016 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Jeremy Clark and Sarah Meiklejohn and Peter Y. A. Ryan and Dan S. Wallach and Michael Brenner and Kurt Rohloff"
+        vol:            "9604"
         addr:           fc16addr
         month: 
-            @0:         jan # "~30,"
-            @1:         jan 
+            @0:         feb # "~26,"
+            @1:         feb 
 focsname: 
     @0:                 "Annual Symposium on Foundations of Computer Science"
     @2:                 "FOCS"
