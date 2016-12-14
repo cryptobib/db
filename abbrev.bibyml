@@ -5930,10 +5930,14 @@ icits:
         name: 
             @0:         "ICITS 16: 9th " # icitsname
             @2:         "ICITS 16" # icitsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Anderson C. A. Nascimento and Paulo Barreto"
+        vol:            "10015"
+        addr: 
+            @0:         "Tacoma, WA, USA"
+            @1:         ""
+        month: 
+            @0:         aug # "~9--12,"
+            @1:         aug
     17:                 "ICITS17"
         key:            "ICITS 2017"
         name: 
