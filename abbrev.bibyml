@@ -1201,9 +1201,13 @@ asiaccs:
         name: 
             @0:         "ASIACCS 16: 11th " # asiaccsname
             @2:         "ASIACCS 16" # asiaccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Xiaofeng Chen and XiaoFeng Wang and Xinyi Huang"
+        addr: 
+            @0:         "Xi'an, China"
+            @1:         ""
+        month: 
+            @0:         may # "~30~--~" # jun # "~3,"
+            @1:         may # "~/~" # jun
     17:                 "ASIACCS17"
         key:            "ASIACCS 2017"
         name: 
@@ -1766,10 +1770,14 @@ cans:
         name: 
             @0:         "CANS 16: 15th " # cansname
             @2:         "CANS 16" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Sara Foresti and Giuseppe Persiano"
+        vol:            "10052"
+        addr: 
+            @0:         "Milan, Italy"
+            @1:         ""
+        month: 
+            @0:         nov # "~14--16,"
+            @1:         nov
     17:                 "CANS17"
         key:            "CANS 2017"
         name: 
@@ -3714,6 +3722,15 @@ fcw:
         ed:             "Michael Brenner and Nicolas Christin and Benjamin Johnson and Kurt Rohloff"
         vol:            "8976"
         addr:           fc15addr
+        month: 
+            @0:         jan # "~30,"
+            @1:         jan 
+    16:                 "FCW16"
+        key:            "FCW 2016"
+        name:           "FC 2016 Workshops"
+        ed:             ""
+        vol:            ""
+        addr:           fc16addr
         month: 
             @0:         jan # "~30,"
             @1:         jan 
