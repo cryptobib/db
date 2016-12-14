@@ -653,9 +653,13 @@ ccs:
         name: 
             @0:         "ACM CCS 16: 23rd " # ccsname
             @2:         "ACM CCS 16" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Edgar R. Weippl and Stefan Katzenbeisser and Christopher Kruegel and Andrew C. Myers and Shai Halevi"
+        addr: 
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month: 
+            @0:         oct # "~24--28,"
+            @1:         oct
     17:                 "CCS17"
         key:            "ACM CCS 2017"
         name: 
