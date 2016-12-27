@@ -4106,9 +4106,13 @@ focs:
     16:                 "FOCS16"
         key:            "FOCS 2016"
         name:           "57th " # focsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Irit Dinur"
+        addr: 
+            @0:         "New Brunswick, NJ, USA"
+            @1:         ""
+        month: 
+            @0:         oct # "~9--11,"
+            @1:         oct
     17:                 "FOCS17"
         key:            "FOCS 2017"
         name:           "58th " # focsname
@@ -6209,8 +6213,12 @@ ieeesp:
         key:            "IEEE S\&P 2016"
         name:           "2016 " # ieeespname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr: 
+            @0:         "San Jose, CA, USA"
+            @1:         ""
+        month: 
+            @0:         may # "~22--26,"
+            @1:         may
     17:                 "SP17"
         key:            "IEEE S\&P 2017"
         name:           "2017 " # ieeespname
@@ -6888,10 +6896,14 @@ isc:
         name: 
             @0:         "ISC~2016: 19th " # iscname_v2
             @2:         "ISC~2016" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Matt Bishop and Anderson C. A. Nascimento"
+        vol:            "9866"
+        addr: 
+            @0:         "Honolulu, HI, USA"
+            @1:         ""
+        month: 
+            @0:         sep # "~3--6,"
+            @1:         sep
     17:                 "ISC17"
         key:            "ISC 2017"
         name: 
@@ -7212,10 +7224,14 @@ iwsec:
         name: 
             @0:         "IWSEC 16: 11th " # iwsecname
             @2:         "IWSEC 16" # iwsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kazuto Ogawa and Katsunari Yoshioka"
+        vol:            "9836"
+        addr: 
+            @0:         "Tokyo, Japan"
+            @1:         ""
+        month: 
+            @0:         sep # "~12--14,"
+            @1:         sep
     17:                 "IWSEC17"
         key:            "IWSEC 2017"
         name: 
@@ -7405,10 +7421,14 @@ latin:
         name: 
             @0:         "LATIN 2016: Theoretical Informatics, 12th " # latinname
             @2:         "LATIN 2016" # latinname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Evangelos Kranakis and Gonzalo Navarro and Edgar Ch{\'a}vez"
+        vol:            "9644"
+        addr: 
+            @0:         "Ensenada, Mexico"
+            @1:         ""
+        month: 
+            @0:         apr # "~11--15,"
+            @1:         apr
     18:                 "LATIN18"
         key:            "LATIN 2018"
         name: 
@@ -7730,7 +7750,9 @@ ndss:
         addr: 
             @0:         "San Diego, CA, USA"
             @1:         ""
-        month:          ""
+        month: 
+            @0:         feb # "~21--24,"
+            @1:         feb
     17:                 "NDSS17"
         key:            "NDSS 2017"
         name:           ndssname # "~2017"
@@ -8547,9 +8569,13 @@ podc:
     16:                 "PODC16"
         key:            "PODC 2016"
         name:           "35th " # podcname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "George Giakkoupis"
+        addr: 
+            @0:         "Chicago, IL, USA"
+            @1:         ""
+        month: 
+            @0:         jul # "~25--28,"
+            @1:         jul
     17:                 "PODC17"
         key:            "PODC 2017"
         name:           "36th " # podcname
@@ -8701,10 +8727,14 @@ provsec:
         name: 
             @0:         "ProvSec 2016: 10th " # provsecname
             @2:         "ProvSec 2016" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Liqun Chen and Jinguang Han"
+        vol:            "10005"
+        addr: 
+            @0:         "Nanjing, China"
+            @1:         ""
+        month: 
+            @0:         nov # "~10--11,"
+            @1:         nov
     17:                 "PROVSEC17"
         key:            "PROVSEC 2017"
         name: 
@@ -9012,10 +9042,14 @@ sac:
         name: 
             @0:         "SAC 2015: 22nd " # sacname
             @2:         "SAC 2015" # sacname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Orr Dunkelman and Liam Keliher"
+        vol:            "9566"
+        addr: 
+            @0:         "Sackville, NB, Canada"
+            @1:         ""
+        month: 
+            @0:         aug # "~12--14,"
+            @1:         aug
     16:                 "SAC16"
         key:            "SAC 2016"
         name: 
@@ -9190,10 +9224,14 @@ scn:
         name: 
             @0:         "SCN 16: 10th " # scnname
             @2:         "SCN 16" # scnname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Vassilis Zikas and Roberto {De Prisco}"
+        vol:            "9841"
+        addr: 
+            @0:         "Amalfi, Italy"
+            @1:         ""
+        month: 
+            @0:         aug # "~31~--~" # sep # "~2,"
+            @1:         aug # "~/~" # sep
     18:                 "SCN18"
         key:            "SCN 2018"
         name: 
@@ -10106,15 +10144,15 @@ tcc:
             name2: 
                 @0:         "TCC~2016-B: 14th " # tccname # ", Part II"
                 @2:         "TCC~2016-B" # tccname  # ", Part II"
-            ed:             ""
-            vol1:           ""
-            vol2:           ""
+            ed:             "Martin Hirt and Adam D. Smith"
+            vol1:           "9985"
+            vol2:           "9986"
             addr: 
                 @0:         "Beijing, China"
                 @1:         ""
             month: 
-                @0:         nov # "~1--3,"
-                @1:         nov
+                @0:         oct # "~31~--~" # nov # "~3,"
+                @1:         oct # "~/~" # nov
     17: 
         -1:             "TCC17-1"
         -2:             "TCC17-2"
