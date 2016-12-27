@@ -10399,10 +10399,14 @@ trustbus:
         name: 
             @0:         "TrustBus 2016: Trust and Privacy in Digital Business, 13th " # trustbusname
             @2:         "TrustBus 2016" # trustbusname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Sokratis K. Katsikas and Costas Lambrinoudakis and Steven Furnell"
+        vol:            "9830"
+        addr: 
+            @0:         "Porto, Portugal"
+            @1:         ""
+        month: 
+            @0:         sep # "~7--8,"
+            @1:         sep
     17:                 "TRUSTBUS17"
         key:            "TRUSTBUS 2017"
         name: 
@@ -10623,10 +10627,14 @@ wisa:
         name: 
             @0:         "WISA 15: 16th " # wisaname
             @2:         "WISA 15" # wisaname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Howon Kim and Dooho Choi"
+        vol:            "9503"
+        addr: 
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month: 
+            @0:         aug # "~20--22,"
+            @1:         aug
     16:                 "WISA16"
         key:            "WISA 2016"
         name: 
