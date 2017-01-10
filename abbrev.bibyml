@@ -8190,10 +8190,14 @@ pkc:
         name: 
             @0:         "PKC~2017: 20th " # pkcname_v2
             @2:         "PKC~2017" # pkcname_v2
-        ed:             ""
+        ed:             "Serge Fehr"
         vol:            ""
-        addr:           ""
-        month:          ""
+        addr: 
+            @0:         "Amsterdam, The Netherlands"
+            @1:         ""
+        month: 
+            @0:         mar # "~28--31,"
+            @1:         mar
     18:                 "PKC18"
         key:            "PKC 2018"
         name: 
