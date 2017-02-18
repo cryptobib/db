@@ -5743,10 +5743,14 @@ icisc:
         name: 
             @0:         "ICISC 16: 19th " # iciscname
             @2:         "ICISC 16" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Seokhie Hong and Jong Hwan Park"
+        vol:            "10157"
+        addr: 
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month: 
+            @0:         nov # "~30~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
     17:                 "ICISC17"
         key:            "ICISC 2017"
         name: 
