@@ -32,6 +32,9 @@ bell:                   "Bell Systems Technical Journal"
 springer: 
     @0:                 "Springer, Heidelberg, Germany"
     @1:                 "Springer, Heidelberg"
+dagstuhl:
+    @0:                 "Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik"
+    @1:                 "Schloss Dagstuhl"
 plenumpress:            "Plenum Press, New York, USA"
 ucsb-ece:               "U.C. Santa Barbara, Dept. of Elec. and Computer Eng."
 sigcomm:                "Proceedings of {ACM} {SIGCOMM}"
@@ -73,6 +76,7 @@ mylncs:
 myisc:
     @0:                 "Information Security and Cryptography"
     @2:                 "{ISC}"
+mylipics:               "{LIPIcs}"
 acispname: 
     @0:                 "Australasian Conference on Information Security and Privacy"
     @2:                 ""
@@ -4434,6 +4438,7 @@ icalpname:
     @0:                 "International Colloquium on Automata, Languages and Programming"
     @2:                 ""
 icalppub:               springer
+icalppub16:             dagstuhl
 icalp: 
     72:                 "ICALP72"
         key:            "ICALP 1972"
@@ -5044,86 +5049,19 @@ icalp:
         month: 
             @0:         jul # "~6--10,"
             @1:         jul
-    16: 
-        -1:             "ICALP16-1"
-        -2:             "ICALP16-2"
-        key1:           "ICALP 2016, Part I"
-        key2:           "ICALP 2016, Part II"
-        name1: 
-            @0:         "ICALP 2016: 43rd " # icalpname # ", Part I"
-            @2:         "ICALP 2016" # icalpname # ", Part I"
-        name2: 
-            @0:         "ICALP 2016: 43rd " # icalpname # ", Part II"
-            @2:         "ICALP 2016" # icalpname # ", Part II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
-    17: 
-        -1:             "ICALP17-1"
-        -2:             "ICALP17-2"
-        key1:           "ICALP 2017, Part I"
-        key2:           "ICALP 2017, Part II"
-        name1: 
-            @0:         "ICALP 2017: 44th " # icalpname # ", Part I"
-            @2:         "ICALP 2017" # icalpname # ", Part I"
-        name2: 
-            @0:         "ICALP 2017: 44th " # icalpname # ", Part II"
-            @2:         "ICALP 2017" # icalpname # ", Part II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
-    18: 
-        -1:             "ICALP18-1"
-        -2:             "ICALP18-2"
-        key1:           "ICALP 2018, Part I"
-        key2:           "ICALP 2018, Part II"
-        name1: 
-            @0:         "ICALP 2018: 45th " # icalpname # ", Part I"
-            @2:         "ICALP 2018" # icalpname # ", Part I"
-        name2: 
-            @0:         "ICALP 2018: 45th " # icalpname # ", Part II"
-            @2:         "ICALP 2018" # icalpname # ", Part II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
-    19: 
-        -1:             "ICALP19-1"
-        -2:             "ICALP19-2"
-        key1:           "ICALP 2019, Part I"
-        key2:           "ICALP 2019, Part II"
-        name1: 
-            @0:         "ICALP 2019: 46th " # icalpname # ", Part I"
-            @2:         "ICALP 2019" # icalpname # ", Part I"
-        name2: 
-            @0:         "ICALP 2019: 46th " # icalpname # ", Part II"
-            @2:         "ICALP 2019" # icalpname # ", Part II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
-    20: 
-        -1:             "ICALP20-1"
-        -2:             "ICALP20-2"
-        key1:           "ICALP 2020, Part I"
-        key2:           "ICALP 2020, Part II"
-        name1: 
-            @0:         "ICALP 2020: 47th " # icalpname # ", Part I"
-            @2:         "ICALP 2020" # icalpname # ", Part I"
-        name2: 
-            @0:         "ICALP 2020: 47th " # icalpname # ", Part II"
-            @2:         "ICALP 2020" # icalpname # ", Part II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
+    16:                 "ICALP16"
+        key:            "ICALP 2016"
+        name: 
+            @0:         "ICALP 2016: 43rd " # icalpname
+            @2:         "ICALP 2016" # icalpname
+        ed:             "Ioannis Chatzigiannakis and Michael Mitzenmacher and Yuval Rabani and Davide Sangiorgi"
+        vol:            "55"
+        addr: 
+            @0:         "Rome, Italy"
+            @1:         ""
+        month: 
+            @0:         jul # "~11--15,"
+            @1:         jul
 iccsaname: 
     @0:                 "Computational Science and Its Applications"
     @2:                 ""
