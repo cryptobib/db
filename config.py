@@ -24,7 +24,7 @@ def add_conf(
             "conf",
         "url":                # list of url(s) to retrieve the conf data (from DBLP)
             [
-                #Template(url).safe_substitute(namelower=name.lower(), url_year="${year}"),
+                Template(url).safe_substitute(namelower=name.lower(), url_year="${year}"),
                 Template(url).safe_substitute(namelower=name.lower(), url_year="${short_year}")
             ],
         "entry_type":         # bibtex entry type to be looked for
