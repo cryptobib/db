@@ -10389,6 +10389,9 @@ trustbus:
         vol:            ""
         addr:           ""
         month:          ""
+tosc:                   "{IACR} Transactions on Symmetric Cryptology"
+toscissn:               "2519-173X"
+toscpub:                "Ruhr-Universit{\"a}t Bochum"
 vietcryptname:
     @0:                 "International Conference on Cryptology in Vietnam"
     @2:                 ""
