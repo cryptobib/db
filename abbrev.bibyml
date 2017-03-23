@@ -10389,7 +10389,9 @@ trustbus:
         vol:            ""
         addr:           ""
         month:          ""
-tosc:                   "{IACR} Transactions on Symmetric Cryptology"
+tosc:
+    @0:                 "{IACR} Transactions on Symmetric Cryptology"
+    @2:                 "{IACR} Trans. Symm. Cryptol."
 toscissn:               "2519-173X"
 toscpub:                "Ruhr-Universit{\"a}t Bochum"
 vietcryptname:
