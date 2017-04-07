@@ -178,6 +178,12 @@ add_journal("JC", 1988, "jcrypto", "Journal of Cryptology",
             months = ["jan", "apr", "jul", "oct"],
             url = "http://www.informatik.uni-trier.de/~ley/db/journals/joc/joc${volume}.html")
 
+# Warning: we are not using the import.py script for ToSC
+#          therefore, some of the fields here are not used
+add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
+            months = [],
+            url = "http://dblp2.uni-trier.de/db/journals/tosc/tosc${year}.html")
+
 add_misc("EPRINT",       "Cryptology ePrint Archive", url = "http://eprint.iacr.org/${year}")
 
 def get_conf_name(confkey):
