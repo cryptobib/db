@@ -118,7 +118,38 @@ def add_misc(
             dict([])
     }
 
-        
+def add_series(
+        key, 
+        full_name,
+        url,
+        name = None,
+        publisher = "springer"
+):
+    if name == None:
+        name = key
+
+    confs[key] = {
+        "type":
+            "series",
+        "url":                # list of url(s) to retrieve the misc data (currently only EPRINT is supported)
+            [url],
+        "entry_type":         # bibtex entry type to be looked for
+            "Book",
+        "key":                # prefix of the bib key (ACISP, AC, ...) -> upper case
+            key,
+        "name":               # name of the conference (ACISP, ASIACRYPT, ...) -> upper case
+            name,
+        "crossref":           # not used
+            None,
+        "full_name":          # full name of the conference (not used yet)
+            full_name,
+        "fields_dblp":        # fields to extract from DBLP
+            set(["title", "author", "year", "number", "doi", "isbn"]),
+        "fields_add":
+            {
+                "publisher": publisher
+            }
+    }        
 
 add_conf("ACISP",       "Australasian Conference on Information Security and Privacy")
 add_conf("CCS",         "ACM Conference on Computer and Communications Security", 
@@ -186,6 +217,8 @@ add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
 
 add_misc("EPRINT",       "Cryptology ePrint Archive", url = "http://eprint.iacr.org/${year}")
 
+add_series("ISCSERIES",  "Information Security and Cryptography", url = "http://dblp.uni-trier.de/db/series/isc/index.html")
+
 def get_conf_name(confkey):
     if confkey in confs:
         return confs[confkey]["name"]
@@ -221,5 +254,6 @@ types = {
     "inproceedings": "InProceedings",
     "article": "Article",
     "proceedings": "Proceedings",
-    "misc": "Misc"
+    "misc": "Misc",
+    "series": "Book"
 }
