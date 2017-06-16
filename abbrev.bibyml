@@ -8128,12 +8128,19 @@ pkc:
             @0:         mar # "~6--9,"
             @1:         mar
     17:                 "PKC17"
-        key:            "PKC 2017"
-        name:
-            @0:         "PKC~2017: 20th " # pkcname_v2
-            @2:         "PKC~2017" # pkcname_v2
+        -1:             "PKC17-1"
+        -2:             "PKC17-2"
+        key1:           "PKC 2017, Part~I"
+        key2:           "PKC 2017, Part~II"
+        name1:
+            @0:         "PKC~2017: 20th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2017" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2017: 20th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2017" # pkcname_v2 # ", Part~II"
         ed:             "Serge Fehr"
-        vol:            ""
+        vol1:           "10174"
+        vol2:           "10175"
         addr:
             @0:         "Amsterdam, The Netherlands"
             @1:         ""
