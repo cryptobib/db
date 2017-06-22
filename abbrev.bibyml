@@ -3637,8 +3637,8 @@ fc:
         name:
             @0:         "FC 2016: 20th " # fcname_v2
             @2:         "FC 2016" # fcname_v2
-        ed:             ""
-        vol:            ""
+        ed:             "Jens Grossklags and Bart Preneel"
+        vol:            "9603"
         addr:
             @0:         "Christ Church, Barbados"
             @1:         ""
