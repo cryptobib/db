@@ -1,3 +1,6 @@
+* 2017-07-02
+Fixing issue #33 (trailing ^C characters causing LaTeX compilation error when corresponding references were included).
+
 * 2017-06-16
 PKC 2017
 
