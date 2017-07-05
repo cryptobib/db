@@ -899,10 +899,14 @@ acns:
         name:
             @0:         "ACNS 17: 15th " # acnsname
             @2:         "ACNS 17" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Dieter Gollmann and Atsuko Miyaji and Hiroaki Kikuchi"
+        vol:            "10355"
+        addr:
+            @0:         "Kanazawa, Japan"
+            @1:         ""
+        month:
+            @0:         jul # "~10--12,"
+            @1:         jul
     18:                 "ACNS18"
         key:            "ACNS 2018"
         name:
