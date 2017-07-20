@@ -6182,8 +6182,12 @@ ieeesp:
         key:            "IEEE S\&P 2017"
         name:           "2017 " # ieeespname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "San Jose, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~22--26,"
+            @1:         may
     18:                 "SP18"
         key:            "IEEE S\&P 2018"
         name:           "2018 " # ieeespname
