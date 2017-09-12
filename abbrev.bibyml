@@ -2382,6 +2382,23 @@ crypto:
         month:
             @0:         aug # "~14--18,"
             @1:         aug
+    17:
+        -1:             "C17-1"
+        -2:             "C17-2"
+        -3:             "C17-3"
+        key1:           "CRYPTO 2017, Part~I"
+        key2:           "CRYPTO 2017, Part~II"
+        key3:           "CRYPTO 2017, Part~III"
+        name1:          cryptoname # "~2017, Part~I"
+        name2:          cryptoname # "~2017, Part~II"
+        name3:          cryptoname # "~2017, Part~III"
+        ed:             "Jonathan Katz and Hovav Shacham"
+        vol1:           "10401"
+        vol2:           "10402"
+        vol3:           "10403"
+        month:
+            @0:         aug # "~20--24,"
+            @1:         aug
 rsaname:
     @0:                 "Topics in Cryptology -- CT-RSA"
     @2:                 "CT-RSA"
