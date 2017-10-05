@@ -360,22 +360,40 @@ acisp:
         month:
             @0:         jul # "~4--6,"
             @1:         jul
-    17:                 "ACISP17"
-        key:            "ACISP 2017"
-        name:
-            @0:         "ACISP 17: 22nd " # acispname
-            @2:         "ACISP 17" # acispname
+    17:
+        -1:             "ACISP17-1"
+        -2:             "ACISP17-2"
+        key1:           "ACISP 2017, Part~I"
+        key2:           "ACISP 2017, Part~II"
+        name1:
+            @0:         "ACISP 17: 22nd " # acispname # ", Part~I"
+            @2:         "ACISP 17" # acispname # ", Part~I"
+        name2:
+            @0:         "ACISP 17: 22nd " # acispname # ", Part~II"
+            @2:         "ACISP 17" # acispname # ", Part~II"
+        ed:             "Josef Pieprzyk and Suriadi Suriadi"
+        vol1:           "10342"
+        vol2:           "10343"
+        addr:
+            @0:         "Auckland, New Zealand"
+            @1:         ""
+        month:
+            @0:         jul # "~3--5,"
+            @1:         jul
+    18:
+        -1:             "ACISP18-1"
+        -2:             "ACISP18-2"
+        key1:           "ACISP 2018, Part~I"
+        key2:           "ACISP 2018, Part~II"
+        name1:
+            @0:         "ACISP 18: 23rd " # acispname # ", Part~I"
+            @2:         "ACISP 18" # acispname # ", Part~I"
+        name2:
+            @0:         "ACISP 18: 23rd " # acispname # ", Part~II"
+            @2:         "ACISP 18" # acispname # ", Part~II"
         ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    18:                 "ACISP18"
-        key:            "ACISP 2018"
-        name:
-            @0:         "ACISP 18: 23rd " # acispname
-            @2:         "ACISP 18" # acispname
-        ed:             ""
-        vol:            ""
+        vol1:           ""
+        vol2:           ""
         addr:           ""
         month:          ""
     19:                 "ACISP19"
@@ -1048,10 +1066,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 17: 9th " # africacryptname
             @2:         "AFRICACRYPT 17" # africacryptname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Marc Joye and Abderrahmane Nitaj"
+        vol:            "10239"
+        addr:
+            @0:         "Dakar, Senegal"
+            @1:         ""
+        month:
+            @0:         may # "~24--26,"
+            @1:         may
     18:                 "AFRICACRYPT18"
         key:            "AFRICACRYPT 2018"
         name:
@@ -1221,9 +1243,13 @@ asiaccs:
         name:
             @0:         "ASIACCS 17: 12th " # asiaccsname
             @2:         "ASIACCS 17" # asiaccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Ramesh Karri and Ozgur Sinanoglu and Ahmad-Reza Sadeghi and Xun Yi"
+        addr:
+            @0:         "Abu Dhabi, United Arab Emirates"
+            @1:         ""
+        month:
+            @0:         apr # "~2--6,"
+            @1:         apr
     18:                 "ASIACCS18"
         key:            "ASIACCS 2018"
         name:
@@ -2028,10 +2054,14 @@ ches:
     17:                 "CHES17"
         key:            "CHES 2017"
         name:           chesname # "~2017"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Wieland Fischer and Naofumi Homma"
+        vol:            "10529"
+        addr:
+            @0:         "Taipei, Taiwan"
+            @1:         ""
+        month:
+            @0:         sep # "~25--28,"
+            @1:         sep
     18:                 "CHES18"
         key:            "CHES 2018"
         name:           chesname # "~2018"
@@ -2583,10 +2613,14 @@ rsa:
     17:                 "RSA17"
         key:            "CT-RSA 2017"
         name:           rsaname # "~2017"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Helena Handschuh"
+        vol:            "10159"
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~14--17,"
+            @1:         feb
     18:                 "RSA18"
         key:            "CT-RSA 2018"
         name:           rsaname # "~2018"
@@ -2919,14 +2953,14 @@ esorics:
         name2:
             @0:         "ESORICS~2017: 22nd " # esoricsname # ", Part~II"
             @2:         "ESORICS~2017" # esoricsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Simon N. Foley and Dieter Gollmann and Einar Snekkenes"
+        vol1:           "10492"
+        vol2:           "10493"
         addr:
-            @0:         ""
+            @0:         "Oslo, Norway"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~11--15,"
             @1:         sep
     18:
         -1:             "ESORICS18-1"
@@ -4472,7 +4506,7 @@ icalpname:
     @0:                 "International Colloquium on Automata, Languages and Programming"
     @2:                 ""
 icalppub:               springer
-icalppub16:             dagstuhl
+icalppubv2:             dagstuhl
 icalp:
     72:                 "ICALP72"
         key:            "ICALP 1972"
@@ -5096,6 +5130,46 @@ icalp:
         month:
             @0:         jul # "~11--15,"
             @1:         jul
+    17:                 "ICALP17"
+        key:            "ICALP 2017"
+        name:
+            @0:         "ICALP 2017: 44th " # icalpname
+            @2:         "ICALP 2017" # icalpname
+        ed:             "Ioannis Chatzigiannakis and Piotr Indyk and Fabian Kuhn and Anca Muscholl"
+        vol:            "80"
+        addr:
+            @0:         "Warsaw, Poland"
+            @1:         ""
+        month:
+            @0:         jul # "~10--14,"
+            @1:         jul
+    18:                 "ICALP18"
+        key:            "ICALP 2018"
+        name:
+            @0:         "ICALP 2018: 45th " # icalpname
+            @2:         "ICALP 2018" # icalpname
+        ed:             ""
+        vol:            ""
+        addr:           ""
+        month:          ""
+    19:                 "ICALP19"
+        key:            "ICALP 2019"
+        name:
+            @0:         "ICALP 2019: 46th " # icalpname
+            @2:         "ICALP 2019" # icalpname
+        ed:             ""
+        vol:            ""
+        addr:           ""
+        month:          ""
+    20:                 "ICALP20"
+        key:            "ICALP 2020"
+        name:
+            @0:         "ICALP 2020: 47th " # icalpname
+            @2:         "ICALP 2020" # icalpname
+        ed:             ""
+        vol:            ""
+        addr:           ""
+        month:          ""
 iccsaname:
     @0:                 "Computational Science and Its Applications"
     @2:                 ""
@@ -7217,10 +7291,14 @@ iwsec:
         name:
             @0:         "IWSEC 17: 12th " # iwsecname
             @2:         "IWSEC 17" # iwsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Satoshi Obana and Koji Chida"
+        vol:            "10418"
+        addr:
+            @0:         "Hiroshima, Japan"
+            @1:         ""
+        month:
+            @0:         aug # "~30~--~" # sep # "~1,"
+            @1:         aug # "~/~" # sep
     18:                 "IWSEC18"
         key:            "IWSEC 2018"
         name:
@@ -8570,9 +8648,13 @@ podc:
     17:                 "PODC17"
         key:            "PODC 2017"
         name:           "36th " # podcname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Elad Michael Schiller and Alexander A. Schwarzmann"
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~25--27,"
+            @1:         jul
     18:                 "PODC18"
         key:            "PODC 2018"
         name:           "37th " # podcname
@@ -9519,9 +9601,13 @@ soda:
     17:                 "SODA17"
         key:            "SODA 2017"
         name:           "28th " # sodaname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Philip N. Klein"
+        addr:
+            @0:         "Barcelona, Spain"
+            @1:         ""
+        month:
+            @0:         jan # "~16--19,"
+            @1:         jan
     18:                 "SODA18"
         key:            "SODA 2018"
         name:           "29th " # sodaname
@@ -9916,9 +10002,13 @@ stoc:
     17:                 "STOC17"
         key:            "STOC 2017"
         name:           "49th " # stocname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Hamed Hatami and Pierre McKenzie and Valerie King"
+        addr:
+            @0:         "Montreal, QC, Canada"
+            @1:         ""
+        month:
+            @0:         jun # "~19--23,"
+            @1:         jun
     18:                 "STOC18"
         key:            "STOC 2018"
         name:           "50th " # stocname
@@ -10403,10 +10493,14 @@ trustbus:
         name:
             @0:         "TrustBus 2017: Trust and Privacy in Digital Business, 14th " # trustbusname
             @2:         "TrustBus 2017" # trustbusname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Javier Lopez and Simone Fischer-H{\"u}bner and Costas Lambrinoudakis"
+        vol:            "10442"
+        addr:
+            @0:         "Lyon, France"
+            @1:         ""
+        month:
+            @0:         aug # "~30--31,"
+            @1:         aug
     18:                 "TRUSTBUS18"
         key:            "TRUSTBUS 2018"
         name:
