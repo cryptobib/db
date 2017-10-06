@@ -10730,10 +10730,14 @@ wisa:
         name:
             @0:         "WISA 16: 17th " # wisaname
             @2:         "WISA 16" # wisaname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Dooho Choi and Sylvain Guilley"
+        vol:            "10144"
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~25--27,"
+            @1:         aug
     17:                 "WISA17"
         key:            "WISA 2017"
         name:
