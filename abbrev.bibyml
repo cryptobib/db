@@ -8813,10 +8813,14 @@ provsec:
         name:
             @0:         "ProvSec 2017: 11th " # provsecname
             @2:         "ProvSec 2017" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Tatsuaki Okamoto and Yong Yu and Man Ho Au and Yannan Li"
+        vol:            "10592"
+        addr:
+            @0:         "Xi'an, China"
+            @1:         ""
+        month:
+            @0:         oct # "~23--25,"
+            @1:         oct
     18:                 "PROVSEC18"
         key:            "PROVSEC 2018"
         name:
@@ -9128,10 +9132,14 @@ sac:
         name:
             @0:         "SAC 2016: 23rd " # sacname
             @2:         "SAC 2016" # sacname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Roberto Avanzi and Howard M. Heys"
+        vol:            "10532"
+        addr:
+            @0:         "St. John's, NL, Canada"
+            @1:         ""
+        month:
+            @0:         aug # "~10--12,"
+            @1:         aug
     17:                 "SAC17"
         key:            "SAC 2017"
         name:
