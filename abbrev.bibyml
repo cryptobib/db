@@ -10253,15 +10253,15 @@ tcc:
         name2:
             @0:         "TCC~2017: 15th " # tccname # ", Part~II"
             @2:         "TCC~2017" # tccname  # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Yael Kalai and Leonid Reyzin"
+        vol1:           "10677"
+        vol2:           "10678"
         addr:
-            @0:         ""
+            @0:         "Baltimore, MD, USA"
             @1:         ""
         month:
-            @0:         mar
-            @1:         mar
+            @0:         nov # "~12--15,"
+            @1:         nov
     18:
         -1:             "TCC18-1"
         -2:             "TCC18-2"
