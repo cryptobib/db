@@ -698,9 +698,13 @@ ccs:
         name:
             @0:         "ACM CCS 17: 24th " # ccsname
             @2:         "ACM CCS 17" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Bhavani M. Thuraisingham and David Evans and Tal Malkin and Dongyan Xu"
+        addr:
+            @0:         "Dallas, TX, USA"
+            @1:         ""
+        month:
+            @0:         oct # "~31~--~" # nov # "~2,"
+            @1:         oct # "~/~" # nov
     18:                 "CCS18"
         key:            "ACM CCS 2018"
         name:
