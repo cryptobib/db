@@ -1594,18 +1594,22 @@ asiacrypt:
     17:
         -1:             "AC17-1"
         -2:             "AC17-2"
+        -3:             "AC17-3"
         key1:           "ASIACRYPT 2017, Part~I"
         key2:           "ASIACRYPT 2017, Part~II"
+        key3:           "ASIACRYPT 2017, Part~III"
         name1:          asiacryptname # "~2017, Part~I"
         name2:          asiacryptname # "~2017, Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name2:          asiacryptname # "~2017, Part~III"
+        ed:             "Tsuyoshi Takagi and Thomas Peyrin"
+        vol1:           "10624"
+        vol2:           "10625"
+        vol3:           "10626"
         addr:
-            @0:         ""
+            @0:         "Hong Kong, China"
             @1:         ""
         month:
-            @0:         dec
+            @0:         dec # "~3--7,"
             @1:         dec
     18:
         -1:             "AC18-1"
