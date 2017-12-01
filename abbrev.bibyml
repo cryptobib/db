@@ -1600,7 +1600,7 @@ asiacrypt:
         key3:           "ASIACRYPT 2017, Part~III"
         name1:          asiacryptname # "~2017, Part~I"
         name2:          asiacryptname # "~2017, Part~II"
-        name2:          asiacryptname # "~2017, Part~III"
+        name3:          asiacryptname # "~2017, Part~III"
         ed:             "Tsuyoshi Takagi and Thomas Peyrin"
         vol1:           "10624"
         vol2:           "10625"
