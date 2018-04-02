@@ -184,6 +184,10 @@ add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
             months = [],
             url = "http://dblp2.uni-trier.de/db/journals/tosc/tosc${year}.html")
 
+add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
+            months = [],
+            url = "https://dblp.uni-trier.de/db/journals/tches/tches${year}.html")
+
 add_misc("EPRINT",       "Cryptology ePrint Archive", url = "http://eprint.iacr.org/${year}")
 
 def get_conf_name(confkey):
