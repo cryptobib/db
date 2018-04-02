@@ -10330,6 +10330,11 @@ tcc:
         month:
             @0:         mar
             @1:         mar
+tches:
+    @0:                 "{IACR} Transactions on Cryptographic Hardware and Embedded Systems"
+    @2:                 "{IACR} {TCHES}"
+tchesissn:               "2569-2925"
+tchespub:                "Ruhr-Universit{\"a}t Bochum"
 trustbusname:
     @0:                 "International Conference"
     @2:                 ""
