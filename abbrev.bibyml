@@ -396,22 +396,36 @@ acisp:
         vol2:           ""
         addr:           ""
         month:          ""
-    19:                 "ACISP19"
-        key:            "ACISP 2019"
-        name:
-            @0:         "ACISP 19: 24th " # acispname
-            @2:         "ACISP 19" # acispname
+    19:
+        -1:             "ACISP19-1"
+        -2:             "ACISP19-2"
+        key1:           "ACISP 2019, Part~I"
+        key2:           "ACISP 2019, Part~II"
+        name1:
+            @0:         "ACISP 19: 24th " # acispname # ", Part~I"
+            @2:         "ACISP 19" # acispname # ", Part~I"
+        name2:
+            @0:         "ACISP 19: 24th " # acispname # ", Part~II"
+            @2:         "ACISP 19" # acispname # ", Part~II"
         ed:             ""
-        vol:            ""
+        vol1:           ""
+        vol2:           ""
         addr:           ""
         month:          ""
-    20:                 "ACISP20"
-        key:            "ACISP 2020"
-        name:
-            @0:         "ACISP 20: 25th " # acispname
-            @2:         "ACISP 20" # acispname
+    20:
+        -1:             "ACISP20-1"
+        -2:             "ACISP20-2"
+        key1:           "ACISP 2020, Part~I"
+        key2:           "ACISP 2020, Part~II"
+        name1:
+            @0:         "ACISP 20: 25th " # acispname # ", Part~I"
+            @2:         "ACISP 20" # acispname # ", Part~I"
+        name2:
+            @0:         "ACISP 20: 25th " # acispname # ", Part~II"
+            @2:         "ACISP 20" # acispname # ", Part~II"
         ed:             ""
-        vol:            ""
+        vol1:           ""
+        vol2:           ""
         addr:           ""
         month:          ""
 ccsname:
@@ -3724,16 +3738,20 @@ fc:
     17:                 "FC17"
         key:            "FC 2017"
         name:
-            @0:         "FC 2017: 21th " # fcname_v2
+            @0:         "FC 2017: 21st " # fcname_v2
             @2:         "FC 2017" # fcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Aggelos Kiayias"
+        vol:            "10322"
+        addr:
+            @0:         "Sliema, Malta"
+            @1:         ""
+        month:
+            @0:         apr # "~3--7,"
+            @1:         apr
     18:                 "FC18"
         key:            "FC 2018"
         name:
-            @0:         "FC 2018: 22th " # fcname_v2
+            @0:         "FC 2018: 22nd " # fcname_v2
             @2:         "FC 2018" # fcname_v2
         ed:             ""
         vol:            ""
@@ -3742,7 +3760,7 @@ fc:
     19:                 "FC19"
         key:            "FC 2019"
         name:
-            @0:         "FC 2019: 23th " # fcname_v2
+            @0:         "FC 2019: 23rd " # fcname_v2
             @2:         "FC 2019" # fcname_v2
         ed:             ""
         vol:            ""
@@ -3818,6 +3836,36 @@ fcw:
         month:
             @0:         feb # "~26,"
             @1:         feb
+    17:                 "FCW17"
+        key:            "FCW 2017"
+        name:           "FC 2017 Workshops"
+        ed:             "Michael Brenner and Kurt Rohloff and Joseph Bonneau and Andrew Miller and Peter Y. A. Ryan and Vanessa Teague and Andrea Bracciali and Massimiliano Sala and Federico Pintore and Markus Jakobsson"
+        vol:            "10323"
+        addr:           fc17addr
+        month:
+            @0:         apr # "~7,"
+            @1:         apr
+    18:                 "FCW18"
+        key:            "FCW 2018"
+        name:           "FC 2018 Workshops"
+        ed:             ""
+        vol:            ""
+        addr:           fc18addr
+        month:          ""
+    19:                 "FCW19"
+        key:            "FCW 2019"
+        name:           "FC 2019 Workshops"
+        ed:             ""
+        vol:            ""
+        addr:           fc19addr
+        month:          ""
+    20:                 "FCW20"
+        key:            "FCW 2020"
+        name:           "FC 2020 Workshops"
+        ed:             ""
+        vol:            ""
+        addr:           fc20addr
+        month:          ""
 focsname:
     @0:                 "Annual Symposium on Foundations of Computer Science"
     @2:                 "FOCS"
@@ -6005,10 +6053,14 @@ icits:
         name:
             @0:         "ICITS 17: 10th " # icitsname
             @2:         "ICITS 17" # icitsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Junji Shikata"
+        vol:            "10681"
+        addr:
+            @0:         "Hong Kong, China"
+            @1:         ""
+        month:
+            @0:         nov # "~29~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
     18:                 "ICITS18"
         key:            "ICITS 2018"
         name:
@@ -6408,7 +6460,7 @@ ima:
             @0:         dec # "~12--15,"
             @1:         dec
     13:                 "IMA13"
-        key:            "IMA 2013"
+        key:            "IMACC 2013"
         name:           "14th " # imaname
         ed:             "Martijn Stam"
         vol:            "8308"
@@ -6419,7 +6471,7 @@ ima:
             @0:         dec # "~17--19,"
             @1:         dec
     15:                 "IMA15"
-        key:            "IMA 2015"
+        key:            "IMACC 2015"
         name:           "15th " # imaname
         ed:             "Jens Groth"
         vol:            "9496"
@@ -6430,14 +6482,16 @@ ima:
             @0:         dec # "~15--17,"
             @1:         dec
     17:                 "IMA17"
-        key:            "IMA 2017"
+        key:            "IMACC 2017"
         name:           "16th " # imaname
-        ed:             ""
-        vol:            ""
+        ed:             "M{\'a}ire O'Neill"
+        vol:            "10655"
         addr:
             @0:         "Oxford, UK"
             @1:         ""
-        month:          dec
+        month:
+            @0:         dec # "~12--14,"
+            @1:         dec
     19:                 "IMA19"
         key:            "IMA 2019"
         name:           "17th " # imaname
@@ -6681,10 +6735,14 @@ indocrypt:
         name:
             @0:         indocryptname # "~2017: 18th " # indocryptsuffix
             @2:         indocryptname # "~2017" # indocryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Arpita Patra and Nigel P. Smart"
+        vol:            "10698"
+        addr:
+            @0:         "Chennai, India"
+            @1:         ""
+        month:
+            @0:         dec # "~10--13,"
+            @1:         dec
     18:                 "INDOCRYPT18"
         key:            "INDOCRYPT 2018"
         name:
@@ -6971,10 +7029,14 @@ isc:
         name:
             @0:         "ISC~2017: 20th " # iscname_v2
             @2:         "ISC~2017" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Phong Q. Nguyen and Jianying Zhou"
+        vol:            "10599"
+        addr:
+            @0:         "Ho Chi Minh City, Vietnam"
+            @1:         ""
+        month:
+            @0:         nov # "~22--24,"
+            @1:         nov
     18:                 "ISC18"
         key:            "ISC 2018"
         name:
@@ -7009,9 +7071,16 @@ itcsname_v:
     2:
         @0:             "Innovations in Theoretical Computer Science"
         @2:             ""
+    3:
+        @0:             "Conference on Innovations in Theoretical Computer Science"
+        @2:             ""
+    4:
+        @0:             "Innovations in Theoretical Computer Science Conference"
+        @2:             ""
 itcspub_v:
     1:                  "Tsinghua University Press"
     2:                  acm
+    3:                  mylipics
 itcs:
     10:                 "ITCS10"
         key:            "ICS 2010"
@@ -7064,8 +7133,8 @@ itcs:
     14:               "ITCS14"
         key:            "ITCS 2014"
         name:
-            @0:         "ITCS 2014: 5th " # itcsname_v2
-            @2:         "ITCS 2014" # itcsname_v2
+            @0:         "ITCS 2014: 5th " # itcsname_v3
+            @2:         "ITCS 2014" # itcsname_v3
         ed:             "Moni Naor"
         addr:
             @0:         "Princeton, NJ, USA"
@@ -7076,8 +7145,8 @@ itcs:
     15:               "ITCS15"
         key:            "ITCS 2015"
         name:
-            @0:         "ITCS 2015: 6th " # itcsname_v2
-            @2:         "ITCS 2015" # itcsname_v2
+            @0:         "ITCS 2015: 6th " # itcsname_v3
+            @2:         "ITCS 2015" # itcsname_v3
         ed:             "Tim Roughgarden"
         addr:
             @0:         "Rehovot, Israel"
@@ -7088,8 +7157,8 @@ itcs:
     16:               "ITCS16"
         key:            "ITCS 2016"
         name:
-            @0:         "ITCS 2016: 7th " # itcsname_v2
-            @2:         "ITCS 2016" # itcsname_v2
+            @0:         "ITCS 2016: 7th " # itcsname_v3
+            @2:         "ITCS 2016" # itcsname_v3
         ed:             "Madhu Sudan"
         addr:
             @0:         "Cambridge, MA, USA"
@@ -7100,33 +7169,36 @@ itcs:
     17:               "ITCS17"
         key:            "ITCS 2017"
         name:
-            @0:         "ITCS 2017: 8th " # itcsname_v2
-            @2:         "ITCS 2017" # itcsname_v2
-        ed:             ""
+            @0:         "ITCS 2017: 8th " # itcsname_v4
+            @2:         "ITCS 2017" # itcsname_v4
+        ed:             "Christos H. Papadimitriou"
+        vol:            "4266"
         addr:
-            @0:         ""
-            @1:         ""
+            @0:         "Berkeley, CA, USA"
+            @1:         "67"
         month:
-            @0:         jan
+            @0:         jan # "~9--11,"
             @1:         jan
     18:               "ITCS18"
         key:            "ITCS 2018"
         name:
-            @0:         "ITCS 2018: 9th " # itcsname_v2
-            @2:         "ITCS 2018" # itcsname_v2
-        ed:             ""
+            @0:         "ITCS 2018: 9th " # itcsname_v4
+            @2:         "ITCS 2018" # itcsname_v4
+        ed:             "Anna R. Karlin"
+        vol:            "94"
         addr:
-            @0:         ""
+            @0:         "Cambridge, MA, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~11--14,"
             @1:         jan
     19:               "ITCS19"
         key:            "ITCS 2019"
         name:
-            @0:         "ITCS 2019: 10th " # itcsname_v2
-            @2:         "ITCS 2019" # itcsname_v2
+            @0:         "ITCS 2019: 10th " # itcsname_v4
+            @2:         "ITCS 2019" # itcsname_v4
         ed:             ""
+        vol:            ""
         addr:
             @0:         ""
             @1:         ""
@@ -7136,9 +7208,10 @@ itcs:
     20:               "ITCS20"
         key:            "ITCS 2020"
         name:
-            @0:         "ITCS 2020: 11th " # itcsname_v2
-            @2:         "ITCS 2020" # itcsname_v2
+            @0:         "ITCS 2020: 11th " # itcsname_v4
+            @2:         "ITCS 2020" # itcsname_v4
         ed:             ""
+        vol:            ""
         addr:
             @0:         ""
             @1:         ""
@@ -7826,7 +7899,9 @@ ndss:
         addr:
             @0:         "San Diego, CA, USA"
             @1:         ""
-        month:          ""
+        month:
+            @0:         feb # "~26~--~" # mar # "~1,"
+            @1:         feb # "~/~" # mar
     18:                 "NDSS18"
         key:            "NDSS 2018"
         name:           ndssname # "~2018"
@@ -8272,30 +8347,55 @@ pkc:
             @0:         mar # "~28--31,"
             @1:         mar
     18:                 "PKC18"
-        key:            "PKC 2018"
-        name:
-            @0:         "PKC~2018: 21st " # pkcname_v2
-            @2:         "PKC~2018" # pkcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        -1:             "PKC18-1"
+        -2:             "PKC18-2"
+        key1:           "PKC 2018, Part~I"
+        key2:           "PKC 2018, Part~II"
+        name1:
+            @0:         "PKC~2018: 21st " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2018" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2018: 21st " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2018" # pkcname_v2 # ", Part~II"
+        ed:             "Michel Abdalla and Ricardo Dahab"
+        vol1:           "10769"
+        vol2:           "10770"
+        addr:
+            @0:         "Rio de Janeiro, Brazil"
+            @1:         ""
+        month:
+            @0:         mar # "~25--29,"
+            @1:         mar
     19:                 "PKC19"
-        key:            "PKC 2019"
-        name:
-            @0:         "PKC~2019: 22nd " # pkcname_v2
-            @2:         "PKC~2019" # pkcname_v2
+        -1:             "PKC19-1"
+        -2:             "PKC19-2"
+        key1:           "PKC 2019, Part~I"
+        key2:           "PKC 2019, Part~II"
+        name1:
+            @0:         "PKC~2019: 22nd " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2019" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2019: 22nd " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2019" # pkcname_v2 # ", Part~II"
         ed:             ""
-        vol:            ""
+        vol1:           ""
+        vol2:           ""
         addr:           ""
         month:          ""
     20:                 "PKC20"
-        key:            "PKC 2020"
-        name:
-            @0:         "PKC~2020: 23rd " # pkcname_v2
-            @2:         "PKC~2020" # pkcname_v2
+        -1:             "PKC20-1"
+        -2:             "PKC20-2"
+        key1:           "PKC 2020, Part~I"
+        key2:           "PKC 2020, Part~II"
+        name1:
+            @0:         "PKC~2020: 23rd " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2020" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2020: 23rd " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2020" # pkcname_v2 # ", Part~II"
         ed:             ""
-        vol:            ""
+        vol1:           ""
+        vol2:           ""
         addr:           ""
         month:          ""
 podcname:
@@ -9153,10 +9253,14 @@ sac:
         name:
             @0:         "SAC 2017: 24th " # sacname
             @2:         "SAC 2017" # sacname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Carlisle Adams and Jan Camenisch"
+        vol:            "10719"
+        addr:
+            @0:         "Ottawa, ON, Canada"
+            @1:         ""
+        month:
+            @0:         aug # "~16--18,"
+            @1:         aug
     18:                 "SAC18"
         key:            "SAC 2018"
         name:
@@ -9627,9 +9731,13 @@ soda:
     18:                 "SODA18"
         key:            "SODA 2018"
         name:           "29th " # sodaname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Artur Czumaj"
+        addr:
+            @0:         "New Orleans, LA, USA"
+            @1:         ""
+        month:
+            @0:         jan # "~7--10,"
+            @1:         jan
     19:                 "SODA19"
         key:            "SODA 2019"
         name:           "30th " # sodaname
