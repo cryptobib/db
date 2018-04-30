@@ -1097,10 +1097,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 18: 10th " # africacryptname
             @2:         "AFRICACRYPT 18" # africacryptname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Antoine Joux and Abderrahmane Nitaj and Tajjeeddine Rachidi"
+        vol:            "10831"
+        addr:
+            @0:         "Marrakesh, Morocco"
+            @1:         ""
+        month:
+            @0:         may # "~7--9,"
+            @1:         may
     19:                 "AFRICACRYPT19"
         key:            "AFRICACRYPT 2019"
         name:
@@ -2646,10 +2650,14 @@ rsa:
     18:                 "RSA18"
         key:            "CT-RSA 2018"
         name:           rsaname # "~2018"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Nigel P. Smart"
+        vol:            "10808"
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         apr # "~16--20,"
+            @1:         apr
     19:                 "RSA19"
         key:            "CT-RSA 2019"
         name:           rsaname # "~2019"
@@ -3350,7 +3358,7 @@ eurocrypt:
             @1:         ""
         month:
             @0:         may # "~30~--~" # jun # "~3,"
-            @1:         may
+            @1:         may # "~/~" # jun
     11:                 "EC11"
         key:            "EUROCRYPT 2011"
         name:           eurocryptname # "~2011"
@@ -3430,7 +3438,7 @@ eurocrypt:
     17:                 "EC17"
         -1:             "EC17-1"
         -2:             "EC17-2"
-        -3:             "EC17-2"
+        -3:             "EC17-3"
         key1:           "EUROCRYPT 2017, Part~I"
         key2:           "EUROCRYPT 2017, Part~II"
         key3:           "EUROCRYPT 2017, Part~III"
@@ -3445,29 +3453,68 @@ eurocrypt:
             @0:         "Paris, France"
             @1:         ""
         month:
-            @0:         may # "~8--12,"
-            @1:         may
+            @0:         apr # "~30~--~" # may # "~4,"
+            @1:         apr # "~/~" # may
     18:                 "EC18"
-        key:            "EUROCRYPT 2018"
-        name:           eurocryptname # "~2018"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        -1:             "EC18-1"
+        -2:             "EC18-2"
+        -3:             "EC18-3"
+        key1:           "EUROCRYPT 2018, Part~I"
+        key2:           "EUROCRYPT 2018, Part~II"
+        key3:           "EUROCRYPT 2018, Part~III"
+        name1:          eurocryptname # "~2018, Part~I"
+        name2:          eurocryptname # "~2018, Part~II"
+        name3:          eurocryptname # "~2018, Part~III"
+        ed:             "Jesper Buus Nielsen and Vincent Rijmen"
+        vol1:           "10820"
+        vol2:           "10821"
+        vol3:           "10822"
+        addr:
+            @0:         "Tel Aviv, Israel"
+            @1:         ""
+        month:
+            @0:         apr # "~29~--~" # may # "~3,"
+            @1:         apr # "~/~" # may
     19:                 "EC19"
-        key:            "EUROCRYPT 2019"
-        name:           eurocryptname # "~2019"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        -1:             "EC19-1"
+        -2:             "EC19-2"
+        -3:             "EC19-3"
+        key1:           "EUROCRYPT 2019, Part~I"
+        key2:           "EUROCRYPT 2019, Part~II"
+        key3:           "EUROCRYPT 2019, Part~III"
+        name1:          eurocryptname # "~2019, Part~I"
+        name2:          eurocryptname # "~2019, Part~II"
+        name3:          eurocryptname # "~2019, Part~III"
+        ed:             "Vincent Rijmen and Yuval Ishai"
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         "Darmstadt, Germany"
+            @1:         ""
+        month:
+            @0:         may # "~19--23,"
+            @1:         may
     20:                 "EC20"
-        key:            "EUROCRYPT 2020"
-        name:           eurocryptname # "~2020"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        -1:             "EC20-1"
+        -2:             "EC20-2"
+        -3:             "EC20-3"
+        key1:           "EUROCRYPT 2020, Part~I"
+        key2:           "EUROCRYPT 2020, Part~II"
+        key3:           "EUROCRYPT 2020, Part~III"
+        name1:          eurocryptname # "~2020, Part~I"
+        name2:          eurocryptname # "~2020, Part~II"
+        name3:          eurocryptname # "~2020, Part~III"
+        ed:             "Vincent Rijmen and Yuval Ishai"
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
 fcname_v:
     1:
         @0:             "International Conference on Financial Cryptography"
@@ -5629,10 +5676,14 @@ icics:
         name:
             @0:         "ICICS 17: 19th " # icicsname
             @2:         "ICICS 17" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Sihan Qing and Chris Mitchell and Liqun Chen and Dongmei Liu"
+        vol:            "10631"
+        addr:
+            @0:         "Beijing, China"
+            @1:         ""
+        month:
+            @0:         dec # "~6--8,"
+            @1:         dec
     18:                 "ICICS18"
         key:            "ICICS 2018"
         name:
@@ -7573,10 +7624,14 @@ latin:
         name:
             @0:         "LATIN 2018: Theoretical Informatics, 13th " # latinname
             @2:         "LATIN 2018" # latinname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Michael A. Bender and  Martin {Farach-Colton} and  Miguel A. Mosteiro"
+        vol:            "10807"
+        addr:
+            @0:         "Buenos Aires, Argentina"
+            @1:         ""
+        month:
+            @0:         apr # "~16--19,"
+            @1:         apr
     20:                 "LATIN20"
         key:            "LATIN 2020"
         name:
