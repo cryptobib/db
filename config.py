@@ -1,4 +1,4 @@
-# Configuration 
+# Configuration
 #   for mybibtex, import.py, ...
 
 from string import Template
@@ -163,6 +163,7 @@ add_conf("NDSS",        "Network and Distributed System Security Symposium")
 add_conf("PAIRING",     "International Conference on Pairing-based Cryptography",)
 add_conf("PKC",         "International Conference on Practice and Theory in Public Key Cryptography")
 add_conf("PODC",        "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing")
+add_conf("PQCRYPTO",    "International Conference on Post-Quantum Cryptography")
 add_conf("PROVSEC",     "International Conference on Provable Security")
 add_conf("SAC",         "Workshop on Selected Areas in Cryptography", 
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/sacrypt/sacrypt${url_year}.html")
@@ -212,6 +213,7 @@ confs_missing_years = {
     "LATIN": set([1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017]),
     "LC": set([2011, 2013]),
     "PAIRING": set([2011]),
+    "PQCRYPTO": set([2009, 2012, 2015]),
     "SCN": set([2003, 2005, 2007, 2009, 2011, 2013, 2015]),
 }
 
