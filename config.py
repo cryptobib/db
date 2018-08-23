@@ -8,10 +8,10 @@ from string import Template
 confs = {}
 
 def add_conf(
-        key, 
-        full_name = "", 
-        name = None, 
-        url = "http://dblp.uni-trier.de/db/conf/${namelower}/${namelower}${url_year}${dis}.html",
+        key,
+        full_name = "",
+        name = None,
+        url = "https://dblp.uni-trier.de/db/conf/${namelower}/${namelower}${url_year}${dis}.html",
 	crossref = None
 ):
     if name == None:
@@ -86,7 +86,7 @@ def add_journal(
     }
 
 def add_misc(
-        key, 
+        key,
         full_name,
         url,
         name = None,
@@ -113,34 +113,34 @@ def add_misc(
         "full_name":          # full name of the conference (not used yet)
             full_name,
         "fields_dblp":        # not used
-            set(), 
+            set(),
         "fields_add":         # not used
             dict([])
     }
 
-        
+
 
 add_conf("ACISP",       "Australasian Conference on Information Security and Privacy")
-add_conf("CCS",         "ACM Conference on Computer and Communications Security", 
+add_conf("CCS",         "ACM Conference on Computer and Communications Security",
          name = "ACM CCS", crossref="ccs",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/ccs/ccs${url_year}.html")
 add_conf("ACNS",        "International Conference on Applied Cryptography and Network Security")
 add_conf("AFRICACRYPT", "International Conference on Cryptology in Africa")
-add_conf("ASIACCS",     "ACM Symposium on Information, Computer and Communications Security", 
+add_conf("ASIACCS",     "ACM Symposium on Information, Computer and Communications Security",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/ccs/asiaccs${url_year}.html")
-add_conf("AC",          "International Conference on the Theory and Application of Cryptology and Information Security", 
+add_conf("AC",          "International Conference on the Theory and Application of Cryptology and Information Security",
          name = "ASIACRYPT")
 add_conf("CANS",        "International Conference on Cryptology and Network Security")
 add_conf("CHES",        "Workshop on Cryptographic Hardware and Embedded Systems")
 add_conf("CQRE",        "International Exhibition and Congress on Network Security", name = "CQRE")
 add_conf("C",           "International Cryptology Conference", name = "CRYPTO")
-add_conf("RSA",         "RSA Conference, Cryptographers' Track", name = "CT-RSA", 
+add_conf("RSA",         "RSA Conference, Cryptographers' Track", name = "CT-RSA",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/ctrsa/ctrsa${url_year}.html")
 add_conf("ESORICS",     "European Symposium on Research in Computer Security")
 add_conf("EC",          "International Conference on the Theory and Applications of Cryptographic Techniques",
          name = "EUROCRYPT")
 add_conf("FC",          "Financial Cryptography and Data Security")
-add_conf("FCW",         "Financial Cryptography and Data Security Workshops", 
+add_conf("FCW",         "Financial Cryptography and Data Security Workshops",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/fc/fc${url_year}w.html")
 add_conf("FOCS",        "Symposium on Foundations of Computer Science")
 add_conf("FSE",         "International Workshop on Fast Software Encryption")
@@ -151,13 +151,13 @@ add_conf("IMA",         "IMA Conference on Cryptography and Coding")
 add_conf("ICITS",       "International Conference on Information Theoretic Security")
 add_conf("SP",          "IEEE Symposium on Security and Privacy", name="IEEE SP", url = "http://www.informatik.uni-trier.de/~ley/db/conf/sp/sp${url_year}.html", crossref = "ieeesp")
 add_conf("INDOCRYPT",   "International Conference on Cryptology in India")
-add_conf("ISC",         "Information Security Conference", 
+add_conf("ISC",         "Information Security Conference",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/isw/isc${url_year}.html")
-add_conf("ITCS",        "Innovations in Theoretical Computer Science", 
+add_conf("ITCS",        "Innovations in Theoretical Computer Science",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/innovations/innovations${url_year}.html")
 add_conf("IWSEC",       "International Workshop on Security")
 add_conf("LATIN",       "Latin American Theoretical Informatics Symposium")
-add_conf("LC",          "International Conference on Cryptology and Information Security in Latin America", 
+add_conf("LC",          "International Conference on Cryptology and Information Security in Latin America",
          name = "LATINCRYPT")
 add_conf("NDSS",        "Network and Distributed System Security Symposium")
 add_conf("PAIRING",     "International Conference on Pairing-based Cryptography",)
@@ -165,7 +165,7 @@ add_conf("PKC",         "International Conference on Practice and Theory in Publ
 add_conf("PODC",        "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing")
 add_conf("PQCRYPTO",    "International Conference on Post-Quantum Cryptography")
 add_conf("PROVSEC",     "International Conference on Provable Security")
-add_conf("SAC",         "Workshop on Selected Areas in Cryptography", 
+add_conf("SAC",         "Workshop on Selected Areas in Cryptography",
          url = "http://www.informatik.uni-trier.de/~ley/db/conf/sacrypt/sacrypt${url_year}.html")
 add_conf("SCN",         "Conference on Security and Cryptography for Networks")
 add_conf("SODA",        "ACM-SIAM Symposium on Discrete Algorithms")
@@ -189,7 +189,7 @@ add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and 
             months = [],
             url = "https://dblp.uni-trier.de/db/journals/tches/tches${year}.html")
 
-add_misc("EPRINT",       "Cryptology ePrint Archive", url = "http://eprint.iacr.org/${year}")
+add_misc("EPRINT",       "Cryptology ePrint Archive", url = "https://eprint.iacr.org/${year}")
 
 def get_conf_name(confkey):
     if confkey in confs:
