@@ -10983,7 +10983,7 @@ pqcrypto:
         month:
             @0:         may # "~25--28"
             @2:         may
-    11:                 "PQRYPTO11"
+    11:                 "PQCRYPTO11"
         key:            "PQCRYPTO 2011"
         name:           "Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011"
         ed:             "Bo-Yin Yang"
