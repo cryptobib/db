@@ -335,7 +335,7 @@ acisp:
         ed:             "Ernest Foo and Douglas Stebila"
         vol:            "9144"
         addr:
-            @0:         "Wollongong, NSW, Australia"
+            @0:         "Brisbane, QLD, Australia"
             @1:         ""
         month:
             @0:         jun # "~29~--~" # jul # "~1,"
@@ -380,22 +380,19 @@ acisp:
         month:
             @0:         jul # "~3--5,"
             @1:         jul
-    18:
-        -1:             "ACISP18-1"
-        -2:             "ACISP18-2"
-        key1:           "ACISP 2018, Part~I"
-        key2:           "ACISP 2018, Part~II"
-        name1:
-            @0:         "ACISP 18: 23rd " # acispname # ", Part~I"
-            @2:         "ACISP 18" # acispname # ", Part~I"
-        name2:
-            @0:         "ACISP 18: 23rd " # acispname # ", Part~II"
-            @2:         "ACISP 18" # acispname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
+    18:                 "ACISP18"
+        key:            "ACISP 2018"
+        name:
+            @0:         "ACISP 18: 23rd " # acispname
+            @2:         "ACISP 18" # acispname
+        ed:             "Willy Susilo and Guomin Yang"
+        vol:            "10946"
+        addr:
+            @0:         "Wollongong, NSW, Australia"
+            @1:         ""
+        month:
+            @0:         jul # "~11--13,"
+            @1:         jul
     19:
         -1:             "ACISP19-1"
         -2:             "ACISP19-2"
@@ -948,10 +945,14 @@ acns:
         name:
             @0:         "ACNS 18: 16th " # acnsname
             @2:         "ACNS 18" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Bart Preneel and Frederik Vercauteren"
+        vol:            "10892"
+        addr:
+            @0:         "Leuven, Belgium"
+            @1:         ""
+        month:
+            @0:         jul # "~2--4,"
+            @1:         jul
     19:                 "ACNS19"
         key:            "ACNS 2019"
         name:
@@ -2455,6 +2456,57 @@ crypto:
         month:
             @0:         aug # "~20--24,"
             @1:         aug
+    18:
+        -1:             "C18-1"
+        -2:             "C18-2"
+        -3:             "C18-3"
+        key1:           "CRYPTO 2018, Part~I"
+        key2:           "CRYPTO 2018, Part~II"
+        key3:           "CRYPTO 2018, Part~III"
+        name1:          cryptoname # "~2018, Part~I"
+        name2:          cryptoname # "~2018, Part~II"
+        name3:          cryptoname # "~2018, Part~III"
+        ed:             "Hovav Shacham and Alexandra Boldyreva"
+        vol1:           "10991"
+        vol2:           "10992"
+        vol3:           "10993"
+        month:
+            @0:         aug # "~19--23,"
+            @1:         aug
+    19:
+        -1:             "C19-1"
+        -2:             "C19-2"
+        -3:             "C19-3"
+        key1:           "CRYPTO 2019, Part~I"
+        key2:           "CRYPTO 2019, Part~II"
+        key3:           "CRYPTO 2019, Part~III"
+        name1:          cryptoname # "~2019, Part~I"
+        name2:          cryptoname # "~2019, Part~II"
+        name3:          cryptoname # "~2019, Part~III"
+        ed:             "Hovav Shacham and Alexandra Boldyreva"
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        month:
+            @0:         aug # "~18--22,"
+            @1:         aug
+    20:
+        -1:             "C20-1"
+        -2:             "C20-2"
+        -3:             "C20-3"
+        key1:           "CRYPTO 2020, Part~I"
+        key2:           "CRYPTO 2020, Part~II"
+        key3:           "CRYPTO 2020, Part~III"
+        name1:          cryptoname # "~2020, Part~I"
+        name2:          cryptoname # "~2020, Part~II"
+        name3:          cryptoname # "~2020, Part~III"
+        ed:             "Hovav Shacham and Alexandra Boldyreva"
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        month:
+            @0:         aug # "~16--20,"
+            @1:         aug
 rsaname:
     @0:                 "Topics in Cryptology -- CT-RSA"
     @2:                 "CT-RSA"
@@ -3003,14 +3055,14 @@ esorics:
         name2:
             @0:         "ESORICS~2018: 23rd " # esoricsname # ", Part~II"
             @2:         "ESORICS~2018" # esoricsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Javier L{\'o}pez and Jianying Zhou and Miguel Soriano"
+        vol1:           "11098"
+        vol2:           "11099"
         addr:
-            @0:         ""
+            @0:         "Barcelona, Spain"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~3--7,"
             @1:         sep
     19:
         -1:             "ESORICS19-1"
@@ -5251,10 +5303,14 @@ icalp:
         name:
             @0:         "ICALP 2018: 45th " # icalpname
             @2:         "ICALP 2018" # icalpname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ioannis Chatzigiannakis and Christos Kaklamanis and D{\'a}niel Marx and Donald Sannella"
+        vol:            "107"
+        addr:
+            @0:         "Prague, Czech Republic"
+            @1:         ""
+        month:
+            @0:         jul # "~9--13,"
+            @1:         jul
     19:                 "ICALP19"
         key:            "ICALP 2019"
         name:
@@ -6394,8 +6450,12 @@ ieeesp:
         key:            "IEEE S\&P 2018"
         name:           "2018 " # ieeespname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~21--23,"
+            @1:         may
     19:                 "SP19"
         key:            "IEEE S\&P 2019"
         name:           "2019 " # ieeespname
@@ -7093,10 +7153,14 @@ isc:
         name:
             @0:         "ISC~2018: 21st " # iscname_v2
             @2:         "ISC~2018" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Liqun Chen and Mark Manulis and Steve Schneider"
+        vol:            "11060"
+        addr:
+            @0:         "Guildford, UK"
+            @1:         ""
+        month:
+            @0:         sep # "~9--12,"
+            @1:         sep
     19:                 "ISC19"
         key:            "ISC 2019"
         name:
@@ -7436,10 +7500,14 @@ iwsec:
         name:
             @0:         "IWSEC 18: 13th " # iwsecname
             @2:         "IWSEC 18" # iwsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Atsuo Inomata and Kan Yasuda"
+        vol:            "11049"
+        addr:
+            @0:         "Sendai, Japan"
+            @1:         ""
+        month:
+            @0:         sep # "~3--5,"
+            @1:         sep
     19:                 "IWSEC19"
         key:            "IWSEC 2019"
         name:
@@ -7964,7 +8032,9 @@ ndss:
         addr:
             @0:         "San Diego, CA, USA"
             @1:         ""
-        month:          ""
+        month:
+            @0:         feb # "~18-21,"
+            @1:         feb
     19:                 "NDSS19"
         key:            "NDSS 2019"
         name:           ndssname # "~2019"
@@ -8821,9 +8891,13 @@ podc:
     18:                 "PODC18"
         key:            "PODC 2018"
         name:           "37th " # podcname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Calvin Newport and Idit Keidar"
+        addr:
+            @0:         "Egham, United Kingdom"
+            @1:         ""
+        month:
+            @0:         jul # "~23--27,"
+            @1:         jul
     19:                 "PODC19"
         key:            "PODC 2019"
         name:           "38th " # podcname
@@ -9485,10 +9559,14 @@ scn:
         name:
             @0:         "SCN 18: 11th " # scnname
             @2:         "SCN 18" # scnname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Dario Catalano and Roberto {De Prisco}"
+        vol:            "11035"
+        addr:
+            @0:         "Amalfi, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~5--7,"
+            @1:         sep
     20:                 "SCN20"
         key:            "SCN 2020"
         name:
@@ -10191,9 +10269,13 @@ stoc:
     18:                 "STOC18"
         key:            "STOC 2018"
         name:           "50th " # stocname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Ilias Diakonikolas and David Kempe and Monika Henzinger"
+        addr:
+            @0:         "Los Angeles, CA, USA"
+            @1:         ""
+        month:
+            @0:         jun # "~25--29,"
+            @1:         jun
     19:                 "STOC19"
         key:            "STOC 2019"
         name:           "51st " # stocname
@@ -10690,10 +10772,14 @@ trustbus:
         name:
             @0:         "TrustBus 2018: Trust and Privacy in Digital Business, 15th " # trustbusname
             @2:         "TrustBus 2018" # trustbusname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Steven Furnell and Haralambos Mouratidis and G{\"u}nther Pernul"
+        vol:            "11033"
+        addr:
+            @0:         "Regensburg, Germany"
+            @1:         ""
+        month:
+            @0:         sep # "~5--6,"
+            @1:         sep
     19:                 "TRUSTBUS19"
         key:            "TRUSTBUS 2019"
         name:
@@ -10927,10 +11013,14 @@ wisa:
         name:
             @0:         "WISA 17: 18th " # wisaname
             @2:         "WISA 17" # wisaname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Brent ByungHoon Kang and Taesoo Kim"
+        vol:            "10763"
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~24--26,"
+            @1:         aug
     18:                 "WISA18"
         key:            "WISA 2018"
         name:
@@ -10938,8 +11028,12 @@ wisa:
             @2:         "WISA 18" # wisaname
         ed:             ""
         vol:            ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~23--25,"
+            @1:         aug
     19:                 "WISA19"
         key:            "WISA 2019"
         name:
