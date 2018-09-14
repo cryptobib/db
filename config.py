@@ -54,7 +54,7 @@ def add_journal(
         full_name="",
         months=None,
         name=None,
-        url="https://www.informatik.uni-trier.de/~ley/db/journals/${name}/${name}${volume}.html",
+        url="https://dblp.uni-trier.de/db/journals/${name}/${name}${volume}.html",
         publisher="springer",
 ):
     if name is None:
@@ -127,11 +127,11 @@ def add_misc(
 add_conf("ACISP", "Australasian Conference on Information Security and Privacy")
 add_conf("CCS", "ACM Conference on Computer and Communications Security",
          name="ACM CCS", crossref="ccs",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/ccs/ccs${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/ccs/ccs${url_year}.html")
 add_conf("ACNS", "International Conference on Applied Cryptography and Network Security")
 add_conf("AFRICACRYPT", "International Conference on Cryptology in Africa")
 add_conf("ASIACCS", "ACM Symposium on Information, Computer and Communications Security",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/ccs/asiaccs${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/ccs/asiaccs${url_year}.html")
 add_conf("AC", "International Conference on the Theory and Application of Cryptology and Information Security",
          name="ASIACRYPT")
 add_conf("CANS", "International Conference on Cryptology and Network Security")
@@ -145,7 +145,7 @@ add_conf("EC", "International Conference on the Theory and Applications of Crypt
          name="EUROCRYPT")
 add_conf("FC", "Financial Cryptography and Data Security")
 add_conf("FCW", "Financial Cryptography and Data Security Workshops",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/fc/fc${url_year}w.html")
+         url="https://dblp.uni-trier.de/db/conf/fc/fc${url_year}w.html")
 add_conf("FOCS", "Symposium on Foundations of Computer Science")
 add_conf("FSE", "International Workshop on Fast Software Encryption")
 add_conf("ICALP", "International Colloquium on Automata, Languages and Programming")
@@ -154,12 +154,12 @@ add_conf("ICISC", "International Conference on Information Security and Cryptolo
 add_conf("IMA", "IMA Conference on Cryptography and Coding")
 add_conf("ICITS", "International Conference on Information Theoretic Security")
 add_conf("SP", "IEEE Symposium on Security and Privacy", name="IEEE SP",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/sp/sp${url_year}.html", crossref="ieeesp")
+         url="https://dblp.uni-trier.de/db/conf/sp/sp${url_year}.html", crossref="ieeesp")
 add_conf("INDOCRYPT", "International Conference on Cryptology in India")
 add_conf("ISC", "Information Security Conference",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/isw/isc${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/isw/isc${url_year}.html")
 add_conf("ITCS", "Innovations in Theoretical Computer Science",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/innovations/innovations${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/innovations/innovations${url_year}.html")
 add_conf("IWSEC", "International Workshop on Security")
 add_conf("LATIN", "Latin American Theoretical Informatics Symposium")
 add_conf("LC", "International Conference on Cryptology and Information Security in Latin America",
@@ -170,7 +170,7 @@ add_conf("PKC", "International Conference on Practice and Theory in Public Key C
 add_conf("PODC", "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing")
 add_conf("PROVSEC", "International Conference on Provable Security")
 add_conf("SAC", "Workshop on Selected Areas in Cryptography",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/sacrypt/sacrypt${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/sacrypt/sacrypt${url_year}.html")
 add_conf("SCN", "Conference on Security and Cryptography for Networks")
 add_conf("SODA", "ACM-SIAM Symposium on Discrete Algorithms")
 add_conf("STOC", "ACM Symposium on Theory of Computing")
@@ -181,13 +181,13 @@ add_conf("WISA", "International Workshop on Information Security Applications")
 
 add_journal("JC", 1988, "jcrypto", "Journal of Cryptology",
             months=["jan", "apr", "jul", "oct"],
-            url="https://www.informatik.uni-trier.de/~ley/db/journals/joc/joc${volume}.html")
+            url="https://dblp.uni-trier.de/db/journals/joc/joc${volume}.html")
 
 # Warning: we are not using the import.py script for ToSC
 #          therefore, some of the fields here are not used
 add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
             months=[],
-            url="https://dblp2.uni-trier.de/db/journals/tosc/tosc${year}.html")
+            url="https://dblp.uni-trier.de/db/journals/tosc/tosc${year}.html")
 
 add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and Embedded Systems",
             months=[],
