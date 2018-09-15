@@ -125,8 +125,11 @@ def add_misc(
 
 
 add_conf("ACISP", "Australasian Conference on Information Security and Privacy")
-# WARNING: the URL for ACM CCS 2006 is https://dblp.org/db/conf/ccs/ccs2006usa.html (without the USA, it is AsiaCCS)
-# This is the only exception
+# WARNING:
+# the URL for ACM CCS 2006 is https://dblp.org/db/conf/ccs/ccs2006usa.html (without the suffix "usa", it is AsiaCCS)
+# the URL for ACM CCS 2004 is https://dblp.uni-trier.de/db/conf/ccs/ccs2004p.html (wihtout the suffix "p", it is FMSE)
+# These are the only exceptions
+# If you want to re-import these conferences, the simplest (dirty) way is to hardcode the URL below
 add_conf("CCS", "ACM Conference on Computer and Communications Security",
          name="ACM CCS", crossref="ccs",
          url="https://dblp.uni-trier.de/db/conf/ccs/ccs${url_year}.html")
