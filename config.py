@@ -125,6 +125,8 @@ def add_misc(
 
 
 add_conf("ACISP", "Australasian Conference on Information Security and Privacy")
+# WARNING: the URL for ACM CCS 2006 is https://dblp.org/db/conf/ccs/ccs2006usa.html (without the USA, it is AsiaCCS)
+# This is the only exception
 add_conf("CCS", "ACM Conference on Computer and Communications Security",
          name="ACM CCS", crossref="ccs",
          url="https://dblp.uni-trier.de/db/conf/ccs/ccs${url_year}.html")
