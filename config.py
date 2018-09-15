@@ -139,7 +139,7 @@ add_conf("CHES", "Workshop on Cryptographic Hardware and Embedded Systems")
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
 add_conf("C", "International Cryptology Conference", name="CRYPTO")
 add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA",
-         url="https://www.informatik.uni-trier.de/~ley/db/conf/ctrsa/ctrsa${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/ctrsa/ctrsa${url_year}.html")
 add_conf("ESORICS", "European Symposium on Research in Computer Security")
 add_conf("EC", "International Conference on the Theory and Applications of Cryptographic Techniques",
          name="EUROCRYPT")
