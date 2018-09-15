@@ -3,6 +3,7 @@
 abbrev?.bib
 crypto.bib
 crypto_crossref.bib
+crypto_db.bib.*
 
 .DS_Store
 /auto
