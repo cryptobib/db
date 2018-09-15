@@ -138,7 +138,7 @@ add_conf("CANS", "International Conference on Cryptology and Network Security")
 add_conf("CHES", "Workshop on Cryptographic Hardware and Embedded Systems")
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
 add_conf("C", "International Cryptology Conference", name="CRYPTO")
-add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA",
+add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA", crossref="rsa",
          url="https://dblp.uni-trier.de/db/conf/ctrsa/ctrsa${url_year}.html")
 add_conf("ESORICS", "European Symposium on Research in Computer Security")
 add_conf("EC", "International Conference on the Theory and Applications of Cryptographic Techniques",
