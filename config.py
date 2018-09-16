@@ -1,4 +1,4 @@
-# Configuration 
+# Configuration
 #   for mybibtex, import.py, ...
 
 from string import Template
@@ -118,7 +118,7 @@ def add_misc(
         "full_name":          # full name of the conference (not used yet)
             full_name,
         "fields_dblp":        # not used
-            set(), 
+            set(),
         "fields_add":         # not used
             dict([])
     }
@@ -173,6 +173,7 @@ add_conf("NDSS", "Network and Distributed System Security Symposium")
 add_conf("PAIRING", "International Conference on Pairing-based Cryptography", )
 add_conf("PKC", "International Conference on Practice and Theory in Public Key Cryptography")
 add_conf("PODC", "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing")
+add_conf("PQCRYPTO", "International Conference on Post-Quantum Cryptography")
 add_conf("PROVSEC", "International Conference on Provable Security")
 add_conf("SAC", "Workshop on Selected Areas in Cryptography",
          url="https://dblp.uni-trier.de/db/conf/sacrypt/sacrypt${url_year}.html")
@@ -224,6 +225,7 @@ confs_missing_years = {
     "LATIN": {1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017},
     "LC": {2011, 2013},
     "PAIRING": {2011},
+    "PQCRYPTO": {2009, 2012, 2015},
     "SCN": {2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017},
 }
 
