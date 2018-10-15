@@ -1857,10 +1857,14 @@ cans:
         name:
             @0:         "CANS 18: 17th " # cansname
             @2:         "CANS 18" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Jan Camenisch and Panos Papadimitratos"
+        vol:            "11124"
+        addr:
+            @0:         "Naples, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~30~--~" # oct # "~3,"
+            @1:         sep # "~/~" # oct
     19:                 "CANS19"
         key:            "CANS 2019"
         name:
@@ -9067,10 +9071,14 @@ provsec:
         name:
             @0:         "ProvSec 2018: 12th " # provsecname
             @2:         "ProvSec 2018" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Joonsang Baek and Willy Susilo and Jongkil Kim"
+        vol:            "11192"
+        addr:
+            @0:         "Jeju, South Korea"
+            @1:         ""
+        month:
+            @0:         oct # "~25--28,"
+            @1:         oct
     19:                 "PROVSEC19"
         key:            "PROVSEC 2019"
         name:
