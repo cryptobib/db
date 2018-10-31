@@ -721,9 +721,13 @@ ccs:
         name:
             @0:         "ACM CCS 18: 25th " # ccsname
             @2:         "ACM CCS 18" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "David Lie and Mohammad Mannan and Michael Backes and XiaoFeng Wang"
+        addr:
+            @0:         "Toronto, ON, Canada"
+            @1:         ""
+        month:
+            @0:         oct # "~15--19,"
+            @1:         oct
     19:                 "CCS19"
         key:            "ACM CCS 2019"
         name:
@@ -5753,10 +5757,14 @@ icics:
         name:
             @0:         "ICICS 18: 20th " # icicsname
             @2:         "ICICS 18" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "David Naccache and Shouhuai Xu and Sihan Qing and Pierangela Samarati and Gregory Blanc and Rongxing Lu and Zonghua Zhang and Ahmed Meddahi"
+        vol:            "11149"
+        addr:
+            @0:         "Lille, France"
+            @1:         ""
+        month:
+            @0:         oct # "~29--31,"
+            @1:         oct
     19:                 "ICICS19"
         key:            "ICICS 2019"
         name:
