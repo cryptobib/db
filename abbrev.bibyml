@@ -721,9 +721,13 @@ ccs:
         name:
             @0:         "ACM CCS 18: 25th " # ccsname
             @2:         "ACM CCS 18" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "David Lie and Mohammad Mannan and Michael Backes and XiaoFeng Wang"
+        addr:
+            @0:         "Toronto, ON, Canada"
+            @1:         ""
+        month:
+            @0:         oct # "~15--19,"
+            @1:         oct
     19:                 "CCS19"
         key:            "ACM CCS 2019"
         name:
@@ -1857,10 +1861,14 @@ cans:
         name:
             @0:         "CANS 18: 17th " # cansname
             @2:         "CANS 18" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Jan Camenisch and Panos Papadimitratos"
+        vol:            "11124"
+        addr:
+            @0:         "Naples, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~30~--~" # oct # "~3,"
+            @1:         sep # "~/~" # oct
     19:                 "CANS19"
         key:            "CANS 2019"
         name:
@@ -5749,10 +5757,14 @@ icics:
         name:
             @0:         "ICICS 18: 20th " # icicsname
             @2:         "ICICS 18" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "David Naccache and Shouhuai Xu and Sihan Qing and Pierangela Samarati and Gregory Blanc and Rongxing Lu and Zonghua Zhang and Ahmed Meddahi"
+        vol:            "11149"
+        addr:
+            @0:         "Lille, France"
+            @1:         ""
+        month:
+            @0:         oct # "~29--31,"
+            @1:         oct
     19:                 "ICICS19"
         key:            "ICICS 2019"
         name:
@@ -9067,10 +9079,14 @@ provsec:
         name:
             @0:         "ProvSec 2018: 12th " # provsecname
             @2:         "ProvSec 2018" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Joonsang Baek and Willy Susilo and Jongkil Kim"
+        vol:            "11192"
+        addr:
+            @0:         "Jeju, South Korea"
+            @1:         ""
+        month:
+            @0:         oct # "~25--28,"
+            @1:         oct
     19:                 "PROVSEC19"
         key:            "PROVSEC 2019"
         name:
