@@ -10546,15 +10546,15 @@ tcc:
         name2:
             @0:         "TCC~2018: 16th " # tccname # ", Part~II"
             @2:         "TCC~2018" # tccname  # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Amos Beimel and Stefan Dziembowski"
+        vol1:           "11239"
+        vol2:           "11240"
         addr:
-            @0:         ""
+            @0:         "Panaji, India"
             @1:         ""
         month:
-            @0:         mar
-            @1:         mar
+            @0:         nov # "~11--14,"
+            @1:         nov
     19:
         -1:             "TCC19-1"
         -2:             "TCC19-2"
