@@ -1856,10 +1856,14 @@ cans:
         name:
             @0:         "CANS 17: 16th " # cansname
             @2:         "CANS 17" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Srdjan Capkun and Sherman S. M. Chow"
+        vol:            "11261"
+        addr:
+            @0:         "Hong Kong, China"
+            @1:         ""
+        month:
+            @0:         nov # "~30~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
     18:                 "CANS18"
         key:            "CANS 2018"
         name:
@@ -6047,10 +6051,14 @@ icisc:
         name:
             @0:         "ICISC 17: 20th " # iciscname
             @2:         "ICISC 17" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Howon Kim and Dong-Chan Kim"
+        vol:            "10779"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~29~--~" # dec # "~1,"
+            @1:         nov # "~/~" # dec
     18:                 "ICISC18"
         key:            "ICISC 2018"
         name:

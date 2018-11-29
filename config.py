@@ -214,7 +214,6 @@ def get_conf_name(confkey):
 confs_missing_years = {
     "AC": {1993, 1995, 1997},
     "AFRICACRYPT": {2015},
-    "CANS": {2017},
     "CCS": {1995},
     "EC": {1983},
     "ESORICS": {1991, 1993, 1995, 1997, 1999, 2001},
