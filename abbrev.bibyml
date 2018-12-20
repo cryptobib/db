@@ -721,9 +721,13 @@ ccs:
         name:
             @0:         "ACM CCS 18: 25th " # ccsname
             @2:         "ACM CCS 18" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "David Lie and Mohammad Mannan and Michael Backes and XiaoFeng Wang"
+        addr:
+            @0:         "Toronto, ON, Canada"
+            @1:         ""
+        month:
+            @0:         oct # "~15--19,"
+            @1:         oct
     19:                 "CCS19"
         key:            "ACM CCS 2019"
         name:
@@ -1278,9 +1282,13 @@ asiaccs:
         name:
             @0:         "ASIACCS 18: 13th " # asiaccsname
             @2:         "ASIACCS 18" # asiaccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Jong Kim and Gail-Joon Ahn and Seungjoo Kim and Yongdae Kim and Javier L{\'o}pez and Taesoo Kim"
+        addr:
+            @0:         "Incheon, Republic of Korea"
+            @1:         ""
+        month:
+            @0:         apr # "~2--6,"
+            @1:         apr
     19:                 "ASIACCS19"
         key:            "ASIACCS 2019"
         name:
@@ -1633,18 +1641,22 @@ asiacrypt:
     18:
         -1:             "AC18-1"
         -2:             "AC18-2"
+        -3:             "AC18-3"
         key1:           "ASIACRYPT 2018, Part~I"
         key2:           "ASIACRYPT 2018, Part~II"
+        key3:           "ASIACRYPT 2018, Part~III"
         name1:          asiacryptname # "~2018, Part~I"
         name2:          asiacryptname # "~2018, Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:          asiacryptname # "~2018, Part~III"
+        ed:             "Thomas Peyrin and Steven Galbraith"
+        vol1:           "11272"
+        vol2:           "11273"
+        vol3:           "11274"
         addr:
-            @0:         ""
+            @0:         "Brisbane, Queensland, Australia"
             @1:         ""
         month:
-            @0:         dec
+            @0:         dec # "~2--6,"
             @1:         dec
     19:
         -1:             "AC19-1"
@@ -1844,19 +1856,27 @@ cans:
         name:
             @0:         "CANS 17: 16th " # cansname
             @2:         "CANS 17" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Srdjan Capkun and Sherman S. M. Chow"
+        vol:            "11261"
+        addr:
+            @0:         "Hong Kong, China"
+            @1:         ""
+        month:
+            @0:         nov # "~30~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
     18:                 "CANS18"
         key:            "CANS 2018"
         name:
             @0:         "CANS 18: 17th " # cansname
             @2:         "CANS 18" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Jan Camenisch and Panos Papadimitratos"
+        vol:            "11124"
+        addr:
+            @0:         "Naples, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~30~--~" # oct # "~3,"
+            @1:         sep # "~/~" # oct
     19:                 "CANS19"
         key:            "CANS 2019"
         name:
@@ -5745,10 +5765,14 @@ icics:
         name:
             @0:         "ICICS 18: 20th " # icicsname
             @2:         "ICICS 18" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "David Naccache and Shouhuai Xu and Sihan Qing and Pierangela Samarati and Gregory Blanc and Rongxing Lu and Zonghua Zhang and Ahmed Meddahi"
+        vol:            "11149"
+        addr:
+            @0:         "Lille, France"
+            @1:         ""
+        month:
+            @0:         oct # "~29--31,"
+            @1:         oct
     19:                 "ICICS19"
         key:            "ICICS 2019"
         name:
@@ -6027,10 +6051,14 @@ icisc:
         name:
             @0:         "ICISC 17: 20th " # iciscname
             @2:         "ICISC 17" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Howon Kim and Dong-Chan Kim"
+        vol:            "10779"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~29~--~" # dec # "~1,"
+            @1:         nov # "~/~" # dec
     18:                 "ICISC18"
         key:            "ICISC 2018"
         name:
@@ -9063,10 +9091,14 @@ provsec:
         name:
             @0:         "ProvSec 2018: 12th " # provsecname
             @2:         "ProvSec 2018" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Joonsang Baek and Willy Susilo and Jongkil Kim"
+        vol:            "11192"
+        addr:
+            @0:         "Jeju, South Korea"
+            @1:         ""
+        month:
+            @0:         oct # "~25--28,"
+            @1:         oct
     19:                 "PROVSEC19"
         key:            "PROVSEC 2019"
         name:
@@ -10526,15 +10558,15 @@ tcc:
         name2:
             @0:         "TCC~2018: 16th " # tccname # ", Part~II"
             @2:         "TCC~2018" # tccname  # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Amos Beimel and Stefan Dziembowski"
+        vol1:           "11239"
+        vol2:           "11240"
         addr:
-            @0:         ""
+            @0:         "Panaji, India"
             @1:         ""
         month:
-            @0:         mar
-            @1:         mar
+            @0:         nov # "~11--14,"
+            @1:         nov
     19:
         -1:             "TCC19-1"
         -2:             "TCC19-2"
@@ -11052,7 +11084,98 @@ wisa:
         vol:            ""
         addr:           ""
         month:          ""
-xxxxname:               "XXXX"
+pqcryptoname:          "Post-Quantum Cryptography"
+pqcryptopub:           springer
+pqcrypto:
+    08:                 "PQCRYPTO08"
+        key:            "PQCRYPTO 2008"
+        name:           "Post-quantum cryptography, second international workshop, PQCRYPTO 2008"
+        ed:             "Johannes Buchmann and Jintai Ding"
+        vol:            "5299"
+        addr:
+            @0:         "Cincinnati, Ohio, United States"
+            @2:         ""
+        month:
+            @0:         oct # "~17--19"
+            @1:         oct
+    10:                 "PQCRYPTO10"
+        key:            "PQCRYPTO 2010"
+        name:           "The Third International Workshop on Post-Quantum Cryptography, PQCRYPTO 2010"
+        ed:             "Nicolas Sendrier"
+        vol:            "6061"
+        addr:
+            @0:         "Darmstadt, Germany"
+            @2:         ""
+        month:
+            @0:         may # "~25--28"
+            @2:         may
+    11:                 "PQCRYPTO11"
+        key:            "PQCRYPTO 2011"
+        name:           "Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011"
+        ed:             "Bo-Yin Yang"
+        vol:            "7071"
+        addr:
+            @0:         "Tapei, Taiwan"
+            @2:         ""
+        month:
+            @0:         nov # "~29~--~" # dec # "~2"
+            @1:         nov # "~/~" # dec
+    13:                 "PQCRYPTO13"
+        key:            "PQCRYPTO 2013"
+        name:           "Post-Quantum Cryptography - 5th International Workshop, PQCrypto 2013"
+        ed:             "Philippe Gaborit"
+        vol:            "7932"
+        addr:
+            @0:         "Limoges, France"
+            @2:         ""
+        month:
+            @0:         jun # "~4--7"
+            @2:         jun
+    14:                 "PQCRYPTO14"
+        key:            "PQCRYPTO 2014"
+        name:           "Post-Quantum Cryptography - 6th International Workshop, PQCrypto 2014"
+        ed:             "Michele Mosca"
+        vol:            "8772"
+        addr:
+            @0:         "Waterloo, Ontario, Canada"
+            @2:         ""
+        month:
+            @0:         oct # "~1--3"
+            @2:         oct
+    16:                 "PQCRYPTO16"
+        key:            "PQCRYPTO 2016"
+        name:           "Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016"
+        ed:             "Tsuyoshi Takagi"
+        vol:            "9606"
+        addr:
+            @0:         "Fukuoka, Japan"
+            @2:         ""
+        month:
+            @0:         feb # "~24--26"
+            @2:         ""
+    17:                 "PQCRYPTO17"
+        key:            "PQCRYPTO 2017"
+        name:           "Post-Quantum Cryptography - 8th International Workshop, PQCrypto 2017"
+        ed:             "Tanja Lange and Tsuyoshi Takagi"
+        vol:            "10346"
+        addr:
+            @0:         "Utrecht, The Netherlands"
+            @2:         ""
+        month:
+            @0:         jun # "~26--28"
+            @2:         ""
+    18:                 "PQCRYPTO18"
+        key:            "PQCRYPTO 2018"
+        name:           "Post-Quantum Cryptography - 9th International Conference, PQCrypto 2018"
+        ed:             "Tanja Lange and Rainer Steinwandt"
+        vol:            "10786"
+        addr:
+            @0:         "Fort Lauderdale, Florida, United States"
+            @2:         ""
+        month:
+            @0:         apr # "~9--11"
+            @2:         ""
+xxxxname:               ""
 xxxpub:                 springer
 xxxx:
     00:                 "XXXX00"
