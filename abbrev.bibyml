@@ -9918,9 +9918,13 @@ soda:
     19:                 "SODA19"
         key:            "SODA 2019"
         name:           "30th " # sodaname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Timothy M. Chan"
+        addr:
+            @0:         "San Diego, California, USA"
+            @1:         ""
+        month:
+            @0:         jan # "~6--9,"
+            @1:         jan
     20:                 "SODA20"
         key:            "SODA 2020"
         name:           "31st " # sodaname
