@@ -7352,13 +7352,13 @@ itcs:
         name:
             @0:         "ITCS 2019: 10th " # itcsname_v4
             @2:         "ITCS 2019" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Avrim Blum"
+        vol:            "124"
         addr:
-            @0:         ""
+            @0:         "San Diego, California, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~10--12,"
             @1:         jan
     20:               "ITCS20"
         key:            "ITCS 2020"
