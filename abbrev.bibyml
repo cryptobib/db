@@ -4363,15 +4363,23 @@ focs:
     17:                 "FOCS17"
         key:            "FOCS 2017"
         name:           "58th " # focsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Chris Umans"
+        addr:
+            @0:         "Berkeley, CA, USA"
+            @1:         ""
+        month:
+            @0:         oct # "~15--17,"
+            @1:         oct
     18:                 "FOCS18"
         key:            "FOCS 2018"
         name:           "59th " # focsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Mikkel Thorup"
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         oct # "~7--9,"
+            @1:         oct
     19:                 "FOCS19"
         key:            "FOCS 2019"
         name:           "60th " # focsname
@@ -6887,10 +6895,14 @@ indocrypt:
         name:
             @0:         indocryptname # "~2018: 19th " # indocryptsuffix
             @2:         indocryptname # "~2018" # indocryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Debrup Chakraborty and Tetsu Iwata"
+        vol:            "11356"
+        addr:
+            @0:         "New Delhi, India"
+            @1:         ""
+        month:
+            @0:         dec # "~9--12,"
+            @1:         dec
     19:                 "INDOCRYPT19"
         key:            "INDOCRYPT 2019"
         name:
@@ -7340,13 +7352,13 @@ itcs:
         name:
             @0:         "ITCS 2019: 10th " # itcsname_v4
             @2:         "ITCS 2019" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Avrim Blum"
+        vol:            "124"
         addr:
-            @0:         ""
+            @0:         "San Diego, California, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~10--12,"
             @1:         jan
     20:               "ITCS20"
         key:            "ITCS 2020"
@@ -9906,9 +9918,13 @@ soda:
     19:                 "SODA19"
         key:            "SODA 2019"
         name:           "30th " # sodaname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Timothy M. Chan"
+        addr:
+            @0:         "San Diego, California, USA"
+            @1:         ""
+        month:
+            @0:         jan # "~6--9,"
+            @1:         jan
     20:                 "SODA20"
         key:            "SODA 2020"
         name:           "31st " # sodaname
