@@ -6072,10 +6072,14 @@ icisc:
         name:
             @0:         "ICISC 18: 21st " # iciscname
             @2:         "ICISC 18" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kwangsu Lee"
+        vol:            "11396"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~28--30,"
+            @1:         nov
     19:                 "ICISC19"
         key:            "ICISC 2019"
         name:
@@ -9439,10 +9443,14 @@ sac:
         name:
             @0:         "SAC 2018: 25th " # sacname
             @2:         "SAC 2018" # sacname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Carlos Cid and Michael J. {Jacobson Jr}:"
+        vol:            "11349"
+        addr:
+            @0:         "Calgary, AB, Canada"
+            @1:         ""
+        month:
+            @0:         aug # "~15--17,"
+            @1:         aug
     19:                 "SAC19"
         key:            "SAC 2019"
         name:
