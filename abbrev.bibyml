@@ -35,6 +35,7 @@ springer:
 dagstuhl:
     @0:                 "Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik"
     @1:                 "Schloss Dagstuhl"
+degruyter:              "De Gruyter"
 plenumpress:            "Plenum Press, New York, USA"
 ucsb-ece:               "U.C. Santa Barbara, Dept. of Elec. and Computer Eng."
 sigcomm:                "Proceedings of {ACM} {SIGCOMM}"
@@ -8954,6 +8955,11 @@ podc:
         ed:             ""
         addr:           ""
         month:          ""
+popets:
+    @0:                 "Proceedings on Privacy Enhancing Technologies"
+    @2:                 "{PoPETs}"
+popetsissn:             "2299-0984"
+popetspub:              "De Gruyter Open"
 provsecname:
     @0:                 "International Conference on Provable Security"
     @2:                 ""
