@@ -189,6 +189,11 @@ add_journal("JC", 1988, "jcrypto", "Journal of Cryptology",
             months=["jan", "apr", "jul", "oct"],
             url="https://dblp.uni-trier.de/db/journals/joc/joc${volume}.html")
 
+add_journal("PoPETS", 2015, "popets", "Proceedings on Privacy Enhancing Technologies",
+            months=["jan", "apr", "jul", "oct"],
+            url="https://dblp.uni-trier.de/db/journals/popets/popets${year}.html",
+            publisher="degruyter")
+
 # Warning: we are not using the import.py script for ToSC
 #          therefore, some of the fields here are not used
 add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
@@ -198,11 +203,6 @@ add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
 add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and Embedded Systems",
             months=[],
             url="httpss://dblp.uni-trier.de/db/journals/tches/tches${year}.html")
-
-add_journal("POPETS", 2015, "popets", "Proceedings on Privacy Enhancing Technologies",
-            months=["jan", "apr", "jul", "oct"],
-            url="https://dblp.uni-trier.de/db/journals/popets/popets${year}.html",
-            publisher="degruyter")
 
 add_misc("EPRINT", "Cryptology ePrint Archive", url="https://eprint.iacr.org/${year}")
 
