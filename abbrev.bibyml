@@ -8233,6 +8233,184 @@ pairing:
         vol:            ""
         addr:           ""
         month:          ""
+petsname_v:
+    1:
+        @0:             "International Workshop on Privacy Enhancing Technologies"
+        @2:             ""
+    2:
+        @0:             "International Symposium on Privacy Enhancing Technologies"
+        @2:             ""
+petspub:                 springer
+pets:
+    02:                 "PETS02"
+        key:            "PET 2002"
+        name:
+            @0:         "PET~2002: 2nd " # petsname_v1
+            @2:         "PET~2002" # petsname_v1
+        ed:             "Roger Dingledine and Paul F. Syverson"
+        vol:            "2482"
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         apr # "~14--15,"
+            @1:         apr
+    03:                 "PETS03"
+        key:            "PET 2003"
+        name:
+            @0:         "PET~2003: 3rd " # petsname_v1
+            @2:         "PET~2003" # petsname_v1
+        ed:             "Roger Dingledine"
+        vol:            "2760"
+        addr:
+            @0:         "Dresden, Germany"
+            @1:         ""
+        month:
+            @0:         mar # "~26--28,"
+            @1:         mar
+    04:                 "PETS04"
+        key:            "PET 2004"
+        name:
+            @0:         "PET~2004: 4th " # petsname_v1
+            @2:         "PET~2004" # petsname_v1
+        ed:             "David M. {Martin Jr.} and Andrei Serjantov"
+        vol:            "3424"
+        addr:
+            @0:         "Toronto, Canada"
+            @1:         ""
+        month:
+            @0:         may # "~26--28,"
+            @1:         may
+    05:                 "PETS05"
+        key:            "PET 2005"
+        name:
+            @0:         "PET~2005: 5th " # petsname_v1
+            @2:         "PET~2005" # petsname_v1
+        ed:             "George Danezis and David M. {Martin Jr.}"
+        vol:            "3856"
+        addr:
+            @0:         "Cavtat, Croatia"
+            @1:         ""
+        month:
+            @0:         may # "~30~--~" # jun # "~1,"
+            @1:         may # "~/~" # jun
+    06:                 "PETS06"
+        key:            "PET 2006"
+        name:
+            @0:         "PET~2006: 6th " # petsname_v1
+            @2:         "PET~2006" # petsname_v1
+        ed:             "George Danezis and Philippe Golle"
+        vol:            "4258"
+        addr:
+            @0:         "Cambridge, UK"
+            @1:         ""
+        month:
+            @0:         jun # "~28--30,"
+            @1:         jun
+    07:                 "PETS07"
+        key:            "PET 2007"
+        name:
+            @0:         "PET~2007: 7th " # petsname_v2
+            @2:         "PET~2007" # petsname_v2
+        ed:             "Nikita Borisov and Philippe Golle"
+        vol:            "4776"
+        addr:
+            @0:         "Ottawa, Canada"
+            @1:         ""
+        month:
+            @0:         jun # "~20--22,"
+            @1:         jun
+    08:                 "PETS08"
+        key:            "PETS 2008"
+        name:
+            @0:         "PETS~2008: 8th " # petsname_v2
+            @2:         "PETS~2008" # petsname_v2
+        ed:             "Nikita Borisov and Ian Goldberg"
+        vol:            "5134"
+        addr:
+            @0:         "Leuven, Belgium"
+            @1:         ""
+        month:
+            @0:         jul # "~23--25,"
+            @1:         jul
+    09:                 "PETS09"
+        key:            "PETS 2009"
+        name:
+            @0:         "PETS~2009: 9th " # petsname_v2
+            @2:         "PETS~2009" # petsname_v2
+        ed:             "Ian Goldberg and Mikhail J. Atallah"
+        vol:            "5672"
+        addr:
+            @0:         "Seattle, WA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~5--7,"
+            @1:         aug
+    10:                 "PETS10"
+        key:            "PETS 2010"
+        name:
+            @0:         "PETS~2010: 10th " # petsname_v2
+            @2:         "PETS~2010" # petsname_v2
+        ed:             "Mikhail J. Atallah and Nicholas J. Hopper"
+        vol:            "6205"
+        addr:
+            @0:         "Berlin, Germany"
+            @1:         ""
+        month:
+            @0:         jul # "~21--23,"
+            @1:         jul
+    11:                 "PETS11"
+        key:            "PETS 2011"
+        name:
+            @0:         "PETS~2011: 11th " # petsname_v2
+            @2:         "PETS~2011" # petsname_v2
+        ed:             "Simone {Fischer-H{\"u}bner} and Nicholas Hopper"
+        vol:            "6794"
+        addr:
+            @0:         "Waterloo, ON, Canada"
+            @1:         ""
+        month:
+            @0:         jul # "~27--29,"
+            @1:         jul
+    12:                 "PETS12"
+        key:            "PETS 2012"
+        name:
+            @0:         "PETS~2012: 12th " # petsname_v2
+            @2:         "PETS~2012" # petsname_v2
+        ed:             "Simone {Fischer-H{\"u}bner} and Matthew K. Wright"
+        vol:            "7384"
+        addr:
+            @0:         "Vigo, Spain"
+            @1:         ""
+        month:
+            @0:         jul # "~11--13,"
+            @1:         jul
+    13:                 "PETS13"
+        key:            "PETS 2013"
+        name:
+            @0:         "PETS~2013: 13th " # petsname_v2
+            @2:         "PETS~2013" # petsname_v2
+        ed:             "Emiliano {De Cristofaro} and Matthew K. Wright"
+        vol:            "7981"
+        addr:
+            @0:         "Bloomington, IN, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~10--12,"
+            @1:         jul
+    14:                 "PETS14"
+        key:            "PETS 2014"
+        name:
+            @0:         "PETS~2014: 14th " # petsname_v2
+            @2:         "PETS~2014" # petsname_v2
+        ed:             "Emiliano {De Cristofaro} and Steven J. Murdoch"
+        vol:            "8555"
+        addr:
+            @0:         "Amsterdam, The Netherlands"
+            @1:         ""
+        month:
+            @0:         jul # "~16--18,"
+            @1:         jul
 pkcname_v:
     1:
         @0:             "International Workshop on Theory and Practice in Public Key Cryptography"
