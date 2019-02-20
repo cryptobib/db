@@ -171,7 +171,7 @@ add_conf("LC", "International Conference on Cryptology and Information Security 
          name="LATINCRYPT")
 add_conf("NDSS", "Network and Distributed System Security Symposium")
 add_conf("PAIRING", "International Conference on Pairing-based Cryptography", )
-add_conf("PETS", "International Symposium on Privacy Enhancing Technologies", url="https://dblp.uni-trier.de/db/conf/pet/pet${url_year}.html")
+add_conf("PETS", "International Symposium on Privacy Enhancing Technologies", url="https://dblp.uni-trier.de/db/conf/pet/pets${url_year}.html")
 add_conf("PKC", "International Conference on Practice and Theory in Public Key Cryptography")
 add_conf("PODC", "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing")
 add_conf("PQCRYPTO", "International Conference on Post-Quantum Cryptography")
