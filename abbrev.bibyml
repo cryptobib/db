@@ -11062,7 +11062,7 @@ usenix:
         month:
             @0:         oct # "~4--6,"
             @1:         oct
-    95:                 "USENIX94"
+    95:                 "USENIX95"
         key:            "USENIX Security 1995"
         name:
             @0:         "USENIX Security 95: 5th " # usenixname
