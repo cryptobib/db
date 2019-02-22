@@ -436,7 +436,7 @@ ccs:
         name:
             @0:         "ACM CCS 93: 1st " # ccsname
             @2:         "ACM CCS 93" # ccsname
-        ed:             "V.~Ashby"
+        ed:             "Dorothy E. Denning and Raymond Pyle and Ravi Ganesan and Ravi S. Sandhu and Victoria Ashby"
         addr:
             @0:         "Fairfax, Virginia, USA"
             @1:         ""
@@ -448,17 +448,19 @@ ccs:
         name:
             @0:         "ACM CCS 94: 2nd " # ccsname
             @2:         "ACM CCS 94" # ccsname
-        ed:             ""
+        ed:             "Dorothy E. Denning and Raymond Pyle and Ravi Ganesan and Ravi S. Sandhu"
         addr:
             @0:         "Fairfax, Virginia, USA"
             @1:         ""
         month:          ""
+            @0:         nov # "~2--4,"
+            @1:         nov
     96:                 "CCS96"
         key:            "ACM CCS 1996"
         name:
             @0:         "ACM CCS 96: 3rd " # ccsname
             @2:         "ACM CCS 96" # ccsname
-        ed:             ""
+        ed:             "Li Gong and Jacques Stern"
         addr:
             @0:         "New Delhi, India"
             @1:         ""
@@ -470,7 +472,7 @@ ccs:
         name:
             @0:         "ACM CCS 97: 4th " # ccsname
             @2:         "ACM CCS 97" # ccsname
-        ed:             ""
+        ed:             "Richard Graveman and Philippe A. Janson and Clifford Neuman and Li Gong"
         addr:
             @0:         "Zurich, Switzerland"
             @1:         ""
@@ -482,7 +484,7 @@ ccs:
         name:
             @0:         "ACM CCS 98: 5th " # ccsname
             @2:         "ACM CCS 98" # ccsname
-        ed:             ""
+        ed:             "Li Gong and Michael K. Reiter"
         addr:
             @0:         "San Francisco, CA, USA"
             @1:         ""
@@ -494,9 +496,9 @@ ccs:
         name:
             @0:         "ACM CCS 99: 6th " # ccsname
             @2:         "ACM CCS 99" # ccsname
-        ed:             ""
+        ed:             "Juzar Motiwalla and Gene Tsudik"
         addr:
-            @0:         "Kent Ridge Digital Labs, Singapore"
+            @0:         "Singapore"
             @1:         ""
         month:
             @0:         nov # "~1--4,"
@@ -504,9 +506,9 @@ ccs:
     00:                 "CCS00"
         key:            "ACM CCS 2000"
         name:
-            @0:         "ACM CCS 00: 7th " # ccsname
-            @2:         "ACM CCS 00" # ccsname
-        ed:             "S.~Jajodia and P.~Samarati"
+            @0:         "ACM CCS 2000: 7th " # ccsname
+            @2:         "ACM CCS 2000" # ccsname
+        ed:             "Dimitris Gritzalis and Sushil Jajodia and Pierangela Samarati"
         addr:
             @0:         "Athens, Greece"
             @1:         ""
@@ -516,9 +518,9 @@ ccs:
     01:                 "CCS01"
         key:            "ACM CCS 2001"
         name:
-            @0:         "ACM CCS 01: 8th " # ccsname
-            @2:         "ACM CCS 01" # ccsname
-        ed:             ""
+            @0:         "ACM CCS 2001: 8th " # ccsname
+            @2:         "ACM CCS 2001" # ccsname
+        ed:             "Michael K. Reiter and Pierangela Samarati"
         addr:
             @0:         "Philadelphia, PA, USA"
             @1:         ""
@@ -528,11 +530,11 @@ ccs:
     02:                 "CCS02"
         key:            "ACM CCS 2002"
         name:
-            @0:         "ACM CCS 02: 9th " # ccsname
-            @2:         "ACM CCS 02" # ccsname
+            @0:         "ACM CCS 2002: 9th " # ccsname
+            @2:         "ACM CCS 2002" # ccsname
         ed:             "Vijayalakshmi Atluri"
         addr:
-            @0:         "Washington D.C., USA"
+            @0:         "Washington, DC, USA"
             @1:         ""
         month:
             @0:         nov # "~18--22,"
@@ -540,11 +542,11 @@ ccs:
     03:                 "CCS03"
         key:            "ACM CCS 2003"
         name:
-            @0:         "ACM CCS 03: 10th " # ccsname
-            @2:         "ACM CCS 03" # ccsname
+            @0:         "ACM CCS 2003: 10th " # ccsname
+            @2:         "ACM CCS 2003" # ccsname
         ed:             "Sushil Jajodia and Vijayalakshmi Atluri and Trent Jaeger"
         addr:
-            @0:         "Washington D.C., USA"
+            @0:         "Washington, DC, USA"
             @1:         ""
         month:
             @0:         oct # "~27--30,"
@@ -552,11 +554,11 @@ ccs:
     04:                 "CCS04"
         key:            "ACM CCS 2004"
         name:
-            @0:         "ACM CCS 04: 11th " # ccsname
-            @2:         "ACM CCS 04" # ccsname
+            @0:         "ACM CCS 2004: 11th " # ccsname
+            @2:         "ACM CCS 2004" # ccsname
         ed:             "Vijayalakshmi Atluri and Birgit Pfitzmann and Patrick McDaniel"
         addr:
-            @0:         "Washington D.C., USA"
+            @0:         "Washington, DC, USA"
             @1:         ""
         month:
             @0:         oct # "~25--29,"
@@ -564,8 +566,8 @@ ccs:
     05:                 "CCS05"
         key:            "ACM CCS 2005"
         name:
-            @0:         "ACM CCS 05: 12th " # ccsname
-            @2:         "ACM CCS 05" # ccsname
+            @0:         "ACM CCS 2005: 12th " # ccsname
+            @2:         "ACM CCS 2005" # ccsname
         ed:             "Vijayalakshmi Atluri and Catherine Meadows and Ari Juels"
         addr:
             @0:         "Alexandria, Virginia, USA"
@@ -576,9 +578,9 @@ ccs:
     06:                 "CCS06"
         key:            "ACM CCS 2006"
         name:
-            @0:         "ACM CCS 06: 13th " # ccsname
-            @2:         "ACM CCS 06" # ccsname
-        ed:             "Ari Juels and Rebecca N. Wright and {Sabrina De Capitani di} Vimercati"
+            @0:         "ACM CCS 2006: 13th " # ccsname
+            @2:         "ACM CCS 2006" # ccsname
+        ed:             "Ari Juels and Rebecca N. Wright and Sabrina {De Capitani di Vimercati}"
         addr:
             @0:         "Alexandria, Virginia, USA"
             @1:         ""
@@ -588,9 +590,9 @@ ccs:
     07:                 "CCS07"
         key:            "ACM CCS 2007"
         name:
-            @0:         "ACM CCS 07: 14th " # ccsname
-            @2:         "ACM CCS 07" # ccsname
-        ed:             "Peng Ning and Sabrina De Capitani {di Vimercati} and Paul F. Syverson"
+            @0:         "ACM CCS 2007: 14th " # ccsname
+            @2:         "ACM CCS 2007" # ccsname
+        ed:             "Peng Ning and Sabrina {De Capitani di Vimercati} and Paul F. Syverson"
         addr:
             @0:         "Alexandria, Virginia, USA"
             @1:         ""
@@ -600,8 +602,8 @@ ccs:
     08:                 "CCS08"
         key:            "ACM CCS 2008"
         name:
-            @0:         "ACM CCS 08: 15th " # ccsname
-            @2:         "ACM CCS 08" # ccsname
+            @0:         "ACM CCS 2008: 15th " # ccsname
+            @2:         "ACM CCS 2008" # ccsname
         ed:             "Peng Ning and Paul F. Syverson and Somesh Jha"
         addr:
             @0:         "Alexandria, Virginia, USA"
@@ -612,9 +614,9 @@ ccs:
     09:                 "CCS09"
         key:            "ACM CCS 2009"
         name:
-            @0:         "ACM CCS 09: 16th " # ccsname
-            @2:         "ACM CCS 09" # ccsname
-        ed:             "Ehab Al-Shaer and Somesh Jha and Angelos D. Keromytis"
+            @0:         "ACM CCS 2009: 16th " # ccsname
+            @2:         "ACM CCS 2009" # ccsname
+        ed:             "Ehab {Al-Shaer} and Somesh Jha and Angelos D. Keromytis"
         addr:
             @0:         "Chicago, Illinois, USA"
             @1:         ""
@@ -624,9 +626,9 @@ ccs:
     10:                 "CCS10"
         key:            "ACM CCS 2010"
         name:
-            @0:         "ACM CCS 10: 17th " # ccsname
-            @2:         "ACM CCS 10" # ccsname
-        ed:             "Ehab Al-Shaer and Angelos D. Keromytis and Vitaly Shmatikov"
+            @0:         "ACM CCS 2010: 17th " # ccsname
+            @2:         "ACM CCS 2010" # ccsname
+        ed:             "Ehab {Al-Shaer} and Angelos D. Keromytis and Vitaly Shmatikov"
         addr:
             @0:         "Chicago, Illinois, USA"
             @1:         ""
@@ -636,8 +638,8 @@ ccs:
     11:                 "CCS11"
         key:            "ACM CCS 2011"
         name:
-            @0:         "ACM CCS 11: 18th " # ccsname
-            @2:         "ACM CCS 11" # ccsname
+            @0:         "ACM CCS 2011: 18th " # ccsname
+            @2:         "ACM CCS 2011" # ccsname
         ed:             "Yan Chen and George Danezis and Vitaly Shmatikov"
         addr:
             @0:         "Chicago, Illinois, USA"
@@ -648,8 +650,8 @@ ccs:
     12:                 "CCS12"
         key:            "ACM CCS 2012"
         name:
-            @0:         "ACM CCS 12: 19th " # ccsname
-            @2:         "ACM CCS 12" # ccsname
+            @0:         "ACM CCS 2012: 19th " # ccsname
+            @2:         "ACM CCS 2012" # ccsname
         ed:             "Ting Yu and George Danezis and Virgil D. Gligor"
         addr:
             @0:         "Raleigh, NC, USA"
@@ -660,8 +662,8 @@ ccs:
     13:                 "CCS13"
         key:            "ACM CCS 2013"
         name:
-            @0:         "ACM CCS 13: 20th " # ccsname
-            @2:         "ACM CCS 13" # ccsname
+            @0:         "ACM CCS 2013: 20th " # ccsname
+            @2:         "ACM CCS 2013" # ccsname
         ed:             "Ahmad-Reza Sadeghi and Virgil D. Gligor and Moti Yung"
         addr:
             @0:         "Berlin, Germany"
@@ -672,8 +674,8 @@ ccs:
     14:                 "CCS14"
         key:            "ACM CCS 2014"
         name:
-            @0:         "ACM CCS 14: 21st " # ccsname
-            @2:         "ACM CCS 14" # ccsname
+            @0:         "ACM CCS 2014: 21st " # ccsname
+            @2:         "ACM CCS 2014" # ccsname
         ed:             "Gail-Joon Ahn and Moti Yung and Ninghui Li"
         addr:
             @0:         "Scottsdale, AZ, USA"
@@ -684,9 +686,9 @@ ccs:
     15:                 "CCS15"
         key:            "ACM CCS 2015"
         name:
-            @0:         "ACM CCS 15: 22nd " # ccsname
-            @2:         "ACM CCS 15" # ccsname
-        ed:             "Indrajit Ray and Ninghui Li and Christopher Kruegel:"
+            @0:         "ACM CCS 2015: 22nd " # ccsname
+            @2:         "ACM CCS 2015" # ccsname
+        ed:             "Indrajit Ray and Ninghui Li and Christopher Kruegel"
         addr:
             @0:         "Denver, CO, USA"
             @1:         ""
@@ -696,8 +698,8 @@ ccs:
     16:                 "CCS16"
         key:            "ACM CCS 2016"
         name:
-            @0:         "ACM CCS 16: 23rd " # ccsname
-            @2:         "ACM CCS 16" # ccsname
+            @0:         "ACM CCS 2016: 23rd " # ccsname
+            @2:         "ACM CCS 2016" # ccsname
         ed:             "Edgar R. Weippl and Stefan Katzenbeisser and Christopher Kruegel and Andrew C. Myers and Shai Halevi"
         addr:
             @0:         "Vienna, Austria"
@@ -708,8 +710,8 @@ ccs:
     17:                 "CCS17"
         key:            "ACM CCS 2017"
         name:
-            @0:         "ACM CCS 17: 24th " # ccsname
-            @2:         "ACM CCS 17" # ccsname
+            @0:         "ACM CCS 2017: 24th " # ccsname
+            @2:         "ACM CCS 2017" # ccsname
         ed:             "Bhavani M. Thuraisingham and David Evans and Tal Malkin and Dongyan Xu"
         addr:
             @0:         "Dallas, TX, USA"
@@ -720,8 +722,8 @@ ccs:
     18:                 "CCS18"
         key:            "ACM CCS 2018"
         name:
-            @0:         "ACM CCS 18: 25th " # ccsname
-            @2:         "ACM CCS 18" # ccsname
+            @0:         "ACM CCS 2018: 25th " # ccsname
+            @2:         "ACM CCS 2018" # ccsname
         ed:             "David Lie and Mohammad Mannan and Michael Backes and XiaoFeng Wang"
         addr:
             @0:         "Toronto, ON, Canada"
@@ -732,8 +734,8 @@ ccs:
     19:                 "CCS19"
         key:            "ACM CCS 2019"
         name:
-            @0:         "ACM CCS 19: 26th " # ccsname
-            @2:         "ACM CCS 19" # ccsname
+            @0:         "ACM CCS 2019: 26th " # ccsname
+            @2:         "ACM CCS 2019" # ccsname
         ed:             ""
         addr:           ""
         month:          ""
@@ -2006,7 +2008,7 @@ ches:
         ed:             "Elisabeth Oswald and Pankaj Rohatgi"
         vol:            "5154"
         addr:
-            @0:         "Washington, D.C., USA"
+            @0:         "Washington, DC, USA"
             @1:         ""
         month:
             @0:         aug # "~10--13,"
@@ -3996,7 +3998,7 @@ focs:
         name:           "21st " # focsname
         ed:             ""
         addr:
-            @0:         "Syracuse, New York"
+            @0:         "Syracuse, NY, USA"
             @1:         ""
         month:
             @0:         oct # "~13--15,"
@@ -4006,7 +4008,7 @@ focs:
         name:           "22nd " # focsname
         ed:             ""
         addr:
-            @0:         "Nashville, Tennessee"
+            @0:         "Nashville, TN, USA"
             @1:         ""
         month:
             @0:         oct # "~28--30,"
@@ -4066,7 +4068,7 @@ focs:
         name:           "28th " # focsname
         ed:             ""
         addr:
-            @0:         "Los Angeles, California"
+            @0:         "Los Angeles, CA, USA"
             @1:         ""
         month:
             @0:         oct # "~12--14,"
@@ -4076,7 +4078,7 @@ focs:
         name:           "29th " # focsname
         ed:             ""
         addr:
-            @0:         "White Plains, New York"
+            @0:         "White Plains, NY, USA"
             @1:         ""
         month:
             @0:         oct # "~24--26,"
@@ -4086,7 +4088,7 @@ focs:
         name:           "30th " # focsname
         ed:             ""
         addr:
-            @0:         "Research Triangle Park, North Carolina"
+            @0:         "Research Triangle Park, NC, USA"
             @1:         ""
         month:
             @0:         oct # "~30~--~" # nov # "~1,"
@@ -4096,7 +4098,7 @@ focs:
         name:           "31st " # focsname
         ed:             ""
         addr:
-            @0:         "St. Louis, Missouri"
+            @0:         "St. Louis, MO, USA"
             @1:         ""
         month:
             @0:         oct # "~22--24,"
@@ -4116,7 +4118,7 @@ focs:
         name:           "33rd " # focsname
         ed:             ""
         addr:
-            @0:         "Pittsburgh, Pennsylvania"
+            @0:         "Pittsburgh, PA, USA"
             @1:         ""
         month:
             @0:         oct # "~24--27,"
@@ -4126,7 +4128,7 @@ focs:
         name:           "34th " # focsname
         ed:             ""
         addr:
-            @0:         "Palo Alto, California"
+            @0:         "Palo Alto, CA, USA"
             @1:         ""
         month:
             @0:         nov # "~3--5,"
@@ -4136,7 +4138,7 @@ focs:
         name:           "35th " # focsname
         ed:             ""
         addr:
-            @0:         "Santa Fe, New Mexico"
+            @0:         "Santa Fe, NM, USA"
             @1:         ""
         month:
             @0:         nov # "~20--22,"
@@ -4216,7 +4218,7 @@ focs:
         name:           "43rd " # focsname
         ed:             ""
         addr:
-            @0:         "Vancouver, British Columbia, Canada"
+            @0:         "Vancouver, BC, Canada"
             @1:         ""
         month:
             @0:         nov # "~16--19,"
@@ -7360,7 +7362,7 @@ itcs:
         ed:             "Avrim Blum"
         vol:            "124"
         addr:
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:
             @0:         jan # "~10--12,"
@@ -8766,7 +8768,7 @@ podc:
         name:           "2nd " # podcname
         ed:             "Robert L. Probert and Nancy A. Lynch and Nicola Santoro"
         addr:
-            @0:         "Montreal, Quebec, Canada"
+            @0:         "Montreal, QC, Canada"
             @1:         ""
         month:
             @0:         aug # "~17--19,"
@@ -8776,7 +8778,7 @@ podc:
         name:           "3rd " # podcname
         ed:             "Tiko Kameda and Jayadev Misra and Joseph G. Peters and Nicola Santoro"
         addr:
-            @0:         "Vancouver, British Columbia, Canada"
+            @0:         "Vancouver, BC, Canada"
             @1:         ""
         month:
             @0:         aug # "~27--29,"
@@ -8806,7 +8808,7 @@ podc:
         name:           "6th " # podcname
         ed:             "Fred B. Schneider"
         addr:
-            @0:         "Vancouver, British Columbia, Canada"
+            @0:         "Vancouver, BC, Canada"
             @1:         ""
         month:
             @0:         aug # "~10--12,"
@@ -8836,7 +8838,7 @@ podc:
         name:           "9th " # podcname
         ed:             "Cynthia Dwork"
         addr:
-            @0:         "Quebec City, Quebec, Canada"
+            @0:         "Quebec City, QC, Canada"
             @1:         ""
         month:
             @0:         aug # "~22--24,"
@@ -8846,7 +8848,7 @@ podc:
         name:           "10th " # podcname
         ed:             "Luigi Logrippo"
         addr:
-            @0:         "Montreal, Quebec, Canada"
+            @0:         "Montreal, QC, Canada"
             @1:         ""
         month:
             @0:         aug # "~19--21,"
@@ -8856,7 +8858,7 @@ podc:
         name:           "11th " # podcname
         ed:             "Norman C. Hutchinson"
         addr:
-            @0:         "Vancouver, British Columbia, Canada"
+            @0:         "Vancouver, BC, Canada"
             @1:         ""
         month:
             @0:         aug # "~10--12,"
@@ -10112,7 +10114,7 @@ soda:
         name:           "30th " # sodaname
         ed:             "Timothy M. Chan"
         addr:
-            @0:         "San Diego, California, USA"
+            @0:         "San Diego, CA, USA"
             @1:         ""
         month:
             @0:         jan # "~6--9,"
@@ -10251,7 +10253,7 @@ stoc:
         name:           "24th " # stocname
         ed:             ""
         addr:
-            @0:         "Victoria, British Columbia, Canada"
+            @0:         "Victoria, BC, Canada"
             @1:         ""
         month:
             @0:         may # "~4--6,"
@@ -10411,7 +10413,7 @@ stoc:
         name:           "40th " # stocname
         ed:             "Richard E. Ladner and Cynthia Dwork"
         addr:
-            @0:         "Victoria, British Columbia, Canada"
+            @0:         "Victoria, BC, Canada"
             @1:         ""
         month:
             @0:         may # "~17--20,"
@@ -11043,6 +11045,315 @@ tosc:
     @2:                 "{IACR} Trans. Symm. Cryptol."
 toscissn:               "2519-173X"
 toscpub:                "Ruhr-Universit{\"a}t Bochum"
+usenixname:
+    @0:                 "{USENIX} Security Symposium"
+    @2:                 ""
+usenixpub:              "{USENIX} Association"
+usenix:
+    93:                 "USENIX93"
+        key:            "USENIX Security 1993"
+        name:
+            @0:         "USENIX Security 93: 4th " # usenixname
+            @2:         "USENIX Security 93" # usenixname
+        ed:             ""
+        addr:
+            @0:         "Santa Clara, CA, USA"
+            @1:         ""
+        month:
+            @0:         oct # "~4--6,"
+            @1:         oct
+    95:                 "USENIX94"
+        key:            "USENIX Security 1995"
+        name:
+            @0:         "USENIX Security 95: 5th " # usenixname
+            @2:         "USENIX Security 95" # usenixname
+        ed:             "Frederick M. Avolio and Steven M. Bellovin"
+        addr:
+            @0:         "Salt Lake City, Utah, USA"
+            @1:         ""
+        month:          ""
+            @0:         jun # "~5--7,"
+            @1:         jun
+    96:                 "USENIX96"
+        key:            "USENIX Security 1996"
+        name:
+            @0:         "USENIX Security 96: 6th " # usenixname
+            @2:         "USENIX Security 96" # usenixname
+        ed:             ""
+        addr:
+            @0:         "San Jose, CA, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~22--25,"
+            @1:         jul
+    98:                 "USENIX98"
+        key:            "USENIX Security 1998"
+        name:
+            @0:         "USENIX Security 98: 7th " # usenixname
+            @2:         "USENIX Security 98" # usenixname
+        ed:             "Aviel D. Rubin"
+        addr:
+            @0:         "San Antonio, TX, USA"
+            @1:         ""
+        month:
+            @0:         jan # "~26--29,"
+            @1:         jan
+    99:                 "USENIX99"
+        key:            "USENIX Security 1999"
+        name:
+            @0:         "USENIX Security 99: 8th " # usenixname
+            @2:         "USENIX Security 99" # usenixname
+        ed:             "G. Winfield Treese"
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~23--26,"
+            @1:         aug
+    00:                 "USENIX00"
+        key:            "USENIX Security 2000"
+        name:
+            @0:         "USENIX Security 00: 9th " # usenixname
+            @2:         "USENIX Security 00" # usenixname
+        ed:             "Steven M. Bellovin and Greg Rose"
+        addr:
+            @0:         "Denver, Colorado, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~14--17,"
+            @1:         aug
+    01:                 "USENIX01"
+        key:            "USENIX Security 2001"
+        name:
+            @0:         "USENIX Security 01: 10th " # usenixname
+            @2:         "USENIX Security 01" # usenixname
+        ed:             "Dan S. Wallach"
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~13--17,"
+            @1:         aug
+    02:                 "USENIX02"
+        key:            "USENIX Security 2002"
+        name:
+            @0:         "USENIX Security 02: 11th " # usenixname
+            @2:         "USENIX Security 02" # usenixname
+        ed:             "Dan Boneh"
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~5--9,"
+            @1:         aug
+    03:                 "USENIX03"
+        key:            "USENIX Security 2003"
+        name:
+            @0:         "USENIX Security 03: 12th " # usenixname
+            @2:         "USENIX Security 03" # usenixname
+        ed:             ""
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~4--8,"
+            @1:         aug
+    04:                 "USENIX04"
+        key:            "USENIX Security 2004"
+        name:
+            @0:         "USENIX Security 04: 13th " # usenixname
+            @2:         "USENIX Security 04" # usenixname
+        ed:             "Matt Blaze"
+        addr:
+            @0:         "San Diego, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~9--13,"
+            @1:         aug
+    05:                 "USENIX05"
+        key:            "USENIX Security 2005"
+        name:
+            @0:         "USENIX Security 05: 14th " # usenixname
+            @2:         "USENIX Security 05" # usenixname
+        ed:             "Patrick D. McDaniel"
+        addr:
+            @0:         "Baltimore, MD, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~31~--~" # aug # "~5,"
+            @1:         jul # "~/~" # aug
+    06:                 "USENIX06"
+        key:            "USENIX Security 2006"
+        name:
+            @0:         "USENIX Security 06: 15th " # usenixname
+            @2:         "USENIX Security 06" # usenixname
+        ed:             "Angelos D. Keromytis"
+        addr:
+            @0:         "Vancouver, BC, Canada"
+            @1:         ""
+        month:
+            @0:         jul # "~31~--~" # aug # "~4,"
+            @1:         jul # "~/~" # aug
+    07:                 "USENIX07"
+        key:            "USENIX Security 2007"
+        name:
+            @0:         "USENIX Security 07: 16th " # usenixname
+            @2:         "USENIX Security 07" # usenixname
+        ed:             "Niels Provos"
+        addr:
+            @0:         "Boston, MA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~6--10,"
+            @1:         aug
+    08:                 "USENIX08"
+        key:            "USENIX Security 2008"
+        name:
+            @0:         "USENIX Security 08: 17th " # usenixname
+            @2:         "USENIX Security 08" # usenixname
+        ed:             "Paul C. {van Oorschot}"
+        addr:
+            @0:         "San Jose, CA, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~28~--~" # aug # "~1,"
+            @1:         jul # "~/~" # aug
+    09:                 "USENIX09"
+        key:            "USENIX Security 2009"
+        name:
+            @0:         "USENIX Security 09: 18th " # usenixname
+            @2:         "USENIX Security 09" # usenixname
+        ed:             "Fabian Monrose"
+        addr:
+            @0:         "Montreal, Canada"
+            @1:         ""
+        month:
+            @0:         aug # "~10--14,"
+            @1:         aug
+    10:                 "USENIX10"
+        key:            "USENIX Security 2010"
+        name:
+            @0:         "USENIX Security 10: 19th " # usenixname
+            @2:         "USENIX Security 10" # usenixname
+        ed:             ""
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~11--13,"
+            @1:         aug
+    11:                 "USENIX11"
+        key:            "USENIX Security 2011"
+        name:
+            @0:         "USENIX Security 11: 20th " # usenixname
+            @2:         "USENIX Security 11" # usenixname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~8--12,"
+            @1:         aug
+    12:                 "USENIX12"
+        key:            "USENIX Security 2012"
+        name:
+            @0:         "USENIX Security 12: 21st " # usenixname
+            @2:         "USENIX Security 12" # usenixname
+        ed:             "Tadayoshi Kohno"
+        addr:
+            @0:         "Bellevue, WA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~8--10,"
+            @1:         aug
+    13:                 "USENIX13"
+        key:            "USENIX Security 2013"
+        name:
+            @0:         "USENIX Security 13: 22nd " # usenixname
+            @2:         "USENIX Security 13" # usenixname
+        ed:             "Samuel T. King"
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~14--16,"
+            @1:         aug
+    14:                 "USENIX14"
+        key:            "USENIX Security 2014"
+        name:
+            @0:         "USENIX Security 14: 23rd " # usenixname
+            @2:         "USENIX Security 14" # usenixname
+        ed:             "Kevin Fu and Jaeyeon Jung"
+        addr:
+            @0:         "San Diego, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~20--22,"
+            @1:         aug
+    15:                 "USENIX15"
+        key:            "USENIX Security 2015"
+        name:
+            @0:         "USENIX Security 15: 24th " # usenixname
+            @2:         "USENIX Security 15" # usenixname
+        ed:             "Jaeyeon Jung and Thorsten Holz"
+        addr:
+            @0:         "Washington, DC, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~12--14,"
+            @1:         aug
+    16:                 "USENIX16"
+        key:            "USENIX Security 2016"
+        name:
+            @0:         "USENIX Security 16: 25th " # usenixname
+            @2:         "USENIX Security 16" # usenixname
+        ed:             "Thorsten Holz and Stefan Savage"
+        addr:
+            @0:         "Austin, TX, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~10--12,"
+            @1:         aug
+    17:                 "USENIX17"
+        key:            "USENIX Security 2017"
+        name:
+            @0:         "USENIX Security 17: 26th " # usenixname
+            @2:         "USENIX Security 17" # usenixname
+        ed:             "Engin Kirda and Thomas Ristenpart"
+        addr:
+            @0:         "Vancouver, BC, Canada"
+            @1:         ""
+        month:
+            @0:         aug # "~16--18,"
+            @1:         aug
+    18:                 "USENIX18"
+        key:            "USENIX Security 2018"
+        name:
+            @0:         "USENIX Security 18: 27th " # usenixname
+            @2:         "USENIX Security 18" # usenixname
+        ed:             "William Enck and Adrienne Porter Felt"
+        addr:
+            @0:         "Baltimore, MD, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~15--17,"
+            @1:         aug
+    19:                 "USENIX19"
+        key:            "USENIX Security 2019"
+        name:
+            @0:         "USENIX Security 19: 28th " # usenixname
+            @2:         "USENIX Security 19" # usenixname
+        ed:             ""
+        addr:           ""
+        month:          ""
+    20:                 "USENIX20"
+        key:            "USENIX Security 2020"
+        name:
+            @0:         "USENIX Security 20: 29th " # usenixname
+            @2:         "USENIX Security 20" # usenixname
+        ed:             ""
+        addr:           ""
+        month:          ""
 vietcryptname:
     @0:                 "International Conference on Cryptology in Vietnam"
     @2:                 ""

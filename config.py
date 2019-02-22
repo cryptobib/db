@@ -183,6 +183,8 @@ add_conf("SODA", "ACM-SIAM Symposium on Discrete Algorithms")
 add_conf("STOC", "ACM Symposium on Theory of Computing")
 add_conf("TCC", "Theory of Cryptography Conference")
 add_conf("TRUSTBUS", "International Conference on Trust, Privacy &amp; Security in Digital Business")
+add_conf("USENIX", "USENIX Security Symposium",
+         url="https://dblp.uni-trier.de/db/conf/uss/uss${url_year}.html")
 add_conf("VIETCRYPT", "International Conference on Cryptology in Vietnam")
 add_conf("WISA", "International Workshop on Information Security Applications")
 
@@ -228,11 +230,12 @@ confs_missing_years = {
     "ICITS": {2010, 2014},
     "IMA": {1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018},
     "ISC": {1998},
-    "LATIN": {1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017},
-    "LC": {2011, 2013},
+    "LATIN": {1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019},
+    "LC": {2011, 2013, 2016, 2018},
     "PAIRING": {2011},
     "PQCRYPTO": {2009, 2012, 2015},
-    "SCN": {2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017},
+    "SCN": {2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019},
+    "USENIX": {1994, 1997},
 }
 
 # Bibtex output
