@@ -11113,8 +11113,8 @@ usenix:
     00:                 "USENIX00"
         key:            "USENIX Security 2000"
         name:
-            @0:         "USENIX Security 00: 9th " # usenixname
-            @2:         "USENIX Security 00" # usenixname
+            @0:         "USENIX Security 2000: 9th " # usenixname
+            @2:         "USENIX Security 2000" # usenixname
         ed:             "Steven M. Bellovin and Greg Rose"
         addr:
             @0:         "Denver, Colorado, USA"
@@ -11125,8 +11125,8 @@ usenix:
     01:                 "USENIX01"
         key:            "USENIX Security 2001"
         name:
-            @0:         "USENIX Security 01: 10th " # usenixname
-            @2:         "USENIX Security 01" # usenixname
+            @0:         "USENIX Security 2001: 10th " # usenixname
+            @2:         "USENIX Security 2001" # usenixname
         ed:             "Dan S. Wallach"
         addr:
             @0:         "Washington, DC, USA"
@@ -11137,8 +11137,8 @@ usenix:
     02:                 "USENIX02"
         key:            "USENIX Security 2002"
         name:
-            @0:         "USENIX Security 02: 11th " # usenixname
-            @2:         "USENIX Security 02" # usenixname
+            @0:         "USENIX Security 2002: 11th " # usenixname
+            @2:         "USENIX Security 2002" # usenixname
         ed:             "Dan Boneh"
         addr:
             @0:         "San Francisco, CA, USA"
@@ -11149,8 +11149,8 @@ usenix:
     03:                 "USENIX03"
         key:            "USENIX Security 2003"
         name:
-            @0:         "USENIX Security 03: 12th " # usenixname
-            @2:         "USENIX Security 03" # usenixname
+            @0:         "USENIX Security 2003: 12th " # usenixname
+            @2:         "USENIX Security 2003" # usenixname
         ed:             ""
         addr:
             @0:         "Washington, DC, USA"
@@ -11161,8 +11161,8 @@ usenix:
     04:                 "USENIX04"
         key:            "USENIX Security 2004"
         name:
-            @0:         "USENIX Security 04: 13th " # usenixname
-            @2:         "USENIX Security 04" # usenixname
+            @0:         "USENIX Security 2004: 13th " # usenixname
+            @2:         "USENIX Security 2004" # usenixname
         ed:             "Matt Blaze"
         addr:
             @0:         "San Diego, CA, USA"
@@ -11173,8 +11173,8 @@ usenix:
     05:                 "USENIX05"
         key:            "USENIX Security 2005"
         name:
-            @0:         "USENIX Security 05: 14th " # usenixname
-            @2:         "USENIX Security 05" # usenixname
+            @0:         "USENIX Security 2005: 14th " # usenixname
+            @2:         "USENIX Security 2005" # usenixname
         ed:             "Patrick D. McDaniel"
         addr:
             @0:         "Baltimore, MD, USA"
@@ -11185,8 +11185,8 @@ usenix:
     06:                 "USENIX06"
         key:            "USENIX Security 2006"
         name:
-            @0:         "USENIX Security 06: 15th " # usenixname
-            @2:         "USENIX Security 06" # usenixname
+            @0:         "USENIX Security 2006: 15th " # usenixname
+            @2:         "USENIX Security 2006" # usenixname
         ed:             "Angelos D. Keromytis"
         addr:
             @0:         "Vancouver, BC, Canada"
@@ -11197,8 +11197,8 @@ usenix:
     07:                 "USENIX07"
         key:            "USENIX Security 2007"
         name:
-            @0:         "USENIX Security 07: 16th " # usenixname
-            @2:         "USENIX Security 07" # usenixname
+            @0:         "USENIX Security 2007: 16th " # usenixname
+            @2:         "USENIX Security 2007" # usenixname
         ed:             "Niels Provos"
         addr:
             @0:         "Boston, MA, USA"
@@ -11209,8 +11209,8 @@ usenix:
     08:                 "USENIX08"
         key:            "USENIX Security 2008"
         name:
-            @0:         "USENIX Security 08: 17th " # usenixname
-            @2:         "USENIX Security 08" # usenixname
+            @0:         "USENIX Security 2008: 17th " # usenixname
+            @2:         "USENIX Security 2008" # usenixname
         ed:             "Paul C. {van Oorschot}"
         addr:
             @0:         "San Jose, CA, USA"
@@ -11221,8 +11221,8 @@ usenix:
     09:                 "USENIX09"
         key:            "USENIX Security 2009"
         name:
-            @0:         "USENIX Security 09: 18th " # usenixname
-            @2:         "USENIX Security 09" # usenixname
+            @0:         "USENIX Security 2009: 18th " # usenixname
+            @2:         "USENIX Security 2009" # usenixname
         ed:             "Fabian Monrose"
         addr:
             @0:         "Montreal, Canada"
@@ -11233,8 +11233,8 @@ usenix:
     10:                 "USENIX10"
         key:            "USENIX Security 2010"
         name:
-            @0:         "USENIX Security 10: 19th " # usenixname
-            @2:         "USENIX Security 10" # usenixname
+            @0:         "USENIX Security 2010: 19th " # usenixname
+            @2:         "USENIX Security 2010" # usenixname
         ed:             ""
         addr:
             @0:         "Washington, DC, USA"
@@ -11245,8 +11245,8 @@ usenix:
     11:                 "USENIX11"
         key:            "USENIX Security 2011"
         name:
-            @0:         "USENIX Security 11: 20th " # usenixname
-            @2:         "USENIX Security 11" # usenixname
+            @0:         "USENIX Security 2011: 20th " # usenixname
+            @2:         "USENIX Security 2011" # usenixname
         ed:             ""
         addr:
             @0:         "San Francisco, CA, USA"
@@ -11257,8 +11257,8 @@ usenix:
     12:                 "USENIX12"
         key:            "USENIX Security 2012"
         name:
-            @0:         "USENIX Security 12: 21st " # usenixname
-            @2:         "USENIX Security 12" # usenixname
+            @0:         "USENIX Security 2012: 21st " # usenixname
+            @2:         "USENIX Security 2012" # usenixname
         ed:             "Tadayoshi Kohno"
         addr:
             @0:         "Bellevue, WA, USA"
@@ -11269,8 +11269,8 @@ usenix:
     13:                 "USENIX13"
         key:            "USENIX Security 2013"
         name:
-            @0:         "USENIX Security 13: 22nd " # usenixname
-            @2:         "USENIX Security 13" # usenixname
+            @0:         "USENIX Security 2013: 22nd " # usenixname
+            @2:         "USENIX Security 2013" # usenixname
         ed:             "Samuel T. King"
         addr:
             @0:         "Washington, DC, USA"
@@ -11281,8 +11281,8 @@ usenix:
     14:                 "USENIX14"
         key:            "USENIX Security 2014"
         name:
-            @0:         "USENIX Security 14: 23rd " # usenixname
-            @2:         "USENIX Security 14" # usenixname
+            @0:         "USENIX Security 2014: 23rd " # usenixname
+            @2:         "USENIX Security 2014" # usenixname
         ed:             "Kevin Fu and Jaeyeon Jung"
         addr:
             @0:         "San Diego, CA, USA"
@@ -11293,8 +11293,8 @@ usenix:
     15:                 "USENIX15"
         key:            "USENIX Security 2015"
         name:
-            @0:         "USENIX Security 15: 24th " # usenixname
-            @2:         "USENIX Security 15" # usenixname
+            @0:         "USENIX Security 2015: 24th " # usenixname
+            @2:         "USENIX Security 2015" # usenixname
         ed:             "Jaeyeon Jung and Thorsten Holz"
         addr:
             @0:         "Washington, DC, USA"
@@ -11305,8 +11305,8 @@ usenix:
     16:                 "USENIX16"
         key:            "USENIX Security 2016"
         name:
-            @0:         "USENIX Security 16: 25th " # usenixname
-            @2:         "USENIX Security 16" # usenixname
+            @0:         "USENIX Security 2016: 25th " # usenixname
+            @2:         "USENIX Security 2016" # usenixname
         ed:             "Thorsten Holz and Stefan Savage"
         addr:
             @0:         "Austin, TX, USA"
@@ -11317,8 +11317,8 @@ usenix:
     17:                 "USENIX17"
         key:            "USENIX Security 2017"
         name:
-            @0:         "USENIX Security 17: 26th " # usenixname
-            @2:         "USENIX Security 17" # usenixname
+            @0:         "USENIX Security 2017: 26th " # usenixname
+            @2:         "USENIX Security 2017" # usenixname
         ed:             "Engin Kirda and Thomas Ristenpart"
         addr:
             @0:         "Vancouver, BC, Canada"
@@ -11329,8 +11329,8 @@ usenix:
     18:                 "USENIX18"
         key:            "USENIX Security 2018"
         name:
-            @0:         "USENIX Security 18: 27th " # usenixname
-            @2:         "USENIX Security 18" # usenixname
+            @0:         "USENIX Security 2018: 27th " # usenixname
+            @2:         "USENIX Security 2018" # usenixname
         ed:             "William Enck and Adrienne Porter Felt"
         addr:
             @0:         "Baltimore, MD, USA"
@@ -11341,16 +11341,16 @@ usenix:
     19:                 "USENIX19"
         key:            "USENIX Security 2019"
         name:
-            @0:         "USENIX Security 19: 28th " # usenixname
-            @2:         "USENIX Security 19" # usenixname
+            @0:         "USENIX Security 2019: 28th " # usenixname
+            @2:         "USENIX Security 2019" # usenixname
         ed:             ""
         addr:           ""
         month:          ""
     20:                 "USENIX20"
         key:            "USENIX Security 2020"
         name:
-            @0:         "USENIX Security 20: 29th " # usenixname
-            @2:         "USENIX Security 20" # usenixname
+            @0:         "USENIX Security 2020: 29th " # usenixname
+            @2:         "USENIX Security 2020" # usenixname
         ed:             ""
         addr:           ""
         month:          ""
