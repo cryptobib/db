@@ -3877,8 +3877,12 @@ fc:
             @2:         "FC 2018" # fcname_v2
         ed:             ""
         vol:            ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "Nieuwpoort, Cura{\c c}ao"
+            @1:         ""
+        month:
+            @0:         feb # "~26~--~" # mar # "~2,"
+            @1:         feb # "~/~" # mar
     19:                 "FC19"
         key:            "FC 2019"
         name:
@@ -3970,10 +3974,12 @@ fcw:
     18:                 "FCW18"
         key:            "FCW 2018"
         name:           "FC 2018 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Aviv Zohar and Ittay Eyal and Vanessa Teague and Jeremy Clark and Andrea Bracciali and Federico Pintore and Massimiliano Sala"
+        vol:            "10958"
         addr:           fc18addr
-        month:          ""
+        month:
+            @0:         mar # "~2,"
+            @1:         mar
     19:                 "FCW19"
         key:            "FCW 2019"
         name:           "FC 2019 Workshops"
