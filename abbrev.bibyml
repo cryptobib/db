@@ -2133,6 +2133,120 @@ ches:
         vol:            ""
         addr:           ""
         month:          ""
+cosadename:
+    @0:                 "International Workshop on Constructive Side-Channel Analysis and Secure Design"
+    @2:                 ""
+cosadepub:                springer
+cosade:
+    12:                 "COSADE12"
+        key:            "COSADE 2012"
+        name:
+            @0:         "COSADE 2012: 3rd " # cosadename
+            @2:         "COSADE 2012" # cosadename
+        ed:             "Werner Schindler and Sorin A. Huss"
+        vol:            "7275"
+        addr:
+            @0:         "Darmstadt, Germany"
+            @1:         ""
+        month:
+            @0:         may # "~3--4,"
+            @1:         may
+    13:                 "COSADE13"
+        key:            "COSADE 2013"
+        name:
+            @0:         "COSADE 2013: 4th " # cosadename
+            @2:         "COSADE 2013" # cosadename
+        ed:             "Emmanuel Prouff"
+        vol:            "7864"
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         mar # "~6--8,"
+            @1:         mar
+    14:                 "COSADE14"
+        key:            "COSADE 2014"
+        name:
+            @0:         "COSADE 2014: 5th " # cosadename
+            @2:         "COSADE 2014" # cosadename
+        ed:             "Emmanuel Prouff"
+        vol:            "8622"
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         apr # "~13--15,"
+            @1:         apr
+    15:                 "COSADE15"
+        key:            "COSADE 2015"
+        name:
+            @0:         "COSADE 2015: 6th " # cosadename
+            @2:         "COSADE 2015" # cosadename
+        ed:             "Stefan Mangard and Axel Y. Poschmann:"
+        vol:            "9064"
+        addr:
+            @0:         "Berlin, Germany"
+            @1:         ""
+        month:
+            @0:         apr # "~13--14,"
+            @1:         apr
+    16:                 "COSADE16"
+        key:            "COSADE 2016"
+        name:
+            @0:         "COSADE 2016: 7th " # cosadename
+            @2:         "COSADE 2016" # cosadename
+        ed:             "Fran{\c c}ois-Xavier Standaert and Elisabeth Oswald"
+        vol:            "9689"
+        addr:
+            @0:         "Graz, Austria"
+            @1:         ""
+        month:
+            @0:         apr # "~14--15,"
+            @1:         apr
+    17:                 "COSADE17"
+        key:            "COSADE 2017"
+        name:
+            @0:         "COSADE 2017: 8th " # cosadename
+            @2:         "COSADE 2017" # cosadename
+        ed:             "Sylvain Guilley"
+        vol:            "10348"
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         apr # "~13--14,"
+            @1:         apr
+    18:                 "COSADE18"
+        key:            "COSADE 2018"
+        name:
+            @0:         "COSADE 2018: 9th " # cosadename
+            @2:         "COSADE 2018" # cosadename
+        ed:             "Junfeng Fan and Benedikt Gierlichs"
+        vol:            "10815"
+        addr:
+            @0:         "Singapore"
+            @1:         ""
+        month:
+            @0:         apr # "~23--24,"
+            @1:         apr
+    19:                 "COSADE19"
+        key:            "COSADE 2019"
+        name:
+            @0:         "COSADE 2019: 10th " # cosadename
+            @2:         "COSADE 2019" # cosadename
+        ed:             ""
+        vol:            ""
+        addr:           ""
+        month:          ""
+    20:                 "COSADE20"
+        key:            "COSADE 2020"
+        name:
+            @0:         "COSADE 2020: 11th " # cosadename
+            @2:         "COSADE 2020" # cosadename
+        ed:             ""
+        vol:            ""
+        addr:           ""
+        month:          ""
 cqrename:
     @0:                 "International Exhibition and Congress on Network Security -- {CQRE}"
     @2:                 "CQRE"

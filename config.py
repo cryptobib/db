@@ -141,6 +141,7 @@ add_conf("AC", "International Conference on the Theory and Application of Crypto
          name="ASIACRYPT")
 add_conf("CANS", "International Conference on Cryptology and Network Security")
 add_conf("CHES", "Workshop on Cryptographic Hardware and Embedded Systems")
+add_conf("COSADE", "International Workshop on Constructive Side-Channel Analysis and Secure Design")
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
 add_conf("C", "International Cryptology Conference", name="CRYPTO")
 add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA", crossref="rsa",
