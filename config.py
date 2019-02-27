@@ -193,6 +193,10 @@ add_journal("JC", 1988, "jcrypto", "Journal of Cryptology",
             months=["jan", "apr", "jul", "oct"],
             url="https://dblp.uni-trier.de/db/journals/joc/joc${volume}.html")
 
+add_journal("JCEng", 2011, "jcryptoeng", "Journal of Cryptographic Engineering",
+            months=["apr", "jun", "sep", "nov"],
+            url="https://dblp.uni-trier.de/db/journals/jce/jce${volume}.html")
+
 add_journal("PoPETS", 2015, "popets", "Proceedings on Privacy Enhancing Technologies",
             months=["jan", "apr", "jul", "oct"],
             url="https://dblp.uni-trier.de/db/journals/popets/popets${year}.html",

@@ -50,6 +50,7 @@ ton:                    "{IEEE/ACM} Transactions on Networking"
 netw:                   ton
 acmtiss:                "{ACM} Transactions on Information and System Security"
 acmosr:                 "{ACM SIGOPS} Operating Systems Review"
+jcryptoeng:             "Journal of Cryptographic Engineering"
 jcrypto:                "Journal of Cryptology"
 jcrypt:                 jcrypto
 infth:                  "{IEEE} Transactions on Information Theory"
