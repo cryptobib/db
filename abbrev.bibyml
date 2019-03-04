@@ -2851,10 +2851,14 @@ rsa:
     19:                 "RSA19"
         key:            "CT-RSA 2019"
         name:           rsaname # "~2019"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Mitsuru Matsui"
+        vol:            "11405"
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         mar # "~4--8,"
+            @1:         mar
     20:                 "RSA20"
         key:            "CT-RSA 2020"
         name:           rsaname # "~2020"
