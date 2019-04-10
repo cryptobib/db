@@ -8852,11 +8852,15 @@ pkc:
         name2:
             @0:         "PKC~2019: 22nd " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2019" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
+        ed:             "Dongdai Lin and Kazue Sako"
+        vol1:           "11442"
+        vol2:           "11443"
+        addr:
+            @0:         "Beijing, China"
+            @1:         ""
+        month:
+            @0:         apr # "~14--17,"
+            @1:         apr
     20:                 "PKC20"
         -1:             "PKC20-1"
         -2:             "PKC20-2"
