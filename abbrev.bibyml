@@ -8214,7 +8214,9 @@ ndss:
         addr:
             @0:         "San Diego, CA, USA"
             @1:         ""
-        month:          ""
+        month:
+            @0:         feb # "~24-27,"
+            @1:         feb
     20:                 "NDSS20"
         key:            "NDSS 2020"
         name:           ndssname # "~2020"
@@ -11706,8 +11708,8 @@ wisa:
         name:
             @0:         "WISA 18: 19th " # wisaname
             @2:         "WISA 18" # wisaname
-        ed:             ""
-        vol:            ""
+        ed:             "Brent ByungHoon Kang and Jin Soo Jang"
+        vol:            "11402"
         addr:
             @0:         "Jeju Island, Korea"
             @1:         ""
