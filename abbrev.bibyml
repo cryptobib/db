@@ -966,10 +966,14 @@ acns:
         name:
             @0:         "ACNS 19: 17th " # acnsname
             @2:         "ACNS 19" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Robert H. Deng and Val{\'e}rie {Gauthier-Uma{\~n}a} and Martín Ochoa and Moti Yung"
+        vol:            "11464"
+        addr:
+            @0:         "Bogota, Colombia"
+            @1:         ""
+        month:
+            @0:         jun # "~5--7,"
+            @1:         jun
     20:                 "ACNS20"
         key:            "ACNS 2020"
         name:
