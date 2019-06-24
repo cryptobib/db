@@ -10656,9 +10656,13 @@ stoc:
     19:                 "STOC19"
         key:            "STOC 2019"
         name:           "51st " # stocname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Moses Charikar and Edith Cohen"
+        addr:
+            @0:         "Phoenix, AZ, USA"
+            @1:         ""
+        month:
+            @0:         jun # "~23--26,"
+            @1:         jun
     20:                 "STOC20"
         key:            "STOC 2020"
         name:           "52nd " # stocname
