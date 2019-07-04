@@ -395,22 +395,19 @@ acisp:
         month:
             @0:         jul # "~11--13,"
             @1:         jul
-    19:
-        -1:             "ACISP19-1"
-        -2:             "ACISP19-2"
-        key1:           "ACISP 2019, Part~I"
-        key2:           "ACISP 2019, Part~II"
-        name1:
-            @0:         "ACISP 19: 24th " # acispname # ", Part~I"
-            @2:         "ACISP 19" # acispname # ", Part~I"
-        name2:
-            @0:         "ACISP 19: 24th " # acispname # ", Part~II"
-            @2:         "ACISP 19" # acispname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
+    19:                 "ACISP19"
+        key:            "ACISP 2019"
+        name:
+            @0:         "ACISP 19: 24th " # acispname
+            @2:         "ACISP 19" # acispname
+        ed:             "Julian Jang-Jaccard and Fuchun Guo"
+        vol:            "11547"
+        addr:
+            @0:         "Christchurch, New Zealand"
+            @1:         ""
+        month:
+            @0:         jul # "~3--5,"
+            @1:         jul
     20:
         -1:             "ACISP20-1"
         -2:             "ACISP20-2"
@@ -1123,10 +1120,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 19: 11th " # africacryptname
             @2:         "AFRICACRYPT 19" # africacryptname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Johannes Buchmann and Abderrahmane Nitaj and Tajje-eddine Rachidi"
+        vol:            "11627"
+        addr:
+            @0:         "Rabat, Morocco"
+            @1:         ""
+        month:
+            @0:         jul # "~9--11,"
+            @1:         jul
     20:                 "AFRICACRYPT20"
         key:            "AFRICACRYPT 2020"
         name:
