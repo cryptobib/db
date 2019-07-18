@@ -5477,10 +5477,14 @@ icalp:
         name:
             @0:         "ICALP 2019: 46th " # icalpname
             @2:         "ICALP 2019" # icalpname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Christel Baier and Ioannis Chatzigiannakis and Paola Flocchini and Stefano Leonardi"
+        vol:            "132"
+        addr:
+            @0:         "Patras, Greece"
+            @1:         ""
+        month:
+            @0:         jul # "~9--12,"
+            @1:         jul
     20:                 "ICALP20"
         key:            "ICALP 2020"
         name:
