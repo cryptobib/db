@@ -2626,10 +2626,10 @@ crypto:
         name1:          cryptoname # "~2019, Part~I"
         name2:          cryptoname # "~2019, Part~II"
         name3:          cryptoname # "~2019, Part~III"
-        ed:             "Hovav Shacham and Alexandra Boldyreva"
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        ed:             "Alexandra Boldyreva and Daniele Micciancio"
+        vol1:           "11692"
+        vol2:           "11693"
+        vol3:           "11694"
         month:
             @0:         aug # "~18--22,"
             @1:         aug
