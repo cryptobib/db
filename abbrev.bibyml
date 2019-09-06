@@ -6222,10 +6222,14 @@ icisc:
         name:
             @0:         "ICISC 19: 22nd " # iciscname
             @2:         "ICISC 19" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Zhiqiang Lin and Charalampos Papamanthou and Michalis Polychronakis"
+        vol:            "11723"
+        addr:
+            @0:         "New York City, NY, USA"
+            @1:         ""
+        month:
+            @0:         sep # "~16--18,"
+            @1:         sep
     20:                 "ICISC20"
         key:            "ICISC 2020"
         name:
@@ -11183,10 +11187,14 @@ trustbus:
         name:
             @0:         "TrustBus 2019: Trust and Privacy in Digital Business, 16th " # trustbusname
             @2:         "TrustBus 2019" # trustbusname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Stefanos Gritzalis and Edgar R. Weippl and Sokratis K. Katsikas and Gabriele {Anderst-Kotsis} and A Min Tjoa and Ismail Khalil"
+        vol:            "11711"
+        addr:
+            @0:         "Linz, Austria"
+            @1:         ""
+        month:
+            @0:         aug # "~26--29,"
+            @1:         aug
     20:                 "TRUSTBUS20"
         key:            "TRUSTBUS 2020"
         name:
