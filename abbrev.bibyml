@@ -7976,8 +7976,14 @@ latincrypt:
         name:
             @0:         latincryptname # "~2019: 6th " # latincryptsuffix
             @2:         latincryptname # "~2019" # latincryptsuffix
-        ed:             ""
-        vol:            ""
+        ed:             "Peter Schwabe and Nicolas Th{\'e}riault"
+        vol:            "11774"
+        addr:
+            @0:         "Santiago, Chile"
+            @1:         ""
+        month:
+            @0:         oct # "~2--4,"
+            @1:         oct
         addr:           ""
         month:          ""
 ndssname:
