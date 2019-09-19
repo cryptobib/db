@@ -1303,9 +1303,13 @@ asiaccs:
         name:
             @0:         "ASIACCS 19: 14th " # asiaccsname
             @2:         "ASIACCS 19" # asiaccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Steven D. Galbraith and Giovanni Russello and Willy Susilo and Dieter Gollmann and Engin Kirda and Zhenkai Liang"
+        addr:
+            @0:         "Auckland, New Zealand"
+            @1:         ""
+        month:
+            @0:         jul # "~9--12,"
+            @1:         jul
     20:                 "ASIACCS20"
         key:            "ASIACCS 2020"
         name:
@@ -3222,14 +3226,14 @@ esorics:
         name2:
             @0:         "ESORICS~2019: 24th " # esoricsname # ", Part~II"
             @2:         "ESORICS~2019" # esoricsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Kazue Sako and Steve Schneider and Peter Y. A. Ryan"
+        vol1:           "11735"
+        vol2:           "11736"
         addr:
-            @0:         ""
+            @0:         "Luxembourg"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~23--27,"
             @1:         sep
     20:
         -1:             "ESORICS20-1"
@@ -11783,7 +11787,7 @@ pqcrypto:
         vol:            "5299"
         addr:
             @0:         "Cincinnati, Ohio, United States"
-            @2:         ""
+            @1:         ""
         month:
             @0:         oct # "~17--19"
             @1:         oct
@@ -11794,10 +11798,10 @@ pqcrypto:
         vol:            "6061"
         addr:
             @0:         "Darmstadt, Germany"
-            @2:         ""
+            @1:         ""
         month:
             @0:         may # "~25--28"
-            @2:         may
+            @1:         may
     11:                 "PQCRYPTO11"
         key:            "PQCRYPTO 2011"
         name:           "Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011"
@@ -11805,7 +11809,7 @@ pqcrypto:
         vol:            "7071"
         addr:
             @0:         "Tapei, Taiwan"
-            @2:         ""
+            @1:         ""
         month:
             @0:         nov # "~29~--~" # dec # "~2"
             @1:         nov # "~/~" # dec
@@ -11816,10 +11820,10 @@ pqcrypto:
         vol:            "7932"
         addr:
             @0:         "Limoges, France"
-            @2:         ""
+            @1:         ""
         month:
             @0:         jun # "~4--7"
-            @2:         jun
+            @1:         jun
     14:                 "PQCRYPTO14"
         key:            "PQCRYPTO 2014"
         name:           "Post-Quantum Cryptography - 6th International Workshop, PQCrypto 2014"
@@ -11827,10 +11831,10 @@ pqcrypto:
         vol:            "8772"
         addr:
             @0:         "Waterloo, Ontario, Canada"
-            @2:         ""
+            @1:         ""
         month:
             @0:         oct # "~1--3"
-            @2:         oct
+            @1:         oct
     16:                 "PQCRYPTO16"
         key:            "PQCRYPTO 2016"
         name:           "Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016"
@@ -11838,10 +11842,10 @@ pqcrypto:
         vol:            "9606"
         addr:
             @0:         "Fukuoka, Japan"
-            @2:         ""
+            @1:         ""
         month:
             @0:         feb # "~24--26"
-            @2:         ""
+            @1:         ""
     17:                 "PQCRYPTO17"
         key:            "PQCRYPTO 2017"
         name:           "Post-Quantum Cryptography - 8th International Workshop, PQCrypto 2017"
@@ -11849,10 +11853,10 @@ pqcrypto:
         vol:            "10346"
         addr:
             @0:         "Utrecht, The Netherlands"
-            @2:         ""
+            @1:         ""
         month:
             @0:         jun # "~26--28"
-            @2:         ""
+            @1:         ""
     18:                 "PQCRYPTO18"
         key:            "PQCRYPTO 2018"
         name:           "Post-Quantum Cryptography - 9th International Conference, PQCrypto 2018"
@@ -11860,10 +11864,32 @@ pqcrypto:
         vol:            "10786"
         addr:
             @0:         "Fort Lauderdale, Florida, United States"
-            @2:         ""
+            @1:         ""
         month:
             @0:         apr # "~9--11"
-            @2:         ""
+            @1:         ""
+    19:                 "PQCRYPTO19"
+        key:            "PQCRYPTO 2019"
+        name:           "Post-Quantum Cryptography - 10th International Conference, PQCrypto 2018"
+        ed:             "Jintai Ding and Rainer Steinwandt"
+        vol:            "11505"
+        addr:
+            @0:         "Chongqing, China"
+            @1:         ""
+        month:
+            @0:         may # "~8--10"
+            @1:         ""
+    20:                 "PQCRYPTO20"
+        key:            "PQCRYPTO 2020"
+        name:           "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2018"
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         ""
+            @1:         ""
 xxxxname:               ""
 xxxpub:                 springer
 xxxx:
