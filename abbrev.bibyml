@@ -11517,9 +11517,13 @@ usenix:
         name:
             @0:         "USENIX Security 2019: 28th " # usenixname
             @2:         "USENIX Security 2019" # usenixname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Nadia Heninger and Patrick Traynor"
+        addr:
+            @0:         "Santa Clara, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~14--16,"
+            @1:         aug
     20:                 "USENIX20"
         key:            "USENIX Security 2020"
         name:
