@@ -6645,8 +6645,12 @@ ieeesp:
         key:            "IEEE S\&P 2019"
         name:           "2019 " # ieeespname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~19--23,"
+            @1:         may
     20:                 "SP20"
         key:            "IEEE S\&P 2020"
         name:           "2020 " # ieeespname
@@ -9472,10 +9476,14 @@ provsec:
         name:
             @0:         "ProvSec 2019: 13th " # provsecname
             @2:         "ProvSec 2019" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ron Steinfeld and Tsz Hon Yuen"
+        vol:            "11821"
+        addr:
+            @0:         "Cairns, QLD, Australia"
+            @1:         ""
+        month:
+            @0:         oct # "~1--4,"
+            @1:         oct
     20:                 "PROVSEC20"
         key:            "PROVSEC 2020"
         name:
