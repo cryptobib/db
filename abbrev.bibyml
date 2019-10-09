@@ -4003,8 +4003,8 @@ fc:
         name:
             @0:         "FC 2018: 22nd " # fcname_v2
             @2:         "FC 2018" # fcname_v2
-        ed:             ""
-        vol:            ""
+        ed:             "Sarah Meiklejohn and Kazue Sako"
+        vol:            "10957"
         addr:
             @0:         "Nieuwpoort, Cura{\c c}ao"
             @1:         ""
