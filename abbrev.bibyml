@@ -11882,7 +11882,7 @@ pqcrypto:
             @1:         ""
     19:                 "PQCRYPTO19"
         key:            "PQCRYPTO 2019"
-        name:           "Post-Quantum Cryptography - 10th International Conference, PQCrypto 2018"
+        name:           "Post-Quantum Cryptography - 10th International Conference, PQCrypto 2019"
         ed:             "Jintai Ding and Rainer Steinwandt"
         vol:            "11505"
         addr:
@@ -11893,7 +11893,7 @@ pqcrypto:
             @1:         ""
     20:                 "PQCRYPTO20"
         key:            "PQCRYPTO 2020"
-        name:           "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2018"
+        name:           "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2020"
         ed:             ""
         vol:            ""
         addr:
