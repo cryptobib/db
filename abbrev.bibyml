@@ -734,9 +734,14 @@ ccs:
         name:
             @0:         "ACM CCS 2019: 26th " # ccsname
             @2:         "ACM CCS 2019" # ccsname
-        ed:             ""
+        ed:             "Lorenzo Cavallaro and Johannes Kinder and XiaoFeng Wang and Jonathan Katz"
+        addr:
+            @0:         "London, UK"
+            @1:         ""
+        month:
+            @0:         nov # "~11--15,"
+            @1:         nov
         addr:           ""
-        month:          ""
     20:                 "CCS20"
         key:            "ACM CCS 2020"
         name:
@@ -1895,10 +1900,14 @@ cans:
         name:
             @0:         "CANS 19: 18th " # cansname
             @2:         "CANS 19" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Yi Mu and Robert H. Deng and Xinyi Huang"
+        vol:            "11829"
+        addr:
+            @0:         "Fuzhou, China"
+            @1:         ""
+        month:
+            @0:         oct # "~25--27,"
+            @1:         oct
     20:                 "CANS20"
         key:            "CANS 2020"
         name:
@@ -2244,10 +2253,14 @@ cosade:
         name:
             @0:         "COSADE 2019: 10th " # cosadename
             @2:         "COSADE 2019" # cosadename
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ilia Polian and Marc St{\"o}ttinger"
+        vol:            "11421"
+        addr:
+            @0:         "Darmstadt, Germany"
+            @1:         ""
+        month:
+            @0:         apr # "~3--5,"
+            @1:         apr
     20:                 "COSADE20"
         key:            "COSADE 2020"
         name:
@@ -4016,10 +4029,14 @@ fc:
         name:
             @0:         "FC 2019: 23rd " # fcname_v2
             @2:         "FC 2019" # fcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ian Goldberg and Tyler Moore"
+        vol:            "11598"
+        addr:
+            @0:         "Frigate Bay, St. Kitts and Nevis"
+            @1:         ""
+        month:
+            @0:         feb # "~18--22,"
+            @1:         feb
     20:                 "FC20"
         key:            "FC 2020"
         name:
