@@ -1679,29 +1679,37 @@ asiacrypt:
     19:
         -1:             "AC19-1"
         -2:             "AC19-2"
+        -3:             "AC19-3"
         key1:           "ASIACRYPT 2019, Part~I"
         key2:           "ASIACRYPT 2019, Part~II"
+        key3:           "ASIACRYPT 2019, Part~III"
         name1:          asiacryptname # "~2019, Part~I"
         name2:          asiacryptname # "~2019, Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:          asiacryptname # "~2019, Part~III"
+        ed:             "Steven D. Galbraith and Shiho Moriai"
+        vol1:           "11921"
+        vol2:           "11922"
+        vol3:           "11923"
         addr:
-            @0:         ""
+            @0:         "Kobe, Japan"
             @1:         ""
         month:
-            @0:         dec
+            @0:         dec # "~8--12,"
             @1:         dec
     20:
         -1:             "AC20-1"
         -2:             "AC20-2"
+        -3:             "AC20-3"
         key1:           "ASIACRYPT 2020, Part~I"
         key2:           "ASIACRYPT 2020, Part~II"
+        key3:           "ASIACRYPT 2020, Part~III"
         name1:          asiacryptname # "~2020, Part~I"
         name2:          asiacryptname # "~2020, Part~II"
+        name3:          asiacryptname # "~2020, Part~III"
         ed:             ""
         vol1:           ""
         vol2:           ""
+        vol3:           ""
         addr:
             @0:         ""
             @1:         ""
