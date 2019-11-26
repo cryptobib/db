@@ -10991,15 +10991,15 @@ tcc:
         name2:
             @0:         "TCC~2019: 17th " # tccname # ", Part~II"
             @2:         "TCC~2019" # tccname  # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Dennis Hofheinz and Alon Rosen"
+        vol1:           "11891"
+        vol2:           "11892"
         addr:
-            @0:         ""
+            @0:         "Nuremberg, Germany"
             @1:         ""
         month:
-            @0:         mar
-            @1:         mar
+            @0:         dec # "~1--5,"
+            @1:         dec
     20:
         -1:             "TCC20-1"
         -2:             "TCC20-2"
