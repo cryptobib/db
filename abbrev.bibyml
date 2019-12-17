@@ -6820,12 +6820,14 @@ ima:
     19:                 "IMA19"
         key:            "IMA 2019"
         name:           "17th " # imaname
-        ed:             ""
-        vol:            ""
+        ed:             "Martin Albrecht"
+        vol:            "11929"
         addr:
             @0:         "Oxford, UK"
             @1:         ""
-        month:          dec
+        month:
+            @0:         dec # "~16--18,"
+            @1:         dec
 indocryptname:
     @0:                 "Progress in Cryptology - INDOCRYPT"
     @2:                 "INDOCRYPT"
@@ -7086,10 +7088,14 @@ indocrypt:
         name:
             @0:         indocryptname # "~2019: 20th " # indocryptsuffix
             @2:         indocryptname # "~2019" # indocryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Feng Hao and Sushmita Ruj and Sourav {Sen Gupta}"
+        vol:            "11898"
+        addr:
+            @0:         "Hyderabad, India"
+            @1:         ""
+        month:
+            @0:         dec # "~15--18,"
+            @1:         dec
     20:                 "INDOCRYPT20"
         key:            "INDOCRYPT 2020"
         name:
