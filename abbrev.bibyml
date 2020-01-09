@@ -4545,9 +4545,13 @@ focs:
     19:                 "FOCS19"
         key:            "FOCS 2019"
         name:           "60th " # focsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "David Zuckerman"
+        addr:
+            @0:         "Baltimore, MD, USA"
+            @1:         ""
+        month:
+            @0:         nov # "~9--12,"
+            @1:         nov
     20:                 "FOCS20"
         key:            "FOCS 2020"
         name:           "61st " # focsname
@@ -7549,13 +7553,13 @@ itcs:
         name:
             @0:         "ITCS 2020: 11th " # itcsname_v4
             @2:         "ITCS 2020" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Thomas Vidick"
+        vol:            "151"
         addr:
-            @0:         ""
+            @0:         "Seattle, WA, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~12--14,"
             @1:         jan
 iwsecname:
     @0:                 "International Workshop on Security, Advances in Information and Computer Security"
