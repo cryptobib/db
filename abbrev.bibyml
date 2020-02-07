@@ -9851,12 +9851,14 @@ sac:
         name:
             @0:         "SAC 2019: 26th " # sacname
             @2:         "SAC 2019" # sacname
-        ed:             ""
-        vol:            ""
+        ed:             "Kenneth G. Paterson and Douglas Stebila"
+        vol:            "11959"
         addr:
-            @0:         "Calgary, Alberta, Canada"
+            @0:         "Waterloo, ON, Canada"
             @1:         ""
-        month:          ""
+        month:
+            @0:         aug # "~12--16,"
+            @1:         aug
     20:                 "SAC20"
         key:            "SAC 2020"
         name:
@@ -10331,9 +10333,13 @@ soda:
     20:                 "SODA20"
         key:            "SODA 2020"
         name:           "31st " # sodaname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Shuchi Chawla"
+        addr:
+            @0:         "Salt Lake City, UT, USA"
+            @1:         ""
+        month:
+            @0:         jan # "~5--8,"
+            @1:         jan
 stocname:
     @0:                 "Annual {ACM} Symposium on Theory of Computing"
     @2:                 "ACM STOC"
@@ -11811,10 +11817,14 @@ wisa:
         name:
             @0:         "WISA 19: 20th " # wisaname
             @2:         "WISA 19" # wisaname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ilsun You"
+        vol:            "11897"
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~21--24,"
+            @1:         aug
     20:                 "WISA20"
         key:            "WISA 2020"
         name:
