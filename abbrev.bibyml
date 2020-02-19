@@ -2892,10 +2892,14 @@ rsa:
     20:                 "RSA20"
         key:            "CT-RSA 2020"
         name:           rsaname # "~2020"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Stanislaw Jarecki"
+        vol:            "12006"
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~24--28,"
+            @1:         feb
 esoricsname:
     @0:                 "European Symposium on Research in Computer Security"
     @2:                 ""
@@ -6255,14 +6259,14 @@ icisc:
         name:
             @0:         "ICISC 19: 22nd " # iciscname
             @2:         "ICISC 19" # iciscname
-        ed:             "Zhiqiang Lin and Charalampos Papamanthou and Michalis Polychronakis"
-        vol:            "11723"
+        ed:             "Jae Hong Seo"
+        vol:            "11975"
         addr:
-            @0:         "New York City, NY, USA"
+            @0:         "Seoul, Korea"
             @1:         ""
         month:
-            @0:         sep # "~16--18,"
-            @1:         sep
+            @0:         dec # "~4--6,"
+            @1:         dec
     20:                 "ICISC20"
         key:            "ICISC 2020"
         name:
@@ -7394,10 +7398,14 @@ isc:
         name:
             @0:         "ISC~2019: 22nd " # iscname_v2
             @2:         "ISC~2019" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Zhiqiang Lin and Charalampos Papamanthou and Michalis Polychronakis"
+        vol:            "11723"
+        addr:
+            @0:         "New York City, NY, USA"
+            @1:         ""
+        month:
+            @0:         sep # "~16--18,"
+            @1:         sep
     20:                 "ISC20"
         key:            "ISC 2020"
         name:
