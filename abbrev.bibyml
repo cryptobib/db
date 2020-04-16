@@ -5960,10 +5960,14 @@ icics:
         name:
             @0:         "ICICS 19: 21st " # icicsname
             @2:         "ICICS 19" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Jianying Zhou and Xiapu Luo and Qingni Shen and Zhen Xu"
+        vol:            "11999"
+        addr:
+            @0:         "Beijing, China"
+            @1:         ""
+        month:
+            @0:         dec # "~15--17,"
+            @1:         dec
     20:                 "ICICS20"
         key:            "ICICS 2020"
         name:
@@ -11947,13 +11951,13 @@ pqcrypto:
     20:                 "PQCRYPTO20"
         key:            "PQCRYPTO 2020"
         name:           "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2020"
-        ed:             ""
-        vol:            ""
+        ed:             "Jintai Ding and Jean-Pierre Tillich"
+        vol:            "12100"
         addr:
-            @0:         ""
+            @0:         "Paris, France"
             @1:         ""
         month:
-            @0:         ""
+            @0:         apr # "~15--17"
             @1:         ""
 xxxxname:               ""
 xxxpub:                 springer
