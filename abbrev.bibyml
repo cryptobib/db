@@ -8956,11 +8956,15 @@ pkc:
         name2:
             @0:         "PKC~2020: 23rd " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2020" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
+        ed:             "Aggelos Kiayias and Markulf Kohlweiss and Petros Wallden and Vassilis Zikas"
+        vol1:           "12110"
+        vol2:           "12111"
+        addr:
+            @0:         "Edinburgh, UK"
+            @1:         ""
+        month:
+            @0:         may # "~4--7,"
+            @1:         may
 podcname:
     @0:                 "ACM Symposium Annual on Principles of Distributed Computing"
     @2:                 "ACM PODC"
