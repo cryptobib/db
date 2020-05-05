@@ -3733,15 +3733,15 @@ eurocrypt:
         name1:          eurocryptname # "~2020, Part~I"
         name2:          eurocryptname # "~2020, Part~II"
         name3:          eurocryptname # "~2020, Part~III"
-        ed:             "Vincent Rijmen and Yuval Ishai"
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        ed:             "Anne Canteaut and Yuval Ishai"
+        vol1:           "12105"
+        vol2:           "12106"
+        vol3:           "12107"
         addr:
-            @0:         ""
+            @0:         "Zagreb, Croatia"
             @1:         ""
         month:
-            @0:         may
+            @0:         may # "~10--14,"
             @1:         may
 fcname_v:
     1:
