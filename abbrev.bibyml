@@ -4140,10 +4140,10 @@ fcw:
     19:                 "FCW19"
         key:            "FCW 2019"
         name:           "FC 2019 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Andrea Bracciali and Jeremy Clark and Federico Pintore and Peter B. R{\o}nne and Massimiliano Sala"
+        vol:            "11599"
         addr:           fc19addr
-        month:          ""
+        month:          fc19month
     20:                 "FCW20"
         key:            "FCW 2020"
         name:           "FC 2020 Workshops"
