@@ -10762,9 +10762,13 @@ stoc:
     20:                 "STOC20"
         key:            "STOC 2020"
         name:           "52nd " # stocname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Konstantin Makarychev and Yury Makarychev and Madhur Tulsiani and Gautam Kamath and Julia Chuzhoy"
+        addr:
+            @0:         "Chicago, IL, USA"
+            @1:         ""
+        month:
+            @0:         jun # "~22--26,"
+            @1:         jun
 tccname:
     @0:                 "Theory of Cryptography Conference"
     @2:                 ""
