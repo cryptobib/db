@@ -7419,6 +7419,24 @@ isc:
         vol:            ""
         addr:           ""
         month:          ""
+itcname:
+    @0:                 "Conference on Information-Theoretic Cryptography"
+    @2:                 ""
+itcpub:                 dagstuhl
+itc:
+    20:                 "ITC20"
+        key:            "ITC 2020"
+        name:
+            @0:         "ITC 2020: 1st " # itcname
+            @2:         "ITC 2020" # itcname
+        ed:             "Yael Tauman Kalai and Adam D. Smith and Daniel Wichs"
+        vol:            ""
+        addr:
+            @0:         "Boston, MA, USA"
+            @1:         ""
+        month:
+            @0:         jun # "~17--19,"
+            @1:         jun
 itcsname_v:
     1:
         @0:             "Innovations in Computer Science"
