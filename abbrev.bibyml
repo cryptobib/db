@@ -1138,10 +1138,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 20: 12th " # africacryptname
             @2:         "AFRICACRYPT 20" # africacryptname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Abderrahmane Nitaj and Amr M. Youssef"
+        vol:            "12174"
+        addr:
+            @0:         "Cairo, Egypt"
+            @1:         ""
+        month:
+            @0:         jul # "~20--22,"
+            @1:         jul
 asiaccsname:
     @0:                 "ACM Symposium on Information, Computer and Communications Security"
     @2:                 ""
@@ -5527,10 +5531,14 @@ icalp:
         name:
             @0:         "ICALP 2020: 47th " # icalpname
             @2:         "ICALP 2020" # icalpname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Artur Czumaj and Anuj Dawar and Emanuela Merelli"
+        vol:            "168"
+        addr:
+            @0:         "Saarbr{\"u}cken, Germany"
+            @1:         ""
+        month:
+            @0:         jul # "~8--11,"
+            @1:         jul
 iccsaname:
     @0:                 "Computational Science and Its Applications"
     @2:                 ""
