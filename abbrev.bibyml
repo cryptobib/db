@@ -3677,7 +3677,7 @@ eurocrypt:
         name1:          eurocryptname # "~2017, Part~I"
         name2:          eurocryptname # "~2017, Part~II"
         name3:          eurocryptname # "~2017, Part~III"
-        ed:             "Jean{-}S{\'{e}}bastien Coron and Jesper Buus Nielsen"
+        ed:             "Jean-S{\'{e}}bastien Coron and Jesper Buus Nielsen"
         vol1:           "10210"
         vol2:           "10211"
         vol3:           "10212"
