@@ -408,22 +408,19 @@ acisp:
         month:
             @0:         jul # "~3--5,"
             @1:         jul
-    20:
-        -1:             "ACISP20-1"
-        -2:             "ACISP20-2"
-        key1:           "ACISP 2020, Part~I"
-        key2:           "ACISP 2020, Part~II"
-        name1:
-            @0:         "ACISP 20: 25th " # acispname # ", Part~I"
-            @2:         "ACISP 20" # acispname # ", Part~I"
-        name2:
-            @0:         "ACISP 20: 25th " # acispname # ", Part~II"
-            @2:         "ACISP 20" # acispname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        addr:           ""
-        month:          ""
+    20:                 "ACISP20"
+        key:            "ACISP 2020"
+        name:
+            @0:         "ACISP 20: 25th " # acispname
+            @2:         "ACISP 20" # acispname
+        ed:             "Joseph K. Liu and Hui Cui"
+        vol:            "12248"
+        addr:
+            @0:         "Perth, WA, Australia"
+            @1:         ""
+        month:
+            @0:         nov # "~30~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
 ccsname:
     @0:                 "Conference on Computer and Communications Security"
     @2:                 ""
@@ -2672,12 +2669,12 @@ crypto:
         name1:          cryptoname # "~2020, Part~I"
         name2:          cryptoname # "~2020, Part~II"
         name3:          cryptoname # "~2020, Part~III"
-        ed:             "Hovav Shacham and Alexandra Boldyreva"
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        ed:             "Daniele Micciancio and Thomas Ristenpart"
+        vol1:           "12170"
+        vol2:           "12171"
+        vol3:           "12172"
         month:
-            @0:         aug # "~16--20,"
+            @0:         aug # "~17--21,"
             @1:         aug
 rsaname:
     @0:                 "Topics in Cryptology -- CT-RSA"
