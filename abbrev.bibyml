@@ -4152,10 +4152,12 @@ fcw:
     20:                 "FCW20"
         key:            "FCW 2020"
         name:           "FC 2020 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Matthew Bernhard and Andrea Bracciali and L. Jean Camp and Shin'ichiro Matsuo and Alana Maurushat and Peter B. R{\o}nne and Massimiliano Sala"
+        vol:            "12063"
         addr:           fc20addr
-        month:          ""
+        month:
+            @0:         feb # "~14,"
+            @1:         feb
 focsname:
     @0:                 "Annual Symposium on Foundations of Computer Science"
     @2:                 "FOCS"
