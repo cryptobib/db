@@ -4055,10 +4055,14 @@ fc:
         name:
             @0:         "FC 2020: 24th " # fcname_v2
             @2:         "FC 2020" # fcname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Joseph Bonneau and Nadia Heninger"
+        vol:            "12059"
+        addr:
+            @0:         "Kota Kinabalu, Malaysia"
+            @1:         ""
+        month:
+            @0:         feb # "~10--14,"
+            @1:         feb
 fcwpub:                 springer
 fcw:
     10:                 "FCW10"
@@ -11621,9 +11625,11 @@ usenix:
         name:
             @0:         "USENIX Security 2020: 29th " # usenixname
             @2:         "USENIX Security 2020" # usenixname
-        ed:             ""
+        ed:             "Srdjan Capkun and Franziska Roesner"
         addr:           ""
-        month:          ""
+        month:
+            @0:         aug # "~12--14,"
+            @1:         aug
 vietcryptname:
     @0:                 "International Conference on Cryptology in Vietnam"
     @2:                 ""
