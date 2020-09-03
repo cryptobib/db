@@ -973,15 +973,26 @@ acns:
         month:
             @0:         jun # "~5--7,"
             @1:         jun
-    20:                 "ACNS20"
-        key:            "ACNS 2020"
-        name:
-            @0:         "ACNS 20: 18th " # acnsname
-            @2:         "ACNS 20" # acnsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+    20:
+        -1:             "ACNS20-1"
+        -2:             "ACNS20-2"
+        key1:           "ACNS 2020, Part~I"
+        key2:           "ACNS 2020, Part~II"
+        name1:
+            @0:         "ACNS 20: 18th " # acnsname # ", Part~I"
+            @2:         "ACNS 20" # acnsname # ", Part~I"
+        name2:
+            @0:         "ACNS 20: 18th " # acnsname # ", Part~II"
+            @2:         "ACNS 20" # acnsname # ", Part~II"
+        ed:             "Mauro Conti and Jianying Zhou and Emiliano Casalicchio and Angelo Spognardi"
+        vol1:           "12146"
+        vol2:           "12147"
+        addr:
+            @0:         "Rome, Italy"
+            @1:         ""
+        month:
+            @0:         oct # "~19--22,"
+            @1:         oct
 africacryptname:
     @0:                 "International Conference on Cryptology in Africa"
     @2:                 ""
@@ -6703,8 +6714,12 @@ ieeesp:
         key:            "IEEE S\&P 2020"
         name:           "2020 " # ieeespname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~18--21,"
+            @1:         may
 imaname:                "IMA International Conference on Cryptography and Coding"
 imapub:                 springer
 ima:
@@ -7795,10 +7810,14 @@ iwsec:
         name:
             @0:         "IWSEC 20: 15th " # iwsecname
             @2:         "IWSEC 20" # iwsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Kazumaro Aoki and Akira Kanaoka"
+        vol:            "12231"
+        addr:
+            @0:         "Fukui, Japan"
+            @1:         ""
+        month:
+            @0:         sep # "~2--4,"
+            @1:         sep
 latinname:
     @0:                 "Latin American Symposium"
     @2:                 ""
@@ -9382,9 +9401,13 @@ podc:
     20:                 "PODC20"
         key:            "PODC 2020"
         name:           "39th " # podcname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Yuval Emek and Christian Cachin"
+        addr:
+            @0:         "Virtual Event, Italy"
+            @1:         ""
+        month:
+            @0:         aug # "~3--7,"
+            @1:         aug
 popets:
     @0:                 "Proceedings on Privacy Enhancing Technologies"
     @2:                 "{PoPETs}"
