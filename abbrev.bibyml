@@ -3283,14 +3283,14 @@ esorics:
         name2:
             @0:         "ESORICS~2020: 25th " # esoricsname # ", Part~II"
             @2:         "ESORICS~2020" # esoricsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Liqun Chen and Ninghui Li and Kaitai Liang and Steve A. Schneider"
+        vol1:           "12308"
+        vol2:           "12309"
         addr:
-            @0:         ""
+            @0:         "Guildford, UK"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~14--18,"
             @1:         sep
 eurocryptname:
     @0:                 "Advances in Cryptology -- {EUROCRYPT}"
@@ -8354,7 +8354,9 @@ ndss:
         addr:
             @0:         "San Diego, CA, USA"
             @1:         ""
-        month:          ""
+        month:
+            @0:         feb # "~23-26,"
+            @1:         feb
 pairingname:
     @0:                 "International Conference on Pairing-based Cryptography"
     @2:                 ""
@@ -10089,10 +10091,14 @@ scn:
         name:
             @0:         "SCN 20: 12th " # scnname
             @2:         "SCN 20" # scnname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Clemente Galdi and Vladimir Kolesnikov"
+        vol:            "12238"
+        addr:
+            @0:         "Amalfi, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~14--16,"
+            @1:         sep
 sodaname:
     @0:                 "Annual {ACM}-{SIAM} Symposium on Discrete Algorithms"
     @2:                 "SODA"
@@ -11331,10 +11337,14 @@ trustbus:
         name:
             @0:         "TrustBus 2020: Trust and Privacy in Digital Business, 17th " # trustbusname
             @2:         "TrustBus 2020" # trustbusname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Stefanos Gritzalis and Edgar R. Weippl and Gabriele Anderst-Kotsis and A Min Tjoa and Ismail Khalil"
+        vol:            "12395"
+        addr:
+            @0:         "Bratislava, Slovakia"
+            @1:         ""
+        month:
+            @0:         sep # "~14--17,"
+            @1:         sep
 tosc:
     @0:                 "{IACR} Transactions on Symmetric Cryptology"
     @2:                 "{IACR} Trans. Symm. Cryptol."
