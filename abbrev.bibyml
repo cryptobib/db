@@ -744,9 +744,13 @@ ccs:
         name:
             @0:         "ACM CCS 20: 27th " # ccsname
             @2:         "ACM CCS 20" # ccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Jay Ligatti and Xinming Ou and Jonathan Katz and Giovanni Vigna"
+        addr:
+            @0:         "Virtual Event, USA"
+            @1:         ""
+        month:
+            @0:         nov # "~9--13,"
+            @1:         nov
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
     @2:                 ""
@@ -1332,9 +1336,13 @@ asiaccs:
         name:
             @0:         "ASIACCS 20: 15th " # asiaccsname
             @2:         "ASIACCS 20" # asiaccsname
-        ed:             ""
-        addr:           ""
-        month:          ""
+        ed:             "Hung-Min Sun and Shiuh-Pyng Shieh and Guofei Gu and Giuseppe Ateniese"
+        addr:
+            @0:         "Taipei, Taiwan"
+            @1:         ""
+        month:
+            @0:         oct # "~5--9,"
+            @1:         oct
 asiacryptname:
     @0:                 "Advances in Cryptology -- {ASIACRYPT}"
     @2:                 "ASIACRYPT"
