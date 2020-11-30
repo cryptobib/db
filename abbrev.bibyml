@@ -12042,6 +12042,126 @@ pqcrypto:
 csfname:                "Computer Security Foundations Symposium"
 csfpub:                 "{IEEE} Computer Society Press"
 csf:
+    07:                 "CSF07"
+        key:            "CSF 2007"
+        name:
+            @0:         "CSF 2007: IEEE 20st " # csfname
+            @2:         "CSF 2007" # csfname
+        ed:             "Andrei Sabelfeld"
+        addr:
+            @0:         "Venice, Italy"
+            @1:         ""
+        month:
+            @0:         "jul" # "~6--8"
+            @1:         ""
+    08:                 "CSF08"
+        key:            "CSF 2008"
+        name:
+            @0:         "CSF 2008: IEEE 21st " # csfname
+            @2:         "CSF 2008" # csfname
+        ed:             "Andrei Sabelfeld"
+        addr:
+            @0:         "Pittsburgh, PA, USA"
+            @1:         ""
+        month:
+            @0:         "jun" # "~23-25"
+            @1:         ""
+    09:                 "CSF09"
+        key:            "CSF 2009"
+        name:
+            @0:         "CSF 2009: IEEE 22st " # csfname
+            @2:         "CSF 2009" # csfname
+        ed:             "John C Mitchell"
+        addr:
+            @0:         "Port Jefferson, New York, USA"
+            @1:         ""
+        month:
+            @0:         "jul" # "~8-10"
+            @1:         ""
+    10:                 "CSF10"
+        key:            "CSF 2010"
+        name:
+            @0:         "CSF 2010: IEEE 23st " # csfname
+            @2:         "CSF 2010" # csfname
+        ed:             "Andrew Myers and Michael Backes"
+        addr:
+            @0:         "Edinburgh, Scotland, UK"
+            @1:         ""
+        month:
+            @0:         "jul" # "~17-19"
+            @1:         ""
+    11:                 "CSF11"
+        key:            "CSF 2011"
+        name:
+            @0:         "CSF 2011: IEEE 24st " # csfname
+            @2:         "CSF 2011" # csfname
+        ed:             "Michael Backes and Steve Zdancewic"
+        addr:
+            @0:         "Domaine de l'Abbaye des Vaux de Cernay, France"
+            @1:         ""
+        month:
+            @0:         "jun" # "~27-29"
+            @1:         ""
+    12:                 "CSF12"
+        key:            "CSF 2012"
+        name:
+            @0:         "CSF 2012: IEEE 25st " # csfname
+            @2:         "CSF 2012" # csfname
+        ed:             "Steve Zdancewic and Véronique Cortier"
+        addr:
+            @0:         "Cambridge, MA, USA"
+            @1:         ""
+        month:
+            @0:         "jun" # "~25-27"
+            @1:         ""
+    13:                 "CSF13"
+        key:            "CSF 2013"
+        name:
+            @0:         "CSF 2013: IEEE 26st " # csfname
+            @2:         "CSF 2013" # csfname
+        ed:             "Véronique Cortier and Anupam Datta"
+        addr:
+            @0:         "New Orleans, LA, USA"
+            @1:         ""
+        month:
+            @0:         "jun" # "~26-28"
+            @1:         ""
+    14:                 "CSF14"
+        key:            "CSF 2014"
+        name:
+            @0:         "CSF 2014: IEEE 27st " # csfname
+            @2:         "CSF 2014" # csfname
+        ed:             "Anupam Datta and Cedric Fournet"
+        addr:
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month:
+            @0:         "jul" # "~19-22"
+            @1:         ""
+    15:                 "CSF15"
+        key:            "CSF 2015"
+        name:
+            @0:         "CSF 2015: IEEE 28st " # csfname
+            @2:         "CSF 2015" # csfname
+        ed:             "Cedric Fournet and Michael Hicks"
+        addr:
+            @0:         "Verona, Italy"
+            @1:         ""
+        month:
+            @0:         "jul" # "~13-17"
+            @1:         ""
+    16:                 "CSF16"
+        key:            "CSF 2016"
+        name:
+            @0:         "CSF 2016: IEEE 29st " # csfname
+            @2:         "CSF 2016" # csfname
+        ed:             "Michael Hicks and Boris Köpf"
+        addr:
+            @0:         "Lisbon, Portugal"
+            @1:         ""
+        month:
+            @0:         "jun" # "~27-1"
+            @1:         ""
     17:                 "CSF17"
         key:            "CSF 2017"
         name:
