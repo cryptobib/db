@@ -12039,6 +12039,57 @@ pqcrypto:
         month:
             @0:         apr # "~15--17"
             @1:         ""
+csfname:                "Computer Security Foundations Symposium"
+csfpub:                 "{IEEE} Computer Society Press"
+csf:
+    17:                 "CSF17"
+        key:            "CSF 2017"
+        name:
+            @0:         "CSF 2017: IEEE 30st " # csfname
+            @2:         "CSF 2017" # csfname
+        ed:             "Boris Köpf and Steve Chong"
+        addr:
+            @0:         "Santa Barbara, CA, USA"
+            @1:         ""
+        month:
+            @0:         "aug" # "~21-25"
+            @1:         ""
+    18:                 "CSF18"
+        key:            "CSF 2018"
+        name:
+            @0:         "CSF 2018: IEEE 31st " # csfname
+            @2:         "CSF 2018" # csfname
+        ed:             "Steve Chong and Stephanie Delaune"
+        addr:
+            @0:         "Oxford, UK"
+            @1:         ""
+        month:
+            @0:         "jul" # "~9-12"
+            @1:         ""
+    19:                 "CSF19"
+        key:            "CSF 2019"
+        name:
+            @0:         "CSF 2019: IEEE 32st " # csfname
+            @2:         "CSF 2019" # csfname
+        ed:             "Stephanie Delaune and Limin Jia"
+        addr:
+            @0:         "Hoboken, NJ, USA"
+            @1:         ""
+        month:
+            @0:         "jun" # "~25-28"
+            @1:         ""
+    20:                 "CSF20"
+        key:            "CSF 2020"
+        name:
+            @0:         "CSF 2020: IEEE 33st " # csfname
+            @2:         "CSF 2020" # csfname
+        ed:             "Limin Jia and Ralf K{\"u}sters"
+        addr:
+            @0:         "Boston, MA, USA"
+            @1:         ""
+        month:
+            @0:         "jun" # "~22-26"
+            @1:         ""
 xxxxname:               ""
 xxxpub:                 springer
 xxxx:
