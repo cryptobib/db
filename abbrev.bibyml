@@ -1726,15 +1726,15 @@ asiacrypt:
         name1:          asiacryptname # "~2020, Part~I"
         name2:          asiacryptname # "~2020, Part~II"
         name3:          asiacryptname # "~2020, Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        ed:             "Shiho Moriai and Huaxiong Wang"
+        vol1:           "12491"
+        vol2:           "12492"
+        vol3:           "12493"
         addr:
-            @0:         ""
+            @0:         "Daejeon, South Korea"
             @1:         ""
         month:
-            @0:         dec
+            @0:         dec # "~7--11,"
             @1:         dec
 cansname:
     @0:                 "International Conference on Cryptology and Network Security"
