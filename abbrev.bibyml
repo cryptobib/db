@@ -11105,23 +11105,29 @@ tcc:
     20:
         -1:             "TCC20-1"
         -2:             "TCC20-2"
+        -3:             "TCC20-3"
         key1:           "TCC 2020, Part~I"
         key2:           "TCC 2020, Part~II"
+        key3:           "TCC 2020, Part~III"
         name1:
             @0:         "TCC~2020: 18th " # tccname # ", Part~I"
             @2:         "TCC~2020" # tccname  # ", Part~I"
         name2:
             @0:         "TCC~2020: 18th " # tccname # ", Part~II"
             @2:         "TCC~2020" # tccname  # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:
+            @0:         "TCC~2020: 18th " # tccname # ", Part~III"
+            @2:         "TCC~2020" # tccname  # ", Part~III"
+        ed:             "Rafael Pass and Krzysztof Pietrzak"
+        vol1:           "12550"
+        vol2:           "12551"
+        vol3:           "12552"
         addr:
-            @0:         ""
+            @0:         "Durham, NC, USA"
             @1:         ""
         month:
-            @0:         mar
-            @1:         mar
+            @0:         nov # "~16--19,"
+            @1:         nov
 tches:
     @0:                 "{IACR} Transactions on Cryptographic Hardware and Embedded Systems"
     @2:                 "{IACR} {TCHES}"
