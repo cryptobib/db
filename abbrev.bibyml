@@ -1941,10 +1941,14 @@ cans:
         name:
             @0:         "CANS 20: 19th " # cansname
             @2:         "CANS 20" # cansname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Stephan Krenn and Haya Shulman and Serge Vaudenay"
+        vol:            "12579"
+        addr:
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month:
+            @0:         dec # "~14--16,"
+            @1:         dec
 chesname:
     @0:                 "Cryptographic Hardware and Embedded Systems -- {CHES}"
     @2:                 "CHES"
@@ -7147,10 +7151,14 @@ indocrypt:
         name:
             @0:         indocryptname # "~2020: 21st " # indocryptsuffix
             @2:         indocryptname # "~2020" # indocryptsuffix
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Karthikeyan Bhargavan and Elisabeth Oswald and Manoj Prabhakaran"
+        vol:            "12578"
+        addr:
+            @0:         "Bangalore, India"
+            @1:         ""
+        month:
+            @0:         dec # "~13--16,"
+            @1:         dec
 iscname_v:
     1:
         @0:             "International Workshop on Information Security"
@@ -7449,10 +7457,14 @@ isc:
         name:
             @0:         "ISC~2020: 23rd " # iscname_v2
             @2:         "ISC~2020" # iscname_v2
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Willy Susilo and Robert H. Deng and Fuchun Guo and Yannan Li and Rolly Intan"
+        vol:            "12472"
+        addr:
+            @0:         "Bali, Indonesia"
+            @1:         ""
+        month:
+            @0:         dec # "~16--18,"
+            @1:         dec
 itcname:
     @0:                 "Conference on Information-Theoretic Cryptography"
     @2:                 ""
@@ -8005,10 +8017,14 @@ latin:
         name:
             @0:         "LATIN 2020: Theoretical Informatics, 14th " # latinname
             @2:         "LATIN 2020" # latinname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Yoshiharu Kohayakawa and Fl{\'a}vio Keidi Miyazawa"
+        vol:            "12118"
+        addr:
+            @0:         "S{\~a}o Paulo, Brazil"
+            @1:         ""
+        month:
+            @0:         jan # "~5--8,"
+            @1:         jan
 latincryptname:
     @0:                 "Progress in Cryptology - LATINCRYPT"
     @2:                 "LATINCRYPT"
@@ -9602,10 +9618,14 @@ provsec:
         name:
             @0:         "ProvSec 2020: 14th " # provsecname
             @2:         "ProvSec 2020" # provsecname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Khoa Nguyen and Wenling Wu and Kwok-Yan Lam and Huaxiong Wang"
+        vol:            "12505"
+        addr:
+            @0:         "Singapore"
+            @1:         ""
+        month:
+            @0:         nov # "~29~--~" # dec # "~1,"
+            @1:         nov # "~/~" # dec
 sacname:
     @0:                 "Annual International Workshop on Selected Areas in Cryptography"
     @2:                 ""
@@ -11928,10 +11948,14 @@ wisa:
         name:
             @0:         "WISA 20: 21st " # wisaname
             @2:         "WISA 20" # wisaname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Ilsun You"
+        vol:            "12583"
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~26--28,"
+            @1:         aug
 pqcryptoname:          "Post-Quantum Cryptography"
 pqcryptopub:           springer
 pqcrypto:
