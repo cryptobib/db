@@ -145,7 +145,7 @@ add_conf("COSADE", "International Workshop on Constructive Side-Channel Analysis
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
 # Some CSF ('07-'16) are labeled csfw/csf, remaining csfw/csfw
 # 
-add_conf("CSF", "IEEE Computer Security Foundations Symposium", name="csf", url="https://dblp.uni-trier.de/db/conf/csfw/csf${url_year}.html")
+add_conf("CSF", "IEEE Computer Security Foundations Symposium", name="CSF", url="https://dblp.uni-trier.de/db/conf/csfw/csfw${url_year}.html")
 add_conf("C", "International Cryptology Conference", name="CRYPTO")
 add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA", crossref="rsa",
          url="https://dblp.uni-trier.de/db/conf/ctrsa/ctrsa${url_year}.html")
