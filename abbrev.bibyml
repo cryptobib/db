@@ -6007,10 +6007,14 @@ icics:
         name:
             @0:         "ICICS 20: 22nd " # icicsname
             @2:         "ICICS 20" # icicsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Weizhi Meng and Dieter Gollmann and Christian Damsgaard Jensen and Jianying Zhou"
+        vol:            "11999"
+        addr:
+            @0:         "Copenhagen, Denmark"
+            @1:         ""
+        month:
+            @0:         aug # "~24--26,"
+            @1:         aug
 iciscname:
     @0:                 "International Conference on Information Security and Cryptology"
     @2:                 ""
