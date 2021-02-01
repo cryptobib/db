@@ -4590,8 +4590,12 @@ focs:
         key:            "FOCS 2020"
         name:           "61st " # focsname
         ed:             ""
-        addr:           ""
-        month:          ""
+        addr:
+            @0:         "Durham, NC, USA"
+            @1:         ""
+        month:
+            @0:         nov # "~16--19,"
+            @1:         nov
 fsename:
     @0:                 "Fast Software Encryption -- {FSE}"
     @2:                 "FSE"
