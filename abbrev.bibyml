@@ -2298,10 +2298,14 @@ cosade:
         name:
             @0:         "COSADE 2020: 11th " # cosadename
             @2:         "COSADE 2020" # cosadename
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Guido Marco Bertoni and Francesco Regazzoni"
+        vol:            "12244"
+        addr:
+            @0:         "Lugano, Switzerland"
+            @1:         ""
+        month:
+            @0:         apr # "~1--3,"
+            @1:         apr
 cqrename:
     @0:                 "International Exhibition and Congress on Network Security -- {CQRE}"
     @2:                 "CQRE"
@@ -7650,13 +7654,13 @@ itcs:
         name:
             @0:         "ITCS 2021: 12th " # itcsname_v4
             @2:         "ITCS 2021" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "James R. Lee"
+        vol:            "185"
         addr:
-            @0:         ""
+            @0:         "Virtual Conference"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~6--8,"
             @1:         jan
     22:               "ITCS22"
         key:            "ITCS 2022"
