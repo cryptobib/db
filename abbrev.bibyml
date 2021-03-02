@@ -6322,10 +6322,14 @@ icisc:
         name:
             @0:         "ICISC 20: 23rd " # iciscname
             @2:         "ICISC 20" # iciscname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Deukjo Hong"
+        vol:            "12593"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         dec # "~2--4,"
+            @1:         dec
 icitsname:
     @0:                 "International Conference on Information Theoretic Security"
     @2:                 ""
