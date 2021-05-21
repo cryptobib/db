@@ -2928,6 +2928,61 @@ rsa:
         month:
             @0:         feb # "~24--28,"
             @1:         feb
+    21:                 "RSA21"
+        key:            "CT-RSA 2021"
+        name:           rsaname # "~2021"
+        ed:             "Kenneth G. Paterson"
+        vol:            "12704"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         may # "~17--20,"
+            @1:         may
+    22:                 "RSA22"
+        key:            "CT-RSA 2022"
+        name:           rsaname # "~2022"
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~24--28,"
+            @1:         feb
+    23:                 "RSA23"
+        key:            "CT-RSA 2023"
+        name:           rsaname # "~2023"
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~24--28,"
+            @1:         feb
+    24:                 "RSA24"
+        key:            "CT-RSA 2024"
+        name:           rsaname # "~2024"
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~24--28,"
+            @1:         feb
+    25:                 "RSA25"
+        key:            "CT-RSA 2025"
+        name:           rsaname # "~2025"
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~24--28,"
+            @1:         feb
 esoricsname:
     @0:                 "European Symposium on Research in Computer Security"
     @2:                 ""
@@ -9119,6 +9174,106 @@ pkc:
             @1:         ""
         month:
             @0:         may # "~4--7,"
+            @1:         may
+    21:                 "PKC21"
+        -1:             "PKC21-1"
+        -2:             "PKC21-2"
+        key1:           "PKC 2021, Part~I"
+        key2:           "PKC 2021, Part~II"
+        name1:
+            @0:         "PKC~2021: 24th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2021" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2021: 24th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2021" # pkcname_v2 # ", Part~II"
+        ed:             "Juan Garay"
+        vol1:           "12710"
+        vol2:           "12711"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         may # "~10--13,"
+            @1:         may
+    22:                 "PKC22"
+        -1:             "PKC22-1"
+        -2:             "PKC22-2"
+        key1:           "PKC 2022, Part~I"
+        key2:           "PKC 2022, Part~II"
+        name1:
+            @0:         "PKC~2022: 25th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2022" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2022: 25th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2022" # pkcname_v2 # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         may # "~10--13,"
+            @1:         may
+    23:                 "PKC23"
+        -1:             "PKC23-1"
+        -2:             "PKC23-2"
+        key1:           "PKC 2023, Part~I"
+        key2:           "PKC 2023, Part~II"
+        name1:
+            @0:         "PKC~2023: 26th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2023" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2023: 26th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2023" # pkcname_v2 # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         may # "~10--13,"
+            @1:         may
+    24:                 "PKC24"
+        -1:             "PKC24-1"
+        -2:             "PKC24-2"
+        key1:           "PKC 2024, Part~I"
+        key2:           "PKC 2024, Part~II"
+        name1:
+            @0:         "PKC~2024: 27th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2024" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2024: 27th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2024" # pkcname_v2 # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         may # "~10--13,"
+            @1:         may
+    25:                 "PKC25"
+        -1:             "PKC25-1"
+        -2:             "PKC25-2"
+        key1:           "PKC 2025, Part~I"
+        key2:           "PKC 2025, Part~II"
+        name1:
+            @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2025" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2025" # pkcname_v2 # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         may # "~10--13,"
             @1:         may
 podcname:
     @0:                 "ACM Symposium Annual on Principles of Distributed Computing"
