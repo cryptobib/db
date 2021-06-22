@@ -742,8 +742,8 @@ ccs:
     20:                 "CCS20"
         key:            "ACM CCS 2020"
         name:
-            @0:         "ACM CCS 20: 27th " # ccsname
-            @2:         "ACM CCS 20" # ccsname
+            @0:         "ACM CCS 2020: 27th " # ccsname
+            @2:         "ACM CCS 2020" # ccsname
         ed:             "Jay Ligatti and Xinming Ou and Jonathan Katz and Giovanni Vigna"
         addr:
             @0:         "Virtual Event, USA"
