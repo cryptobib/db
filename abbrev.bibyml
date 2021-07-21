@@ -118,7 +118,7 @@ acisp:
         ed:             "Colin Boyd and Ed Dawson"
         vol:            "1438"
         addr:
-            @0:         "Brisbane,Queensland, Australia"
+            @0:         "Brisbane, Queensland, Australia"
             @1:         ""
         month:          jul
     99:                 "ACISP99"
