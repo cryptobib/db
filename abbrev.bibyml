@@ -2703,6 +2703,111 @@ crypto:
         month:
             @0:         aug # "~17--21,"
             @1:         aug
+    21:
+        -1:             "C21-1"
+        -2:             "C21-2"
+        -3:             "C21-3"
+        -4:             "C21-4"
+        key1:           "CRYPTO 2021, Part~I"
+        key2:           "CRYPTO 2021, Part~II"
+        key3:           "CRYPTO 2021, Part~III"
+        key4:           "CRYPTO 2021, Part~IV"
+        name1:          cryptoname # "~2021, Part~I"
+        name2:          cryptoname # "~2021, Part~II"
+        name3:          cryptoname # "~2021, Part~III"
+        name4:          cryptoname # "~2021, Part~IV"
+        ed:             "Tal Malkin and Chris Peikert"
+        vol1:           "12825"
+        vol2:           "12826"
+        vol3:           "12827"
+        vol4:           "12828"
+        month:
+            @0:         aug # "~16--20,"
+            @1:         aug
+    22:
+        -1:             "C22-1"
+        -2:             "C22-2"
+        -3:             "C22-3"
+        -4:             "C22-4"
+        key1:           "CRYPTO 2022, Part~I"
+        key2:           "CRYPTO 2022, Part~II"
+        key3:           "CRYPTO 2022, Part~III"
+        key4:           "CRYPTO 2022, Part~IV"
+        name1:          cryptoname # "~2022, Part~I"
+        name2:          cryptoname # "~2022, Part~II"
+        name3:          cryptoname # "~2022, Part~III"
+        name4:          cryptoname # "~2022, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        month:
+            @0:         aug 
+            @1:         aug
+    23:
+        -1:             "C23-1"
+        -2:             "C23-2"
+        -3:             "C23-3"
+        -4:             "C23-4"
+        key1:           "CRYPTO 2023, Part~I"
+        key2:           "CRYPTO 2023, Part~II"
+        key3:           "CRYPTO 2023, Part~III"
+        key4:           "CRYPTO 2023, Part~IV"
+        name1:          cryptoname # "~2023, Part~I"
+        name2:          cryptoname # "~2023, Part~II"
+        name3:          cryptoname # "~2023, Part~III"
+        name4:          cryptoname # "~2023, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        month:
+            @0:         aug 
+            @1:         aug
+    24:
+        -1:             "C24-1"
+        -2:             "C24-2"
+        -3:             "C24-3"
+        -4:             "C24-4"
+        key1:           "CRYPTO 2024, Part~I"
+        key2:           "CRYPTO 2024, Part~II"
+        key3:           "CRYPTO 2024, Part~III"
+        key4:           "CRYPTO 2024, Part~IV"
+        name1:          cryptoname # "~2024, Part~I"
+        name2:          cryptoname # "~2024, Part~II"
+        name3:          cryptoname # "~2024, Part~III"
+        name4:          cryptoname # "~2024, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        month:
+            @0:         aug 
+            @1:         aug
+    25:
+        -1:             "C25-1"
+        -2:             "C25-2"
+        -3:             "C25-3"
+        -4:             "C25-4"
+        key1:           "CRYPTO 2025, Part~I"
+        key2:           "CRYPTO 2025, Part~II"
+        key3:           "CRYPTO 2025, Part~III"
+        key4:           "CRYPTO 2025, Part~IV"
+        name1:          cryptoname # "~2025, Part~I"
+        name2:          cryptoname # "~2025, Part~II"
+        name3:          cryptoname # "~2025, Part~III"
+        name4:          cryptoname # "~2025, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        month:
+            @0:         aug 
+            @1:         aug
 rsaname:
     @0:                 "Topics in Cryptology -- CT-RSA"
     @2:                 "CT-RSA"
@@ -3826,6 +3931,106 @@ eurocrypt:
         month:
             @0:         may # "~10--14,"
             @1:         may
+    21:                 "EC21"
+        -1:             "EC21-1"
+        -2:             "EC21-2"
+        -3:             "EC21-3"
+        key1:           "EUROCRYPT 2021, Part~I"
+        key2:           "EUROCRYPT 2021, Part~II"
+        key3:           "EUROCRYPT 2021, Part~III"
+        name1:          eurocryptname # "~2021, Part~I"
+        name2:          eurocryptname # "~2021, Part~II"
+        name3:          eurocryptname # "~2021, Part~III"
+        ed:             "Anne Canteaut and Fran\c{c}ois-Xavier Standaert"
+        vol1:           "12696"
+        vol2:           "12697"
+        vol3:           "12698"
+        addr:
+            @0:         "Zagreb, Croatia"
+            @1:         ""
+        month:
+            @0:         oct # "~17--21,"
+            @1:         oct
+    22:                 "EC22"
+        -1:             "EC22-1"
+        -2:             "EC22-2"
+        -3:             "EC22-3"
+        key1:           "EUROCRYPT 2022, Part~I"
+        key2:           "EUROCRYPT 2022, Part~II"
+        key3:           "EUROCRYPT 2022, Part~III"
+        name1:          eurocryptname # "~2022, Part~I"
+        name2:          eurocryptname # "~2022, Part~II"
+        name3:          eurocryptname # "~2022, Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
+    23:                 "EC23"
+        -1:             "EC23-1"
+        -2:             "EC23-2"
+        -3:             "EC23-3"
+        key1:           "EUROCRYPT 2023, Part~I"
+        key2:           "EUROCRYPT 2023, Part~II"
+        key3:           "EUROCRYPT 2023, Part~III"
+        name1:          eurocryptname # "~2023, Part~I"
+        name2:          eurocryptname # "~2023, Part~II"
+        name3:          eurocryptname # "~2023, Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
+    24:                 "EC24"
+        -1:             "EC24-1"
+        -2:             "EC24-2"
+        -3:             "EC24-3"
+        key1:           "EUROCRYPT 2024, Part~I"
+        key2:           "EUROCRYPT 2024, Part~II"
+        key3:           "EUROCRYPT 2024, Part~III"
+        name1:          eurocryptname # "~2024, Part~I"
+        name2:          eurocryptname # "~2024, Part~II"
+        name3:          eurocryptname # "~2024, Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
+    25:                 "EC25"
+        -1:             "EC25-1"
+        -2:             "EC25-2"
+        -3:             "EC25-3"
+        key1:           "EUROCRYPT 2025, Part~I"
+        key2:           "EUROCRYPT 2025, Part~II"
+        key3:           "EUROCRYPT 2025, Part~III"
+        name1:          eurocryptname # "~2025, Part~I"
+        name2:          eurocryptname # "~2025, Part~II"
+        name3:          eurocryptname # "~2025, Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
 fcname_v:
     1:
         @0:             "International Conference on Financial Cryptography"
