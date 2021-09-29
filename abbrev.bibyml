@@ -2185,6 +2185,13 @@ ches:
         vol:            ""
         addr:           ""
         month:          ""
+    21:                 "CHES21"
+        key:            "CHES 2021"
+        name:           chesname # "~2021"
+        ed:             ""
+        vol:            ""
+        addr:           ""
+        month:          ""
 cosadename:
     @0:                 "International Workshop on Constructive Side-Channel Analysis and Secure Design"
     @2:                 ""
