@@ -214,7 +214,7 @@ add_journal("ToSC", 2016, "tosc", "Transactions on Symmetric Cryptology",
             url="https://dblp.uni-trier.de/db/journals/tosc/tosc${year}.html")
 
 add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and Embedded Systems",
-            months=[],
+            months=["nov"],
             url="https://dblp.uni-trier.de/db/journals/tches/tches${year}.html",
             publisher="tchespub")
 
