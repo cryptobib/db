@@ -12170,6 +12170,16 @@ usenix:
         month:
             @0:         aug # "~12--14,"
             @1:         aug
+    21:                 "USENIX21"
+        key:            "USENIX Security 2021"
+        name:
+            @0:         "USENIX Security 2021: 30th " # usenixname
+            @2:         "USENIX Security 2021" # usenixname
+        ed:             "Michael Bailey and Rachel Greenstadt"
+        addr:           ""
+        month:
+            @0:         aug # "~11--13,"
+            @1:         aug
 vietcryptname:
     @0:                 "International Conference on Cryptology in Vietnam"
     @2:                 ""
