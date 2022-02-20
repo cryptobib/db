@@ -12711,6 +12711,18 @@ csf:
         month:
             @0:         "jun" # "~22-26"
             @1:         ""
+    21:                 "CSF21"
+        key:            "CSF 2021"
+        name:
+            @0:         "CSF 2021: IEEE 34st " # csfname
+            @2:         "CSF 2021 " # csfname
+        ed:             "Ralf K{\"u}sters and Dave Naumann"
+        addr:
+            @0:         "Virtual Conference"
+            @1:         ""
+        month:
+            @0:         "jun" # "~21-24"
+            @1:         ""
 xxxxname:               ""
 xxxpub:                 springer
 xxxx:
