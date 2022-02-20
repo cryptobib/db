@@ -7000,6 +7000,16 @@ ieeesp:
         month:
             @0:         may # "~18--21,"
             @1:         may
+    21:                 "SP21"
+        key:            "IEEE S\&P 2021"
+        name:           "2021 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~24--27,"
+            @1:         may
 imaname:                "IMA International Conference on Cryptography and Coding"
 imapub:                 springer
 ima:
