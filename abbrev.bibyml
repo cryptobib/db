@@ -752,6 +752,18 @@ ccs:
         month:
             @0:         nov # "~9--13,"
             @1:         nov
+    21:                 "CCS21"
+        key:            "ACM CCS 2021"
+        name:
+            @0:         "ACM CCS 2021: 28th " # ccsname
+            @2:         "ACM CCS 2021" # ccsname
+        ed:             "Giovanni Vigna and Elaine Shi"
+        addr:
+            @0:         "Virtual Event, Republic of Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~15--19,"
+            @1:         nov
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
     @2:                 ""
