@@ -752,6 +752,18 @@ ccs:
         month:
             @0:         nov # "~9--13,"
             @1:         nov
+    21:                 "CCS21"
+        key:            "ACM CCS 2021"
+        name:
+            @0:         "ACM CCS 2021: 28th " # ccsname
+            @2:         "ACM CCS 2021" # ccsname
+        ed:             "Giovanni Vigna and Elaine Shi"
+        addr:
+            @0:         "Virtual Event, Republic of Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~15--19,"
+            @1:         nov
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
     @2:                 ""
@@ -6988,6 +7000,16 @@ ieeesp:
         month:
             @0:         may # "~18--21,"
             @1:         may
+    21:                 "SP21"
+        key:            "IEEE S\&P 2021"
+        name:           "2021 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~24--27,"
+            @1:         may
 imaname:                "IMA International Conference on Cryptography and Coding"
 imapub:                 springer
 ima:
@@ -12170,6 +12192,16 @@ usenix:
         month:
             @0:         aug # "~12--14,"
             @1:         aug
+    21:                 "USENIX21"
+        key:            "USENIX Security 2021"
+        name:
+            @0:         "USENIX Security 2021: 30th " # usenixname
+            @2:         "USENIX Security 2021" # usenixname
+        ed:             "Michael Bailey and Rachel Greenstadt"
+        addr:           ""
+        month:
+            @0:         aug # "~11--13,"
+            @1:         aug
 vietcryptname:
     @0:                 "International Conference on Cryptology in Vietnam"
     @2:                 ""
@@ -12710,6 +12742,18 @@ csf:
             @1:         ""
         month:
             @0:         "jun" # "~22-26"
+            @1:         ""
+    21:                 "CSF21"
+        key:            "CSF 2021"
+        name:
+            @0:         "CSF 2021: IEEE 34st " # csfname
+            @2:         "CSF 2021 " # csfname
+        ed:             "Ralf K{\"u}sters and Dave Naumann"
+        addr:
+            @0:         "Virtual Conference"
+            @1:         ""
+        month:
+            @0:         "jun" # "~21-24"
             @1:         ""
 xxxxname:               ""
 xxxpub:                 springer
