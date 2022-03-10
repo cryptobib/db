@@ -84,10 +84,13 @@ def add_journal(
         "fields_add":
             {
                 "publisher": publisher,
-                "journal": journalkey,
-                "month": "%months"  # months is used here
+                "journal": journalkey
             }
     }
+    if months:
+        # if months is a non-empty array
+        # then the import script will use months[number-1] as month for the publication
+        confs[key]["fields_add"]["month"] = "%months" # months is used here automatically
 
 
 def add_misc(
