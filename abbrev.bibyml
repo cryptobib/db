@@ -2735,7 +2735,7 @@ crypto:
         vol3:           ""
         vol4:           ""
         month:
-            @0:         aug 
+            @0:         aug
             @1:         aug
     23:
         -1:             "C23-1"
@@ -8369,8 +8369,8 @@ latin:
             @0:         jan # "~5--8,"
             @1:         jan
 latincryptname:
-    @0:                 "Progress in Cryptology - LATINCRYPT"
-    @2:                 "LATINCRYPT"
+    @0:                 "Progress in Cryptology - {LATINCRYPT}"
+    @2:                 "{LATINCRYPT}"
 latincryptsuffix:
     @0:                 "International Conference on Cryptology and Information Security in Latin America"
     @2:                 ""
@@ -8454,8 +8454,19 @@ latincrypt:
         month:
             @0:         oct # "~2--4,"
             @1:         oct
-        addr:           ""
-        month:          ""
+    21:                 "LC21"
+        key:            "LATINCRYPT 2021"
+        name:
+            @0:         latincryptname # "~2021: 7th " # latincryptsuffix
+            @2:         latincryptname # "~2021" # latincryptsuffix
+        ed:             "Patrick Longa and Carla R{\`a}fols"
+        vol:            "12912"
+        addr:
+            @0:         "Bogot{\'a}, Colombia"
+            @2:         ""
+        month:
+            @0:         oct # "~6--8,"
+            @1:         oct
 ndssname:
     @0:                 "{ISOC} Network and Distributed System Security Symposium -- {NDSS}"
     @2:                 "NDSS"
