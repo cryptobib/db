@@ -3460,6 +3460,27 @@ esorics:
         month:
             @0:         sep # "~14--18,"
             @1:         sep
+    21:
+        -1:             "ESORICS21-1"
+        -2:             "ESORICS21-2"
+        key1:           "ESORICS 2021, Part~I"
+        key2:           "ESORICS 2021, Part~II"
+        name1:
+            @0:         "ESORICS~2021: 26th " # esoricsname # ", Part~I"
+            @2:         "ESORICS~2021" # esoricsname # ", Part~I"
+        name2:
+            @0:         "ESORICS~2021: 26th " # esoricsname # ", Part~II"
+            @2:         "ESORICS~2021" # esoricsname # ", Part~II"
+        ed:             "Elisa Bertino and Haya Shulman and Michael Waidner"
+        vol1:           "12972"
+        vol2:           "12973"
+        addr:
+            @0:         "Darmstadt, Germany"
+            @1:         ""
+        month:
+            @0:         oct # "~4--8,"
+            @1:         oct
+
 eurocryptname:
     @0:                 "Advances in Cryptology -- {EUROCRYPT}"
     @2:                 "EUROCRYPT"
