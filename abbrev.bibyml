@@ -12604,6 +12604,17 @@ pqcrypto:
         month:
             @0:         apr # "~15--17"
             @1:         ""
+    21:                 "PQCRYPTO21"
+        key:            "PQCRYPTO 2021"
+        name:           "Post-Quantum Cryptography - 12th International Workshop, PQCrypto 2021"
+        ed:             "Jung Hee Cheon and Jean-Pierre Tillich"
+        vol:            "12841"
+        addr:
+            @0:         "Daejeon, South Korea"
+            @1:         ""
+        month:
+            @0:         jul # "~20--22"
+            @1:         ""
 csfname:                "Computer Security Foundations Symposium"
 csfpub:                 "{IEEE} Computer Society Press"
 csf:
