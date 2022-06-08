@@ -1749,6 +1749,126 @@ asiacrypt:
         month:
             @0:         dec # "~7--11,"
             @1:         dec
+    21:
+        -1:             "AC21-1"
+        -2:             "AC21-2"
+        -3:             "AC21-3"
+        -4:             "AC21-4"
+        key1:           "ASIACRYPT 2021, Part~I"
+        key2:           "ASIACRYPT 2021, Part~II"
+        key3:           "ASIACRYPT 2021, Part~III"
+        key4:           "ASIACRYPT 2021, Part~IV"
+        name1:          asiacryptname # "~2021, Part~I"
+        name2:          asiacryptname # "~2021, Part~II"
+        name3:          asiacryptname # "~2021, Part~III"
+        name4:          asiacryptname # "~2021, Part~IV"
+        ed:             "Mehdi Tibouchi and Huaxiong Wang"
+        vol1:           "13090"
+        vol2:           "13091"
+        vol3:           "13092"
+        vol4:           "13093"
+        addr:
+            @0:         "Singapore"
+            @1:         ""
+        month:
+            @0:         dec # "~6--10,"
+            @1:         dec
+    22:
+        -1:             "AC22-1"
+        -2:             "AC22-2"
+        -3:             "AC22-3"
+        -4:             "AC22-4"
+        key1:           "ASIACRYPT 2022, Part~I"
+        key2:           "ASIACRYPT 2022, Part~II"
+        key3:           "ASIACRYPT 2022, Part~III"
+        key4:           "ASIACRYPT 2022, Part~IV"
+        name1:          asiacryptname # "~2022, Part~I"
+        name2:          asiacryptname # "~2022, Part~II"
+        name3:          asiacryptname # "~2022, Part~III"
+        name4:          asiacryptname # "~2022, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~7--11,"
+            @1:         dec
+    23:
+        -1:             "AC23-1"
+        -2:             "AC23-2"
+        -3:             "AC23-3"
+        -4:             "AC23-4"
+        key1:           "ASIACRYPT 2023, Part~I"
+        key2:           "ASIACRYPT 2023, Part~II"
+        key3:           "ASIACRYPT 2023, Part~III"
+        key4:           "ASIACRYPT 2023, Part~IV"
+        name1:          asiacryptname # "~2023, Part~I"
+        name2:          asiacryptname # "~2023, Part~II"
+        name3:          asiacryptname # "~2023, Part~III"
+        name4:          asiacryptname # "~2023, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~7--11,"
+            @1:         dec
+    24:
+        -1:             "AC24-1"
+        -2:             "AC24-2"
+        -3:             "AC24-3"
+        -4:             "AC24-4"
+        key1:           "ASIACRYPT 2024, Part~I"
+        key2:           "ASIACRYPT 2024, Part~II"
+        key3:           "ASIACRYPT 2024, Part~III"
+        key4:           "ASIACRYPT 2024, Part~IV"
+        name1:          asiacryptname # "~2024, Part~I"
+        name2:          asiacryptname # "~2024, Part~II"
+        name3:          asiacryptname # "~2024, Part~III"
+        name4:          asiacryptname # "~2024, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~7--11,"
+            @1:         dec
+    25:
+        -1:             "AC25-1"
+        -2:             "AC25-2"
+        -3:             "AC25-3"
+        -4:             "AC25-4"
+        key1:           "ASIACRYPT 2025, Part~I"
+        key2:           "ASIACRYPT 2025, Part~II"
+        key3:           "ASIACRYPT 2025, Part~III"
+        key4:           "ASIACRYPT 2025, Part~IV"
+        name1:          asiacryptname # "~2025, Part~I"
+        name2:          asiacryptname # "~2025, Part~II"
+        name3:          asiacryptname # "~2025, Part~III"
+        name4:          asiacryptname # "~2025, Part~IV"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        vol4:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~7--11,"
+            @1:         dec
 cansname:
     @0:                 "International Conference on Cryptology and Network Security"
     @2:                 ""
@@ -3974,16 +4094,16 @@ eurocrypt:
         name1:          eurocryptname # "~2022, Part~I"
         name2:          eurocryptname # "~2022, Part~II"
         name3:          eurocryptname # "~2022, Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        ed:             "Orr Dunkelman and Stefan Dziembowski"
+        vol1:           "13275"
+        vol2:           "13276"
+        vol3:           "13277"
         addr:
-            @0:         ""
+            @0:         "Trondheim, Norway"
             @1:         ""
         month:
-            @0:         jun
-            @1:         jun
+            @0:         may # "~30~--~" # jun # "~3,"
+            @1:         may # "~/~" # jun
     23:                 "EC23"
         -1:             "EC23-1"
         -2:             "EC23-2"
