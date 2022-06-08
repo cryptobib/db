@@ -11793,6 +11793,136 @@ tcc:
         month:
             @0:         nov # "~16--19,"
             @1:         nov
+    21:
+        -1:             "TCC21-1"
+        -2:             "TCC21-2"
+        -3:             "TCC21-3"
+        key1:           "TCC 2021, Part~I"
+        key2:           "TCC 2021, Part~II"
+        key3:           "TCC 2021, Part~III"
+        name1:
+            @0:         "TCC~2021: 19th " # tccname # ", Part~I"
+            @2:         "TCC~2021" # tccname  # ", Part~I"
+        name2:
+            @0:         "TCC~2021: 19th " # tccname # ", Part~II"
+            @2:         "TCC~2021" # tccname  # ", Part~II"
+        name3:
+            @0:         "TCC~2021: 19th " # tccname # ", Part~III"
+            @2:         "TCC~2021" # tccname  # ", Part~III"
+        ed:             "Kobbi Nissim and Brent Waters"
+        vol1:           "13042"
+        vol2:           "13043"
+        vol3:           "13044"
+        addr:
+            @0:         "Raleigh, NC, USA"
+            @1:         ""
+        month:
+            @0:         nov # "~8--11,"
+            @1:         nov
+    22:
+        -1:             "TCC22-1"
+        -2:             "TCC22-2"
+        -3:             "TCC22-3"
+        key1:           "TCC 2022, Part~I"
+        key2:           "TCC 2022, Part~II"
+        key3:           "TCC 2022, Part~III"
+        name1:
+            @0:         "TCC~2022: 20th " # tccname # ", Part~I"
+            @2:         "TCC~2022" # tccname  # ", Part~I"
+        name2:
+            @0:         "TCC~2022: 20th " # tccname # ", Part~II"
+            @2:         "TCC~2022" # tccname  # ", Part~II"
+        name3:
+            @0:         "TCC~2022: 20th " # tccname # ", Part~III"
+            @2:         "TCC~2022" # tccname  # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
+    23:
+        -1:             "TCC23-1"
+        -2:             "TCC23-2"
+        -3:             "TCC23-3"
+        key1:           "TCC 2023, Part~I"
+        key2:           "TCC 2023, Part~II"
+        key3:           "TCC 2023, Part~III"
+        name1:
+            @0:         "TCC~2023: 21st " # tccname # ", Part~I"
+            @2:         "TCC~2023" # tccname  # ", Part~I"
+        name2:
+            @0:         "TCC~2023: 21st " # tccname # ", Part~II"
+            @2:         "TCC~2023" # tccname  # ", Part~II"
+        name3:
+            @0:         "TCC~2023: 21st " # tccname # ", Part~III"
+            @2:         "TCC~2023" # tccname  # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
+    24:
+        -1:             "TCC24-1"
+        -2:             "TCC24-2"
+        -3:             "TCC24-3"
+        key1:           "TCC 2024, Part~I"
+        key2:           "TCC 2024, Part~II"
+        key3:           "TCC 2024, Part~III"
+        name1:
+            @0:         "TCC~2024: 22nd " # tccname # ", Part~I"
+            @2:         "TCC~2024" # tccname  # ", Part~I"
+        name2:
+            @0:         "TCC~2024: 22nd " # tccname # ", Part~II"
+            @2:         "TCC~2024" # tccname  # ", Part~II"
+        name3:
+            @0:         "TCC~2024: 22nd " # tccname # ", Part~III"
+            @2:         "TCC~2024" # tccname  # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
+    25:
+        -1:             "TCC25-1"
+        -2:             "TCC25-2"
+        -3:             "TCC25-3"
+        key1:           "TCC 2025, Part~I"
+        key2:           "TCC 2025, Part~II"
+        key3:           "TCC 2025, Part~III"
+        name1:
+            @0:         "TCC~2025: 23rd " # tccname # ", Part~I"
+            @2:         "TCC~2025" # tccname  # ", Part~I"
+        name2:
+            @0:         "TCC~2025: 23rd " # tccname # ", Part~II"
+            @2:         "TCC~2025" # tccname  # ", Part~II"
+        name3:
+            @0:         "TCC~2025: 23rd " # tccname # ", Part~III"
+            @2:         "TCC~2025" # tccname  # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
 tches:
     @0:                 "{IACR} Transactions on Cryptographic Hardware and Embedded Systems"
     @2:                 "{IACR} {TCHES}"
