@@ -139,7 +139,7 @@ add_conf("CCS", "ACM Conference on Computer and Communications Security",
 add_conf("ACNS", "International Conference on Applied Cryptography and Network Security")
 add_conf("AFRICACRYPT", "International Conference on Cryptology in Africa")
 add_conf("ASIACCS", "ACM Symposium on Information, Computer and Communications Security",
-         url="https://dblp.uni-trier.de/db/conf/ccs/asiaccs${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/asiaccs/asiaccs${url_year}.html")
 add_conf("AC", "International Conference on the Theory and Application of Cryptology and Information Security",
          name="ASIACRYPT")
 add_conf("CANS", "International Conference on Cryptology and Network Security")

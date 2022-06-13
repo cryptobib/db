@@ -422,6 +422,71 @@ acisp:
         month:
             @0:         nov # "~30~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+    21:                 "ACISP21"
+        key:            "ACISP 2021"
+        name:
+            @0:         "ACISP 21: 26th " # acispname
+            @2:         "ACISP 21" # acispname
+        ed:             "Joonsang Baek and Sushmita Ruj"
+        vol:            "13083"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         dec # "~1--3,"
+            @1:         dec
+    22:                 "ACISP22"
+        key:            "ACISP 2022"
+        name:
+            @0:         "ACISP 22: 27th " # acispname
+            @2:         "ACISP 22" # acispname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~1--3,"
+            @1:         dec
+    23:                 "ACISP23"
+        key:            "ACISP 2023"
+        name:
+            @0:         "ACISP 23: 28th " # acispname
+            @2:         "ACISP 23" # acispname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~1--3,"
+            @1:         dec
+    24:                 "ACISP24"
+        key:            "ACISP 2024"
+        name:
+            @0:         "ACISP 24: 29th " # acispname
+            @2:         "ACISP 24" # acispname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~1--3,"
+            @1:         dec
+    25:                 "ACISP25"
+        key:            "ACISP 2025"
+        name:
+            @0:         "ACISP 25: 30th " # acispname
+            @2:         "ACISP 25" # acispname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~1--3,"
+            @1:         dec
 ccsname:
     @0:                 "Conference on Computer and Communications Security"
     @2:                 ""
@@ -1010,6 +1075,106 @@ acns:
         month:
             @0:         oct # "~19--22,"
             @1:         oct
+    21:
+        -1:             "ACNS21-1"
+        -2:             "ACNS21-2"
+        key1:           "ACNS 2021, Part~I"
+        key2:           "ACNS 2021, Part~II"
+        name1:
+            @0:         "ACNS 21: 19th " # acnsname # ", Part~I"
+            @2:         "ACNS 21" # acnsname # ", Part~I"
+        name2:
+            @0:         "ACNS 21: 19th " # acnsname # ", Part~II"
+            @2:         "ACNS 21" # acnsname # ", Part~II"
+        ed:             "Kazue Sako and Nils Ole Tippenhauer"
+        vol1:           "12726"
+        vol2:           "12727"
+        addr:
+            @0:         "Kamakura, Japan"
+            @1:         ""
+        month:
+            @0:         jun # "~21--24,"
+            @1:         jun
+    22:
+        -1:             "ACNS22-1"
+        -2:             "ACNS22-2"
+        key1:           "ACNS 2022, Part~I"
+        key2:           "ACNS 2022, Part~II"
+        name1:
+            @0:         "ACNS 22: 20th " # acnsname # ", Part~I"
+            @2:         "ACNS 22" # acnsname # ", Part~I"
+        name2:
+            @0:         "ACNS 22: 20th " # acnsname # ", Part~II"
+            @2:         "ACNS 22" # acnsname # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~21--24,"
+            @1:         jun
+    23:
+        -1:             "ACNS23-1"
+        -2:             "ACNS23-2"
+        key1:           "ACNS 2023, Part~I"
+        key2:           "ACNS 2023, Part~II"
+        name1:
+            @0:         "ACNS 23: 21st " # acnsname # ", Part~I"
+            @2:         "ACNS 23" # acnsname # ", Part~I"
+        name2:
+            @0:         "ACNS 23: 21st " # acnsname # ", Part~II"
+            @2:         "ACNS 23" # acnsname # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~21--24,"
+            @1:         jun
+    24:
+        -1:             "ACNS24-1"
+        -2:             "ACNS24-2"
+        key1:           "ACNS 2024, Part~I"
+        key2:           "ACNS 2024, Part~II"
+        name1:
+            @0:         "ACNS 24: 22nd " # acnsname # ", Part~I"
+            @2:         "ACNS 24" # acnsname # ", Part~I"
+        name2:
+            @0:         "ACNS 24: 22nd " # acnsname # ", Part~II"
+            @2:         "ACNS 24" # acnsname # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~21--24,"
+            @1:         jun
+    25:
+        -1:             "ACNS25-1"
+        -2:             "ACNS25-2"
+        key1:           "ACNS 2025, Part~I"
+        key2:           "ACNS 2025, Part~II"
+        name1:
+            @0:         "ACNS 25: 23rd " # acnsname # ", Part~I"
+            @2:         "ACNS 25" # acnsname # ", Part~I"
+        name2:
+            @0:         "ACNS 25: 23rd " # acnsname # ", Part~II"
+            @2:         "ACNS 25" # acnsname # ", Part~II"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~21--24,"
+            @1:         jun
 africacryptname:
     @0:                 "International Conference on Cryptology in Africa"
     @2:                 ""
@@ -1356,6 +1521,66 @@ asiaccs:
         month:
             @0:         oct # "~5--9,"
             @1:         oct
+    21:                 "ASIACCS21"
+        key:            "ASIACCS 2021"
+        name:
+            @0:         "ASIACCS 21: 16th " # asiaccsname
+            @2:         "ASIACCS 21" # asiaccsname
+        ed:             "Jiannong Cao and Man Ho Au and Zhiqiang Lin and Moti Yung"
+        addr:
+            @0:         "Virtual Event, Hong Kong"
+            @1:         ""
+        month:
+            @0:         jun # "~7--11,"
+            @1:         jun
+    22:                 "ASIACCS22"
+        key:            "ASIACCS 2022"
+        name:
+            @0:         "ASIACCS 22: 17th " # asiaccsname
+            @2:         "ASIACCS 22" # asiaccsname
+        ed:             "Yuji Suga and Kouichi Sakurai and Xuhua Ding and Kazue Sako"
+        addr:
+            @0:         "Nagasaki, Japan"
+            @1:         ""
+        month:
+            @0:         may # "~30~--~" # jun # "~3,"
+            @1:         may # "~/~" # jun
+    23:                 "ASIACCS23"
+        key:            "ASIACCS 2023"
+        name:
+            @0:         "ASIACCS 23: 18th " # asiaccsname
+            @2:         "ASIACCS 23" # asiaccsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~7--11,"
+            @1:         jun
+    24:                 "ASIACCS24"
+        key:            "ASIACCS 2024"
+        name:
+            @0:         "ASIACCS 24: 19th " # asiaccsname
+            @2:         "ASIACCS 24" # asiaccsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~7--11,"
+            @1:         jun
+    25:                 "ASIACCS25"
+        key:            "ASIACCS 2025"
+        name:
+            @0:         "ASIACCS 25: 20th " # asiaccsname
+            @2:         "ASIACCS 25" # asiaccsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun # "~7--11,"
+            @1:         jun
 asiacryptname:
     @0:                 "Advances in Cryptology -- {ASIACRYPT}"
     @2:                 "ASIACRYPT"
