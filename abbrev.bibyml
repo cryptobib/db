@@ -7522,6 +7522,39 @@ ima:
         month:
             @0:         dec # "~16--18,"
             @1:         dec
+    21:                 "IMA21"
+        key:            "IMA 2021"
+        name:           "18th " # imaname
+        ed:             "Maura B. Paterson"
+        vol:            "13129"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         dec # "~14--15,"
+            @1:         dec
+    23:                 "IMA23"
+        key:            "IMA 2023"
+        name:           "19th " # imaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec
+            @1:         dec
+    25:                 "IMA23"
+        key:            "IMA 2025"
+        name:           "20th " # imaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec
+            @1:         dec
 indocryptname:
     @0:                 "Progress in Cryptology - INDOCRYPT"
     @2:                 "INDOCRYPT"
@@ -9100,6 +9133,56 @@ ndss:
             @1:         ""
         month:
             @0:         feb # "~23-26,"
+            @1:         feb
+    21:                 "NDSS21"
+        key:            "NDSS 2021"
+        name:           ndssname # "~2021"
+        ed:             ""
+        addr:
+            @0:         "Virtual"
+            @1:         ""
+        month:
+            @0:         feb # "~21-25,"
+            @1:         feb
+    22:                 "NDSS22"
+        key:            "NDSS 2022"
+        name:           ndssname # "~2022"
+        ed:             ""
+        addr:
+            @0:         "San Diego, CA, USA"
+            @1:         ""
+        month:
+            @0:         apr # "~24-28,"
+            @1:         apr
+    23:                 "NDSS23"
+        key:            "NDSS 2023"
+        name:           ndssname # "~2023"
+        ed:             ""
+        addr:
+            @0:         "San Diego, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb
+            @1:         feb
+    24:                 "NDSS24"
+        key:            "NDSS 2024"
+        name:           ndssname # "~2024"
+        ed:             ""
+        addr:
+            @0:         "San Diego, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb
+            @1:         feb
+    25:                 "NDSS25"
+        key:            "NDSS 2025"
+        name:           ndssname # "~2025"
+        ed:             ""
+        addr:
+            @0:         "San Diego, CA, USA"
+            @1:         ""
+        month:
+            @0:         feb
             @1:         feb
 pairingname:
     @0:                 "International Conference on Pairing-based Cryptography"

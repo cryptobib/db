@@ -163,7 +163,7 @@ add_conf("FSE", "International Workshop on Fast Software Encryption")
 add_conf("ICALP", "International Colloquium on Automata, Languages and Programming")
 add_conf("ICICS", "International Conference on Information and Communications Security")
 add_conf("ICISC", "International Conference on Information Security and Cryptology")
-add_conf("IMA", "IMA Conference on Cryptography and Coding")
+add_conf("IMA", "IMA Conference on Cryptography and Coding",url="https://dblp.uni-trier.de/db/conf/ima/imacc${url_year}.html")
 add_conf("ICITS", "International Conference on Information Theoretic Security")
 add_conf("SP", "IEEE Symposium on Security and Privacy", name="IEEE SP",
          url="https://dblp.uni-trier.de/db/conf/sp/sp${url_year}.html", crossref="ieeesp")
@@ -242,7 +242,7 @@ confs_missing_years = {
     "FSE": {1995},
     "ICICS": {1998, 2000},
     "ICITS": {2010, 2014},
-    "IMA": {1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018},
+    "IMA": {1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020},
     "ISC": {1998},
     "LATIN": {1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019},
     "LC": {2011, 2013, 2016, 2018, 2020},
