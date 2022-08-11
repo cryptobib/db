@@ -221,7 +221,7 @@ add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and 
             url="https://dblp.uni-trier.de/db/journals/tches/tches${year}.html",
             publisher="tchespub")
 
-add_misc("EPRINT", "Cryptology ePrint Archive", url="https://eprint.iacr.org/${year}")
+add_misc("EPRINT", "Cryptology ePrint Archive", url="https://eprint.iacr.org/complete/compact")
 
 
 def get_conf_name(confkey):
