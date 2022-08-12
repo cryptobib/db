@@ -804,7 +804,6 @@ ccs:
         month:
             @0:         nov # "~11--15,"
             @1:         nov
-        addr:           ""
     20:                 "CCS20"
         key:            "ACM CCS 2020"
         name:
