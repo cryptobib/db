@@ -3100,7 +3100,7 @@ crypto:
         vol3:           ""
         vol4:           ""
         month:
-            @0:         aug 
+            @0:         aug
             @1:         aug
     24:
         -1:             "C24-1"
@@ -3121,7 +3121,7 @@ crypto:
         vol3:           ""
         vol4:           ""
         month:
-            @0:         aug 
+            @0:         aug
             @1:         aug
     25:
         -1:             "C25-1"
@@ -3142,7 +3142,7 @@ crypto:
         vol3:           ""
         vol4:           ""
         month:
-            @0:         aug 
+            @0:         aug
             @1:         aug
 rsaname:
     @0:                 "Topics in Cryptology -- CT-RSA"
@@ -9111,7 +9111,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~18-21,"
+            @0:         feb # "~18--21,"
             @1:         feb
     19:                 "NDSS19"
         key:            "NDSS 2019"
@@ -9121,7 +9121,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~24-27,"
+            @0:         feb # "~24--27,"
             @1:         feb
     20:                 "NDSS20"
         key:            "NDSS 2020"
@@ -9131,7 +9131,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~23-26,"
+            @0:         feb # "~23--26,"
             @1:         feb
     21:                 "NDSS21"
         key:            "NDSS 2021"
@@ -9141,7 +9141,7 @@ ndss:
             @0:         "Virtual"
             @1:         ""
         month:
-            @0:         feb # "~21-25,"
+            @0:         feb # "~21--25,"
             @1:         feb
     22:                 "NDSS22"
         key:            "NDSS 2022"
@@ -9151,7 +9151,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         apr # "~24-28,"
+            @0:         apr # "~24--28,"
             @1:         apr
     23:                 "NDSS23"
         key:            "NDSS 2023"
@@ -13060,7 +13060,7 @@ pqcrypto:
             @0:         "Cincinnati, Ohio, United States"
             @1:         ""
         month:
-            @0:         oct # "~17--19"
+            @0:         oct # "~17--19,"
             @1:         oct
     10:                 "PQCRYPTO10"
         key:            "PQCRYPTO 2010"
@@ -13071,7 +13071,7 @@ pqcrypto:
             @0:         "Darmstadt, Germany"
             @1:         ""
         month:
-            @0:         may # "~25--28"
+            @0:         may # "~25--28,"
             @1:         may
     11:                 "PQCRYPTO11"
         key:            "PQCRYPTO 2011"
@@ -13093,7 +13093,7 @@ pqcrypto:
             @0:         "Limoges, France"
             @1:         ""
         month:
-            @0:         jun # "~4--7"
+            @0:         jun # "~4--7,"
             @1:         jun
     14:                 "PQCRYPTO14"
         key:            "PQCRYPTO 2014"
@@ -13104,7 +13104,7 @@ pqcrypto:
             @0:         "Waterloo, Ontario, Canada"
             @1:         ""
         month:
-            @0:         oct # "~1--3"
+            @0:         oct # "~1--3,"
             @1:         oct
     16:                 "PQCRYPTO16"
         key:            "PQCRYPTO 2016"
@@ -13115,7 +13115,7 @@ pqcrypto:
             @0:         "Fukuoka, Japan"
             @1:         ""
         month:
-            @0:         feb # "~24--26"
+            @0:         feb # "~24--26,"
             @1:         ""
     17:                 "PQCRYPTO17"
         key:            "PQCRYPTO 2017"
@@ -13126,7 +13126,7 @@ pqcrypto:
             @0:         "Utrecht, The Netherlands"
             @1:         ""
         month:
-            @0:         jun # "~26--28"
+            @0:         jun # "~26--28,"
             @1:         ""
     18:                 "PQCRYPTO18"
         key:            "PQCRYPTO 2018"
@@ -13137,7 +13137,7 @@ pqcrypto:
             @0:         "Fort Lauderdale, Florida, United States"
             @1:         ""
         month:
-            @0:         apr # "~9--11"
+            @0:         apr # "~9--11,"
             @1:         ""
     19:                 "PQCRYPTO19"
         key:            "PQCRYPTO 2019"
@@ -13148,7 +13148,7 @@ pqcrypto:
             @0:         "Chongqing, China"
             @1:         ""
         month:
-            @0:         may # "~8--10"
+            @0:         may # "~8--10,"
             @1:         ""
     20:                 "PQCRYPTO20"
         key:            "PQCRYPTO 2020"
@@ -13159,7 +13159,7 @@ pqcrypto:
             @0:         "Paris, France"
             @1:         ""
         month:
-            @0:         apr # "~15--17"
+            @0:         apr # "~15--17,"
             @1:         ""
     21:                 "PQCRYPTO21"
         key:            "PQCRYPTO 2021"
@@ -13170,7 +13170,7 @@ pqcrypto:
             @0:         "Daejeon, South Korea"
             @1:         ""
         month:
-            @0:         jul # "~20--22"
+            @0:         jul # "~20--22,"
             @1:         ""
 csfname:                "Computer Security Foundations Symposium"
 csfpub:                 "{IEEE} Computer Society Press"
@@ -13185,7 +13185,7 @@ csf:
             @0:         "Venice, Italy"
             @1:         ""
         month:
-            @0:         "jul" # "~6--8"
+            @0:         jul # "~6--8,"
             @1:         ""
     08:                 "CSF08"
         key:            "CSF 2008"
@@ -13197,7 +13197,7 @@ csf:
             @0:         "Pittsburgh, PA, USA"
             @1:         ""
         month:
-            @0:         "jun" # "~23-25"
+            @0:         jun # "~23--25,"
             @1:         ""
     09:                 "CSF09"
         key:            "CSF 2009"
@@ -13209,7 +13209,7 @@ csf:
             @0:         "Port Jefferson, New York, USA"
             @1:         ""
         month:
-            @0:         "jul" # "~8-10"
+            @0:         jul # "~8--10,"
             @1:         ""
     10:                 "CSF10"
         key:            "CSF 2010"
@@ -13221,7 +13221,7 @@ csf:
             @0:         "Edinburgh, Scotland, UK"
             @1:         ""
         month:
-            @0:         "jul" # "~17-19"
+            @0:         jul # "~17--19,"
             @1:         ""
     11:                 "CSF11"
         key:            "CSF 2011"
@@ -13233,7 +13233,7 @@ csf:
             @0:         "Domaine de l'Abbaye des Vaux de Cernay, France"
             @1:         ""
         month:
-            @0:         "jun" # "~27-29"
+            @0:         jun # "~27--29,"
             @1:         ""
     12:                 "CSF12"
         key:            "CSF 2012"
@@ -13245,7 +13245,7 @@ csf:
             @0:         "Cambridge, MA, USA"
             @1:         ""
         month:
-            @0:         "jun" # "~25-27"
+            @0:         jun # "~25--27,"
             @1:         ""
     13:                 "CSF13"
         key:            "CSF 2013"
@@ -13257,7 +13257,7 @@ csf:
             @0:         "New Orleans, LA, USA"
             @1:         ""
         month:
-            @0:         "jun" # "~26-28"
+            @0:         jun # "~26--28,"
             @1:         ""
     14:                 "CSF14"
         key:            "CSF 2014"
@@ -13269,7 +13269,7 @@ csf:
             @0:         "Vienna, Austria"
             @1:         ""
         month:
-            @0:         "jul" # "~19-22"
+            @0:         jul # "~19--22,"
             @1:         ""
     15:                 "CSF15"
         key:            "CSF 2015"
@@ -13281,7 +13281,7 @@ csf:
             @0:         "Verona, Italy"
             @1:         ""
         month:
-            @0:         "jul" # "~13-17"
+            @0:         jul # "~13--17,"
             @1:         ""
     16:                 "CSF16"
         key:            "CSF 2016"
@@ -13293,7 +13293,7 @@ csf:
             @0:         "Lisbon, Portugal"
             @1:         ""
         month:
-            @0:         "jun" # "~27-1"
+            @0:         jun # "~27--1,"
             @1:         ""
     17:                 "CSF17"
         key:            "CSF 2017"
@@ -13305,7 +13305,7 @@ csf:
             @0:         "Santa Barbara, CA, USA"
             @1:         ""
         month:
-            @0:         "aug" # "~21-25"
+            @0:         aug # "~21--25,"
             @1:         ""
     18:                 "CSF18"
         key:            "CSF 2018"
@@ -13317,7 +13317,7 @@ csf:
             @0:         "Oxford, UK"
             @1:         ""
         month:
-            @0:         "jul" # "~9-12"
+            @0:         jul # "~9--12,"
             @1:         ""
     19:                 "CSF19"
         key:            "CSF 2019"
@@ -13329,7 +13329,7 @@ csf:
             @0:         "Hoboken, NJ, USA"
             @1:         ""
         month:
-            @0:         "jun" # "~25-28"
+            @0:         jun # "~25--28,"
             @1:         ""
     20:                 "CSF20"
         key:            "CSF 2020"
@@ -13341,7 +13341,7 @@ csf:
             @0:         "Boston, MA, USA"
             @1:         ""
         month:
-            @0:         "jun" # "~22-26"
+            @0:         jun # "~22--26,"
             @1:         ""
     21:                 "CSF21"
         key:            "CSF 2021"
@@ -13353,7 +13353,7 @@ csf:
             @0:         "Virtual Conference"
             @1:         ""
         month:
-            @0:         "jun" # "~21-24"
+            @0:         jun # "~21--24,"
             @1:         ""
 xxxxname:               ""
 xxxpub:                 springer
