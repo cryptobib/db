@@ -10864,10 +10864,23 @@ sac:
         name:
             @0:         "SAC 2020: 27th " # sacname
             @2:         "SAC 2020" # sacname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        ed:             "Orr Dunkelman and Michael J. Jacobson Jr. and Colin O'Flynn"
+        vol:            "12804"
+        addr:
+            @0:         "Halifax, NS, Canada (Virtual Event)"
+            @1:         ""
+        month:          oct # "~21-23,"
+    21:                 "SAC21"
+        key:            "SAC 2021"
+        name:
+            @0:         "SAC 2021: 28th " # sacname
+            @1:         "SAC 2021"
+        ed:             "Riham AlTawy and Andreas H{\"u}lsing"
+        vol:            "13203"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:          sep # "~29~--~" # oct # "~1,"
 scnname:
     @0:                 "International Conference on Security in Communication Networks"
     @2:                 ""
