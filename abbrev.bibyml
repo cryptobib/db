@@ -10881,6 +10881,58 @@ sac:
             @0:         "Virtual Event"
             @1:         ""
         month:          sep # "~29~--~" # oct # "~1,"
+    22:                 "SAC22"
+        key:            "SAC 2022"
+        name:
+            @0:         "SAC 2022: 29th " # sacname
+            @2:         "SAC 2022" # sacname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    23:                 "SAC23"
+        key:            "SAC 2023"
+        name:
+            @0:         "SAC 2023: 30th " # sacname
+            @2:         "SAC 2023" # sacname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         aug 
+            @1:         aug
+    24:                 "SAC24"
+        key:            "SAC 2024"
+        name:
+            @0:         "SAC 2024: 31st " # sacname
+            @2:         "SAC 2024" # sacname
+        ed:             "Antoine Joux and Amr M. Youssef"
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    25:                 "SAC25"
+        key:            "SAC 2025"
+        name:
+            @0:         "SAC 2025: 32nd " # sacname
+            @2:         "SAC 2025" # sacname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
 scnname:
     @0:                 "International Conference on Security in Communication Networks"
     @2:                 ""
