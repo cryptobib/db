@@ -10869,7 +10869,9 @@ sac:
         addr:
             @0:         "Halifax, NS, Canada (Virtual Event)"
             @1:         ""
-        month:          oct # "~21-23,"
+        month:
+            @0:         oct # "~21-23,"
+            @1:         oct
     21:                 "SAC21"
         key:            "SAC 2021"
         name:
@@ -10880,7 +10882,9 @@ sac:
         addr:
             @0:         "Virtual Event"
             @1:         ""
-        month:          sep # "~29~--~" # oct # "~1,"
+        month:
+            @0:         sep # "~29~--~" # oct # "~1,"
+            @1:         sep # "~/~" # oct
     22:                 "SAC22"
         key:            "SAC 2022"
         name:
