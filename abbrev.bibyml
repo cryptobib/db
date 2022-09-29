@@ -3824,6 +3824,32 @@ esorics:
         month:
             @0:         oct # "~4--8,"
             @1:         oct
+    22:
+        -1:             "ESORICS22-1"
+        -2:             "ESORICS22-2"
+        -3:             "ESORICS22-3"
+        key1:           "ESORICS 2022, Part~I"
+        key2:           "ESORICS 2022, Part~II"
+        key3:           "ESORICS 2022, Part~III"
+        name1:
+            @0:         "ESORICS~2022: 27th " # esoricsname # ", Part~I"
+            @2:         "ESORICS~2022 " # esoricsname # ", Part~I"
+        name2:
+            @0:         "ESORICS~2022: 27th " # esoricsname # ", Part~II"
+            @2:         "ESORICS~2022 " # esoricsname # ", Part~II"
+        name3:
+            @0:         "ESORICS~2022: 27th " # esoricsname # ", Part~III"
+            @2:         "ESORICS~2022 " # esoricsname # ", Part~III"
+        ed:             "Vijayalakshmi Atluri and Roberto {Di Pietro} and Christian Damsgaard Jensen and Weizhi Meng"
+        vol1:           "13554"
+        vol2:           "13555"
+        vol3:           "13556"
+        addr:
+            @0:         "Copenhagen, Denmark"
+            @1:         ""
+        month:
+            @0:         sep # "~26--30,"
+            @1:         sep
 
 eurocryptname:
     @0:                 "Advances in Cryptology -- {EUROCRYPT}"
@@ -10909,7 +10935,7 @@ sac:
             @0:         ""
             @1:         ""
         month:
-            @0:         aug 
+            @0:         aug
             @1:         aug
     24:                 "SAC24"
         key:            "SAC 2024"
