@@ -1094,25 +1094,18 @@ acns:
         month:
             @0:         jun # "~21--24,"
             @1:         jun
-    22:
-        -1:             "ACNS22-1"
-        -2:             "ACNS22-2"
-        key1:           "ACNS 2022, Part~I"
-        key2:           "ACNS 2022, Part~II"
-        name1:
-            @0:         "ACNS 22: 20th " # acnsname # ", Part~I"
-            @2:         "ACNS 22" # acnsname # ", Part~I"
-        name2:
-            @0:         "ACNS 22: 20th " # acnsname # ", Part~II"
-            @2:         "ACNS 22" # acnsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+    22:                 "ACNS22"
+        key:            "ACNS 2022"
+        name:
+            @0:         "ACNS 22: 20th " # acnsname
+            @2:         "ACNS 22" # acnsname
+        ed:             "Giuseppe Ateniese and Daniele Venturi"
+        vol:            "13269"
         addr:
-            @0:         ""
+            @0:         "Rome, Italy"
             @1:         ""
         month:
-            @0:         jun # "~21--24,"
+            @0:         jun # "~20--23,"
             @1:         jun
     23:
         -1:             "ACNS23-1"
