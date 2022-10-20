@@ -3066,13 +3066,13 @@ crypto:
         name2:          cryptoname # "~2022, Part~II"
         name3:          cryptoname # "~2022, Part~III"
         name4:          cryptoname # "~2022, Part~IV"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
-        vol4:           ""
+        ed:             "Yevgeniy Dodis and Thomas Shrimpton"
+        vol1:           "13507"
+        vol2:           "13508"
+        vol3:           "13509"
+        vol4:           "13510"
         month:
-            @0:         aug
+            @0:         aug # "~15--18,"
             @1:         aug
     23:
         -1:             "C23-1"
