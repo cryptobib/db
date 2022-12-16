@@ -828,6 +828,19 @@ ccs:
         month:
             @0:         nov # "~15--19,"
             @1:         nov
+    22:                 "CCS22"
+        key:            "ACM CCS 2022"
+        name:
+            @0:         "ACM CCS 2022: 29th " # ccsname
+            @2:         "ACM CCS 2022" # ccsname
+        ed:             "Heng Yin and Angelos Stavrou and Cas Cremers and Elaine Shi"
+        addr:
+            @0:         "Los Angeles, CA, USA"
+            @1:         ""
+        month:
+            @0:         nov # "~7--11,"
+            @1:         nov
+
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
     @2:                 ""
