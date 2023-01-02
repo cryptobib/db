@@ -840,7 +840,43 @@ ccs:
         month:
             @0:         nov # "~7--11,"
             @1:         nov
+    23:                 "CCS23"
+        key:            "ACM CCS 2023"
+        name:
+            @0:         "ACM CCS 2023: 30th " # ccsname
+            @2:         "ACM CCS 2023" # ccsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
 
+    24:                 "CCS24"
+        key:            "ACM CCS 2024"
+        name:
+            @0:         "ACM CCS 2024: 31st " # ccsname
+            @2:         "ACM CCS 2024" # ccsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
+    25:                 "CCS24"
+        key:            "ACM CCS 2025"
+        name:
+            @0:         "ACM CCS 2025: 32nd " # ccsname
+            @2:         "ACM CCS 2025" # ccsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         nov
+            @1:         nov
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
     @2:                 ""
