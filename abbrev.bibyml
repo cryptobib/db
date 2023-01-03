@@ -3875,13 +3875,13 @@ esorics:
         key3:           "ESORICS 2022, Part~III"
         name1:
             @0:         "ESORICS~2022: 27th " # esoricsname # ", Part~I"
-            @2:         "ESORICS~2022 " # esoricsname # ", Part~I"
+            @2:         "ESORICS~2022" # esoricsname # ", Part~I"
         name2:
             @0:         "ESORICS~2022: 27th " # esoricsname # ", Part~II"
-            @2:         "ESORICS~2022 " # esoricsname # ", Part~II"
+            @2:         "ESORICS~2022" # esoricsname # ", Part~II"
         name3:
             @0:         "ESORICS~2022: 27th " # esoricsname # ", Part~III"
-            @2:         "ESORICS~2022 " # esoricsname # ", Part~III"
+            @2:         "ESORICS~2022" # esoricsname # ", Part~III"
         ed:             "Vijayalakshmi Atluri and Roberto {Di Pietro} and Christian Damsgaard Jensen and Weizhi Meng"
         vol1:           "13554"
         vol2:           "13555"
