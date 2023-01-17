@@ -3425,14 +3425,14 @@ rsa:
     22:                 "RSA22"
         key:            "CT-RSA 2022"
         name:           rsaname # "~2022"
-        ed:             ""
-        vol:            ""
+        ed:             "Steven D. Galbraith"
+        vol:            "13161"
         addr:
-            @0:         "San Francisco, CA, USA"
+            @0:         "Virtual Event"
             @1:         ""
         month:
-            @0:         feb # "~24--28,"
-            @1:         feb
+            @0:         mar # "~1--2,"
+            @1:         mar
     23:                 "RSA23"
         key:            "CT-RSA 2023"
         name:           rsaname # "~2023"
