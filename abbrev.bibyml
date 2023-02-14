@@ -13185,6 +13185,136 @@ wisa:
         month:
             @0:         aug # "~26--28,"
             @1:         aug
+    21:                 "WISA21"
+        key:            "WISA 2021"
+        name:
+            @0:         "WISA 21: 22th " # wisaname
+            @2:         "WISA 21" # wisaname
+        ed:             "Hyoungshick Kim"
+        vol:            "13009"
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~11--13,"
+            @1:         aug
+    22:                 "WISA22"
+        key:            "WISA 2022"
+        name:
+            @0:         "WISA 22: 23th " # wisaname
+            @2:         "WISA 22" # wisaname
+        ed:             "Ilsun You and Taek-Young Youn"
+        vol:            "13720"
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug # "~24--26,"
+            @1:         aug
+    23:                 "WISA23"
+        key:            "WISA 2023"
+        name:
+            @0:         "WISA 23: 24th " # wisaname
+            @2:         "WISA 23" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    24:                 "WISA24"
+        key:            "WISA 2024"
+        name:
+            @0:         "WISA 24: 25th " # wisaname
+            @2:         "WISA 24" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    25:                 "WISA25"
+        key:            "WISA 2025"
+        name:
+            @0:         "WISA 25: 26th " # wisaname
+            @2:         "WISA 25" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    26:                 "WISA26"
+        key:            "WISA 2026"
+        name:
+            @0:         "WISA 26: 27th " # wisaname
+            @2:         "WISA 26" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    27:                 "WISA27"
+        key:            "WISA 2027"
+        name:
+            @0:         "WISA 27: 28th " # wisaname
+            @2:         "WISA 27" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    28:                 "WISA28"
+        key:            "WISA 2028"
+        name:
+            @0:         "WISA 28: 29th " # wisaname
+            @2:         "WISA 28" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    29:                 "WISA29"
+        key:            "WISA 2029"
+        name:
+            @0:         "WISA 29: 30th " # wisaname
+            @2:         "WISA 29" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
+    30:                 "WISA30"
+        key:            "WISA 2030"
+        name:
+            @0:         "WISA 30: 31st " # wisaname
+            @2:         "WISA 30" # wisaname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Jeju Island, Korea"
+            @1:         ""
+        month:
+            @0:         aug
+            @1:         aug
 pqcryptoname:          "Post-Quantum Cryptography"
 pqcryptopub:           springer
 pqcrypto:
