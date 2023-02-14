@@ -12279,15 +12279,15 @@ tcc:
         name3:
             @0:         "TCC~2022: 20th " # tccname # ", Part~III"
             @2:         "TCC~2022" # tccname  # ", Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        ed:             "Eike Kiltz and Vinod Vaikuntanathan"
+        vol1:           "13747"
+        vol2:           "13748"
+        vol3:           "13749"
         addr:
-            @0:         ""
+            @0:         "Chicago, IL, USA"
             @1:         ""
         month:
-            @0:         nov
+            @0:         nov # "~7--10,"
             @1:         nov
     23:
         -1:             "TCC23-1"
