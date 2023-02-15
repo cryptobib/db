@@ -9940,15 +9940,15 @@ pkc:
         name2:
             @0:         "PKC~2022: 25th " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2022" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Goichiro Hanaoka and Junji Shikata and Yohei Watanabe"
+        vol1:           "13177"
+        vol2:           "13178"
         addr:
-            @0:         ""
+            @0:         "Virtual Event"
             @1:         ""
         month:
-            @0:         may # "~10--13,"
-            @1:         may
+            @0:         mar # "~8--11,"
+            @1:         mar
     23:                 "PKC23"
         -1:             "PKC23-1"
         -2:             "PKC23-2"
