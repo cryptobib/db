@@ -11944,6 +11944,56 @@ stoc:
         month:
             @0:         jun # "~22--26,"
             @1:         jun
+    21:                 "STOC21"
+        key:            "STOC 2021"
+        name:           "53rd " # stocname
+        ed:             "Samir Khuller and Virginia Vassilevska Williams"
+        addr:
+            @0:         "Virtual Event, Italy"
+            @1:         ""
+        month:
+            @0:         jun # "~21--25,"
+            @1:         jun
+    22:                 "STOC22"
+        key:            "STOC 2022"
+        name:           "54th " # stocname
+        ed:             "Stefano Leonardi and Anupam Gupta"
+        addr:
+            @0:         "Rome, Italy"
+            @1:         ""
+        month:
+            @0:         jun # "~20--24,"
+            @1:         jun
+    23:                 "STOC23"
+        key:            "STOC 2023"
+        name:           "55th " # stocname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
+    24:                 "STOC24"
+        key:            "STOC 2024"
+        name:           "56th " # stocname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
+    25:                 "STOC25"
+        key:            "STOC 2025"
+        name:           "57th " # stocname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jun
+            @1:         jun
 tccname:
     @0:                 "Theory of Cryptography Conference"
     @2:                 ""
