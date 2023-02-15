@@ -7443,6 +7443,16 @@ ieeesp:
         month:
             @0:         may # "~24--27,"
             @1:         may
+    22:                 "SP22"
+        key:            "IEEE S\&P 2022"
+        name:           "2022 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~22--26,"
+            @1:         may
 imaname:                "IMA International Conference on Cryptography and Coding"
 imapub:                 springer
 ima:
