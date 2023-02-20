@@ -2052,16 +2052,16 @@ asiacrypt:
         name2:          asiacryptname # "~2022, Part~II"
         name3:          asiacryptname # "~2022, Part~III"
         name4:          asiacryptname # "~2022, Part~IV"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
-        vol4:           ""
+        ed:             "Shweta Agrawal and Dongdai Lin"
+        vol1:           "13791"
+        vol2:           "13792"
+        vol3:           "13793"
+        vol4:           "13794"
         addr:
-            @0:         ""
+            @0:         "Taipei, Taiwan"
             @1:         ""
         month:
-            @0:         dec # "~7--11,"
+            @0:         dec # "~5--9,"
             @1:         dec
     23:
         -1:             "AC23-1"
