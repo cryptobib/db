@@ -5510,6 +5510,56 @@ focs:
         month:
             @0:         nov # "~16--19,"
             @1:         nov
+    21:                 "FOCS21"
+        key:            "FOCS 2021"
+        name:           "62nd " # focsname
+        ed:             ""
+        addr:
+            @0:         "Denver, CO, USA"
+            @1:         ""
+        month:
+            @0:         feb # "~7--10,"
+            @1:         feb
+    22:                 "FOCS22"
+        key:            "FOCS 2022"
+        name:           "63rd " # focsname
+        ed:             ""
+        addr:
+            @0:         "Denver, CO, USA"
+            @1:         ""
+        month:
+            @0:         oct # "~31~--~" # nov # "~3,"
+            @1:         oct # "~/~" # nov
+    23:                 "FOCS23"
+        key:            "FOCS 2023"
+        name:           "64th " # focsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         oct
+            @1:         oct
+    24:                 "FOCS24"
+        key:            "FOCS 2024"
+        name:           "65th " # focsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         oct
+            @1:         oct
+    25:                 "FOCS25"
+        key:            "FOCS 2025"
+        name:           "66th " # focsname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         oct
+            @1:         oct
 fsename:
     @0:                 "Fast Software Encryption -- {FSE}"
     @2:                 "FSE"
