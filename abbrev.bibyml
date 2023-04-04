@@ -40,6 +40,7 @@ dagstuhl:
     @0:                 "Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik"
     @1:                 "Schloss Dagstuhl"
 degruyter:              "De Gruyter"
+sciendo:                "Sciendo"
 plenumpress:            "Plenum Press, New York, USA"
 ucsb-ece:               "U.C. Santa Barbara, Dept. of Elec. and Computer Eng."
 sigcomm:                "Proceedings of {ACM} {SIGCOMM}"

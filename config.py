@@ -207,7 +207,8 @@ add_journal("JCEng", 2011, "jcryptoeng", "Journal of Cryptographic Engineering",
 
 add_journal("PoPETS", 2022, "popets", "Proceedings on Privacy Enhancing Technologies",
             months=["jan", "apr", "jul", "oct"],
-            url="https://dblp.uni-trier.de/db/journals/popets/popets${year}.html")
+            url="https://dblp.uni-trier.de/db/journals/popets/popets${year}.html",
+            publisher="sciendo")
 
 # Note: PoPETS is now self-publishing!
 # add_journal("PoPETS", 2015, "popets", "Proceedings on Privacy Enhancing Technologies",
