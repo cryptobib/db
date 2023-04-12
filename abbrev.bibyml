@@ -6649,6 +6649,32 @@ icalp:
         month:
             @0:         jul # "~8--11,"
             @1:         jul
+    21:                 "ICALP21"
+        key:            "ICALP 2021"
+        name:
+            @0:         "ICALP 2021: 48th " # icalpname
+            @2:         "ICALP 2021" # icalpname
+        ed:             "Nikhil Bansal and Emanuela Merelli and James Worrell"
+        vol:            "198"
+        addr:
+            @0:         "Glasgow, Scotland (Virtual Conference)"
+            @1:         ""
+        month:
+            @0:         jul # "~12--16,"
+            @1:         jul
+    22:                 "ICALP22"
+        key:            "ICALP 2022"
+        name:
+            @0:         "ICALP 2022: 49th " # icalpname
+            @2:         "ICALP 2022" # icalpname
+        ed:             "Mikolaj Bojanczyk and Emanuela Merelli and David P. Woodruff"
+        vol:            "229"
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         jul # "~4--8,"
+            @1:         jul
 iccsaname:
     @0:                 "Computational Science and Its Applications"
     @2:                 ""
