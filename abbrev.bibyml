@@ -10395,14 +10395,14 @@ pkc:
         name2:
             @0:         "PKC~2023: 26th " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2023" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Alexandra Boldyreva and Vladimir Kolesnikov"
+        vol1:           "13940"
+        vol2:           "13941"
         addr:
-            @0:         ""
+            @0:         "Atlanta, GA, USA"
             @1:         ""
         month:
-            @0:         may # "~10--13,"
+            @0:         may # "~7--10,"
             @1:         may
     24:                 "PKC24"
         -1:             "PKC24-1"
