@@ -4626,22 +4626,30 @@ eurocrypt:
         -1:             "EC23-1"
         -2:             "EC23-2"
         -3:             "EC23-3"
+        -4:             "EC23-4"
+        -5:             "EC23-5"
         key1:           "EUROCRYPT 2023, Part~I"
         key2:           "EUROCRYPT 2023, Part~II"
         key3:           "EUROCRYPT 2023, Part~III"
+        key4:           "EUROCRYPT 2023, Part~IV"
+        key5:           "EUROCRYPT 2023, Part~V"
         name1:          eurocryptname # "~2023, Part~I"
         name2:          eurocryptname # "~2023, Part~II"
         name3:          eurocryptname # "~2023, Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:          eurocryptname # "~2023, Part~IV"
+        name5:          eurocryptname # "~2023, Part~V"
+        ed:             "Carmit Hazay and Martijn Stam"
+        vol1:           "14004"
+        vol2:           "14005"
+        vol3:           "14006"
+        vol4:           "14007"
+        vol5:           "14008"
         addr:
-            @0:         ""
+            @0:         "Lyon, France"
             @1:         ""
         month:
-            @0:         jun
-            @1:         jun
+            @0:         apr # "~23--27,"
+            @1:         apr
     24:                 "EC24"
         -1:             "EC24-1"
         -2:             "EC24-2"
@@ -10387,14 +10395,14 @@ pkc:
         name2:
             @0:         "PKC~2023: 26th " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2023" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        ed:             "Alexandra Boldyreva and Vladimir Kolesnikov"
+        vol1:           "13940"
+        vol2:           "13941"
         addr:
-            @0:         ""
+            @0:         "Atlanta, GA, USA"
             @1:         ""
         month:
-            @0:         may # "~10--13,"
+            @0:         may # "~7--10,"
             @1:         may
     24:                 "PKC24"
         -1:             "PKC24-1"
