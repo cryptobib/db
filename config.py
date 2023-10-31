@@ -230,6 +230,9 @@ add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and 
 
 add_misc("EPRINT", "Cryptology ePrint Archive", url="https://eprint.iacr.org/complete/compact")
 
+add_journal("DCC", 1991, "dcc", "Designs, Codes and Cryptography",
+            url="https://dblp.uni-trier.de/db/journals/dcc/dcc${volume}.html")
+
 
 def get_conf_name(confkey):
     if confkey in confs:
