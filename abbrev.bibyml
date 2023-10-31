@@ -68,6 +68,9 @@ ieeetpds:               "{IEEE} Transactions on Parallel and Distributed Systems
 acm:
     @0:                 "Association for Computing Machinery"
     @2:                 "{ACM}"
+dcc:
+    @0:                 "Designs, Codes and Cryptography"
+    @2:                 "{DCC}"
 dcca:
     @0:                 "Conference on Dependable Computing for Critical Applications (DCCA)"
     @2:                 "{DCCA}"
@@ -3364,7 +3367,7 @@ crypto:
         name2:          cryptoname # "~2023, Part~II"
         name3:          cryptoname # "~2023, Part~III"
         name4:          cryptoname # "~2023, Part~IV"
-        name4:          cryptoname # "~2023, Part~V"
+        name5:          cryptoname # "~2023, Part~V"
         ed:             "Helena Handschuh and Anna Lysyanskaya"
         vol1:           "14081"
         vol2:           "14082"
@@ -14463,4 +14466,3 @@ xxxx:
         vol:            ""
         addr:           ""
         month:          ""
-dcc:                "Designs, Codes and Cryptography"
