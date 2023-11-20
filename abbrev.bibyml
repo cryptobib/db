@@ -2491,14 +2491,14 @@ cans:
         name:
             @0:         "CANS 23: 22th " # cansname
             @2:         "CANS 23" # cansname
-        ed:             ""
-        vol:            ""
+        ed:             "Jing Deng and Vladimir Kolesnikov and Alexander A. Schwarzmann"
+        vol:            "14342"
         addr:
-            @0:         ""
+            @0:         "Augusta, GA, USA"
             @1:         ""
         month:
-            @0:         nov
-            @1:         nov
+            @0:         oct # "~31~--~" # nov # "~2,"
+            @1:         oct # "~/~" # nov
     24:                 "CANS24"
         key:            "CANS 2024"
         name:
@@ -2912,6 +2912,71 @@ cosade:
             @1:         ""
         month:
             @0:         apr # "~1--3,"
+            @1:         apr
+    21:                 "COSADE21"
+        key:            "COSADE 2021"
+        name:
+            @0:         "COSADE 2021: 12th " # cosadename
+            @2:         "COSADE 2021" # cosadename
+        ed:             "Shivam Bhasin and Fabrizio {De Santis}"
+        vol:            "12910"
+        addr:
+            @0:         "Lugano, Switzerland"
+            @1:         ""
+        month:
+            @0:         oct # "~25--27,"
+            @1:         oct
+    22:                 "COSADE22"
+        key:            "COSADE 2022"
+        name:
+            @0:         "COSADE 2022: 13th " # cosadename
+            @2:         "COSADE 2022" # cosadename
+        ed:             "Josep Balasch and Colin {O'Flynn}"
+        vol:            "13211"
+        addr:
+            @0:         "Leuven, Belgium"
+            @1:         ""
+        month:
+            @0:         apr # "~11--12,"
+            @1:         apr
+    23:                 "COSADE23"
+        key:            "COSADE 2023"
+        name:
+            @0:         "COSADE 2023: 14th " # cosadename
+            @2:         "COSADE 2023" # cosadename
+        ed:             "Elif Bilge Kavun and Michael Pehl"
+        vol:            "13979"
+        addr:
+            @0:         "Munich, Germany"
+            @1:         ""
+        month:
+            @0:         apr # "~3--4,"
+            @1:         apr
+    24:                 "COSADE24"
+        key:            "COSADE 2024"
+        name:
+            @0:         "COSADE 2024: 15th " # cosadename
+            @2:         "COSADE 2024" # cosadename
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         apr
+            @1:         apr
+    25:                 "COSADE25"
+        key:            "COSADE 2025"
+        name:
+            @0:         "COSADE 2025: 16th " # cosadename
+            @2:         "COSADE 2025" # cosadename
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         apr
             @1:         apr
 cqrename:
     @0:                 "International Exhibition and Congress on Network Security -- {CQRE}"
