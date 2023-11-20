@@ -1403,14 +1403,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 23: 14th " # africacryptname
             @2:         "AFRICACRYPT 23" # africacryptname
-        ed:             ""
-        vol:            ""
+        ed:             "Nadia {El Mrabet} and Luca {De Feo} and Sylvain Duquesne"
+        vol:            "14064"
         addr:
-            @0:         ""
+            @0:         "Sousse, Tunisia"
             @1:         ""
         month:
-            @0:         jun
-            @1:         jun
+            @0:         jul # "~19--21,"
+            @1:         jul
     24:                 "AFRICACRYPT24"
         key:            "AFRICACRYPT 2024"
         name:
@@ -1703,13 +1703,13 @@ asiaccs:
         name:
             @0:         "ASIACCS 23: 18th " # asiaccsname
             @2:         "ASIACCS 23" # asiaccsname
-        ed:             ""
+        ed:             "Joseph K. Liu and Yang Xiang and Surya Nepal and Gene Tsudik"
         addr:
-            @0:         ""
+            @0:         "Melbourne, VIC, Australia"
             @1:         ""
         month:
-            @0:         jun # "~7--11,"
-            @1:         jun
+            @0:         jul # "~10--14,"
+            @1:         jul
     24:                 "ASIACCS24"
         key:            "ASIACCS 2024"
         name:
