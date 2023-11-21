@@ -8138,6 +8138,86 @@ ieeesp:
         month:
             @0:         may # "~22--26,"
             @1:         may
+    23:                 "SP23"
+        key:            "IEEE S\&P 2023"
+        name:           "2023 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may # "~21--25,"
+            @1:         may
+    24:                 "SP24"
+        key:            "IEEE S\&P 2024"
+        name:           "2024 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+    25:                 "SP25"
+        key:            "IEEE S\&P 2025"
+        name:           "2025 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+    26:                 "SP26"
+        key:            "IEEE S\&P 2026"
+        name:           "2026 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+    27:                 "SP27"
+        key:            "IEEE S\&P 2027"
+        name:           "2027 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+    28:                 "SP28"
+        key:            "IEEE S\&P 2028"
+        name:           "2028 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+    29:                 "SP29"
+        key:            "IEEE S\&P 2029"
+        name:           "2029 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+    30:                 "SP30"
+        key:            "IEEE S\&P 2030"
+        name:           "2030 " # ieeespname
+        ed:             ""
+        addr:
+            @0:         "San Francisco, CA, USA"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
 imaname:                "IMA International Conference on Cryptography and Coding"
 imapub:                 springer
 ima:
