@@ -3734,14 +3734,14 @@ rsa:
     23:                 "RSA23"
         key:            "CT-RSA 2023"
         name:           rsaname # "~2023"
-        ed:             ""
-        vol:            ""
+        ed:             "Mike Rosulek"
+        vol:            "13871"
         addr:
             @0:         "San Francisco, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~24--28,"
-            @1:         feb
+            @0:         apr # "~24--27,"
+            @1:         apr
     24:                 "RSA24"
         key:            "CT-RSA 2024"
         name:           rsaname # "~2024"
@@ -4190,7 +4190,84 @@ esorics:
         month:
             @0:         sep # "~26--30,"
             @1:         sep
-
+    23:
+        -1:             "ESORICS23-1"
+        -2:             "ESORICS23-2"
+        -3:             "ESORICS23-3"
+        key1:           "ESORICS 2023, Part~I"
+        key2:           "ESORICS 2023, Part~II"
+        key3:           "ESORICS 2023, Part~III"
+        name1:
+            @0:         "ESORICS~2023: 28th " # esoricsname # ", Part~I"
+            @2:         "ESORICS~2023" # esoricsname # ", Part~I"
+        name2:
+            @0:         "ESORICS~2023: 28th " # esoricsname # ", Part~II"
+            @2:         "ESORICS~2023" # esoricsname # ", Part~II"
+        name3:
+            @0:         "ESORICS~2023: 28th " # esoricsname # ", Part~III"
+            @2:         "ESORICS~2023" # esoricsname # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         sep
+            @1:         sep
+    24:
+        -1:             "ESORICS24-1"
+        -2:             "ESORICS24-2"
+        -3:             "ESORICS24-3"
+        key1:           "ESORICS 2024, Part~I"
+        key2:           "ESORICS 2024, Part~II"
+        key3:           "ESORICS 2024, Part~III"
+        name1:
+            @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~I"
+            @2:         "ESORICS~2024" # esoricsname # ", Part~I"
+        name2:
+            @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~II"
+            @2:         "ESORICS~2024" # esoricsname # ", Part~II"
+        name3:
+            @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~III"
+            @2:         "ESORICS~2024" # esoricsname # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         sep
+            @1:         sep
+    25:
+        -1:             "ESORICS25-1"
+        -2:             "ESORICS25-2"
+        -3:             "ESORICS25-3"
+        key1:           "ESORICS 2025, Part~I"
+        key2:           "ESORICS 2025, Part~II"
+        key3:           "ESORICS 2025, Part~III"
+        name1:
+            @0:         "ESORICS~2025: 30th " # esoricsname # ", Part~I"
+            @2:         "ESORICS~2025" # esoricsname # ", Part~I"
+        name2:
+            @0:         "ESORICS~2025: 30th " # esoricsname # ", Part~II"
+            @2:         "ESORICS~2025" # esoricsname # ", Part~II"
+        name3:
+            @0:         "ESORICS~2025: 30th " # esoricsname # ", Part~III"
+            @2:         "ESORICS~2025" # esoricsname # ", Part~III"
+        ed:             ""
+        vol1:           ""
+        vol2:           ""
+        vol3:           ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         sep
+            @1:         sep
 eurocryptname:
     @0:                 "Advances in Cryptology -- {EUROCRYPT}"
     @2:                 "EUROCRYPT"
@@ -6751,6 +6828,45 @@ icalp:
         vol:            "229"
         addr:
             @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         jul # "~4--8,"
+            @1:         jul
+    23:                 "ICALP23"
+        key:            "ICALP 2023"
+        name:
+            @0:         "ICALP 2023: 50th " # icalpname
+            @2:         "ICALP 2023" # icalpname
+        ed:             "Kousha Etessami and Uriel Feige and Gabriele Puppis"
+        vol:            "261"
+        addr:
+            @0:         "Paderborn, Germany"
+            @1:         ""
+        month:
+            @0:         jul # "~10--14,"
+            @1:         jul
+    24:                 "ICALP24"
+        key:            "ICALP 2024"
+        name:
+            @0:         "ICALP 2024: 51th " # icalpname
+            @2:         "ICALP 2024" # icalpname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~4--8,"
+            @1:         jul
+    25:                 "ICALP25"
+        key:            "ICALP 2025"
+        name:
+            @0:         "ICALP 2025: 52th " # icalpname
+            @2:         "ICALP 2025" # icalpname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
             @1:         ""
         month:
             @0:         jul # "~4--8,"
@@ -14304,11 +14420,11 @@ csf:
             @2:         "CSF 2023 " # csfname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Dubrovnik, Croatia"
             @1:         ""
         month:
-            @0:         jun
-            @1:         ""
+            @0:         jul # "~10--14,"
+            @1:         jul
     24:                 "CSF24"
         key:            "CSF 2024"
         name:
