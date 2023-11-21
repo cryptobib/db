@@ -7321,6 +7321,78 @@ icics:
         month:
             @0:         aug # "~24--26,"
             @1:         aug
+    21:                 "ICICS21"
+        -1:             "ICICS21-1"
+        -2:             "ICICS21-2"
+        key1:           "ICICS 2021, Part~I"
+        key2:           "ICICS 2021, Part~II"
+        name1:
+            @0:         "ICICS 21: 23rd " # icicsname # ", Part~I"
+            @2:         "ICICS 21" # icicsname # ", Part~I"
+        name2:
+            @0:         "ICICS 21: 23rd " # icicsname # ", Part~I"
+            @2:         "ICICS 21" # icicsname # ", Part~I"
+        ed:             "Debin Gao and Qi Li and Xiaohong Guan and Xiaofeng Liao"
+        vol1:           "12918"
+        vol2:           "12919"
+        addr:
+            @0:         "Chongqing, China"
+            @1:         ""
+        month:
+            @0:         nov # "~19--21,"
+            @1:         nov
+    22:                 "ICICS22"
+        key:            "ICICS 2022"
+        name:
+            @0:         "ICICS 22: 24th " # icicsname
+            @2:         "ICICS 22" # icicsname
+        ed:             "Cristina Alcaraz and Liqun Chen and Shujun Li and Pierangela Samarati"
+        vol:            "13407"
+        addr:
+            @0:         "Canterbury, UK"
+            @1:         ""
+        month:
+            @0:         sep # "~5--8,"
+            @1:         sep
+    23:                 "ICICS23"
+        key:            "ICICS 2023"
+        name:
+            @0:         "ICICS 23: 25th " # icicsname
+            @2:         "ICICS 23" # icicsname
+        ed:             "Ding Wang and Moti Yung and Zheli Liu and Xiaofeng Chen"
+        vol:            "14252"
+        addr:
+            @0:         "Tianjin, China"
+            @1:         ""
+        month:
+            @0:         nov # "~18--20,"
+            @1:         nov
+    24:                 "ICICS24"
+        key:            "ICICS 2024"
+        name:
+            @0:         "ICICS 24: 26th " # icicsname
+            @2:         "ICICS 24" # icicsname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~16--17,"
+            @1:         dec
+    25:                 "ICICS25"
+        key:            "ICICS 2025"
+        name:
+            @0:         "ICICS 25: 27th " # icicsname
+            @2:         "ICICS 25" # icicsname
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         dec # "~9--11,"
+            @1:         dec
 iciscname:
     @0:                 "International Conference on Information Security and Cryptology"
     @2:                 ""
