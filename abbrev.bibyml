@@ -8810,7 +8810,7 @@ isc:
         ed:             "Juan A. Garay and Arjen K. Lenstra and Masahiro Mambo and Ren{\'e} Peralta"
         vol:            "4779"
         addr:
-            @0:         "Valpara{\'\i}so, Chile"
+            @0:         "Valpara{\'i}so, Chile"
             @1:         ""
         month:
             @0:         oct # "~9--12,"
@@ -9448,7 +9448,7 @@ latin:
         ed:             "Ricardo A. Baeza-Yates and Eric Goles Ch. and Patricio V. Poblete"
         vol:            "911"
         addr:
-            @0:         "Valpara{\'\i}so, Chile"
+            @0:         "Valpara{\'i}so, Chile"
             @1:         ""
         month:
             @0:         apr # "~3--7,"
@@ -9661,7 +9661,7 @@ latincrypt:
         name:
             @0:         latincryptname # "~2015: 4th " # latincryptsuffix
             @2:         latincryptname # "~2015" # latincryptsuffix
-        ed:             "Kristin E. Lauter and Francisco {Rodr{\'\i}guez-Henr{\'\i}quez}"
+        ed:             "Kristin E. Lauter and Francisco {Rodr{\'i}guez-Henr{\'i}quez}"
         vol:            "9230"
         addr:
             @0:         "Guadalajara, Mexico"
