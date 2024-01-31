@@ -9708,6 +9708,19 @@ latincrypt:
         month:
             @0:         oct # "~6--8,"
             @1:         oct
+    23:                 "LC21"
+        key:            "LATINCRYPT 2023"
+        name:
+            @0:         latincryptname # "~2023: 8th " # latincryptsuffix
+            @2:         latincryptname # "~2023" # latincryptsuffix
+        ed:             "Abdelrahaman Aly and Mehdi Tibouchi"
+        vol:            "14168"
+        addr:
+            @0:         "Quito, Ecuador"
+            @2:         ""
+        month:
+            @0:         oct # "~3--6,"
+            @1:         oct
 ndssname:
     @0:                 "{ISOC} Network and Distributed System Security Symposium -- {NDSS}"
     @2:                 "NDSS"
