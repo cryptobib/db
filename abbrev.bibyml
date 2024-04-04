@@ -11240,6 +11240,106 @@ podc:
         month:
             @0:         aug # "~3--7,"
             @1:         aug
+    21:                 "PODC21"
+        key:            "PODC 2021"
+        name:           "40th " # podcname
+        ed:             "Avery Miller and Keren {Censor-Hillel} and Janne H. Korhonen"
+        addr:
+            @0:         "Virtual Event, Italy"
+            @1:         ""
+        month:
+            @0:         jul # "~26--30,"
+            @1:         jul
+    22:                 "PODC22"
+        key:            "PODC 2022"
+        name:           "41st " # podcname
+        ed:             "Alessia Milani and Philipp Woelfel"
+        addr:
+            @0:         "Salerno, Italy"
+            @1:         ""
+        month:
+            @0:         jul # "~25--29,"
+            @1:         jul
+    23:                 "PODC23"
+        key:            "PODC 2023"
+        name:           "42nd " # podcname
+        ed:             "Rotem Oshman and Alexandre Nolin and Magn{\'u}s M. Halld{\'o}rsson and Alkida Balliu"
+        addr:
+            @0:         "Orlando, FL, USA"
+            @1:         ""
+        month:
+            @0:         jun # "~19--23,"
+            @1:         jun
+    24:                 "PODC24"
+        key:            "PODC 2024"
+        name:           "43rd " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~15--18,"
+            @1:         jul
+    25:                 "PODC25"
+        key:            "PODC 2025"
+        name:           "44th " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~21--23,"
+            @1:         jul
+    26:                 "PODC26"
+        key:            "PODC 2026"
+        name:           "45th " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~25--28,"
+            @1:         jul
+    27:                 "PODC27"
+        key:            "PODC 2027"
+        name:           "46th " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~25--27,"
+            @1:         jul
+    28:                 "PODC28"
+        key:            "PODC 2028"
+        name:           "47th " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~23--27,"
+            @1:         jul
+    29:                 "PODC29"
+        key:            "PODC 2029"
+        name:           "48th " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         jul # "~29~--~" # aug # "~2,"
+            @1:         jul # "~/~" # aug
+    30:                 "PODC30"
+        key:            "PODC 2030"
+        name:           "49th " # podcname
+        ed:             ""
+        addr:
+            @0:         ""
+            @1:         ""
+        month:
+            @0:         aug # "~3--7,"
+            @1:         aug
 popets:
     @0:                 "Proceedings on Privacy Enhancing Technologies"
     @2:                 "{PoPETs}"
