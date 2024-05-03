@@ -10808,23 +10808,35 @@ pkc:
     24:                 "PKC24"
         -1:             "PKC24-1"
         -2:             "PKC24-2"
+        -3:             "PKC24-3"
+        -4:             "PKC24-4"
         key1:           "PKC 2024, Part~I"
         key2:           "PKC 2024, Part~II"
+        key3:           "PKC 2024, Part~III"
+        key4:           "PKC 2024, Part~IV"
         name1:
             @0:         "PKC~2024: 27th " # pkcname_v2 # ", Part~I"
             @2:         "PKC~2024" # pkcname_v2 # ", Part~I"
         name2:
             @0:         "PKC~2024: 27th " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2024" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:
+            @0:         "PKC~2024: 27th " # pkcname_v2 # ", Part~III"
+            @2:         "PKC~2024" # pkcname_v2 # ", Part~II"
+        name4:
+            @0:         "PKC~2024: 27th " # pkcname_v2 # ", Part~IV"
+            @2:         "PKC~2024" # pkcname_v2 # ", Part~II"
+        ed:             "Qiang Tang and Vanessa Teague"
+        vol1:           "14601"
+        vol2:           "14602"
+        vol3:           "14603"
+        vol4:           "14604"
         addr:
-            @0:         ""
+            @0:         "Sydney, NSW, Australia"
             @1:         ""
         month:
-            @0:         may # "~10--13,"
-            @1:         may
+            @0:         apr # "~15--17,"
+            @1:         apr
     25:                 "PKC25"
         -1:             "PKC25-1"
         -2:             "PKC25-2"
