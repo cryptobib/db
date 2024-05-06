@@ -13291,9 +13291,11 @@ tcc:
         -1:             "TCC23-1"
         -2:             "TCC23-2"
         -3:             "TCC23-3"
+        -4:             "TCC23-4"
         key1:           "TCC 2023, Part~I"
         key2:           "TCC 2023, Part~II"
         key3:           "TCC 2023, Part~III"
+        key4:           "TCC 2023, Part~IV"
         name1:
             @0:         "TCC~2023: 21st " # tccname # ", Part~I"
             @2:         "TCC~2023" # tccname  # ", Part~I"
@@ -13303,16 +13305,20 @@ tcc:
         name3:
             @0:         "TCC~2023: 21st " # tccname # ", Part~III"
             @2:         "TCC~2023" # tccname  # ", Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:
+            @0:         "TCC~2023: 21st " # tccname # ", Part~IV"
+            @2:         "TCC~2023" # tccname  # ", Part~IV"
+        ed:             "Guy N. Rothblum and Hoeteck Wee"
+        vol1:           "14369"
+        vol2:           "14370"
+        vol3:           "14371"
+        vol4:           "14372"
         addr:
-            @0:         ""
+            @0:         "Taipei, Taiwan"
             @1:         ""
         month:
-            @0:         nov
-            @1:         nov
+            @0:         nov # "~29~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
     24:
         -1:             "TCC24-1"
         -2:             "TCC24-2"
