@@ -12915,12 +12915,12 @@ stoc:
     23:                 "STOC23"
         key:            "STOC 2023"
         name:           "55th " # stocname
-        ed:             ""
+        ed:             "Barna Saha and Rocco A. Servedio"
         addr:
-            @0:         ""
+            @0:         "Orlando, FL, USA"
             @1:         ""
         month:
-            @0:         jun
+            @0:         jun # "~20--23,"
             @1:         jun
     24:                 "STOC24"
         key:            "STOC 2024"
