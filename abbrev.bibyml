@@ -852,12 +852,12 @@ ccs:
         name:
             @0:         "ACM CCS 2023: 30th " # ccsname
             @2:         "ACM CCS 2023" # ccsname
-        ed:             ""
+        ed:             "Weizhi Meng and Christian Damsgaard Jensen and Cas Cremers and Engin Kirda"
         addr:
-            @0:         ""
+            @0:         "Copenhagen, Denmark"
             @1:         ""
         month:
-            @0:         nov
+            @0:         nov # "~26--30,"
             @1:         nov
 
     24:                 "CCS24"
