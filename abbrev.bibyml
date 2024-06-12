@@ -1186,23 +1186,29 @@ acns:
     24:
         -1:             "ACNS24-1"
         -2:             "ACNS24-2"
+        -3:             "ACNS24-3"
         key1:           "ACNS 2024, Part~I"
         key2:           "ACNS 2024, Part~II"
+        key3:           "ACNS 2024, Part~III"
         name1:
             @0:         "ACNS 24: 22nd " # acnsname # ", Part~I"
             @2:         "ACNS 24" # acnsname # ", Part~I"
         name2:
             @0:         "ACNS 24: 22nd " # acnsname # ", Part~II"
             @2:         "ACNS 24" # acnsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:
+            @0:         "ACNS 24: 22nd " # acnsname # ", Part~III"
+            @2:         "ACNS 24" # acnsname # ", Part~III"
+        ed:             "Christina P{\"o}pper and Lejla Batina"
+        vol1:           "14583"
+        vol2:           "14584"
+        vol3:           "14585"
         addr:
-            @0:         ""
+            @0:         "Abu Dhabi, UAE"
             @1:         ""
         month:
-            @0:         jun # "~21--24,"
-            @1:         jun
+            @0:         mar # "~5--8,"
+            @1:         mar
     25:
         -1:             "ACNS25-1"
         -2:             "ACNS25-2"
@@ -3005,13 +3011,13 @@ cosade:
         name:
             @0:         "COSADE 2024: 15th " # cosadename
             @2:         "COSADE 2024" # cosadename
-        ed:             ""
-        vol:            ""
+        ed:             "Romain Wacquez and Naofumi Homma"
+        vol:            "14595"
         addr:
-            @0:         ""
+            @0:         "Gardanne, France"
             @1:         ""
         month:
-            @0:         apr
+            @0:         apr # "~9--10,"
             @1:         apr
     25:                 "COSADE25"
         key:            "COSADE 2025"
@@ -3793,14 +3799,14 @@ rsa:
     24:                 "RSA24"
         key:            "CT-RSA 2024"
         name:           rsaname # "~2024"
-        ed:             ""
-        vol:            ""
+        ed:             "Elisabeth Oswald"
+        vol:            "14643"
         addr:
             @0:         "San Francisco, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~24--28,"
-            @1:         feb
+            @0:         may # "~6--9,"
+            @1:         may
     25:                 "RSA25"
         key:            "CT-RSA 2025"
         name:           rsaname # "~2025"
@@ -4242,9 +4248,11 @@ esorics:
         -1:             "ESORICS23-1"
         -2:             "ESORICS23-2"
         -3:             "ESORICS23-3"
+        -4:             "ESORICS23-4"
         key1:           "ESORICS 2023, Part~I"
         key2:           "ESORICS 2023, Part~II"
         key3:           "ESORICS 2023, Part~III"
+        key4:           "ESORICS 2023, Part~IV"
         name1:
             @0:         "ESORICS~2023: 28th " # esoricsname # ", Part~I"
             @2:         "ESORICS~2023" # esoricsname # ", Part~I"
@@ -4254,23 +4262,29 @@ esorics:
         name3:
             @0:         "ESORICS~2023: 28th " # esoricsname # ", Part~III"
             @2:         "ESORICS~2023" # esoricsname # ", Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:
+            @0:         "ESORICS~2023: 28th " # esoricsname # ", Part~IV"
+            @2:         "ESORICS~2023" # esoricsname # ", Part~IV"
+        ed:             "Gene Tsudik and Mauro Conti and Kaitai Liang and Georgios Smaragdakis"
+        vol1:           "14344"
+        vol2:           "14345"
+        vol3:           "14346"
+        vol4:           "14347"
         addr:
-            @0:         ""
+            @0:         "The Hague, The Netherlands"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~25--29,"
             @1:         sep
     24:
         -1:             "ESORICS24-1"
         -2:             "ESORICS24-2"
         -3:             "ESORICS24-3"
+        -4:             "ESORICS24-4"
         key1:           "ESORICS 2024, Part~I"
         key2:           "ESORICS 2024, Part~II"
         key3:           "ESORICS 2024, Part~III"
+        key4:           "ESORICS 2024, Part~IV"
         name1:
             @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~I"
             @2:         "ESORICS~2024" # esoricsname # ", Part~I"
@@ -4280,10 +4294,14 @@ esorics:
         name3:
             @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~III"
             @2:         "ESORICS~2024" # esoricsname # ", Part~III"
+        name4:
+            @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~IV"
+            @2:         "ESORICS~2024" # esoricsname # ", Part~IV"
         ed:             ""
         vol1:           ""
         vol2:           ""
         vol3:           ""
+        vol4:           ""
         addr:
             @0:         ""
             @1:         ""
