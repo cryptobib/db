@@ -9790,7 +9790,7 @@ latincrypt:
         month:
             @0:         oct # "~6--8,"
             @1:         oct
-    23:                 "LC21"
+    23:                 "LC23"
         key:            "LATINCRYPT 2023"
         name:
             @0:         latincryptname # "~2023: 8th " # latincryptsuffix
