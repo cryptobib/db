@@ -30,12 +30,19 @@ comrev:                 "{ACM} Computer Communication Review"
 perscomm:               "Personal Communication"
 perf:                   "Performance Evaluation"
 bell:                   "Bell Systems Technical Journal"
-springer:
-    @0:                 "Springer, Heidelberg, Germany"
-    @1:                 "Springer, Heidelberg"
-springer_nature:
-    @0:                 "Springer Nature Switzerland"
-    @1:                 "Springer Nature"
+springer:               "Springer"
+springer_newyork:
+    @0:                 "Springer, New York, USA"
+    @1:                 "Springer, New York"
+springer_singapore:
+    @0:                 "Springer, Singapore, Singapore"
+    @1:                 "Springer, Singapore"
+springer_berlin_heidelberg:
+    @0:                 "Springer, Berlin, Heidelberg, Germany"
+    @1:                 "Springer, Berlin, Heidelberg"
+springer_cham:
+    @0:                 "Springer, Cham, Switzerland"
+    @1:                 "Springer, Cham"
 dagstuhl:
     @0:                 "Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik"
     @1:                 "Schloss Dagstuhl"
@@ -90,7 +97,6 @@ mylipics:               "{LIPIcs}"
 acispname:
     @0:                 "Australasian Conference on Information Security and Privacy"
     @2:                 ""
-acisppub:               springer
 acisp:
     96:                 "ACISP96"
         key:            "ACISP 1996"
@@ -105,6 +111,7 @@ acisp:
         month:
             @0:         jun # "~24--26,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     97:                 "ACISP97"
         key:            "ACISP 1997"
         name:
@@ -118,6 +125,7 @@ acisp:
         month:
             @0:         jul # "~7--9,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     98:                 "ACISP98"
         key:            "ACISP 1998"
         name:
@@ -129,6 +137,7 @@ acisp:
             @0:         "Brisbane, Queensland, Australia"
             @1:         ""
         month:          jul
+        pub:            springer_berlin_heidelberg
     99:                 "ACISP99"
         key:            "ACISP 1999"
         name:
@@ -142,6 +151,7 @@ acisp:
         month:
             @0:         apr # "~7--9,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     00:                 "ACISP00"
         key:            "ACISP 2000"
         name:
@@ -155,6 +165,7 @@ acisp:
         month:
             @0:         jul # "~10--12,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     01:                 "ACISP01"
         key:            "ACISP 2001"
         name:
@@ -168,6 +179,7 @@ acisp:
         month:
             @0:         jul # "~2--4,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     02:                 "ACISP02"
         key:            "ACISP 2002"
         name:
@@ -181,6 +193,7 @@ acisp:
         month:
             @0:         jul # "~3--5,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     03:                 "ACISP03"
         key:            "ACISP 2003"
         name:
@@ -194,6 +207,7 @@ acisp:
         month:
             @0:         jul # "~9--11,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     04:                 "ACISP04"
         key:            "ACISP 2004"
         name:
@@ -207,6 +221,7 @@ acisp:
         month:
             @0:         jul # "~13--15,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     05:                 "ACISP05"
         key:            "ACISP 2005"
         name:
@@ -220,6 +235,7 @@ acisp:
         month:
             @0:         jul # "~4--6,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     06:                 "ACISP06"
         key:            "ACISP 2006"
         name:
@@ -233,6 +249,7 @@ acisp:
         month:
             @0:         jul # "~3--5,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     07:                 "ACISP07"
         key:            "ACISP 2007"
         name:
@@ -246,6 +263,7 @@ acisp:
         month:
             @0:         jul # "~2--4,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     08:                 "ACISP08"
         key:            "ACISP 2008"
         name:
@@ -259,6 +277,7 @@ acisp:
         month:
             @0:         jul # "~7--9,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     09:                 "ACISP09"
         key:            "ACISP 2009"
         name:
@@ -272,6 +291,7 @@ acisp:
         month:
             @0:         jul # "~1--3,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     10:                 "ACISP10"
         key:            "ACISP 2010"
         name:
@@ -285,6 +305,7 @@ acisp:
         month:
             @0:         jul # "~5--7,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     11:                 "ACISP11"
         key:            "ACISP 2011"
         name:
@@ -298,6 +319,7 @@ acisp:
         month:
             @0:         jul # "~11--13,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     12:                 "ACISP12"
         key:            "ACISP 2012"
         name:
@@ -311,6 +333,7 @@ acisp:
         month:
             @0:         jul # "~9--11,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     13:                 "ACISP13"
         key:            "ACISP 2013"
         name:
@@ -324,6 +347,7 @@ acisp:
         month:
             @0:         jul # "~1--3,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     14:                 "ACISP14"
         key:            "ACISP 2014"
         name:
@@ -337,6 +361,7 @@ acisp:
         month:
             @0:         jul # "~7--9,"
             @1:         jul
+        pub:            springer_cham
     15:                 "ACISP15"
         key:            "ACISP 2015"
         name:
@@ -350,6 +375,7 @@ acisp:
         month:
             @0:         jun # "~29~--~" # jul # "~1,"
             @1:         jun # "~/~" # jul
+        pub:            springer_cham
     16:
         -1:             "ACISP16-1"
         -2:             "ACISP16-2"
@@ -370,6 +396,7 @@ acisp:
         month:
             @0:         jul # "~4--6,"
             @1:         jul
+        pub:            springer_cham
     17:
         -1:             "ACISP17-1"
         -2:             "ACISP17-2"
@@ -390,6 +417,7 @@ acisp:
         month:
             @0:         jul # "~3--5,"
             @1:         jul
+        pub:            springer_cham
     18:                 "ACISP18"
         key:            "ACISP 2018"
         name:
@@ -403,6 +431,7 @@ acisp:
         month:
             @0:         jul # "~11--13,"
             @1:         jul
+        pub:            springer_cham
     19:                 "ACISP19"
         key:            "ACISP 2019"
         name:
@@ -416,6 +445,7 @@ acisp:
         month:
             @0:         jul # "~3--5,"
             @1:         jul
+        pub:            springer_cham
     20:                 "ACISP20"
         key:            "ACISP 2020"
         name:
@@ -429,6 +459,7 @@ acisp:
         month:
             @0:         nov # "~30~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
     21:                 "ACISP21"
         key:            "ACISP 2021"
         name:
@@ -442,6 +473,7 @@ acisp:
         month:
             @0:         dec # "~1--3,"
             @1:         dec
+        pub:            springer_cham
     22:                 "ACISP22"
         key:            "ACISP 2022"
         name:
@@ -455,6 +487,7 @@ acisp:
         month:
             @0:         nov # "~28--30,"
             @1:         nov
+        pub:            springer_cham
     23:                 "ACISP23"
         key:            "ACISP 2023"
         name:
@@ -468,6 +501,7 @@ acisp:
         month:
             @0:         jul # "~5--7,"
             @1:         jul
+        pub:            springer_cham
     24:                 "ACISP24"
         key:            "ACISP 2024"
         name:
@@ -481,6 +515,7 @@ acisp:
         month:
             @0:         dec # "~1--3,"
             @1:         dec
+        pub:            springer_cham
     25:                 "ACISP25"
         key:            "ACISP 2025"
         name:
@@ -494,6 +529,7 @@ acisp:
         month:
             @0:         dec # "~1--3,"
             @1:         dec
+        pub:            springer_cham
 ccsname:
     @0:                 "Conference on Computer and Communications Security"
     @2:                 ""
@@ -886,8 +922,7 @@ ccs:
             @1:         nov
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
-    @2:                 ""
-acnspub:                springer
+    @2:                 ""International Conference on Applied Cryptography and Network Security
 acns:
     03:                 "ACNS03"
         key:            "ACNS 2003"
@@ -902,6 +937,7 @@ acns:
         month:
             @0:         oct # "~16--19,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     04:                 "ACNS04"
         key:            "ACNS 2004"
         name:
@@ -915,6 +951,7 @@ acns:
         month:
             @0:         jun # "~8--11,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     05:                 "ACNS05"
         key:            "ACNS 2005"
         name:
@@ -928,6 +965,7 @@ acns:
         month:
             @0:         jun # "~7--10,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     06:                 "ACNS06"
         key:            "ACNS 2006"
         name:
@@ -941,6 +979,7 @@ acns:
         month:
             @0:         jun # "~6--9,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     07:                 "ACNS07"
         key:            "ACNS 2007"
         name:
@@ -954,6 +993,7 @@ acns:
         month:
             @0:         jun # "~5--8,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     08:                 "ACNS08"
         key:            "ACNS 2008"
         name:
@@ -967,6 +1007,7 @@ acns:
         month:
             @0:         jun # "~3--6,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     09:                 "ACNS09"
         key:            "ACNS 2009"
         name:
@@ -980,6 +1021,7 @@ acns:
         month:
             @0:         jun # "~2--5,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     10:                 "ACNS10"
         key:            "ACNS 2010"
         name:
@@ -993,6 +1035,7 @@ acns:
         month:
             @0:         jun # "~22--25,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     11:                 "ACNS11"
         key:            "ACNS 2011"
         name:
@@ -1006,6 +1049,7 @@ acns:
         month:
             @0:         jun # "~7--10,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     12:                 "ACNS12"
         key:            "ACNS 2012"
         name:
@@ -1019,6 +1063,7 @@ acns:
         month:
             @0:         jun # "~26--29,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     13:                 "ACNS13"
         key:            "ACNS 2013"
         name:
@@ -1032,6 +1077,7 @@ acns:
         month:
             @0:         jun # "~25--28,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     14:                 "ACNS14"
         key:            "ACNS 2014"
         name:
@@ -1045,6 +1091,7 @@ acns:
         month:
             @0:         jun # "~10--13,"
             @1:         jun
+        pub:            springer_cham
     15:                 "ACNS15"
         key:            "ACNS 2015"
         name:
@@ -1058,6 +1105,7 @@ acns:
         month:
             @0:         jun # "~2--5,"
             @1:         jun
+        pub:            springer_cham
     16:                 "ACNS16"
         key:            "ACNS 2016"
         name:
@@ -1071,6 +1119,7 @@ acns:
         month:
             @0:         jun # "~19--22,"
             @1:         jun
+        pub:            springer_cham
     17:                 "ACNS17"
         key:            "ACNS 2017"
         name:
@@ -1084,6 +1133,7 @@ acns:
         month:
             @0:         jul # "~10--12,"
             @1:         jul
+        pub:            springer_cham
     18:                 "ACNS18"
         key:            "ACNS 2018"
         name:
@@ -1097,6 +1147,7 @@ acns:
         month:
             @0:         jul # "~2--4,"
             @1:         jul
+        pub:            springer_cham
     19:                 "ACNS19"
         key:            "ACNS 2019"
         name:
@@ -1110,6 +1161,7 @@ acns:
         month:
             @0:         jun # "~5--7,"
             @1:         jun
+        pub:            springer_cham
     20:
         -1:             "ACNS20-1"
         -2:             "ACNS20-2"
@@ -1130,6 +1182,7 @@ acns:
         month:
             @0:         oct # "~19--22,"
             @1:         oct
+        pub:            springer_cham
     21:
         -1:             "ACNS21-1"
         -2:             "ACNS21-2"
@@ -1150,6 +1203,7 @@ acns:
         month:
             @0:         jun # "~21--24,"
             @1:         jun
+        pub:            springer_cham
     22:                 "ACNS22"
         key:            "ACNS 2022"
         name:
@@ -1163,6 +1217,7 @@ acns:
         month:
             @0:         jun # "~20--23,"
             @1:         jun
+        pub:            springer_cham
     23:
         -1:             "ACNS23-1"
         -2:             "ACNS23-2"
@@ -1183,6 +1238,7 @@ acns:
         month:
             @0:         jun # "~19--22,"
             @1:         jun
+        pub:            springer_cham
     24:
         -1:             "ACNS24-1"
         -2:             "ACNS24-2"
@@ -1209,6 +1265,7 @@ acns:
         month:
             @0:         mar # "~5--8,"
             @1:         mar
+        pub:            springer_cham
     25:
         -1:             "ACNS25-1"
         -2:             "ACNS25-2"
@@ -1229,11 +1286,10 @@ acns:
         month:
             @0:         jun # "~21--24,"
             @1:         jun
+        pub:            springer_cham
 africacryptname:
     @0:                 "International Conference on Cryptology in Africa"
     @2:                 ""
-africacryptpub:         springer
-africacryptpub_v2:      springer_nature
 africacrypt:
     08:                 "AFRICACRYPT08"
         key:            "AFRICACRYPT 2008"
@@ -1248,6 +1304,7 @@ africacrypt:
         month:
             @0:         jun # "~11--14,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     09:                 "AFRICACRYPT09"
         key:            "AFRICACRYPT 2009"
         name:
@@ -1261,6 +1318,7 @@ africacrypt:
         month:
             @0:         jun # "~21--25,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     10:                 "AFRICACRYPT10"
         key:            "AFRICACRYPT 2010"
         name:
@@ -1274,6 +1332,7 @@ africacrypt:
         month:
             @0:         may # "~3--6,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     11:                 "AFRICACRYPT11"
         key:            "AFRICACRYPT 2011"
         name:
@@ -1287,6 +1346,7 @@ africacrypt:
         month:
             @0:         jul # "~5--7,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     12:                 "AFRICACRYPT12"
         key:            "AFRICACRYPT 2012"
         name:
@@ -1300,6 +1360,7 @@ africacrypt:
         month:
             @0:         jul # "~10--12,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     13:                 "AFRICACRYPT13"
         key:            "AFRICACRYPT 2013"
         name:
@@ -1313,6 +1374,7 @@ africacrypt:
         month:
             @0:         jun # "~22--24,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     14:                 "AFRICACRYPT14"
         key:            "AFRICACRYPT 2014"
         name:
@@ -1326,6 +1388,7 @@ africacrypt:
         month:
             @0:         may # "~28--30,"
             @1:         may
+        pub:            springer_cham
     16:                 "AFRICACRYPT16"
         key:            "AFRICACRYPT 2016"
         name:
@@ -1339,6 +1402,7 @@ africacrypt:
         month:
             @0:         apr # "~13--15,"
             @1:         apr
+        pub:            springer_cham
     17:                 "AFRICACRYPT17"
         key:            "AFRICACRYPT 2017"
         name:
@@ -1352,6 +1416,7 @@ africacrypt:
         month:
             @0:         may # "~24--26,"
             @1:         may
+        pub:            springer_cham
     18:                 "AFRICACRYPT18"
         key:            "AFRICACRYPT 2018"
         name:
@@ -1365,6 +1430,7 @@ africacrypt:
         month:
             @0:         may # "~7--9,"
             @1:         may
+        pub:            springer_cham
     19:                 "AFRICACRYPT19"
         key:            "AFRICACRYPT 2019"
         name:
@@ -1378,6 +1444,7 @@ africacrypt:
         month:
             @0:         jul # "~9--11,"
             @1:         jul
+        pub:            springer_cham
     20:                 "AFRICACRYPT20"
         key:            "AFRICACRYPT 2020"
         name:
@@ -1391,6 +1458,7 @@ africacrypt:
         month:
             @0:         jul # "~20--22,"
             @1:         jul
+        pub:            springer_cham
     22:                 "AFRICACRYPT22"
         key:            "AFRICACRYPT 2022"
         name:
@@ -1404,6 +1472,7 @@ africacrypt:
         month:
             @0:         jul # "~18--20,"
             @1:         jul
+        pub:            springer_cham
     23:                 "AFRICACRYPT23"
         key:            "AFRICACRYPT 2023"
         name:
@@ -1417,6 +1486,7 @@ africacrypt:
         month:
             @0:         jul # "~19--21,"
             @1:         jul
+        pub:            springer_cham
     24:                 "AFRICACRYPT24"
         key:            "AFRICACRYPT 2024"
         name:
@@ -1430,6 +1500,7 @@ africacrypt:
         month:
             @0:         may
             @1:         may
+        pub:            springer_cham
     25:                 "AFRICACRYPT25"
         key:            "AFRICACRYPT 2025"
         name:
@@ -1443,6 +1514,7 @@ africacrypt:
         month:
             @0:         may
             @1:         may
+        pub:            springer_cham
     26:                 "AFRICACRYPT26"
         key:            "AFRICACRYPT 2026"
         name:
@@ -1456,6 +1528,7 @@ africacrypt:
         month:
             @0:         apr
             @1:         apr
+        pub:            springer_cham
     27:                 "AFRICACRYPT27"
         key:            "AFRICACRYPT 2027"
         name:
@@ -1469,6 +1542,7 @@ africacrypt:
         month:
             @0:         may
             @1:         may
+        pub:            springer_cham
     28:                 "AFRICACRYPT28"
         key:            "AFRICACRYPT 2028"
         name:
@@ -1482,6 +1556,7 @@ africacrypt:
         month:
             @0:         may
             @1:         may
+        pub:            springer_cham
     29:                 "AFRICACRYPT29"
         key:            "AFRICACRYPT 2029"
         name:
@@ -1495,6 +1570,7 @@ africacrypt:
         month:
             @0:         jul
             @1:         jul
+        pub:            springer_cham
 asiaccsname:
     @0:                 "ACM Symposium on Information, Computer and Communications Security"
     @2:                 ""
@@ -1746,7 +1822,6 @@ asiacryptname:
 auscryptname:
     @0:                 "Advances in Cryptology -- {AUSCRYPT}"
     @2:                 "AUSCRYPT"
-asiacryptpub:           springer
 asiacrypt:
     90:                 "AC90"
         key:            "AUSCRYPT 1990"
@@ -1759,6 +1834,7 @@ asiacrypt:
         month:
             @0:         jan # "~8--11,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     91:                 "AC91"
         key:            "ASIACRYPT 1991"
         name:           asiacryptname # "'91"
@@ -1770,6 +1846,7 @@ asiacrypt:
         month:
             @0:         nov # "~11--14,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     92:                 "AC92"
         key:            "AUSCRYPT 1992"
         name:           auscryptname # "'92"
@@ -1781,6 +1858,7 @@ asiacrypt:
         month:
             @0:         dec # "~13--16,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     93:                 "AC93"
         key:            "ASIACRYPT 1993"
         name:           asiacryptname # "'93"
@@ -1799,6 +1877,7 @@ asiacrypt:
         month:
             @0:         nov # "~28~--~" # dec # "~1,"
             @1:         nov # "~/~" # dec
+        pub:            springer_berlin_heidelberg
     95:                 "AC95"
         key:            "ASIACRYPT 1995"
         name:           asiacryptname # "'95"
@@ -1817,6 +1896,7 @@ asiacrypt:
         month:
             @0:         nov # "~3--7,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     97:                 "AC97"
         key:            "ASIACRYPT 1997"
         name:           asiacryptname # "'97"
@@ -1835,6 +1915,7 @@ asiacrypt:
         month:
             @0:         oct # "~18--22,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     99:                 "AC99"
         key:            "ASIACRYPT 1999"
         name:           asiacryptname # "'99"
@@ -1846,6 +1927,7 @@ asiacrypt:
         month:
             @0:         nov # "~14--18,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     00:                 "AC00"
         key:            "ASIACRYPT 2000"
         name:           asiacryptname # "~2000"
@@ -1857,6 +1939,7 @@ asiacrypt:
         month:
             @0:         dec # "~3--7,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     01:                 "AC01"
         key:            "ASIACRYPT 2001"
         name:           asiacryptname # "~2001"
@@ -1868,6 +1951,7 @@ asiacrypt:
         month:
             @0:         dec # "~9--13,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     02:                 "AC02"
         key:            "ASIACRYPT 2002"
         name:           asiacryptname # "~2002"
@@ -1879,6 +1963,7 @@ asiacrypt:
         month:
             @0:         dec # "~1--5,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     03:                 "AC03"
         key:            "ASIACRYPT 2003"
         name:           asiacryptname # "~2003"
@@ -1890,6 +1975,7 @@ asiacrypt:
         month:
             @0:         nov # "~30~--~" # dec # "~4,"
             @1:         nov # "~/~" # dec
+        pub:            springer_berlin_heidelberg
     04:                 "AC04"
         key:            "ASIACRYPT 2004"
         name:           asiacryptname # "~2004"
@@ -1901,6 +1987,7 @@ asiacrypt:
         month:
             @0:         dec # "~5--9,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     05:                 "AC05"
         key:            "ASIACRYPT 2005"
         name:           asiacryptname # "~2005"
@@ -1912,6 +1999,7 @@ asiacrypt:
         month:
             @0:         dec # "~4--8,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     06:                 "AC06"
         key:            "ASIACRYPT 2006"
         name:           asiacryptname # "~2006"
@@ -1923,6 +2011,7 @@ asiacrypt:
         month:
             @0:         dec # "~3--7,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     07:                 "AC07"
         key:            "ASIACRYPT 2007"
         name:           asiacryptname # "~2007"
@@ -1934,6 +2023,7 @@ asiacrypt:
         month:
             @0:         dec # "~2--6,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     08:                 "AC08"
         key:            "ASIACRYPT 2008"
         name:           asiacryptname # "~2008"
@@ -1945,6 +2035,7 @@ asiacrypt:
         month:
             @0:         dec # "~7--11,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     09:                 "AC09"
         key:            "ASIACRYPT 2009"
         name:           asiacryptname # "~2009"
@@ -1956,6 +2047,7 @@ asiacrypt:
         month:
             @0:         dec # "~6--10,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     10:                 "AC10"
         key:            "ASIACRYPT 2010"
         name:           asiacryptname # "~2010"
@@ -1967,6 +2059,7 @@ asiacrypt:
         month:
             @0:         dec # "~5--9,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "AC11"
         key:            "ASIACRYPT 2011"
         name:           asiacryptname # "~2011"
@@ -1978,6 +2071,7 @@ asiacrypt:
         month:
             @0:         dec # "~4--8,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     12:                 "AC12"
         key:            "ASIACRYPT 2012"
         name:           asiacryptname # "~2012"
@@ -1989,6 +2083,7 @@ asiacrypt:
         month:
             @0:         dec # "~2--6,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     13:
         -1:             "AC13-1"
         -2:             "AC13-2"
@@ -2005,6 +2100,7 @@ asiacrypt:
         month:
             @0:         dec # "~1--5,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     14:
         -1:             "AC14-1"
         -2:             "AC14-2"
@@ -2021,6 +2117,7 @@ asiacrypt:
         month:
             @0:         dec # "~7--11,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     15:
         -1:             "AC15-1"
         -2:             "AC15-2"
@@ -2037,6 +2134,7 @@ asiacrypt:
         month:
             @0:         nov # "~30~--~" # dec # "~3,"
             @1:         nov # "~/~" # dec
+        pub:            springer_berlin_heidelberg
     16:
         -1:             "AC16-1"
         -2:             "AC16-2"
@@ -2053,6 +2151,7 @@ asiacrypt:
         month:
             @0:         dec # "~4--8,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     17:
         -1:             "AC17-1"
         -2:             "AC17-2"
@@ -2073,6 +2172,7 @@ asiacrypt:
         month:
             @0:         dec # "~3--7,"
             @1:         dec
+        pub:            springer_cham
     18:
         -1:             "AC18-1"
         -2:             "AC18-2"
@@ -2093,6 +2193,7 @@ asiacrypt:
         month:
             @0:         dec # "~2--6,"
             @1:         dec
+        pub:            springer_cham
     19:
         -1:             "AC19-1"
         -2:             "AC19-2"
@@ -2113,6 +2214,7 @@ asiacrypt:
         month:
             @0:         dec # "~8--12,"
             @1:         dec
+        pub:            springer_cham
     20:
         -1:             "AC20-1"
         -2:             "AC20-2"
@@ -2133,6 +2235,7 @@ asiacrypt:
         month:
             @0:         dec # "~7--11,"
             @1:         dec
+        pub:            springer_cham
     21:
         -1:             "AC21-1"
         -2:             "AC21-2"
@@ -2157,6 +2260,7 @@ asiacrypt:
         month:
             @0:         dec # "~6--10,"
             @1:         dec
+        pub:            springer_cham
     22:
         -1:             "AC22-1"
         -2:             "AC22-2"
@@ -2181,6 +2285,7 @@ asiacrypt:
         month:
             @0:         dec # "~5--9,"
             @1:         dec
+        pub:            springer_cham
     23:
         -1:             "AC23-1"
         -2:             "AC23-2"
@@ -2221,6 +2326,7 @@ asiacrypt:
         month:
             @0:         dec # "~4--8,"
             @1:         dec
+        pub:            springer_singapore
     24:
         -1:             "AC24-1"
         -2:             "AC24-2"
@@ -2261,6 +2367,7 @@ asiacrypt:
         month:
             @0:         dec # "~7--11,"
             @1:         dec
+        pub:            springer_singapore
     25:
         -1:             "AC25-1"
         -2:             "AC25-2"
@@ -2301,10 +2408,10 @@ asiacrypt:
         month:
             @0:         dec # "~7--11,"
             @1:         dec
+        pub:            springer_singapore
 cansname:
     @0:                 "International Conference on Cryptology and Network Security"
     @2:                 ""
-canspub:                springer
 cans:
     05:                 "CANS05"
         key:            "CANS 2005"
@@ -2319,6 +2426,7 @@ cans:
         month:
             @0:         dec # "~14--16,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     06:                 "CANS06"
         key:            "CANS 2006"
         name:
@@ -2332,6 +2440,7 @@ cans:
         month:
             @0:         dec # "~8--10,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     07:                 "CANS07"
         key:            "CANS 2007"
         name:
@@ -2345,6 +2454,7 @@ cans:
         month:
             @0:         dec # "~8--10,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     08:                 "CANS08"
         key:            "CANS 2008"
         name:
@@ -2358,6 +2468,7 @@ cans:
         month:
             @0:         dec # "~2--4,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     09:                 "CANS09"
         key:            "CANS 2009"
         name:
@@ -2371,6 +2482,7 @@ cans:
         month:
             @0:         dec # "~12--14,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     10:                 "CANS10"
         key:            "CANS 2010"
         name:
@@ -2384,6 +2496,7 @@ cans:
         month:
             @0:         dec # "~12--14,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "CANS11"
         key:            "CANS 2011"
         name:
@@ -2397,6 +2510,7 @@ cans:
         month:
             @0:         dec # "~10--12,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     12:                 "CANS12"
         key:            "CANS 2012"
         name:
@@ -2410,6 +2524,7 @@ cans:
         month:
             @0:         dec # "~12--14,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     13:                 "CANS13"
         key:            "CANS 2013"
         name:
@@ -2423,6 +2538,7 @@ cans:
         month:
             @0:         nov # "~20--22,"
             @1:         nov
+        pub:            springer_cham
     14:                 "CANS14"
         key:            "CANS 2014"
         name:
@@ -2436,6 +2552,7 @@ cans:
         month:
             @0:         oct # "~22--24,"
             @1:         oct
+        pub:            springer_cham
     15:                 "CANS15"
         key:            "CANS 2015"
         name:
@@ -2449,6 +2566,7 @@ cans:
         month:
             @0:         dec # "~10--12,"
             @1:         dec
+        pub:            springer_cham
     16:                 "CANS16"
         key:            "CANS 2016"
         name:
@@ -2462,6 +2580,7 @@ cans:
         month:
             @0:         nov # "~14--16,"
             @1:         nov
+        pub:            springer_cham
     17:                 "CANS17"
         key:            "CANS 2017"
         name:
@@ -2475,6 +2594,7 @@ cans:
         month:
             @0:         nov # "~30~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
     18:                 "CANS18"
         key:            "CANS 2018"
         name:
@@ -2488,6 +2608,7 @@ cans:
         month:
             @0:         sep # "~30~--~" # oct # "~3,"
             @1:         sep # "~/~" # oct
+        pub:            springer_cham
     19:                 "CANS19"
         key:            "CANS 2019"
         name:
@@ -2501,6 +2622,7 @@ cans:
         month:
             @0:         oct # "~25--27,"
             @1:         oct
+        pub:            springer_cham
     20:                 "CANS20"
         key:            "CANS 2020"
         name:
@@ -2514,6 +2636,7 @@ cans:
         month:
             @0:         dec # "~14--16,"
             @1:         dec
+        pub:            springer_cham
     21:                 "CANS21"
         key:            "CANS 2021"
         name:
@@ -2527,6 +2650,7 @@ cans:
         month:
             @0:         dec # "~13--15,"
             @1:         dec
+        pub:            springer_cham
     22:                 "CANS22"
         key:            "CANS 2022"
         name:
@@ -2540,6 +2664,7 @@ cans:
         month:
             @0:         nov # "~13--15,"
             @1:         nov
+        pub:            springer_cham
     23:                 "CANS23"
         key:            "CANS 2023"
         name:
@@ -2553,6 +2678,7 @@ cans:
         month:
             @0:         oct # "~31~--~" # nov # "~2,"
             @1:         oct # "~/~" # nov
+        pub:            springer_singapore
     24:                 "CANS24"
         key:            "CANS 2024"
         name:
@@ -2566,6 +2692,7 @@ cans:
         month:
             @0:         oct
             @1:         oct
+        pub:            springer_singapore
     25:                 "CANS25"
         key:            "CANS 2025"
         name:
@@ -2579,6 +2706,7 @@ cans:
         month:
             @0:         dec
             @1:         dec
+        pub:            springer_singapore
     26:                 "CANS26"
         key:            "CANS 2026"
         name:
@@ -2592,6 +2720,7 @@ cans:
         month:
             @0:         nov
             @1:         nov
+        pub:            springer_singapore
     27:                 "CANS27"
         key:            "CANS 2027"
         name:
@@ -2605,6 +2734,7 @@ cans:
         month:
             @0:         nov
             @1:         nov
+        pub:            springer_singapore
     28:                 "CANS28"
         key:            "CANS 2028"
         name:
@@ -2618,6 +2748,7 @@ cans:
         month:
             @0:         sep
             @1:         sep
+        pub:            springer_singapore
     29:                 "CANS29"
         key:            "CANS 2029"
         name:
@@ -2631,10 +2762,10 @@ cans:
         month:
             @0:         oct
             @1:         oct
+        pub:            springer_singapore
 chesname:
     @0:                 "Cryptographic Hardware and Embedded Systems -- {CHES}"
     @2:                 "CHES"
-chespub:                springer
 ches:
     99:                 "CHES99"
         key:            "CHES 1999"
@@ -2647,6 +2778,7 @@ ches:
         month:
             @0:         aug # "~12--13,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     00:                 "CHES00"
         key:            "CHES 2000"
         name:           chesname # "~2000"
@@ -2658,6 +2790,7 @@ ches:
         month:
             @0:         aug # "~17--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     01:                 "CHES01"
         key:            "CHES 2001"
         name:           chesname # "~2001"
@@ -2669,6 +2802,7 @@ ches:
         month:
             @0:         may # "~14--16,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     02:                 "CHES02"
         key:            "CHES 2002"
         name:           chesname # "~2002"
@@ -2680,6 +2814,7 @@ ches:
         month:
             @0:         aug # "~13--15,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     03:                 "CHES03"
         key:            "CHES 2003"
         name:           chesname # "~2003"
@@ -2691,6 +2826,7 @@ ches:
         month:
             @0:         sep # "~8--10,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     04:                 "CHES04"
         key:            "CHES 2004"
         name:           chesname # "~2004"
@@ -2702,6 +2838,7 @@ ches:
         month:
             @0:         aug # "~11--13,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     05:                 "CHES05"
         key:            "CHES 2005"
         name:           chesname # "~2005"
@@ -2713,6 +2850,7 @@ ches:
         month:
             @0:         aug # "~29~--~" # sep # "~1,"
             @1:         aug # "~/~" # sep
+        pub:            springer_berlin_heidelberg
     06:                 "CHES06"
         key:            "CHES 2006"
         name:           chesname # "~2006"
@@ -2724,6 +2862,7 @@ ches:
         month:
             @0:         oct # "~10--13,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     07:                 "CHES07"
         key:            "CHES 2007"
         name:           chesname # "~2007"
@@ -2735,6 +2874,7 @@ ches:
         month:
             @0:         sep # "~10--13,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     08:                 "CHES08"
         key:            "CHES 2008"
         name:           chesname # "~2008"
@@ -2746,6 +2886,7 @@ ches:
         month:
             @0:         aug # "~10--13,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     09:                 "CHES09"
         key:            "CHES 2009"
         name:           chesname # "~2009"
@@ -2757,6 +2898,7 @@ ches:
         month:
             @0:         sep # "~6--9,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     10:                 "CHES10"
         key:            "CHES 2010"
         name:           chesname # "~2010"
@@ -2768,6 +2910,7 @@ ches:
         month:
             @0:         aug # "~17--20,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     11:                 "CHES11"
         key:            "CHES 2011"
         name:           chesname # "~2011"
@@ -2779,6 +2922,7 @@ ches:
         month:
             @0:         sep # "~28~--~" # oct # "~1,"
             @1:         sep # "~/~" # oct
+        pub:            springer_berlin_heidelberg
     12:                 "CHES12"
         key:            "CHES 2012"
         name:           chesname # "~2012"
@@ -2790,6 +2934,7 @@ ches:
         month:
             @0:         sep # "~9--12,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     13:                 "CHES13"
         key:            "CHES 2013"
         name:           chesname # "~2013"
@@ -2801,6 +2946,7 @@ ches:
         month:
             @0:         aug # "~20--23,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     14:                 "CHES14"
         key:            "CHES 2014"
         name:           chesname # "~2014"
@@ -2812,6 +2958,7 @@ ches:
         month:
             @0:         sep # "~23--26,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     15:                 "CHES15"
         key:            "CHES 2015"
         name:           chesname # "~2015"
@@ -2823,6 +2970,7 @@ ches:
         month:
             @0:         sep # "~13--16,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     16:                 "CHES16"
         key:            "CHES 2016"
         name:           chesname # "~2016"
@@ -2834,6 +2982,7 @@ ches:
         month:
             @0:         aug # "~17--19,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     17:                 "CHES17"
         key:            "CHES 2017"
         name:           chesname # "~2017"
@@ -2845,10 +2994,10 @@ ches:
         month:
             @0:         sep # "~25--28,"
             @1:         sep
+        pub:            springer_cham
 cosadename:
     @0:                 "International Workshop on Constructive Side-Channel Analysis and Secure Design"
     @2:                 ""
-cosadepub:                springer
 cosade:
     12:                 "COSADE12"
         key:            "COSADE 2012"
@@ -2863,6 +3012,7 @@ cosade:
         month:
             @0:         may # "~3--4,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     13:                 "COSADE13"
         key:            "COSADE 2013"
         name:
@@ -2876,6 +3026,7 @@ cosade:
         month:
             @0:         mar # "~6--8,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     14:                 "COSADE14"
         key:            "COSADE 2014"
         name:
@@ -2889,6 +3040,7 @@ cosade:
         month:
             @0:         apr # "~13--15,"
             @1:         apr
+        pub:            springer_cham
     15:                 "COSADE15"
         key:            "COSADE 2015"
         name:
@@ -2902,6 +3054,7 @@ cosade:
         month:
             @0:         apr # "~13--14,"
             @1:         apr
+        pub:            springer_cham
     16:                 "COSADE16"
         key:            "COSADE 2016"
         name:
@@ -2915,6 +3068,7 @@ cosade:
         month:
             @0:         apr # "~14--15,"
             @1:         apr
+        pub:            springer_cham
     17:                 "COSADE17"
         key:            "COSADE 2017"
         name:
@@ -2928,6 +3082,7 @@ cosade:
         month:
             @0:         apr # "~13--14,"
             @1:         apr
+        pub:            springer_cham
     18:                 "COSADE18"
         key:            "COSADE 2018"
         name:
@@ -2941,6 +3096,7 @@ cosade:
         month:
             @0:         apr # "~23--24,"
             @1:         apr
+        pub:            springer_cham
     19:                 "COSADE19"
         key:            "COSADE 2019"
         name:
@@ -2954,6 +3110,7 @@ cosade:
         month:
             @0:         apr # "~3--5,"
             @1:         apr
+        pub:            springer_cham
     20:                 "COSADE20"
         key:            "COSADE 2020"
         name:
@@ -2967,6 +3124,7 @@ cosade:
         month:
             @0:         apr # "~1--3,"
             @1:         apr
+        pub:            springer_cham
     21:                 "COSADE21"
         key:            "COSADE 2021"
         name:
@@ -2980,6 +3138,7 @@ cosade:
         month:
             @0:         oct # "~25--27,"
             @1:         oct
+        pub:            springer_cham
     22:                 "COSADE22"
         key:            "COSADE 2022"
         name:
@@ -2993,6 +3152,7 @@ cosade:
         month:
             @0:         apr # "~11--12,"
             @1:         apr
+        pub:            springer_cham
     23:                 "COSADE23"
         key:            "COSADE 2023"
         name:
@@ -3006,6 +3166,7 @@ cosade:
         month:
             @0:         apr # "~3--4,"
             @1:         apr
+        pub:            springer_cham
     24:                 "COSADE24"
         key:            "COSADE 2024"
         name:
@@ -3019,6 +3180,7 @@ cosade:
         month:
             @0:         apr # "~9--10,"
             @1:         apr
+        pub:            springer_cham
     25:                 "COSADE25"
         key:            "COSADE 2025"
         name:
@@ -3032,10 +3194,11 @@ cosade:
         month:
             @0:         apr
             @1:         apr
+        pub:            springer_cham
 cqrename:
     @0:                 "International Exhibition and Congress on Network Security -- {CQRE}"
     @2:                 "CQRE"
-cqrepub:                springer
+cqrepub:                springer_berlin_heidelberg
 cqre:
     99:                 "CQRE99"
         key:            "CQRE 1999"
@@ -3051,7 +3214,6 @@ cqre:
 cryptoname:
     @0:                 "Advances in Cryptology -- {CRYPTO}"
     @2:                 "CRYPTO"
-cryptopub:              springer
 cryptomonth:            aug
 cryptoaddr:
     @0:                 "Santa Barbara, CA, USA"
@@ -3083,6 +3245,7 @@ crypto:
         month:
             @0:         aug # "~19--23,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     85:                 "C85"
         key:            "CRYPTO 1985"
         name:           cryptoname # "'85"
@@ -3091,12 +3254,14 @@ crypto:
         month:
             @0:         aug # "~18--22,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     86:                 "C86"
         key:            "CRYPTO 1986"
         name:           cryptoname # "'86"
         ed:             "Andrew M. Odlyzko"
         vol:            "263"
         month:          aug
+        pub:            springer_berlin_heidelberg
     87:                 "C87"
         key:            "CRYPTO 1987"
         name:           cryptoname # "'87"
@@ -3105,6 +3270,7 @@ crypto:
         month:
             @0:         aug # "~16--20,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     88:                 "C88"
         key:            "CRYPTO 1988"
         name:           cryptoname # "'88"
@@ -3113,6 +3279,7 @@ crypto:
         month:
             @0:         aug # "~21--25,"
             @1:         aug
+        pub:            springer_newyork
     89:                 "C89"
         key:            "CRYPTO 1989"
         name:           cryptoname # "'89"
@@ -3121,6 +3288,7 @@ crypto:
         month:
             @0:         aug # "~20--24,"
             @1:         aug
+        pub:            springer_newyork
     90:                 "C90"
         key:            "CRYPTO 1990"
         name:           cryptoname # "'90"
@@ -3129,6 +3297,7 @@ crypto:
         month:
             @0:         aug # "~11--15,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     91:                 "C91"
         key:            "CRYPTO 1991"
         name:           cryptoname # "'91"
@@ -3137,6 +3306,7 @@ crypto:
         month:
             @0:         aug # "~11--15,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     92:                 "C92"
         key:            "CRYPTO 1992"
         name:           cryptoname # "'92"
@@ -3145,6 +3315,7 @@ crypto:
         month:
             @0:         aug # "~16--20,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     93:                 "C93"
         key:            "CRYPTO 1993"
         name:           cryptoname # "'93"
@@ -3153,6 +3324,7 @@ crypto:
         month:
             @0:         aug # "~22--26,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     94:                 "C94"
         key:            "CRYPTO 1994"
         name:           cryptoname # "'94"
@@ -3161,6 +3333,7 @@ crypto:
         month:
             @0:         aug # "~21--25,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     95:                 "C95"
         key:            "CRYPTO 1995"
         name:           cryptoname # "'95"
@@ -3169,6 +3342,7 @@ crypto:
         month:
             @0:         aug # "~27--31,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     96:                 "C96"
         key:            "CRYPTO 1996"
         name:           cryptoname # "'96"
@@ -3177,6 +3351,7 @@ crypto:
         month:
             @0:         aug # "~18--22,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     97:                 "C97"
         key:            "CRYPTO 1997"
         name:           cryptoname # "'97"
@@ -3185,6 +3360,7 @@ crypto:
         month:
             @0:         aug # "~17--21,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     98:                 "C98"
         key:            "CRYPTO 1998"
         name:           cryptoname # "'98"
@@ -3193,6 +3369,7 @@ crypto:
         month:
             @0:         aug # "~23--27,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     99:                 "C99"
         key:            "CRYPTO 1999"
         name:           cryptoname # "'99"
@@ -3201,6 +3378,7 @@ crypto:
         month:
             @0:         aug # "~15--19,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     00:                 "C00"
         key:            "CRYPTO 2000"
         name:           cryptoname # "~2000"
@@ -3209,6 +3387,7 @@ crypto:
         month:
             @0:         aug # "~20--24,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     01:                 "C01"
         key:            "CRYPTO 2001"
         name:           cryptoname # "~2001"
@@ -3217,6 +3396,7 @@ crypto:
         month:
             @0:         aug # "~19--23,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     02:                 "C02"
         key:            "CRYPTO 2002"
         name:           cryptoname # "~2002"
@@ -3225,6 +3405,7 @@ crypto:
         month:
             @0:         aug # "~18--22,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     03:                 "C03"
         key:            "CRYPTO 2003"
         name:           cryptoname # "~2003"
@@ -3233,6 +3414,7 @@ crypto:
         month:
             @0:         aug # "~17--21,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     04:                 "C04"
         key:            "CRYPTO 2004"
         name:           cryptoname # "~2004"
@@ -3241,6 +3423,7 @@ crypto:
         month:
             @0:         aug # "~15--19,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     05:                 "C05"
         key:            "CRYPTO 2005"
         name:           cryptoname # "~2005"
@@ -3249,6 +3432,7 @@ crypto:
         month:
             @0:         aug # "~14--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     06:                 "C06"
         key:            "CRYPTO 2006"
         name:           cryptoname # "~2006"
@@ -3257,6 +3441,7 @@ crypto:
         month:
             @0:         aug # "~20--24,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     07:                 "C07"
         key:            "CRYPTO 2007"
         name:           cryptoname # "~2007"
@@ -3265,6 +3450,7 @@ crypto:
         month:
             @0:         aug # "~19--23,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     08:                 "C08"
         key:            "CRYPTO 2008"
         name:           cryptoname # "~2008"
@@ -3273,6 +3459,7 @@ crypto:
         month:
             @0:         aug # "~17--21,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     09:                 "C09"
         key:            "CRYPTO 2009"
         name:           cryptoname # "~2009"
@@ -3281,6 +3468,7 @@ crypto:
         month:
             @0:         aug # "~16--20,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     10:                 "C10"
         key:            "CRYPTO 2010"
         name:           cryptoname # "~2010"
@@ -3289,6 +3477,7 @@ crypto:
         month:
             @0:         aug # "~15--19,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     11:                 "C11"
         key:            "CRYPTO 2011"
         name:           cryptoname # "~2011"
@@ -3297,6 +3486,7 @@ crypto:
         month:
             @0:         aug # "~14--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     12:                 "C12"
         key:            "CRYPTO 2012"
         name:           cryptoname # "~2012"
@@ -3305,6 +3495,7 @@ crypto:
         month:
             @0:         aug # "~19--23,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     13:
         -1:             "C13-1"
         -2:             "C13-2"
@@ -3318,6 +3509,7 @@ crypto:
         month:
             @0:         aug # "~18--22,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     14:
         -1:             "C14-1"
         -2:             "C14-2"
@@ -3331,6 +3523,7 @@ crypto:
         month:
             @0:         aug # "~17--21,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     15:
         -1:             "C15-1"
         -2:             "C15-2"
@@ -3344,6 +3537,7 @@ crypto:
         month:
             @0:         aug # "~16--20,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     16:
         -1:             "C16-1"
         -2:             "C16-2"
@@ -3361,6 +3555,7 @@ crypto:
         month:
             @0:         aug # "~14--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     17:
         -1:             "C17-1"
         -2:             "C17-2"
@@ -3378,6 +3573,7 @@ crypto:
         month:
             @0:         aug # "~20--24,"
             @1:         aug
+        pub:            springer_cham
     18:
         -1:             "C18-1"
         -2:             "C18-2"
@@ -3395,6 +3591,7 @@ crypto:
         month:
             @0:         aug # "~19--23,"
             @1:         aug
+        pub:            springer_cham
     19:
         -1:             "C19-1"
         -2:             "C19-2"
@@ -3412,6 +3609,7 @@ crypto:
         month:
             @0:         aug # "~18--22,"
             @1:         aug
+        pub:            springer_cham
     20:
         -1:             "C20-1"
         -2:             "C20-2"
@@ -3429,6 +3627,7 @@ crypto:
         month:
             @0:         aug # "~17--21,"
             @1:         aug
+        pub:            springer_cham
     21:
         -1:             "C21-1"
         -2:             "C21-2"
@@ -3450,6 +3649,7 @@ crypto:
         month:
             @0:         aug # "~16--20,"
             @1:         aug
+        pub:            springer_cham
     22:
         -1:             "C22-1"
         -2:             "C22-2"
@@ -3471,6 +3671,7 @@ crypto:
         month:
             @0:         aug # "~15--18,"
             @1:         aug
+        pub:            springer_cham
     23:
         -1:             "C23-1"
         -2:             "C23-2"
@@ -3496,6 +3697,7 @@ crypto:
         month:
             @0:         aug # "~20--24,"
             @1:         aug
+        pub:            springer_cham
     24:
         -1:             "C24-1"
         -2:             "C24-2"
@@ -3517,6 +3719,7 @@ crypto:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_cham
     25:
         -1:             "C25-1"
         -2:             "C25-2"
@@ -3538,10 +3741,10 @@ crypto:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_cham
 rsaname:
     @0:                 "Topics in Cryptology -- CT-RSA"
     @2:                 "CT-RSA"
-rsapub:                 springer
 rsa:
     01:                 "RSA01"
         key:            "CT-RSA 2001"
@@ -3554,6 +3757,7 @@ rsa:
         month:
             @0:         apr # "~8--12,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     02:                 "RSA02"
         key:            "CT-RSA 2002"
         name:           rsaname # "~2002"
@@ -3565,6 +3769,7 @@ rsa:
         month:
             @0:         feb # "~18--22,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     03:                 "RSA03"
         key:            "CT-RSA 2003"
         name:           rsaname # "~2003"
@@ -3576,6 +3781,7 @@ rsa:
         month:
             @0:         apr # "~13--17,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     04:                 "RSA04"
         key:            "CT-RSA 2004"
         name:           rsaname # "~2004"
@@ -3587,6 +3793,7 @@ rsa:
         month:
             @0:         feb # "~23--27,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     05:                 "RSA05"
         key:            "CT-RSA 2005"
         name:           rsaname # "~2005"
@@ -3598,6 +3805,7 @@ rsa:
         month:
             @0:         feb # "~14--18,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     06:                 "RSA06"
         key:            "CT-RSA 2006"
         name:           rsaname # "~2006"
@@ -3609,6 +3817,7 @@ rsa:
         month:
             @0:         feb # "~13--17,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     07:                 "RSA07"
         key:            "CT-RSA 2007"
         name:           rsaname # "~2007"
@@ -3620,6 +3829,7 @@ rsa:
         month:
             @0:         feb # "~5--9,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     08:                 "RSA08"
         key:            "CT-RSA 2008"
         name:           rsaname # "~2008"
@@ -3631,6 +3841,7 @@ rsa:
         month:
             @0:         apr # "~7--11,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     09:                 "RSA09"
         key:            "CT-RSA 2009"
         name:           rsaname # "~2009"
@@ -3642,6 +3853,7 @@ rsa:
         month:
             @0:         apr # "~20--24,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     10:                 "RSA10"
         key:            "CT-RSA 2010"
         name:           rsaname # "~2010"
@@ -3653,6 +3865,7 @@ rsa:
         month:
             @0:         mar # "~1--5,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     11:                 "RSA11"
         key:            "CT-RSA 2011"
         name:           rsaname # "~2011"
@@ -3664,6 +3877,7 @@ rsa:
         month:
             @0:         feb # "~14--18,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     12:                 "RSA12"
         key:            "CT-RSA 2012"
         name:           rsaname # "~2012"
@@ -3675,6 +3889,7 @@ rsa:
         month:
             @0:         feb # "~27~--~" # mar # "~2,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     13:                 "RSA13"
         key:            "CT-RSA 2013"
         name:           rsaname # "~2013"
@@ -3686,6 +3901,7 @@ rsa:
         month:
             @0:         feb # "~25~--~" # mar # "~1,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     14:                 "RSA14"
         key:            "CT-RSA 2014"
         name:           rsaname # "~2014"
@@ -3697,6 +3913,7 @@ rsa:
         month:
             @0:         feb # "~25--28,"
             @1:         feb
+        pub:            springer_cham
     15:                 "RSA15"
         key:            "CT-RSA 2015"
         name:           rsaname # "~2015"
@@ -3708,6 +3925,7 @@ rsa:
         month:
             @0:         apr # "~20--24,"
             @1:         apr
+        pub:            springer_cham
     16:                 "RSA16"
         key:            "CT-RSA 2016"
         name:           rsaname # "~2016"
@@ -3719,6 +3937,7 @@ rsa:
         month:
             @0:         feb # "~29~--~" # mar # "~4,"
             @1:         feb # "~/~" # mar
+        pub:            springer_cham
     17:                 "RSA17"
         key:            "CT-RSA 2017"
         name:           rsaname # "~2017"
@@ -3730,6 +3949,7 @@ rsa:
         month:
             @0:         feb # "~14--17,"
             @1:         feb
+        pub:            springer_cham
     18:                 "RSA18"
         key:            "CT-RSA 2018"
         name:           rsaname # "~2018"
@@ -3741,6 +3961,7 @@ rsa:
         month:
             @0:         apr # "~16--20,"
             @1:         apr
+        pub:            springer_cham
     19:                 "RSA19"
         key:            "CT-RSA 2019"
         name:           rsaname # "~2019"
@@ -3752,6 +3973,7 @@ rsa:
         month:
             @0:         mar # "~4--8,"
             @1:         mar
+        pub:            springer_cham
     20:                 "RSA20"
         key:            "CT-RSA 2020"
         name:           rsaname # "~2020"
@@ -3763,6 +3985,7 @@ rsa:
         month:
             @0:         feb # "~24--28,"
             @1:         feb
+        pub:            springer_cham
     21:                 "RSA21"
         key:            "CT-RSA 2021"
         name:           rsaname # "~2021"
@@ -3774,6 +3997,7 @@ rsa:
         month:
             @0:         may # "~17--20,"
             @1:         may
+        pub:            springer_cham
     22:                 "RSA22"
         key:            "CT-RSA 2022"
         name:           rsaname # "~2022"
@@ -3785,6 +4009,7 @@ rsa:
         month:
             @0:         mar # "~1--2,"
             @1:         mar
+        pub:            springer_cham
     23:                 "RSA23"
         key:            "CT-RSA 2023"
         name:           rsaname # "~2023"
@@ -3796,6 +4021,7 @@ rsa:
         month:
             @0:         apr # "~24--27,"
             @1:         apr
+        pub:            springer_cham
     24:                 "RSA24"
         key:            "CT-RSA 2024"
         name:           rsaname # "~2024"
@@ -3807,6 +4033,7 @@ rsa:
         month:
             @0:         may # "~6--9,"
             @1:         may
+        pub:            springer_cham
     25:                 "RSA25"
         key:            "CT-RSA 2025"
         name:           rsaname # "~2025"
@@ -3818,10 +4045,10 @@ rsa:
         month:
             @0:         feb # "~24--28,"
             @1:         feb
+        pub:            springer_cham
 esoricsname:
     @0:                 "European Symposium on Research in Computer Security"
     @2:                 ""
-esoricspub:             springer
 esorics:
     90:                 "ESORICS90"
         key:            "ESORICS 1990"
@@ -3850,6 +4077,7 @@ esorics:
         month:
             @0:         nov # "~23--25,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     94:                 "ESORICS94"
         key:            "ESORICS 1994"
         name:
@@ -3863,6 +4091,7 @@ esorics:
         month:
             @0:         nov # "~7--9,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     96:                 "ESORICS96"
         key:            "ESORICS 1996"
         name:
@@ -3876,6 +4105,7 @@ esorics:
         month:
             @0:         sep # "~25--27,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     98:                 "ESORICS98"
         key:            "ESORICS 1998"
         name:
@@ -3889,6 +4119,7 @@ esorics:
         month:
             @0:         sep # "~16--18,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     00:                 "ESORICS00"
         key:            "ESORICS 2000"
         name:
@@ -3902,6 +4133,7 @@ esorics:
         month:
             @0:         oct # "~4--6,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     02:                 "ESORICS02"
         key:            "ESORICS 2002"
         name:
@@ -3915,6 +4147,7 @@ esorics:
         month:
             @0:         oct # "~14--16,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     03:                 "ESORICS03"
         key:            "ESORICS 2003"
         name:
@@ -3928,6 +4161,7 @@ esorics:
         month:
             @0:         oct # "~13--15,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     04:                 "ESORICS04"
         key:            "ESORICS 2004"
         name:
@@ -3941,6 +4175,7 @@ esorics:
         month:
             @0:         sep # "~13--15,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     05:                 "ESORICS05"
         key:            "ESORICS 2005"
         name:
@@ -3954,6 +4189,7 @@ esorics:
         month:
             @0:         sep # "~12--14,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     06:                 "ESORICS06"
         key:            "ESORICS 2006"
         name:
@@ -3967,6 +4203,7 @@ esorics:
         month:
             @0:         sep # "~18--20,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     07:                 "ESORICS07"
         key:            "ESORICS 2007"
         name:
@@ -3980,6 +4217,7 @@ esorics:
         month:
             @0:         sep # "~24--26,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     08:                 "ESORICS08"
         key:            "ESORICS 2008"
         name:
@@ -3993,6 +4231,7 @@ esorics:
         month:
             @0:         oct # "~6--8,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     09:                 "ESORICS09"
         key:            "ESORICS 2009"
         name:
@@ -4006,6 +4245,7 @@ esorics:
         month:
             @0:         sep # "~21--23,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     10:                 "ESORICS10"
         key:            "ESORICS 2010"
         name:
@@ -4019,6 +4259,7 @@ esorics:
         month:
             @0:         sep # "~20--22,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     11:                 "ESORICS11"
         key:            "ESORICS 2011"
         name:
@@ -4032,6 +4273,7 @@ esorics:
         month:
             @0:         sep # "~12--14,"
             @1:         ""
+        pub:            springer_berlin_heidelberg
     12:                 "ESORICS12"
         key:            "ESORICS 2012"
         name:
@@ -4045,6 +4287,7 @@ esorics:
         month:
             @0:         sep # "~10--12,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     13:                 "ESORICS13"
         key:            "ESORICS 2013"
         name:
@@ -4058,6 +4301,7 @@ esorics:
         month:
             @0:         sep # "~9--13,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     14:
         -1:             "ESORICS14-1"
         -2:             "ESORICS14-2"
@@ -4078,6 +4322,7 @@ esorics:
         month:
             @0:         sep # "~7--11,"
             @1:         sep
+        pub:            springer_cham
     15:
         -1:             "ESORICS15-1"
         -2:             "ESORICS15-2"
@@ -4098,6 +4343,7 @@ esorics:
         month:
             @0:         sep # "~21--25,"
             @1:         sep
+        pub:            springer_cham
     16:
         -1:             "ESORICS16-1"
         -2:             "ESORICS16-2"
@@ -4118,6 +4364,7 @@ esorics:
         month:
             @0:         sep # "~26--30,"
             @1:         sep
+        pub:            springer_cham
     17:
         -1:             "ESORICS17-1"
         -2:             "ESORICS17-2"
@@ -4138,6 +4385,7 @@ esorics:
         month:
             @0:         sep # "~11--15,"
             @1:         sep
+        pub:            springer_cham
     18:
         -1:             "ESORICS18-1"
         -2:             "ESORICS18-2"
@@ -4158,6 +4406,7 @@ esorics:
         month:
             @0:         sep # "~3--7,"
             @1:         sep
+        pub:            springer_cham
     19:
         -1:             "ESORICS19-1"
         -2:             "ESORICS19-2"
@@ -4178,6 +4427,7 @@ esorics:
         month:
             @0:         sep # "~23--27,"
             @1:         sep
+        pub:            springer_cham
     20:
         -1:             "ESORICS20-1"
         -2:             "ESORICS20-2"
@@ -4198,6 +4448,7 @@ esorics:
         month:
             @0:         sep # "~14--18,"
             @1:         sep
+        pub:            springer_cham
     21:
         -1:             "ESORICS21-1"
         -2:             "ESORICS21-2"
@@ -4218,6 +4469,7 @@ esorics:
         month:
             @0:         oct # "~4--8,"
             @1:         oct
+        pub:            springer_cham
     22:
         -1:             "ESORICS22-1"
         -2:             "ESORICS22-2"
@@ -4244,6 +4496,7 @@ esorics:
         month:
             @0:         sep # "~26--30,"
             @1:         sep
+        pub:            springer_cham
     23:
         -1:             "ESORICS23-1"
         -2:             "ESORICS23-2"
@@ -4276,6 +4529,7 @@ esorics:
         month:
             @0:         sep # "~25--29,"
             @1:         sep
+        pub:            springer_cham
     24:
         -1:             "ESORICS24-1"
         -2:             "ESORICS24-2"
@@ -4308,6 +4562,7 @@ esorics:
         month:
             @0:         sep
             @1:         sep
+        pub:            springer_cham
     25:
         -1:             "ESORICS25-1"
         -2:             "ESORICS25-2"
@@ -4334,10 +4589,10 @@ esorics:
         month:
             @0:         sep
             @1:         sep
+        pub:            springer_cham
 eurocryptname:
     @0:                 "Advances in Cryptology -- {EUROCRYPT}"
     @2:                 "EUROCRYPT"
-eurocryptpub:           springer
 eurocrypt:
     82:                 "EC82"
         key:            "EUROCRYPT 1982"
@@ -4350,6 +4605,7 @@ eurocrypt:
         month:
             @0:         mar # "~29~--~" # apr # "~2,"
             @1:         mar # "~/~" # apr
+        pub:            springer_berlin_heidelberg
     84:                 "EC84"
         key:            "EUROCRYPT 1984"
         name:           eurocryptname # "'84"
@@ -4361,6 +4617,7 @@ eurocrypt:
         month:
             @0:         apr # "~9--11,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     85:                 "EC85"
         key:            "EUROCRYPT 1985"
         name:           eurocryptname # "'85"
@@ -4370,6 +4627,7 @@ eurocrypt:
             @0:         "Linz, Austria"
             @1:         ""
         month:          apr
+        pub:            springer_berlin_heidelberg
     86:                 "EC86"
         key:            "EUROCRYPT 1986"
         name:           eurocryptname # "'86"
@@ -4377,6 +4635,7 @@ eurocrypt:
         vol:            ""
         addr:           ""
         month:          may
+        pub:            ""
     87:                 "EC87"
         key:            "EUROCRYPT 1987"
         name:           eurocryptname # "'87"
@@ -4388,6 +4647,7 @@ eurocrypt:
         month:
             @0:         apr # "~13--15,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     88:                 "EC88"
         key:            "EUROCRYPT 1988"
         name:           eurocryptname # "'88"
@@ -4399,6 +4659,7 @@ eurocrypt:
         month:
             @0:         may # "~25--27,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     89:                 "EC89"
         key:            "EUROCRYPT 1989"
         name:           eurocryptname # "'89"
@@ -4410,6 +4671,7 @@ eurocrypt:
         month:
             @0:         apr # "~10--13,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     90:                 "EC90"
         key:            "EUROCRYPT 1990"
         name:           eurocryptname # "'90"
@@ -4421,6 +4683,7 @@ eurocrypt:
         month:
             @0:         may # "~21--24,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     91:                 "EC91"
         key:            "EUROCRYPT 1991"
         name:           eurocryptname # "'91"
@@ -4432,6 +4695,7 @@ eurocrypt:
         month:
             @0:         apr # "~8--11,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     92:                 "EC92"
         key:            "EUROCRYPT 1992"
         name:           eurocryptname # "'92"
@@ -4443,6 +4707,7 @@ eurocrypt:
         month:
             @0:         may # "~24--28,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     93:                 "EC93"
         key:            "EUROCRYPT 1993"
         name:           eurocryptname # "'93"
@@ -4454,6 +4719,7 @@ eurocrypt:
         month:
             @0:         may # "~23--27,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     94:                 "EC94"
         key:            "EUROCRYPT 1994"
         name:           eurocryptname # "'94"
@@ -4465,6 +4731,7 @@ eurocrypt:
         month:
             @0:         may # "~9--12,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     95:                 "EC95"
         key:            "EUROCRYPT 1995"
         name:           eurocryptname # "'95"
@@ -4476,6 +4743,7 @@ eurocrypt:
         month:
             @0:         may # "~21--25,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     96:                 "EC96"
         key:            "EUROCRYPT 1996"
         name:           eurocryptname # "'96"
@@ -4487,6 +4755,7 @@ eurocrypt:
         month:
             @0:         may # "~12--16,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     97:                 "EC97"
         key:            "EUROCRYPT 1997"
         name:           eurocryptname # "'97"
@@ -4498,6 +4767,7 @@ eurocrypt:
         month:
             @0:         may # "~11--15,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     98:                 "EC98"
         key:            "EUROCRYPT 1998"
         name:           eurocryptname # "'98"
@@ -4509,6 +4779,7 @@ eurocrypt:
         month:
             @0:         may # "~31~--~" # jun # "~4,"
             @1:         may # "~/~" # jun
+        pub:            springer_berlin_heidelberg
     99:                 "EC99"
         key:            "EUROCRYPT 1999"
         name:           eurocryptname # "'99"
@@ -4520,6 +4791,7 @@ eurocrypt:
         month:
             @0:         may # "~2--6,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     00:                 "EC00"
         key:            "EUROCRYPT 2000"
         name:           eurocryptname # "~2000"
@@ -4531,6 +4803,7 @@ eurocrypt:
         month:
             @0:         may # "~14--18,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     01:                 "EC01"
         key:            "EUROCRYPT 2001"
         name:           eurocryptname # "~2001"
@@ -4542,6 +4815,7 @@ eurocrypt:
         month:
             @0:         may # "~6--10,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     02:                 "EC02"
         key:            "EUROCRYPT 2002"
         name:           eurocryptname # "~2002"
@@ -4553,6 +4827,7 @@ eurocrypt:
         month:
             @0:         apr # "~28~--~" # may # "~2,"
             @1:         apr # "~/~" # may
+        pub:            springer_berlin_heidelberg
     03:                 "EC03"
         key:            "EUROCRYPT 2003"
         name:           eurocryptname # "~2003"
@@ -4564,6 +4839,7 @@ eurocrypt:
         month:
             @0:         may # "~4--8,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     04:                 "EC04"
         key:            "EUROCRYPT 2004"
         name:           eurocryptname # "~2004"
@@ -4575,6 +4851,7 @@ eurocrypt:
         month:
             @0:         may # "~2--6,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     05:                 "EC05"
         key:            "EUROCRYPT 2005"
         name:           eurocryptname # "~2005"
@@ -4586,6 +4863,7 @@ eurocrypt:
         month:
             @0:         may # "~22--26,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     06:                 "EC06"
         key:            "EUROCRYPT 2006"
         name:           eurocryptname # "~2006"
@@ -4597,6 +4875,7 @@ eurocrypt:
         month:
             @0:         may # "~28~--~" # jun # "~1,"
             @1:         may # "~/~" # jun
+        pub:            springer_berlin_heidelberg
     07:                 "EC07"
         key:            "EUROCRYPT 2007"
         name:           eurocryptname # "~2007"
@@ -4608,6 +4887,7 @@ eurocrypt:
         month:
             @0:         may # "~20--24,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     08:                 "EC08"
         key:            "EUROCRYPT 2008"
         name:           eurocryptname # "~2008"
@@ -4619,6 +4899,7 @@ eurocrypt:
         month:
             @0:         apr # "~13--17,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     09:                 "EC09"
         key:            "EUROCRYPT 2009"
         name:           eurocryptname # "~2009"
@@ -4630,6 +4911,7 @@ eurocrypt:
         month:
             @0:         apr # "~26--30,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     10:                 "EC10"
         key:            "EUROCRYPT 2010"
         name:           eurocryptname # "~2010"
@@ -4641,6 +4923,7 @@ eurocrypt:
         month:
             @0:         may # "~30~--~" # jun # "~3,"
             @1:         may # "~/~" # jun
+        pub:            springer_berlin_heidelberg
     11:                 "EC11"
         key:            "EUROCRYPT 2011"
         name:           eurocryptname # "~2011"
@@ -4652,6 +4935,7 @@ eurocrypt:
         month:
             @0:         may # "~15--19,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     12:                 "EC12"
         key:            "EUROCRYPT 2012"
         name:           eurocryptname # "~2012"
@@ -4663,6 +4947,7 @@ eurocrypt:
         month:
             @0:         apr # "~15--19,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     13:                 "EC13"
         key:            "EUROCRYPT 2013"
         name:           eurocryptname # "~2013"
@@ -4674,6 +4959,7 @@ eurocrypt:
         month:
             @0:         may # "~26--30,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     14:                 "EC14"
         key:            "EUROCRYPT 2014"
         name:           eurocryptname # "~2014"
@@ -4685,6 +4971,7 @@ eurocrypt:
         month:
             @0:         may # "~11--15,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     15:
         -1:             "EC15-1"
         -2:             "EC15-2"
@@ -4701,6 +4988,7 @@ eurocrypt:
         month:
             @0:         apr # "~26--30,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     16:                 "EC16"
         -1:             "EC16-1"
         -2:             "EC16-2"
@@ -4717,6 +5005,7 @@ eurocrypt:
         month:
             @0:         may # "~8--12,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     17:                 "EC17"
         -1:             "EC17-1"
         -2:             "EC17-2"
@@ -4737,6 +5026,7 @@ eurocrypt:
         month:
             @0:         apr # "~30~--~" # may # "~4,"
             @1:         apr # "~/~" # may
+        pub:            springer_cham
     18:                 "EC18"
         -1:             "EC18-1"
         -2:             "EC18-2"
@@ -4757,6 +5047,7 @@ eurocrypt:
         month:
             @0:         apr # "~29~--~" # may # "~3,"
             @1:         apr # "~/~" # may
+        pub:            springer_cham
     19:                 "EC19"
         -1:             "EC19-1"
         -2:             "EC19-2"
@@ -4777,6 +5068,7 @@ eurocrypt:
         month:
             @0:         may # "~19--23,"
             @1:         may
+        pub:            springer_cham
     20:                 "EC20"
         -1:             "EC20-1"
         -2:             "EC20-2"
@@ -4797,6 +5089,7 @@ eurocrypt:
         month:
             @0:         may # "~10--14,"
             @1:         may
+        pub:            springer_cham
     21:                 "EC21"
         -1:             "EC21-1"
         -2:             "EC21-2"
@@ -4817,6 +5110,7 @@ eurocrypt:
         month:
             @0:         oct # "~17--21,"
             @1:         oct
+        pub:            springer_cham
     22:                 "EC22"
         -1:             "EC22-1"
         -2:             "EC22-2"
@@ -4837,6 +5131,7 @@ eurocrypt:
         month:
             @0:         may # "~30~--~" # jun # "~3,"
             @1:         may # "~/~" # jun
+        pub:            springer_cham
     23:                 "EC23"
         -1:             "EC23-1"
         -2:             "EC23-2"
@@ -4865,6 +5160,7 @@ eurocrypt:
         month:
             @0:         apr # "~23--27,"
             @1:         apr
+        pub:            springer_cham
     24:                 "EC24"
         -1:             "EC24-1"
         -2:             "EC24-2"
@@ -4901,6 +5197,7 @@ eurocrypt:
         month:
             @0:         may # "~26--30,"
             @1:         may
+        pub:            springer_cham
     25:                 "EC25"
         -1:             "EC25-1"
         -2:             "EC25-2"
@@ -4921,6 +5218,7 @@ eurocrypt:
         month:
             @0:         jun
             @1:         jun
+        pub:            springer_cham
 fcname_v:
     1:
         @0:             "International Conference on Financial Cryptography"
@@ -4928,7 +5226,6 @@ fcname_v:
     2:
         @0:             "International Conference on Financial Cryptography and Data Security"
         @2:             ""
-fcpub:                  springer
 fc:
     97:                 "FC97"
         key:            "FC 1997"
@@ -4943,6 +5240,7 @@ fc:
         month:
             @0:         feb # "~24--28,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     98:                 "FC98"
         key:            "FC 1998"
         name:
@@ -4956,6 +5254,7 @@ fc:
         month:
             @0:         feb # "~23--25,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     99:                 "FC99"
         key:            "FC 1999"
         name:
@@ -4967,6 +5266,7 @@ fc:
             @0:         "Anguilla, British West Indies"
             @1:         ""
         month:          feb
+        pub:            springer_berlin_heidelberg
     00:                 "FC00"
         key:            "FC 2000"
         name:
@@ -4980,6 +5280,7 @@ fc:
         month:
             @0:         feb # "~20--24,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     01:                 "FC01"
         key:            "FC 2001"
         name:
@@ -4993,6 +5294,7 @@ fc:
         month:
             @0:         feb # "~19--22,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     02:                 "FC02"
         key:            "FC 2002"
         name:
@@ -5006,6 +5308,7 @@ fc:
         month:
             @0:         mar # "~11--14,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     03:                 "FC03"
         key:            "FC 2003"
         name:
@@ -5019,6 +5322,7 @@ fc:
         month:
             @0:         jan # "~27--30,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     04:                 "FC04"
         key:            "FC 2004"
         name:
@@ -5032,6 +5336,7 @@ fc:
         month:
             @0:         feb # "~9--12,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     05:                 "FC05"
         key:            "FC 2005"
         name:
@@ -5045,6 +5350,7 @@ fc:
         month:
             @0:         feb # "~28~--~" # mar # "~3,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     06:                 "FC06"
         key:            "FC 2006"
         name:
@@ -5058,6 +5364,7 @@ fc:
         month:
             @0:         feb # "~27~--~" # mar # "~2,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     07:                 "FC07"
         key:            "FC 2007"
         name:
@@ -5071,6 +5378,7 @@ fc:
         month:
             @0:         feb # "~12--16,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     08:                 "FC08"
         key:            "FC 2008"
         name:
@@ -5084,6 +5392,7 @@ fc:
         month:
             @0:         jan # "~28--31,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     09:                 "FC09"
         key:            "FC 2009"
         name:
@@ -5097,6 +5406,7 @@ fc:
         month:
             @0:         feb # "~23--26,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     10:                 "FC10"
         key:            "FC 2010"
         name:
@@ -5110,6 +5420,7 @@ fc:
         month:
             @0:         jan # "~25--28,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     11:                 "FC11"
         key:            "FC 2011"
         name:
@@ -5123,6 +5434,7 @@ fc:
         month:
             @0:         feb # "~28~--~" # mar # "~4,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     12:                 "FC12"
         key:            "FC 2012"
         name:
@@ -5136,6 +5448,7 @@ fc:
         month:
             @0:         feb # "~27~--~" # mar # "~2,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     13:                 "FC13"
         key:            "FC 2013"
         name:
@@ -5149,6 +5462,7 @@ fc:
         month:
             @0:         apr # "~1--5,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     14:                 "FC14"
         key:            "FC 2014"
         name:
@@ -5162,6 +5476,7 @@ fc:
         month:
             @0:         mar # "~3--7,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     15:                 "FC15"
         key:            "FC 2015"
         name:
@@ -5175,6 +5490,7 @@ fc:
         month:
             @0:         jan # "~26--30,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     16:                 "FC16"
         key:            "FC 2016"
         name:
@@ -5188,6 +5504,7 @@ fc:
         month:
             @0:         feb # "~22--26,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     17:                 "FC17"
         key:            "FC 2017"
         name:
@@ -5201,6 +5518,7 @@ fc:
         month:
             @0:         apr # "~3--7,"
             @1:         apr
+        pub:            springer_cham
     18:                 "FC18"
         key:            "FC 2018"
         name:
@@ -5214,6 +5532,7 @@ fc:
         month:
             @0:         feb # "~26~--~" # mar # "~2,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     19:                 "FC19"
         key:            "FC 2019"
         name:
@@ -5227,6 +5546,7 @@ fc:
         month:
             @0:         feb # "~18--22,"
             @1:         feb
+        pub:            springer_cham
     20:                 "FC20"
         key:            "FC 2020"
         name:
@@ -5240,6 +5560,7 @@ fc:
         month:
             @0:         feb # "~10--14,"
             @1:         feb
+        pub:            springer_cham
     21:                 "FC21"
         -1:             "FC21-1"
         -2:             "FC21-2"
@@ -5260,6 +5581,7 @@ fc:
         month:
             @0:         mar # "~1--5,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     22:                 "FC22"
         key:            "FC 2022"
         name:
@@ -5273,6 +5595,7 @@ fc:
         month:
             @0:         may # "~2--6,"
             @1:         may
+        pub:            springer_cham
     23:                 "FC23"
         key:            "FC 2023"
         name:
@@ -5286,6 +5609,7 @@ fc:
         month:
             @0:         apr
             @1:         apr
+        pub:            springer_cham
     24:                 "FC24"
         key:            "FC 2024"
         name:
@@ -5299,6 +5623,7 @@ fc:
         month:
             @0:         mar
             @1:         mar
+        pub:            springer_cham
     25:                 "FC25"
         key:            "FC 2025"
         name:
@@ -5312,7 +5637,7 @@ fc:
         month:
             @0:         jan
             @1:         jan
-fcwpub:                 springer
+        pub:            springer_cham
 fcw:
     10:                 "FCW10"
         key:            "FCW 2010"
@@ -5321,6 +5646,7 @@ fcw:
         vol:            "6054"
         addr:           fc10addr
         month:          fc10month
+        pub:            fc10pub
     11:                 "FCW11"
         key:            "FCW 2011"
         name:           "FC 2011 Workshops"
@@ -5328,6 +5654,7 @@ fcw:
         vol:            "7126"
         addr:           fc11addr
         month:          fc11month
+        pub:            fc11pub
     12:                 "FCW12"
         key:            "FCW 2012"
         name:           "FC 2012 Workshops"
@@ -5337,6 +5664,7 @@ fcw:
         month:
             @0:         mar # "~2,"
             @1:         mar
+        pub:            fc12pub
     13:                 "FCW13"
         key:            "FCW 2013"
         name:           "FC 2013 Workshops"
@@ -5346,6 +5674,7 @@ fcw:
         month:
             @0:         apr # "~1,"
             @1:         apr
+        pub:            fc13pub
     14:                 "FCW14"
         key:            "FCW 2014"
         name:           "FC 2014 Workshops"
@@ -5355,6 +5684,7 @@ fcw:
         month:
             @0:         mar # "~7,"
             @1:         mar
+        pub:            fc14pub
     15:                 "FCW15"
         key:            "FCW 2015"
         name:           "FC 2015 Workshops"
@@ -5364,6 +5694,7 @@ fcw:
         month:
             @0:         jan # "~30,"
             @1:         jan
+        pub:            fc15pub
     16:                 "FCW16"
         key:            "FCW 2016"
         name:           "FC 2016 Workshops"
@@ -5373,6 +5704,7 @@ fcw:
         month:
             @0:         feb # "~26,"
             @1:         feb
+        pub:            fc16pub
     17:                 "FCW17"
         key:            "FCW 2017"
         name:           "FC 2017 Workshops"
@@ -5382,6 +5714,7 @@ fcw:
         month:
             @0:         apr # "~7,"
             @1:         apr
+        pub:            fc17pub
     18:                 "FCW18"
         key:            "FCW 2018"
         name:           "FC 2018 Workshops"
@@ -5391,6 +5724,7 @@ fcw:
         month:
             @0:         mar # "~2,"
             @1:         mar
+        pub:            fc18pub
     19:                 "FCW19"
         key:            "FCW 2019"
         name:           "FC 2019 Workshops"
@@ -5398,6 +5732,7 @@ fcw:
         vol:            "11599"
         addr:           fc19addr
         month:          fc19month
+        pub:            fc19pub
     20:                 "FCW20"
         key:            "FCW 2020"
         name:           "FC 2020 Workshops"
@@ -5407,6 +5742,7 @@ fcw:
         month:
             @0:         feb # "~14,"
             @1:         feb
+        pub:            fc20pub
     21:                 "FCW21"
         key:            "FCW 2021"
         name:           "FC 2021 Workshops"
@@ -5414,6 +5750,7 @@ fcw:
         vol:            "12676"
         addr:           fc21addr
         month:          fc21month
+        pub:            fc21pub
     22:                 "FCW22"
         key:            "FCW 2022"
         name:           "FC 2022 Workshops"
@@ -5423,6 +5760,7 @@ fcw:
         month:
             @0:         may
             @1:         may
+        pub:            fc22pub
     23:                 "FCW23"
         key:            "FCW 2023"
         name:           "FC 2023 Workshops"
@@ -5432,6 +5770,7 @@ fcw:
         month:
             @0:         apr
             @1:         apr
+        pub:            fc23pub
     24:                 "FCW24"
         key:            "FCW 2024"
         name:           "FC 2024 Workshops"
@@ -5441,6 +5780,7 @@ fcw:
         month:
             @0:         mar
             @1:         mar
+        pub:            fc24pub
     25:                 "FCW25"
         key:            "FCW 2025"
         name:           "FC 2025 Workshops"
@@ -5450,6 +5790,7 @@ fcw:
         month:
             @0:         jan
             @1:         jan
+        pub:            fc25pub
 focsname:
     @0:                 "Annual Symposium on Foundations of Computer Science"
     @2:                 "FOCS"
@@ -5918,7 +6259,7 @@ focs:
 fsename:
     @0:                 "Fast Software Encryption -- {FSE}"
     @2:                 "FSE"
-fsepub:                 springer
+fsepub:                 springer_berlin_heidelberg
 fse:
     93:                 "FSE93"
         key:            "FSE 1993"
@@ -6180,38 +6521,10 @@ fse:
         month:
             @0:         mar # "~20--23,"
             @1:         mar
-    17:                 "FSE17"
-        key:            "FSE 2017"
-        name:           fsename # "~2017"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    18:                 "FSE18"
-        key:            "FSE 2018"
-        name:           fsename # "~2018"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    19:                 "FSE19"
-        key:            "FSE 2019"
-        name:           fsename # "~2019"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    20:                 "FSE20"
-        key:            "FSE 2020"
-        name:           fsename # "~2020"
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
 icalpname:
     @0:                 "International Colloquium on Automata, Languages and Programming"
     @2:                 ""
-icalppub:               springer
+icalppub:               springer_berlin_heidelberg
 icalppubv2:             dagstuhl
 icalp:
     72:                 "ICALP72"
@@ -6227,6 +6540,9 @@ icalp:
         month:
             @0:         jul # "~3--7,"
             @1:         jul
+        pub:
+            @0:         "North-Holland, Amsterdam, The Netherlands"
+            @1:         "North-Holland, Amsterdam"
     74:                 "ICALP74"
         key:            "ICALP 1974"
         name:
@@ -6956,7 +7272,6 @@ icalp:
 iccsaname:
     @0:                 "Computational Science and Its Applications"
     @2:                 ""
-iccsapub:               springer
 iccsa:
     03:
         -1:             "ICCSA03-1"
@@ -6984,6 +7299,7 @@ iccsa:
         month:
             @0:         may # "~18--21,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     04:
         -1:             "ICCSA04-1"
         -2:             "ICCSA04-2"
@@ -7016,6 +7332,7 @@ iccsa:
         month:
             @0:         may # "~14--17,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     05:
         -1:             "ICCSA05-1"
         -2:             "ICCSA05-2"
@@ -7048,6 +7365,7 @@ iccsa:
         month:
             @0:         may # "~9--12,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     06:
         -1:             "ICCSA06-1"
         -2:             "ICCSA06-2"
@@ -7086,6 +7404,7 @@ iccsa:
         month:
             @0:         may # "~8--11,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     07:
         -1:             "ICCSA07-1"
         -2:             "ICCSA07-2"
@@ -7112,10 +7431,10 @@ iccsa:
         month:
             @0:         aug # "~26--29,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
 icicsname:
     @0:                 "International Conference on Information and Communication Security"
     @2:                 ""
-icicspub:               springer
 icics:
     97:                 "ICICS97"
         key:            "ICICS 1997"
@@ -7130,6 +7449,7 @@ icics:
         month:
             @0:         nov # "~11--14,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     99:                 "ICICS99"
         key:            "ICICS 1999"
         name:
@@ -7143,6 +7463,7 @@ icics:
         month:
             @0:         nov # "~9--11,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     01:                 "ICICS01"
         key:            "ICICS 2001"
         name:
@@ -7156,6 +7477,7 @@ icics:
         month:
             @0:         nov # "~13--16,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     02:                 "ICICS02"
         key:            "ICICS 2002"
         name:
@@ -7169,6 +7491,7 @@ icics:
         month:
             @0:         dec # "~9--12,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     03:                 "ICICS03"
         key:            "ICICS 2003"
         name:
@@ -7182,6 +7505,7 @@ icics:
         month:
             @0:         oct # "~10--13,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     04:                 "ICICS04"
         key:            "ICICS 2004"
         name:
@@ -7195,6 +7519,7 @@ icics:
         month:
             @0:         oct # "~27--29,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     05:                 "ICICS05"
         key:            "ICICS 2005"
         name:
@@ -7208,6 +7533,7 @@ icics:
         month:
             @0:         dec # "~10--13,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     06:                 "ICICS06"
         key:            "ICICS 2006"
         name:
@@ -7221,6 +7547,7 @@ icics:
         month:
             @0:         dec # "~4--7,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     07:                 "ICICS07"
         key:            "ICICS 2007"
         name:
@@ -7234,6 +7561,7 @@ icics:
         month:
             @0:         dec # "~12--15,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     08:                 "ICICS08"
         key:            "ICICS 2008"
         name:
@@ -7247,6 +7575,7 @@ icics:
         month:
             @0:         oct # "~20--22,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     09:                 "ICICS09"
         key:            "ICICS 2009"
         name:
@@ -7260,6 +7589,7 @@ icics:
         month:
             @0:         dec # "~14--17,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     10:                 "ICICS10"
         key:            "ICICS 2010"
         name:
@@ -7273,6 +7603,7 @@ icics:
         month:
             @0:         dec # "~15--17,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "ICICS11"
         key:            "ICICS 2011"
         name:
@@ -7286,6 +7617,7 @@ icics:
         month:
             @0:         nov # "~23--26,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     12:                 "ICICS12"
         key:            "ICICS 2012"
         name:
@@ -7299,6 +7631,7 @@ icics:
         month:
             @0:         oct # "~29--31,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     13:                 "ICICS13"
         key:            "ICICS 2013"
         name:
@@ -7312,6 +7645,7 @@ icics:
         month:
             @0:         nov # "~20--22,"
             @1:         nov
+        pub:            springer_cham
     14:                 "ICICS14"
         key:            "ICICS 2014"
         name:
@@ -7325,6 +7659,7 @@ icics:
         month:
             @0:         dec # "~16--17,"
             @1:         dec
+        pub:            springer_cham
     15:                 "ICICS15"
         key:            "ICICS 2015"
         name:
@@ -7338,6 +7673,7 @@ icics:
         month:
             @0:         dec # "~9--11,"
             @1:         dec
+        pub:            springer_cham
     16:                 "ICICS16"
         key:            "ICICS 2016"
         name:
@@ -7351,6 +7687,7 @@ icics:
         month:
             @0:         nov # "~29~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
     17:                 "ICICS17"
         key:            "ICICS 2017"
         name:
@@ -7364,6 +7701,7 @@ icics:
         month:
             @0:         dec # "~6--8,"
             @1:         dec
+        pub:            springer_cham
     18:                 "ICICS18"
         key:            "ICICS 2018"
         name:
@@ -7377,6 +7715,7 @@ icics:
         month:
             @0:         oct # "~29--31,"
             @1:         oct
+        pub:            springer_cham
     19:                 "ICICS19"
         key:            "ICICS 2019"
         name:
@@ -7390,6 +7729,7 @@ icics:
         month:
             @0:         dec # "~15--17,"
             @1:         dec
+        pub:            springer_cham
     20:                 "ICICS20"
         key:            "ICICS 2020"
         name:
@@ -7403,6 +7743,7 @@ icics:
         month:
             @0:         aug # "~24--26,"
             @1:         aug
+        pub:            springer_cham
     21:                 "ICICS21"
         -1:             "ICICS21-1"
         -2:             "ICICS21-2"
@@ -7423,6 +7764,7 @@ icics:
         month:
             @0:         nov # "~19--21,"
             @1:         nov
+        pub:            springer_cham
     22:                 "ICICS22"
         key:            "ICICS 2022"
         name:
@@ -7436,6 +7778,7 @@ icics:
         month:
             @0:         sep # "~5--8,"
             @1:         sep
+        pub:            springer_cham
     23:                 "ICICS23"
         key:            "ICICS 2023"
         name:
@@ -7449,6 +7792,7 @@ icics:
         month:
             @0:         nov # "~18--20,"
             @1:         nov
+        pub:            springer_singapore
     24:                 "ICICS24"
         key:            "ICICS 2024"
         name:
@@ -7462,6 +7806,7 @@ icics:
         month:
             @0:         dec # "~16--17,"
             @1:         dec
+        pub:            springer_singapore
     25:                 "ICICS25"
         key:            "ICICS 2025"
         name:
@@ -7475,10 +7820,10 @@ icics:
         month:
             @0:         dec # "~9--11,"
             @1:         dec
+        pub:            springer_singapore
 iciscname:
     @0:                 "International Conference on Information Security and Cryptology"
     @2:                 ""
-iciscpub:               springer
 icisc:
     98:                 "ICISC98"
         key:            "ICISC 1998"
@@ -7509,6 +7854,7 @@ icisc:
         month:
             @0:         dec # "~9--10,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     00:                 "ICISC00"
         key:            "ICISC 2000"
         name:
@@ -7522,6 +7868,7 @@ icisc:
         month:
             @0:         dec # "~8--9,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     01:                 "ICISC01"
         key:            "ICISC 2001"
         name:
@@ -7535,6 +7882,7 @@ icisc:
         month:
             @0:         dec # "~6--7,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     02:                 "ICISC02"
         key:            "ICISC 2002"
         name:
@@ -7548,6 +7896,7 @@ icisc:
         month:
             @0:         nov # "~28--29,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     03:                 "ICISC03"
         key:            "ICISC 2003"
         name:
@@ -7561,6 +7910,7 @@ icisc:
         month:
             @0:         nov # "~27--28,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     04:                 "ICISC04"
         key:            "ICISC 2004"
         name:
@@ -7574,6 +7924,7 @@ icisc:
         month:
             @0:         dec # "~2--3,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     05:                 "ICISC05"
         key:            "ICISC 2005"
         name:
@@ -7587,6 +7938,7 @@ icisc:
         month:
             @0:         dec # "~1--2,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     06:                 "ICISC06"
         key:            "ICISC 2006"
         name:
@@ -7600,6 +7952,7 @@ icisc:
         month:
             @0:         nov # "~30~--~" # dec # "~1,"
             @1:         nov # "~/~" # dec
+        pub:            springer_berlin_heidelberg
     07:                 "ICISC07"
         key:            "ICISC 2007"
         name:
@@ -7613,6 +7966,7 @@ icisc:
         month:
             @0:         nov # "~29--30,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     08:                 "ICISC08"
         key:            "ICISC 2008"
         name:
@@ -7626,6 +7980,7 @@ icisc:
         month:
             @0:         dec # "~3--5,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     09:                 "ICISC09"
         key:            "ICISC 2009"
         name:
@@ -7639,6 +7994,7 @@ icisc:
         month:
             @0:         dec # "~2--4,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     10:                 "ICISC10"
         key:            "ICISC 2010"
         name:
@@ -7652,6 +8008,7 @@ icisc:
         month:
             @0:         dec # "~1--3,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "ICISC11"
         key:            "ICISC 2011"
         name:
@@ -7665,6 +8022,7 @@ icisc:
         month:
             @0:         nov # "~30~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+        pub:            springer_berlin_heidelberg
     12:                 "ICISC12"
         key:            "ICISC 2012"
         name:
@@ -7678,6 +8036,7 @@ icisc:
         month:
             @0:         nov # "~28--30,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     13:                 "ICISC13"
         key:            "ICISC 2013"
         name:
@@ -7691,6 +8050,7 @@ icisc:
         month:
             @0:         nov # "~27--29,"
             @1:         nov
+        pub:            springer_cham
     14:                 "ICISC14"
         key:            "ICISC 2014"
         name:
@@ -7704,6 +8064,7 @@ icisc:
         month:
             @0:         dec # "~3--5,"
             @1:         dec
+        pub:            springer_cham
     15:                 "ICISC15"
         key:            "ICISC 2015"
         name:
@@ -7717,6 +8078,7 @@ icisc:
         month:
             @0:         nov # "~25--27,"
             @1:         nov
+        pub:            springer_cham
     16:                 "ICISC16"
         key:            "ICISC 2016"
         name:
@@ -7730,6 +8092,7 @@ icisc:
         month:
             @0:         nov # "~30~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
     17:                 "ICISC17"
         key:            "ICISC 2017"
         name:
@@ -7743,6 +8106,7 @@ icisc:
         month:
             @0:         nov # "~29~--~" # dec # "~1,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
     18:                 "ICISC18"
         key:            "ICISC 2018"
         name:
@@ -7756,6 +8120,7 @@ icisc:
         month:
             @0:         nov # "~28--30,"
             @1:         nov
+        pub:            springer_cham
     19:                 "ICISC19"
         key:            "ICISC 2019"
         name:
@@ -7769,6 +8134,7 @@ icisc:
         month:
             @0:         dec # "~4--6,"
             @1:         dec
+        pub:            springer_cham
     20:                 "ICISC20"
         key:            "ICISC 2020"
         name:
@@ -7782,10 +8148,10 @@ icisc:
         month:
             @0:         dec # "~2--4,"
             @1:         dec
+        pub:            springer_cham
 icitsname:
     @0:                 "International Conference on Information Theoretic Security"
     @2:                 ""
-icitspub:               springer
 icits:
     08:                 "ICITS08"
         key:            "ICITS 2008"
@@ -7800,6 +8166,7 @@ icits:
         month:
             @0:         aug # "~10--13,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     09:                 "ICITS09"
         key:            "ICITS 2009"
         name:
@@ -7813,6 +8180,7 @@ icits:
         month:
             @0:         dec # "~3--6,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "ICITS11"
         key:            "ICITS 2011"
         name:
@@ -7826,6 +8194,7 @@ icits:
         month:
             @0:         may # "~21--24,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     12:                 "ICITS12"
         key:            "ICITS 2012"
         name:
@@ -7839,6 +8208,7 @@ icits:
         month:
             @0:         aug # "~15--17,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     13:                 "ICITS13"
         key:            "ICITS 2013"
         name:
@@ -7853,6 +8223,7 @@ icits:
             @0:         nov # "~28--30,"
             @1:         nov
         month:          ""
+        pub:            springer_cham
     15:                 "ICITS15"
         key:            "ICITS 2015"
         name:
@@ -7866,6 +8237,7 @@ icits:
         month:
             @0:         may # "~2--5,"
             @1:         may
+        pub:            springer_cham
     16:                 "ICITS16"
         key:            "ICITS 2016"
         name:
@@ -7879,6 +8251,7 @@ icits:
         month:
             @0:         aug # "~9--12,"
             @1:         aug
+        pub:            springer_cham
     17:                 "ICITS17"
         key:            "ICITS 2017"
         name:
@@ -7892,33 +8265,7 @@ icits:
         month:
             @0:         nov # "~29~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
-    18:                 "ICITS18"
-        key:            "ICITS 2018"
-        name:
-            @0:         "ICITS 18: 11th " # icitsname
-            @2:         "ICITS 18" # icitsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    19:                 "ICITS19"
-        key:            "ICITS 2019"
-        name:
-            @0:         "ICITS 19: 12th " # icitsname
-            @2:         "ICITS 19" # icitsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    20:                 "ICITS20"
-        key:            "ICITS 2020"
-        name:
-            @0:         "ICITS 20: 13th " # icitsname
-            @2:         "ICITS 20" # icitsname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        pub:            springer_cham
 ieeespname:             "{IEEE} Symposium on Security and Privacy"
 ieeesppub:              "{IEEE} Computer Society Press"
 ieeesp:
@@ -8301,7 +8648,6 @@ ieeesp:
             @0:         may
             @1:         may
 imaname:                "IMA International Conference on Cryptography and Coding"
-imapub:                 springer
 ima:
     95:                 "IMA95"
         key:            "IMA 1995"
@@ -8314,6 +8660,7 @@ ima:
         month:
             @0:         dec # "~18--20,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     97:                 "IMA97"
         key:            "IMA 1997"
         name:           "6th " # imaname
@@ -8325,6 +8672,7 @@ ima:
         month:
             @0:         dec # "~17--19,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     99:                 "IMA99"
         key:            "IMA 1999"
         name:           "7th " # imaname
@@ -8336,6 +8684,7 @@ ima:
         month:
             @0:         dec # "~20--22,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     01:                 "IMA01"
         key:            "IMA 2001"
         name:           "8th " # imaname
@@ -8347,6 +8696,7 @@ ima:
         month:
             @0:         dec # "~17--19,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     03:                 "IMA03"
         key:            "IMA 2003"
         name:           "9th " # imaname
@@ -8358,6 +8708,7 @@ ima:
         month:
             @0:         dec # "~16--18,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     05:                 "IMA05"
         key:            "IMA 2005"
         name:           "10th " # imaname
@@ -8369,6 +8720,7 @@ ima:
         month:
             @0:         dec # "~19--21,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     07:                 "IMA07"
         key:            "IMA 2007"
         name:           "11th " # imaname
@@ -8380,6 +8732,7 @@ ima:
         month:
             @0:         dec # "~18--20,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     09:                 "IMA09"
         key:            "IMA 2009"
         name:           "12th " # imaname
@@ -8391,6 +8744,7 @@ ima:
         month:
             @0:         dec # "~15--17,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "IMA11"
         key:            "IMA 2011"
         name:           "13th " # imaname
@@ -8402,6 +8756,7 @@ ima:
         month:
             @0:         dec # "~12--15,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     13:                 "IMA13"
         key:            "IMACC 2013"
         name:           "14th " # imaname
@@ -8413,6 +8768,7 @@ ima:
         month:
             @0:         dec # "~17--19,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     15:                 "IMA15"
         key:            "IMACC 2015"
         name:           "15th " # imaname
@@ -8424,6 +8780,7 @@ ima:
         month:
             @0:         dec # "~15--17,"
             @1:         dec
+        pub:            springer_cham
     17:                 "IMA17"
         key:            "IMACC 2017"
         name:           "16th " # imaname
@@ -8435,6 +8792,7 @@ ima:
         month:
             @0:         dec # "~12--14,"
             @1:         dec
+        pub:            springer_cham
     19:                 "IMA19"
         key:            "IMA 2019"
         name:           "17th " # imaname
@@ -8446,6 +8804,7 @@ ima:
         month:
             @0:         dec # "~16--18,"
             @1:         dec
+        pub:            springer_cham
     21:                 "IMA21"
         key:            "IMA 2021"
         name:           "18th " # imaname
@@ -8457,6 +8816,7 @@ ima:
         month:
             @0:         dec # "~14--15,"
             @1:         dec
+        pub:            springer_cham
     23:                 "IMA23"
         key:            "IMA 2023"
         name:           "19th " # imaname
@@ -8468,6 +8828,7 @@ ima:
         month:
             @0:         dec
             @1:         dec
+        pub:            springer_cham
     25:                 "IMA23"
         key:            "IMA 2025"
         name:           "20th " # imaname
@@ -8479,13 +8840,13 @@ ima:
         month:
             @0:         dec
             @1:         dec
+        pub:            springer_cham
 indocryptname:
     @0:                 "Progress in Cryptology - INDOCRYPT"
     @2:                 "INDOCRYPT"
 indocryptsuffix:
     @0:                 "International Conference in Cryptology in India"
     @2:                 ""
-indocryptpub:           springer
 indocrypt:
     00:                 "INDOCRYPT00"
         key:            "INDOCRYPT 2000"
@@ -8500,6 +8861,7 @@ indocrypt:
         month:
             @0:         dec # "~10--13,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     01:                 "INDOCRYPT01"
         key:            "INDOCRYPT 2001"
         name:
@@ -8513,6 +8875,7 @@ indocrypt:
         month:
             @0:         dec # "~16--20,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     02:                 "INDOCRYPT02"
         key:            "INDOCRYPT 2002"
         name:
@@ -8526,6 +8889,7 @@ indocrypt:
         month:
             @0:         dec # "~16--18,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     03:                 "INDOCRYPT03"
         key:            "INDOCRYPT 2003"
         name:
@@ -8539,6 +8903,7 @@ indocrypt:
         month:
             @0:         dec # "~8--10,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     04:                 "INDOCRYPT04"
         key:            "INDOCRYPT 2004"
         name:
@@ -8552,6 +8917,7 @@ indocrypt:
         month:
             @0:         dec # "~20--22,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     05:                 "INDOCRYPT05"
         key:            "INDOCRYPT 2005"
         name:
@@ -8565,6 +8931,7 @@ indocrypt:
         month:
             @0:         dec # "~10--12,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     06:                 "INDOCRYPT06"
         key:            "INDOCRYPT 2006"
         name:
@@ -8578,6 +8945,7 @@ indocrypt:
         month:
             @0:         dec # "~11--13,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     07:                 "INDOCRYPT07"
         key:            "INDOCRYPT 2007"
         name:
@@ -8591,6 +8959,7 @@ indocrypt:
         month:
             @0:         dec # "~9--13,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     08:                 "INDOCRYPT08"
         key:            "INDOCRYPT 2008"
         name:
@@ -8604,6 +8973,7 @@ indocrypt:
         month:
             @0:         dec # "~14--17,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     09:                 "INDOCRYPT09"
         key:            "INDOCRYPT 2009"
         name:
@@ -8617,6 +8987,7 @@ indocrypt:
         month:
             @0:         dec # "~13--16,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     10:                 "INDOCRYPT10"
         key:            "INDOCRYPT 2010"
         name:
@@ -8630,6 +9001,7 @@ indocrypt:
         month:
             @0:         dec # "~12--15,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     11:                 "INDOCRYPT11"
         key:            "INDOCRYPT 2011"
         name:
@@ -8643,6 +9015,7 @@ indocrypt:
         month:
             @0:         dec # "~11--14,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     12:                 "INDOCRYPT12"
         key:            "INDOCRYPT 2012"
         name:
@@ -8656,6 +9029,7 @@ indocrypt:
         month:
             @0:         dec # "~9--12,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     13:                 "INDOCRYPT13"
         key:            "INDOCRYPT 2013"
         name:
@@ -8669,6 +9043,7 @@ indocrypt:
         month:
             @0:         dec # "~7--10,"
             @1:         dec
+        pub:            springer_cham
     14:                 "INDOCRYPT14"
         key:            "INDOCRYPT 2014"
         name:
@@ -8682,6 +9057,7 @@ indocrypt:
         month:
             @0:         dec # "~14--17,"
             @1:         dec
+        pub:            springer_cham
     15:                 "INDOCRYPT15"
         key:            "INDOCRYPT 2015"
         name:
@@ -8695,6 +9071,7 @@ indocrypt:
         month:
             @0:         dec # "~6--9,"
             @1:         dec
+        pub:            springer_cham
     16:                 "INDOCRYPT16"
         key:            "INDOCRYPT 2016"
         name:
@@ -8708,6 +9085,7 @@ indocrypt:
         month:
             @0:         dec # "~11--14,"
             @1:         dec
+        pub:            springer_cham
     17:                 "INDOCRYPT17"
         key:            "INDOCRYPT 2017"
         name:
@@ -8721,6 +9099,7 @@ indocrypt:
         month:
             @0:         dec # "~10--13,"
             @1:         dec
+        pub:            springer_cham
     18:                 "INDOCRYPT18"
         key:            "INDOCRYPT 2018"
         name:
@@ -8734,6 +9113,7 @@ indocrypt:
         month:
             @0:         dec # "~9--12,"
             @1:         dec
+        pub:            springer_cham
     19:                 "INDOCRYPT19"
         key:            "INDOCRYPT 2019"
         name:
@@ -8747,6 +9127,7 @@ indocrypt:
         month:
             @0:         dec # "~15--18,"
             @1:         dec
+        pub:            springer_cham
     20:                 "INDOCRYPT20"
         key:            "INDOCRYPT 2020"
         name:
@@ -8760,6 +9141,7 @@ indocrypt:
         month:
             @0:         dec # "~13--16,"
             @1:         dec
+        pub:            springer_cham
 iscname_v:
     1:
         @0:             "International Workshop on Information Security"
@@ -8767,7 +9149,6 @@ iscname_v:
     2:
         @0:             "International Conference on Information Security"
         @2:             ""
-iscpub:                 springer
 isc:
     97:                 "ISC97"
         key:            "ISW 1997"
@@ -8782,6 +9163,7 @@ isc:
         month:
             @0:         sep # "~17--19,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     99:                 "ISC99"
         key:            "ISW 1999"
         name:
@@ -8793,6 +9175,7 @@ isc:
             @0:         "Kuala Lumpur, Malaysia"
             @1:         ""
         month:          nov
+        pub:            springer_berlin_heidelberg
     00:                 "ISC00"
         key:            "ISW 2000"
         name:
@@ -8806,6 +9189,7 @@ isc:
         month:
             @0:         dec # "~20--21,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     01:                 "ISC01"
         key:            "ISC 2001"
         name:
@@ -8819,6 +9203,7 @@ isc:
         month:
             @0:         oct # "~1--3,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     02:                 "ISC02"
         key:            "ISC 2002"
         name:
@@ -8832,6 +9217,7 @@ isc:
         month:
             @0:         sep # "~30~--~" # oct # "~2,"
             @1:         sep # "~/~" # oct
+        pub:            springer_berlin_heidelberg
     03:                 "ISC03"
         key:            "ISC 2003"
         name:
@@ -8845,6 +9231,7 @@ isc:
         month:
             @0:         oct # "~1--3,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     04:                 "ISC04"
         key:            "ISC 2004"
         name:
@@ -8858,6 +9245,7 @@ isc:
         month:
             @0:         sep # "~27--29,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     05:                 "ISC05"
         key:            "ISC 2005"
         name:
@@ -8871,6 +9259,7 @@ isc:
         month:
             @0:         sep # "~20--23,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     06:                 "ISC06"
         key:            "ISC 2006"
         name:
@@ -8884,6 +9273,7 @@ isc:
         month:
             @0:         aug # "~30~--~" # sep # "~2,"
             @1:         aug # "~/~" # sep
+        pub:            springer_berlin_heidelberg
     07:                 "ISC07"
         key:            "ISC 2007"
         name:
@@ -8897,6 +9287,7 @@ isc:
         month:
             @0:         oct # "~9--12,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     08:                 "ISC08"
         key:            "ISC 2008"
         name:
@@ -8910,6 +9301,7 @@ isc:
         month:
             @0:         sep # "~15--18,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     09:                 "ISC09"
         key:            "ISC 2009"
         name:
@@ -8923,6 +9315,7 @@ isc:
         month:
             @0:         sep # "~7--9,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     10:                 "ISC10"
         key:            "ISC 2010"
         name:
@@ -8936,6 +9329,7 @@ isc:
         month:
             @0:         oct # "~25--28,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     11:                 "ISC11"
         key:            "ISC 2011"
         name:
@@ -8949,6 +9343,7 @@ isc:
         month:
             @0:         oct # "~25--29,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     12:                 "ISC12"
         key:            "ISC 2012"
         name:
@@ -8962,6 +9357,7 @@ isc:
         month:
             @0:         sep # "~19--21,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     13:                 "ISC13"
         key:            "ISC 2013"
         name:
@@ -8975,6 +9371,7 @@ isc:
         month:
             @0:         nov # "~13--15,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     14:                 "ISC14"
         key:            "ISC 2014"
         name:
@@ -8988,6 +9385,7 @@ isc:
         month:
             @0:         oct # "~12--14,"
             @1:         oct
+        pub:            springer_cham
     15:                 "ISC15"
         key:            "ISC 2015"
         name:
@@ -9001,6 +9399,7 @@ isc:
         month:
             @0:         sep # "~9--11,"
             @1:         sep
+        pub:            springer_cham
     16:                 "ISC16"
         key:            "ISC 2016"
         name:
@@ -9014,6 +9413,7 @@ isc:
         month:
             @0:         sep # "~3--6,"
             @1:         sep
+        pub:            springer_cham
     17:                 "ISC17"
         key:            "ISC 2017"
         name:
@@ -9027,6 +9427,7 @@ isc:
         month:
             @0:         nov # "~22--24,"
             @1:         nov
+        pub:            springer_cham
     18:                 "ISC18"
         key:            "ISC 2018"
         name:
@@ -9040,6 +9441,7 @@ isc:
         month:
             @0:         sep # "~9--12,"
             @1:         sep
+        pub:            springer_cham
     19:                 "ISC19"
         key:            "ISC 2019"
         name:
@@ -9053,6 +9455,7 @@ isc:
         month:
             @0:         sep # "~16--18,"
             @1:         sep
+        pub:            springer_cham
     20:                 "ISC20"
         key:            "ISC 2020"
         name:
@@ -9066,6 +9469,7 @@ isc:
         month:
             @0:         dec # "~16--18,"
             @1:         dec
+        pub:            springer_cham
 itcname:
     @0:                 "Conference on Information-Theoretic Cryptography"
     @2:                 ""
@@ -9306,7 +9710,6 @@ itcs:
 iwsecname:
     @0:                 "International Workshop on Security, Advances in Information and Computer Security"
     @2:                 ""
-iwsecpub:               springer
 iwsec:
     06:                 "IWSEC06"
         key:            "IWSEC 2006"
@@ -9321,6 +9724,7 @@ iwsec:
         month:
             @0:         oct # "~23--24,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     07:                 "IWSEC07"
         key:            "IWSEC 2007"
         name:
@@ -9334,6 +9738,7 @@ iwsec:
         month:
             @0:         oct # "~29--31,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     08:                 "IWSEC08"
         key:            "IWSEC 2008"
         name:
@@ -9347,6 +9752,7 @@ iwsec:
         month:
             @0:         nov # "~25--27,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     09:                 "IWSEC09"
         key:            "IWSEC 2009"
         name:
@@ -9360,6 +9766,7 @@ iwsec:
         month:
             @0:         oct # "~28--30,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     10:                 "IWSEC10"
         key:            "IWSEC 2010"
         name:
@@ -9373,6 +9780,7 @@ iwsec:
         month:
             @0:         nov # "~22--24,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     11:                 "IWSEC11"
         key:            "IWSEC 2011"
         name:
@@ -9386,6 +9794,7 @@ iwsec:
         month:
             @0:         nov # "~8--10,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     12:                 "IWSEC12"
         key:            "IWSEC 2012"
         name:
@@ -9399,6 +9808,7 @@ iwsec:
         month:
             @0:         nov # "~7--9,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     13:                 "IWSEC13"
         key:            "IWSEC 2013"
         name:
@@ -9413,6 +9823,7 @@ iwsec:
             @0:         nov # "~18--20,"
             @1:         nov
         month:          ""
+        pub:            springer_berlin_heidelberg
     14:                 "IWSEC14"
         key:            "IWSEC 2014"
         name:
@@ -9426,6 +9837,7 @@ iwsec:
         month:
             @0:         aug # "~27--29,"
             @1:         aug
+        pub:            springer_cham
     15:                 "IWSEC15"
         key:            "IWSEC 2015"
         name:
@@ -9439,6 +9851,7 @@ iwsec:
         month:
             @0:         aug # "~26--28,"
             @1:         aug
+        pub:            springer_cham
     16:                 "IWSEC16"
         key:            "IWSEC 2016"
         name:
@@ -9452,6 +9865,7 @@ iwsec:
         month:
             @0:         sep # "~12--14,"
             @1:         sep
+        pub:            springer_cham
     17:                 "IWSEC17"
         key:            "IWSEC 2017"
         name:
@@ -9465,6 +9879,7 @@ iwsec:
         month:
             @0:         aug # "~30~--~" # sep # "~1,"
             @1:         aug # "~/~" # sep
+        pub:            springer_cham
     18:                 "IWSEC18"
         key:            "IWSEC 2018"
         name:
@@ -9478,6 +9893,7 @@ iwsec:
         month:
             @0:         sep # "~3--5,"
             @1:         sep
+        pub:            springer_cham
     19:                 "IWSEC19"
         key:            "IWSEC 2019"
         name:
@@ -9491,6 +9907,7 @@ iwsec:
         month:
             @0:         aug # "~28--30,"
             @1:         aug
+        pub:            springer_cham
     20:                 "IWSEC20"
         key:            "IWSEC 2020"
         name:
@@ -9504,10 +9921,10 @@ iwsec:
         month:
             @0:         sep # "~2--4,"
             @1:         sep
+        pub:            springer_cham
 latinname:
     @0:                 "Latin American Symposium"
     @2:                 ""
-latinpub:               springer
 latin:
     92:                 "LATIN92"
         key:            "LATIN 1992"
@@ -9522,6 +9939,7 @@ latin:
         month:
             @0:         apr # "~6--10,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     95:                 "LATIN95"
         key:            "LATIN 1995"
         name:
@@ -9535,6 +9953,7 @@ latin:
         month:
             @0:         apr # "~3--7,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     98:                 "LATIN98"
         key:            "LATIN 1998"
         name:
@@ -9548,6 +9967,7 @@ latin:
         month:
             @0:         apr # "~20--24,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     00:                 "LATIN00"
         key:            "LATIN 2000"
         name:
@@ -9561,6 +9981,7 @@ latin:
         month:
             @0:         apr # "~10--14,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     02:                 "LATIN02"
         key:            "LATIN 2002"
         name:
@@ -9574,6 +9995,7 @@ latin:
         month:
             @0:         apr # "~3--6,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     04:                 "LATIN04"
         key:            "LATIN 2004"
         name:
@@ -9587,6 +10009,7 @@ latin:
         month:
             @0:         apr # "~5--8,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     06:                 "LATIN06"
         key:            "LATIN 2006"
         name:
@@ -9600,6 +10023,7 @@ latin:
         month:
             @0:         mar # "~20--24,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     08:                 "LATIN08"
         key:            "LATIN 2008"
         name:
@@ -9613,6 +10037,7 @@ latin:
         month:
             @0:         apr # "~7--11,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     10:                 "LATIN10"
         key:            "LATIN 2010"
         name:
@@ -9626,6 +10051,7 @@ latin:
         month:
             @0:         apr # "~19--23,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     12:                 "LATIN12"
         key:            "LATIN 2012"
         name:
@@ -9639,6 +10065,7 @@ latin:
         month:
             @0:         apr # "~16--20,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     14:                 "LATIN14"
         key:            "LATIN 2014"
         name:
@@ -9652,6 +10079,7 @@ latin:
         month:
             @0:         mar # "~31~--~" # apr # "~4,"
             @1:         mar # "~/~" # apr
+        pub:            springer_berlin_heidelberg
     16:                 "LATIN16"
         key:            "LATIN 2016"
         name:
@@ -9665,6 +10093,7 @@ latin:
         month:
             @0:         apr # "~11--15,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     18:                 "LATIN18"
         key:            "LATIN 2018"
         name:
@@ -9678,6 +10107,7 @@ latin:
         month:
             @0:         apr # "~16--19,"
             @1:         apr
+        pub:            springer_cham
     20:                 "LATIN20"
         key:            "LATIN 2020"
         name:
@@ -9691,13 +10121,13 @@ latin:
         month:
             @0:         jan # "~5--8,"
             @1:         jan
+        pub:            springer_cham
 latincryptname:
     @0:                 "Progress in Cryptology - {LATINCRYPT}"
     @2:                 "{LATINCRYPT}"
 latincryptsuffix:
     @0:                 "International Conference on Cryptology and Information Security in Latin America"
     @2:                 ""
-latincryptpub:          springer
 latincrypt:
     10:                 "LC10"
         key:            "LATINCRYPT 2010"
@@ -9712,6 +10142,7 @@ latincrypt:
         month:
             @0:         aug # "~8--11,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     12:                 "LC12"
         key:            "LATINCRYPT 2012"
         name:
@@ -9725,6 +10156,7 @@ latincrypt:
         month:
             @0:         oct # "~7--10,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     14:                 "LC14"
         key:            "LATINCRYPT 2014"
         name:
@@ -9738,6 +10170,7 @@ latincrypt:
         month:
             @0:         sep # "~17--19,"
             @1:         sep
+        pub:            springer_cham
     15:                 "LC15"
         key:            "LATINCRYPT 2015"
         name:
@@ -9751,6 +10184,7 @@ latincrypt:
         month:
             @0:         aug # "~23--26,"
             @1:         aug
+        pub:            springer_cham
     17:                 "LC17"
         key:            "LATINCRYPT 2017"
         name:
@@ -9764,6 +10198,7 @@ latincrypt:
         month:
             @0:         sep # "~20--22,"
             @1:         sep
+        pub:            springer_cham
     19:                 "LC19"
         key:            "LATINCRYPT 2019"
         name:
@@ -9777,6 +10212,7 @@ latincrypt:
         month:
             @0:         oct # "~2--4,"
             @1:         oct
+        pub:            springer_cham
     21:                 "LC21"
         key:            "LATINCRYPT 2021"
         name:
@@ -9790,6 +10226,7 @@ latincrypt:
         month:
             @0:         oct # "~6--8,"
             @1:         oct
+        pub:            springer_cham
     23:                 "LC23"
         key:            "LATINCRYPT 2023"
         name:
@@ -9803,6 +10240,7 @@ latincrypt:
         month:
             @0:         oct # "~3--6,"
             @1:         oct
+        pub:            springer_cham
 ndssname:
     @0:                 "{ISOC} Network and Distributed System Security Symposium -- {NDSS}"
     @2:                 "NDSS"
@@ -10124,7 +10562,6 @@ ndss:
 pairingname:
     @0:                 "International Conference on Pairing-based Cryptography"
     @2:                 ""
-pairingpub:             springer
 pairing:
     07:                 "PAIRING07"
         key:            "PAIRING 2007"
@@ -10139,6 +10576,7 @@ pairing:
         month:
             @0:         jul # "~2--4,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     08:                 "PAIRING08"
         key:            "PAIRING 2008"
         name:
@@ -10152,6 +10590,7 @@ pairing:
         month:
             @0:         sep # "~1--3,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     09:                 "PAIRING09"
         key:            "PAIRING 2009"
         name:
@@ -10165,6 +10604,7 @@ pairing:
         month:
             @0:         aug # "~12--14,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     10:                 "PAIRING10"
         key:            "PAIRING 2010"
         name:
@@ -10178,6 +10618,7 @@ pairing:
         month:
             @0:         dec # "~13--15,"
             @1:         dec
+        pub:            springer_berlin_heidelberg
     12:                 "PAIRING12"
         key:            "PAIRING 2012"
         name:
@@ -10191,6 +10632,7 @@ pairing:
         month:
             @0:         may # "~16--18,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     13:                 "PAIRING13"
         key:            "PAIRING 2013"
         name:
@@ -10204,60 +10646,7 @@ pairing:
         month:
             @0:         nov # "~22--24,"
             @1:         nov
-    15:                 "PAIRING15"
-        key:            "PAIRING 2015"
-        name:
-            @0:         "PAIRING 2015: 7th " # pairingname
-            @2:         "PAIRING 2015" # pairingname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    16:                 "PAIRING16"
-        key:            "PAIRING 2016"
-        name:
-            @0:         "PAIRING 2016: 8th " # pairingname
-            @2:         "PAIRING 2016" # pairingname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    17:                 "PAIRING17"
-        key:            "PAIRING 2017"
-        name:
-            @0:         "PAIRING 2017: 9th " # pairingname
-            @2:         "PAIRING 2017" # pairingname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    18:                 "PAIRING18"
-        key:            "PAIRING 2018"
-        name:
-            @0:         "PAIRING 2018: 10th " # pairingname
-            @2:         "PAIRING 2018" # pairingname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    19:                 "PAIRING19"
-        key:            "PAIRING 2019"
-        name:
-            @0:         "PAIRING 2019: 11th " # pairingname
-            @2:         "PAIRING 2019" # pairingname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
-    20:                 "PAIRING20"
-        key:            "PAIRING 2020"
-        name:
-            @0:         "PAIRING 2020: 12th " # pairingname
-            @2:         "PAIRING 2020" # pairingname
-        ed:             ""
-        vol:            ""
-        addr:           ""
-        month:          ""
+        pub:            springer_cham
 petsname_v:
     1:
         @0:             "International Workshop on Privacy Enhancing Technologies"
@@ -10265,7 +10654,6 @@ petsname_v:
     2:
         @0:             "International Symposium on Privacy Enhancing Technologies"
         @2:             ""
-petspub:                 springer
 pets:
     02:                 "PETS02"
         key:            "PET 2002"
@@ -10280,6 +10668,7 @@ pets:
         month:
             @0:         apr # "~14--15,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     03:                 "PETS03"
         key:            "PET 2003"
         name:
@@ -10293,6 +10682,7 @@ pets:
         month:
             @0:         mar # "~26--28,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     04:                 "PETS04"
         key:            "PET 2004"
         name:
@@ -10306,6 +10696,7 @@ pets:
         month:
             @0:         may # "~26--28,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     05:                 "PETS05"
         key:            "PET 2005"
         name:
@@ -10319,6 +10710,7 @@ pets:
         month:
             @0:         may # "~30~--~" # jun # "~1,"
             @1:         may # "~/~" # jun
+        pub:            springer_berlin_heidelberg
     06:                 "PETS06"
         key:            "PET 2006"
         name:
@@ -10332,6 +10724,7 @@ pets:
         month:
             @0:         jun # "~28--30,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     07:                 "PETS07"
         key:            "PET 2007"
         name:
@@ -10345,6 +10738,7 @@ pets:
         month:
             @0:         jun # "~20--22,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     08:                 "PETS08"
         key:            "PETS 2008"
         name:
@@ -10358,6 +10752,7 @@ pets:
         month:
             @0:         jul # "~23--25,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     09:                 "PETS09"
         key:            "PETS 2009"
         name:
@@ -10371,6 +10766,7 @@ pets:
         month:
             @0:         aug # "~5--7,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     10:                 "PETS10"
         key:            "PETS 2010"
         name:
@@ -10384,6 +10780,7 @@ pets:
         month:
             @0:         jul # "~21--23,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     11:                 "PETS11"
         key:            "PETS 2011"
         name:
@@ -10397,6 +10794,7 @@ pets:
         month:
             @0:         jul # "~27--29,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     12:                 "PETS12"
         key:            "PETS 2012"
         name:
@@ -10410,6 +10808,7 @@ pets:
         month:
             @0:         jul # "~11--13,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     13:                 "PETS13"
         key:            "PETS 2013"
         name:
@@ -10423,6 +10822,7 @@ pets:
         month:
             @0:         jul # "~10--12,"
             @1:         jul
+        pub:            springer_berlin_heidelberg
     14:                 "PETS14"
         key:            "PETS 2014"
         name:
@@ -10436,6 +10836,7 @@ pets:
         month:
             @0:         jul # "~16--18,"
             @1:         jul
+        pub:            springer_cham
 pkcname_v:
     1:
         @0:             "International Workshop on Theory and Practice in Public Key Cryptography"
@@ -10443,7 +10844,6 @@ pkcname_v:
     2:
         @0:             "International Conference on Theory and Practice of Public Key Cryptography"
         @2:             ""
-pkcpub:                 springer
 pkc:
     98:                 "PKC98"
         key:            "PKC 1998"
@@ -10458,6 +10858,7 @@ pkc:
         month:
             @0:         feb # "~5--6,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     99:                 "PKC99"
         key:            "PKC 1999"
         name:
@@ -10471,6 +10872,7 @@ pkc:
         month:
             @0:         mar # "~1--3,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     00:                 "PKC00"
         key:            "PKC 2000"
         name:
@@ -10484,6 +10886,7 @@ pkc:
         month:
             @0:         jan # "~18--20,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     01:                 "PKC01"
         key:            "PKC 2001"
         name:
@@ -10497,6 +10900,7 @@ pkc:
         month:
             @0:         feb # "~13--15,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     02:                 "PKC02"
         key:            "PKC 2002"
         name:
@@ -10510,6 +10914,7 @@ pkc:
         month:
             @0:         feb # "~12--14,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     03:                 "PKC03"
         key:            "PKC 2003"
         name:
@@ -10523,6 +10928,7 @@ pkc:
         month:
             @0:         jan # "~6--8,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     04:                 "PKC04"
         key:            "PKC 2004"
         name:
@@ -10536,6 +10942,7 @@ pkc:
         month:
             @0:         mar # "~1--4,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     05:                 "PKC05"
         key:            "PKC 2005"
         name:
@@ -10549,6 +10956,7 @@ pkc:
         month:
             @0:         jan # "~23--26,"
             @1:         jan
+        pub:            springer_berlin_heidelberg
     06:                 "PKC06"
         key:            "PKC 2006"
         name:
@@ -10562,6 +10970,7 @@ pkc:
         month:
             @0:         apr # "~24--26,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     07:                 "PKC07"
         key:            "PKC 2007"
         name:
@@ -10575,6 +10984,7 @@ pkc:
         month:
             @0:         apr # "~16--20,"
             @1:         apr
+        pub:            springer_berlin_heidelberg
     08:                 "PKC08"
         key:            "PKC 2008"
         name:
@@ -10588,6 +10998,7 @@ pkc:
         month:
             @0:         mar # "~9--12,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     09:                 "PKC09"
         key:            "PKC 2009"
         name:
@@ -10601,6 +11012,7 @@ pkc:
         month:
             @0:         mar # "~18--20,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     10:                 "PKC10"
         key:            "PKC 2010"
         name:
@@ -10614,6 +11026,7 @@ pkc:
         month:
             @0:         may # "~26--28,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     11:                 "PKC11"
         key:            "PKC 2011"
         name:
@@ -10627,6 +11040,7 @@ pkc:
         month:
             @0:         mar # "~6--9,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     12:                 "PKC12"
         key:            "PKC 2012"
         name:
@@ -10640,6 +11054,7 @@ pkc:
         month:
             @0:         may # "~21--23,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     13:                 "PKC13"
         key:            "PKC 2013"
         name:
@@ -10653,6 +11068,7 @@ pkc:
         month:
             @0:         feb # "~26~--~" # mar # "~1,"
             @1:         feb # "~/~" # mar
+        pub:            springer_berlin_heidelberg
     14:                 "PKC14"
         key:            "PKC 2014"
         name:
@@ -10666,6 +11082,7 @@ pkc:
         month:
             @0:         mar # "~26--28,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     15:                 "PKC15"
         key:            "PKC 2015"
         name:
@@ -10679,6 +11096,7 @@ pkc:
         month:
             @0:         mar # "~30~--~" # apr # "~1,"
             @1:         mar # "~/~" # apr
+        pub:            springer_berlin_heidelberg
     16:
         -1:             "PKC16-1"
         -2:             "PKC16-2"
@@ -10699,6 +11117,7 @@ pkc:
         month:
             @0:         mar # "~6--9,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     17:                 "PKC17"
         -1:             "PKC17-1"
         -2:             "PKC17-2"
@@ -10719,6 +11138,7 @@ pkc:
         month:
             @0:         mar # "~28--31,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     18:                 "PKC18"
         -1:             "PKC18-1"
         -2:             "PKC18-2"
@@ -10739,6 +11159,7 @@ pkc:
         month:
             @0:         mar # "~25--29,"
             @1:         mar
+        pub:            springer_cham
     19:                 "PKC19"
         -1:             "PKC19-1"
         -2:             "PKC19-2"
@@ -10759,6 +11180,7 @@ pkc:
         month:
             @0:         apr # "~14--17,"
             @1:         apr
+        pub:            springer_cham
     20:                 "PKC20"
         -1:             "PKC20-1"
         -2:             "PKC20-2"
@@ -10779,6 +11201,7 @@ pkc:
         month:
             @0:         may # "~4--7,"
             @1:         may
+        pub:            springer_cham
     21:                 "PKC21"
         -1:             "PKC21-1"
         -2:             "PKC21-2"
@@ -10799,6 +11222,7 @@ pkc:
         month:
             @0:         may # "~10--13,"
             @1:         may
+        pub:            springer_cham
     22:                 "PKC22"
         -1:             "PKC22-1"
         -2:             "PKC22-2"
@@ -10819,6 +11243,7 @@ pkc:
         month:
             @0:         mar # "~8--11,"
             @1:         mar
+        pub:            springer_cham
     23:                 "PKC23"
         -1:             "PKC23-1"
         -2:             "PKC23-2"
@@ -10839,6 +11264,7 @@ pkc:
         month:
             @0:         may # "~7--10,"
             @1:         may
+        pub:            springer_cham
     24:                 "PKC24"
         -1:             "PKC24-1"
         -2:             "PKC24-2"
@@ -10871,6 +11297,7 @@ pkc:
         month:
             @0:         apr # "~15--17,"
             @1:         apr
+        pub:            springer_cham
     25:                 "PKC25"
         -1:             "PKC25-1"
         -2:             "PKC25-2"
@@ -10891,6 +11318,7 @@ pkc:
         month:
             @0:         may # "~10--13,"
             @1:         may
+        pub:            springer_cham
 podcname:
     @0:                 "ACM Symposium Annual on Principles of Distributed Computing"
     @2:                 "ACM PODC"
@@ -11394,7 +11822,6 @@ popetspub:              "De Gruyter Open"
 provsecname:
     @0:                 "International Conference on Provable Security"
     @2:                 ""
-provsecpub:             springer
 provsec:
     07:                 "PROVSEC07"
         key:            "PROVSEC 2007"
@@ -11409,6 +11836,7 @@ provsec:
         month:
             @0:         nov # "~1--2,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     08:                 "PROVSEC08"
         key:            "PROVSEC 2008"
         name:
@@ -11422,6 +11850,7 @@ provsec:
         month:
             @0:         oct # "~31~--~" # nov # "~1,"
             @1:         oct # "~/~" # nov
+        pub:            springer_berlin_heidelberg
     09:                 "PROVSEC09"
         key:            "PROVSEC 2009"
         name:
@@ -11435,6 +11864,7 @@ provsec:
         month:
             @0:         nov # "~11--13,"
             @1:         nov
+        pub:            springer_berlin_heidelberg
     10:                 "PROVSEC10"
         key:            "PROVSEC 2010"
         name:
@@ -11448,6 +11878,7 @@ provsec:
         month:
             @0:         oct # "~13--15,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     11:                 "PROVSEC11"
         key:            "PROVSEC 2011"
         name:
@@ -11461,6 +11892,7 @@ provsec:
         month:
             @0:         oct # "~16--18,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     12:                 "PROVSEC12"
         key:            "PROVSEC 2012"
         name:
@@ -11474,6 +11906,7 @@ provsec:
         month:
             @0:         sep # "~26--28,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     13:                 "PROVSEC13"
         key:            "PROVSEC 2013"
         name:
@@ -11487,6 +11920,7 @@ provsec:
         month:
             @0:         oct # "~23--25,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     14:                 "PROVSEC14"
         key:            "PROVSEC 2014"
         name:
@@ -11500,6 +11934,7 @@ provsec:
         month:
             @0:         oct # "~9--10,"
             @1:         oct
+        pub:            springer_cham
     15:                 "PROVSEC15"
         key:            "PROVSEC 2015"
         name:
@@ -11513,6 +11948,7 @@ provsec:
         month:
             @0:         nov # "~24--26,"
             @1:         nov
+        pub:            springer_cham
     16:                 "PROVSEC16"
         key:            "PROVSEC 2016"
         name:
@@ -11526,6 +11962,7 @@ provsec:
         month:
             @0:         nov # "~10--11,"
             @1:         nov
+        pub:            springer_cham
     17:                 "PROVSEC17"
         key:            "PROVSEC 2017"
         name:
@@ -11539,6 +11976,7 @@ provsec:
         month:
             @0:         oct # "~23--25,"
             @1:         oct
+        pub:            springer_cham
     18:                 "PROVSEC18"
         key:            "PROVSEC 2018"
         name:
@@ -11552,6 +11990,7 @@ provsec:
         month:
             @0:         oct # "~25--28,"
             @1:         oct
+        pub:            springer_cham
     19:                 "PROVSEC19"
         key:            "PROVSEC 2019"
         name:
@@ -11565,6 +12004,7 @@ provsec:
         month:
             @0:         oct # "~1--4,"
             @1:         oct
+        pub:            springer_cham
     20:                 "PROVSEC20"
         key:            "PROVSEC 2020"
         name:
@@ -11578,10 +12018,10 @@ provsec:
         month:
             @0:         nov # "~29~--~" # dec # "~1,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
 sacname:
     @0:                 "Annual International Workshop on Selected Areas in Cryptography"
     @2:                 ""
-sacpub:                 springer
 sac:
     94:                 "SAC94"
         key:            "SAC 1994"
@@ -11636,6 +12076,7 @@ sac:
         month:
             @0:         aug # "~17--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     99:                 "SAC99"
         key:            "SAC 1999"
         name:
@@ -11649,6 +12090,7 @@ sac:
         month:
             @0:         aug # "~9--10,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     00:                 "SAC00"
         key:            "SAC 2000"
         name:
@@ -11662,6 +12104,7 @@ sac:
         month:
             @0:         aug # "~14--15,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     01:                 "SAC01"
         key:            "SAC 2001"
         name:
@@ -11675,6 +12118,7 @@ sac:
         month:
             @0:         aug # "~16--17,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     02:                 "SAC02"
         key:            "SAC 2002"
         name:
@@ -11688,6 +12132,7 @@ sac:
         month:
             @0:         aug # "~15--16,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     03:                 "SAC03"
         key:            "SAC 2003"
         name:
@@ -11701,6 +12146,7 @@ sac:
         month:
             @0:         aug # "~14--15,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     04:                 "SAC04"
         key:            "SAC 2004"
         name:
@@ -11714,6 +12160,7 @@ sac:
         month:
             @0:         aug # "~9--10,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     05:                 "SAC05"
         key:            "SAC 2005"
         name:
@@ -11727,6 +12174,7 @@ sac:
         month:
             @0:         aug # "~11--12,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     06:                 "SAC06"
         key:            "SAC 2006"
         name:
@@ -11740,6 +12188,7 @@ sac:
         month:
             @0:         aug # "~17--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     07:                 "SAC07"
         key:            "SAC 2007"
         name:
@@ -11753,6 +12202,7 @@ sac:
         month:
             @0:         aug # "~16--17,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     08:                 "SAC08"
         key:            "SAC 2008"
         name:
@@ -11766,6 +12216,7 @@ sac:
         month:
             @0:         aug # "~14--15,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     09:                 "SAC09"
         key:            "SAC 2009"
         name:
@@ -11779,6 +12230,7 @@ sac:
         month:
             @0:         aug # "~13--14,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     10:                 "SAC10"
         key:            "SAC 2010"
         name:
@@ -11792,6 +12244,7 @@ sac:
         month:
             @0:         aug # "~12--13,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     11:                 "SAC11"
         key:            "SAC 2011"
         name:
@@ -11805,6 +12258,7 @@ sac:
         month:
             @0:         aug # "~11--12,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     12:                 "SAC12"
         key:            "SAC 2012"
         name:
@@ -11818,6 +12272,7 @@ sac:
         month:
             @0:         aug # "~15--16,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     13:                 "SAC13"
         key:            "SAC 2013"
         name:
@@ -11831,6 +12286,7 @@ sac:
         month:
             @0:         aug # "~14--16,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     14:                 "SAC14"
         key:            "SAC 2014"
         name:
@@ -11844,6 +12300,7 @@ sac:
         month:
             @0:         aug # "~14--15,"
             @1:         aug
+        pub:            springer_cham
     15:                 "SAC15"
         key:            "SAC 2015"
         name:
@@ -11857,6 +12314,7 @@ sac:
         month:
             @0:         aug # "~12--14,"
             @1:         aug
+        pub:            springer_cham
     16:                 "SAC16"
         key:            "SAC 2016"
         name:
@@ -11870,6 +12328,7 @@ sac:
         month:
             @0:         aug # "~10--12,"
             @1:         aug
+        pub:            springer_cham
     17:                 "SAC17"
         key:            "SAC 2017"
         name:
@@ -11883,6 +12342,7 @@ sac:
         month:
             @0:         aug # "~16--18,"
             @1:         aug
+        pub:            springer_cham
     18:                 "SAC18"
         key:            "SAC 2018"
         name:
@@ -11896,6 +12356,7 @@ sac:
         month:
             @0:         aug # "~15--17,"
             @1:         aug
+        pub:            springer_cham
     19:                 "SAC19"
         key:            "SAC 2019"
         name:
@@ -11909,6 +12370,7 @@ sac:
         month:
             @0:         aug # "~12--16,"
             @1:         aug
+        pub:            springer_cham
     20:                 "SAC20"
         key:            "SAC 2020"
         name:
@@ -11922,6 +12384,7 @@ sac:
         month:
             @0:         oct # "~21-23,"
             @1:         oct
+        pub:            springer_cham
     21:                 "SAC21"
         key:            "SAC 2021"
         name:
@@ -11935,6 +12398,7 @@ sac:
         month:
             @0:         sep # "~29~--~" # oct # "~1,"
             @1:         sep # "~/~" # oct
+        pub:            springer_cham
     22:                 "SAC22"
         key:            "SAC 2022"
         name:
@@ -11948,6 +12412,7 @@ sac:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_cham
     23:                 "SAC23"
         key:            "SAC 2023"
         name:
@@ -11961,6 +12426,7 @@ sac:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_cham
     24:                 "SAC24"
         key:            "SAC 2024"
         name:
@@ -11974,6 +12440,7 @@ sac:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_cham
     25:                 "SAC25"
         key:            "SAC 2025"
         name:
@@ -11987,10 +12454,10 @@ sac:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_cham
 scnname:
     @0:                 "International Conference on Security in Communication Networks"
     @2:                 ""
-scnpub:                 springer
 scn:
     96:                 "SCN96"
         key:            "SCN 1996"
@@ -12031,6 +12498,7 @@ scn:
         month:
             @0:         sep # "~12--13,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     04:                 "SCN04"
         key:            "SCN 2004"
         name:
@@ -12044,6 +12512,7 @@ scn:
         month:
             @0:         sep # "~8--10,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     06:                 "SCN06"
         key:            "SCN 2006"
         name:
@@ -12057,6 +12526,7 @@ scn:
         month:
             @0:         sep # "~6--8,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     08:                 "SCN08"
         key:            "SCN 2008"
         name:
@@ -12070,6 +12540,7 @@ scn:
         month:
             @0:         sep # "~10--12,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     10:                 "SCN10"
         key:            "SCN 2010"
         name:
@@ -12083,6 +12554,7 @@ scn:
         month:
             @0:         sep # "~13--15,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     12:                 "SCN12"
         key:            "SCN 2012"
         name:
@@ -12096,6 +12568,7 @@ scn:
         month:
             @0:         sep # "~5--7,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     14:                 "SCN14"
         key:            "SCN 2014"
         name:
@@ -12109,6 +12582,7 @@ scn:
         month:
             @0:         sep # "~3--5,"
             @1:         sep
+        pub:            springer_cham
     16:                 "SCN16"
         key:            "SCN 2016"
         name:
@@ -12122,6 +12596,7 @@ scn:
         month:
             @0:         aug # "~31~--~" # sep # "~2,"
             @1:         aug # "~/~" # sep
+        pub:            springer_cham
     18:                 "SCN18"
         key:            "SCN 2018"
         name:
@@ -12135,6 +12610,7 @@ scn:
         month:
             @0:         sep # "~5--7,"
             @1:         sep
+        pub:            springer_cham
     20:                 "SCN20"
         key:            "SCN 2020"
         name:
@@ -12148,6 +12624,7 @@ scn:
         month:
             @0:         sep # "~14--16,"
             @1:         sep
+        pub:            springer_cham
 sodaname:
     @0:                 "Annual {ACM}-{SIAM} Symposium on Discrete Algorithms"
     @2:                 "SODA"
@@ -12979,7 +13456,6 @@ stoc:
 tccname:
     @0:                 "Theory of Cryptography Conference"
     @2:                 ""
-tccpub:                 springer
 tcc:
     04:                 "TCC04"
         key:            "TCC 2004"
@@ -12994,6 +13470,7 @@ tcc:
         month:
             @0:         feb # "~19--21,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     05:                 "TCC05"
         key:            "TCC 2005"
         name:
@@ -13007,6 +13484,7 @@ tcc:
         month:
             @0:         feb # "~10--12,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     06:                 "TCC06"
         key:            "TCC 2006"
         name:
@@ -13020,6 +13498,7 @@ tcc:
         month:
             @0:         mar # "~4--7,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     07:                 "TCC07"
         key:            "TCC 2007"
         name:
@@ -13033,6 +13512,7 @@ tcc:
         month:
             @0:         feb # "~21--24,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     08:                 "TCC08"
         key:            "TCC 2008"
         name:
@@ -13046,6 +13526,7 @@ tcc:
         month:
             @0:         mar # "~19--21,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     09:                 "TCC09"
         key:            "TCC 2009"
         name:
@@ -13057,6 +13538,7 @@ tcc:
         month:
             @0:         mar # "~15--17,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     10:                 "TCC10"
         key:            "TCC 2010"
         name:
@@ -13070,6 +13552,7 @@ tcc:
         month:
             @0:         feb # "~9--11,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     11:                 "TCC11"
         key:            "TCC 2011"
         name:
@@ -13083,6 +13566,7 @@ tcc:
         month:
             @0:         mar # "~28--30,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     12:                 "TCC12"
         key:            "TCC 2012"
         name:
@@ -13096,6 +13580,7 @@ tcc:
         month:
             @0:         mar # "~19--21,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     13:                 "TCC13"
         key:            "TCC 2013"
         name:
@@ -13109,6 +13594,7 @@ tcc:
         month:
             @0:         mar # "~3--6,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     14:                 "TCC14"
         key:            "TCC 2014"
         name:
@@ -13122,6 +13608,7 @@ tcc:
         month:
             @0:         feb # "~24--26,"
             @1:         feb
+        pub:            springer_berlin_heidelberg
     15:
         -1:             "TCC15-1"
         -2:             "TCC15-2"
@@ -13142,6 +13629,7 @@ tcc:
         month:
             @0:         mar # "~23--25,"
             @1:         mar
+        pub:            springer_berlin_heidelberg
     16:
         a1:             "TCC16A-1"
         a2:             "TCC16A-2"
@@ -13165,6 +13653,7 @@ tcc:
             month:
                 @0:         jan # "~10--13,"
                 @1:         jan
+            pub:            springer_berlin_heidelberg
         b:
             key1:           "TCC 2016-B, Part~I"
             key2:           "TCC 2016-B, Part~II"
@@ -13183,6 +13672,7 @@ tcc:
             month:
                 @0:         oct # "~31~--~" # nov # "~3,"
                 @1:         oct # "~/~" # nov
+            pub:            springer_berlin_heidelberg
     17:
         -1:             "TCC17-1"
         -2:             "TCC17-2"
@@ -13203,6 +13693,7 @@ tcc:
         month:
             @0:         nov # "~12--15,"
             @1:         nov
+        pub:            springer_cham
     18:
         -1:             "TCC18-1"
         -2:             "TCC18-2"
@@ -13223,6 +13714,7 @@ tcc:
         month:
             @0:         nov # "~11--14,"
             @1:         nov
+        pub:            springer_cham
     19:
         -1:             "TCC19-1"
         -2:             "TCC19-2"
@@ -13243,6 +13735,7 @@ tcc:
         month:
             @0:         dec # "~1--5,"
             @1:         dec
+        pub:            springer_cham
     20:
         -1:             "TCC20-1"
         -2:             "TCC20-2"
@@ -13269,6 +13762,7 @@ tcc:
         month:
             @0:         nov # "~16--19,"
             @1:         nov
+        pub:            springer_cham
     21:
         -1:             "TCC21-1"
         -2:             "TCC21-2"
@@ -13295,6 +13789,7 @@ tcc:
         month:
             @0:         nov # "~8--11,"
             @1:         nov
+        pub:            springer_cham
     22:
         -1:             "TCC22-1"
         -2:             "TCC22-2"
@@ -13321,6 +13816,7 @@ tcc:
         month:
             @0:         nov # "~7--10,"
             @1:         nov
+        pub:            springer_cham
     23:
         -1:             "TCC23-1"
         -2:             "TCC23-2"
@@ -13353,6 +13849,7 @@ tcc:
         month:
             @0:         nov # "~29~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
+        pub:            springer_cham
     24:
         -1:             "TCC24-1"
         -2:             "TCC24-2"
@@ -13379,6 +13876,7 @@ tcc:
         month:
             @0:         nov
             @1:         nov
+        pub:            springer_cham
     25:
         -1:             "TCC25-1"
         -2:             "TCC25-2"
@@ -13405,6 +13903,7 @@ tcc:
         month:
             @0:         nov
             @1:         nov
+        pub:            springer_cham
 tches:
     @0:                 "{IACR} Transactions on Cryptographic Hardware and Embedded Systems"
     @2:                 "{IACR} {TCHES}"
@@ -13413,7 +13912,6 @@ tchespub:                "Ruhr-Universit{\"a}t Bochum"
 trustbusname:
     @0:                 "International Conference"
     @2:                 ""
-trustbuspub:            springer
 trustbus:
     04:                 "TRUSTBUS04"
         key:            "TRUSTBUS 2004"
@@ -13428,6 +13926,7 @@ trustbus:
         month:
             @0:         aug # "~30~--~" # sep # "~1,"
             @1:         aug # "~/~" # sep
+        pub:            springer_berlin_heidelberg
     05:                 "TRUSTBUS05"
         key:            "TRUSTBUS 2005"
         name:
@@ -13441,6 +13940,7 @@ trustbus:
         month:
             @0:         aug # "~22--26,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     06:                 "TRUSTBUS06"
         key:            "TRUSTBUS 2006"
         name:
@@ -13454,6 +13954,7 @@ trustbus:
         month:
             @0:         sep # "~4--8,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     07:                 "TRUSTBUS07"
         key:            "TRUSTBUS 2007"
         name:
@@ -13467,6 +13968,7 @@ trustbus:
         month:
             @0:         sep # "~3--7,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     08:                 "TRUSTBUS08"
         key:            "TRUSTBUS 2008"
         name:
@@ -13480,6 +13982,7 @@ trustbus:
         month:
             @0:         sep # "~4--5,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     09:                 "TRUSTBUS09"
         key:            "TRUSTBUS 2009"
         name:
@@ -13493,6 +13996,7 @@ trustbus:
         month:
             @0:         sep # "~3--4,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     10:                 "TRUSTBUS10"
         key:            "TRUSTBUS 2010"
         name:
@@ -13506,6 +14010,7 @@ trustbus:
         month:
             @0:         aug # "~30--31,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     11:                 "TRUSTBUS11"
         key:            "TRUSTBUS 2011"
         name:
@@ -13519,6 +14024,7 @@ trustbus:
         month:
             @0:         aug # "~29~--~" # sep # "~2,"
             @1:         aug # "~/~" # sep
+        pub:            springer_berlin_heidelberg
     12:                 "TRUSTBUS12"
         key:            "TRUSTBUS 2012"
         name:
@@ -13532,6 +14038,7 @@ trustbus:
         month:
             @0:         sep # "~3--7,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     13:                 "TRUSTBUS13"
         key:            "TRUSTBUS 2013"
         name:
@@ -13545,6 +14052,7 @@ trustbus:
         month:
             @0:         aug # "~28--29,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     14:                 "TRUSTBUS14"
         key:            "TRUSTBUS 2014"
         name:
@@ -13558,6 +14066,7 @@ trustbus:
         month:
             @0:         sep # "~2--3,"
             @1:         sep
+        pub:            springer_cham
     15:                 "TRUSTBUS15"
         key:            "TRUSTBUS 2015"
         name:
@@ -13571,6 +14080,7 @@ trustbus:
         month:
             @0:         sep # "~1--2,"
             @1:         sep
+        pub:            springer_cham
     16:                 "TRUSTBUS16"
         key:            "TRUSTBUS 2016"
         name:
@@ -13584,6 +14094,7 @@ trustbus:
         month:
             @0:         sep # "~7--8,"
             @1:         sep
+        pub:            springer_cham
     17:                 "TRUSTBUS17"
         key:            "TRUSTBUS 2017"
         name:
@@ -13597,6 +14108,7 @@ trustbus:
         month:
             @0:         aug # "~30--31,"
             @1:         aug
+        pub:            springer_cham
     18:                 "TRUSTBUS18"
         key:            "TRUSTBUS 2018"
         name:
@@ -13610,6 +14122,7 @@ trustbus:
         month:
             @0:         sep # "~5--6,"
             @1:         sep
+        pub:            springer_cham
     19:                 "TRUSTBUS19"
         key:            "TRUSTBUS 2019"
         name:
@@ -13623,6 +14136,7 @@ trustbus:
         month:
             @0:         aug # "~26--29,"
             @1:         aug
+        pub:            springer_cham
     20:                 "TRUSTBUS20"
         key:            "TRUSTBUS 2020"
         name:
@@ -13636,6 +14150,7 @@ trustbus:
         month:
             @0:         sep # "~14--17,"
             @1:         sep
+        pub:            springer_cham
 tosc:
     @0:                 "{IACR} Transactions on Symmetric Cryptology"
     @2:                 "{IACR} Trans. Symm. Cryptol."
@@ -14075,7 +14590,7 @@ usenix:
 vietcryptname:
     @0:                 "International Conference on Cryptology in Vietnam"
     @2:                 ""
-vietcryptpub:           springer
+vietcryptpub:           springer_berlin_heidelberg
 vietcrypt:
     06:                 "VIETCRYPT06"
         key:            "VIETCRYPT 2006"
@@ -14093,7 +14608,6 @@ vietcrypt:
 wisaname:
     @0:                 "International Workshop on Information Security Applications"
     @2:                 ""
-wisapub:                springer
 wisa:
     03:                 "WISA03"
         key:            "WISA 2003"
@@ -14108,6 +14622,7 @@ wisa:
         month:
             @0:         aug # "~25--27,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     04:                 "WISA04"
         key:            "WISA 2004"
         name:
@@ -14121,6 +14636,7 @@ wisa:
         month:
             @0:         aug # "~23--25,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     05:                 "WISA05"
         key:            "WISA 2005"
         name:
@@ -14134,6 +14650,7 @@ wisa:
         month:
             @0:         aug # "~22--24,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     06:                 "WISA06"
         key:            "WISA 2006"
         name:
@@ -14147,6 +14664,7 @@ wisa:
         month:
             @0:         aug # "~28--30,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     07:                 "WISA07"
         key:            "WISA 2007"
         name:
@@ -14160,6 +14678,7 @@ wisa:
         month:
             @0:         aug # "~27--29,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     08:                 "WISA08"
         key:            "WISA 2008"
         name:
@@ -14173,6 +14692,7 @@ wisa:
         month:
             @0:         sep # "~23--25,"
             @1:         sep
+        pub:            springer_berlin_heidelberg
     09:                 "WISA09"
         key:            "WISA 2009"
         name:
@@ -14186,6 +14706,7 @@ wisa:
         month:
             @0:         aug # "~25--27,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     10:                 "WISA10"
         key:            "WISA 2010"
         name:
@@ -14199,6 +14720,7 @@ wisa:
         month:
             @0:         aug # "~24--26,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     11:                 "WISA11"
         key:            "WISA 2011"
         name:
@@ -14212,6 +14734,7 @@ wisa:
         month:
             @0:         aug # "~22--24,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     12:                 "WISA12"
         key:            "WISA 2012"
         name:
@@ -14225,6 +14748,7 @@ wisa:
         month:
             @0:         aug # "~16--18,"
             @1:         aug
+        pub:            springer_berlin_heidelberg
     13:                 "WISA13"
         key:            "WISA 2013"
         name:
@@ -14238,6 +14762,7 @@ wisa:
         month:
             @0:         aug # "~19--21,"
             @1:         aug
+        pub:            springer_cham
     14:                 "WISA14"
         key:            "WISA 2014"
         name:
@@ -14251,6 +14776,7 @@ wisa:
         month:
             @0:         aug # "~25--27,"
             @1:         aug
+        pub:            springer_cham
     15:                 "WISA15"
         key:            "WISA 2015"
         name:
@@ -14264,6 +14790,7 @@ wisa:
         month:
             @0:         aug # "~20--22,"
             @1:         aug
+        pub:            springer_cham
     16:                 "WISA16"
         key:            "WISA 2016"
         name:
@@ -14277,6 +14804,7 @@ wisa:
         month:
             @0:         aug # "~25--27,"
             @1:         aug
+        pub:            springer_cham
     17:                 "WISA17"
         key:            "WISA 2017"
         name:
@@ -14290,6 +14818,7 @@ wisa:
         month:
             @0:         aug # "~24--26,"
             @1:         aug
+        pub:            springer_cham
     18:                 "WISA18"
         key:            "WISA 2018"
         name:
@@ -14303,6 +14832,7 @@ wisa:
         month:
             @0:         aug # "~23--25,"
             @1:         aug
+        pub:            springer_cham
     19:                 "WISA19"
         key:            "WISA 2019"
         name:
@@ -14316,6 +14846,7 @@ wisa:
         month:
             @0:         aug # "~21--24,"
             @1:         aug
+        pub:            springer_cham
     20:                 "WISA20"
         key:            "WISA 2020"
         name:
@@ -14329,6 +14860,7 @@ wisa:
         month:
             @0:         aug # "~26--28,"
             @1:         aug
+        pub:            springer_cham
     21:                 "WISA21"
         key:            "WISA 2021"
         name:
@@ -14342,6 +14874,7 @@ wisa:
         month:
             @0:         aug # "~11--13,"
             @1:         aug
+        pub:            springer_cham
     22:                 "WISA22"
         key:            "WISA 2022"
         name:
@@ -14355,6 +14888,7 @@ wisa:
         month:
             @0:         aug # "~24--26,"
             @1:         aug
+        pub:            springer_cham
     23:                 "WISA23"
         key:            "WISA 2023"
         name:
@@ -14368,6 +14902,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     24:                 "WISA24"
         key:            "WISA 2024"
         name:
@@ -14381,6 +14916,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     25:                 "WISA25"
         key:            "WISA 2025"
         name:
@@ -14394,6 +14930,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     26:                 "WISA26"
         key:            "WISA 2026"
         name:
@@ -14407,6 +14944,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     27:                 "WISA27"
         key:            "WISA 2027"
         name:
@@ -14420,6 +14958,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     28:                 "WISA28"
         key:            "WISA 2028"
         name:
@@ -14433,6 +14972,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     29:                 "WISA29"
         key:            "WISA 2029"
         name:
@@ -14446,6 +14986,7 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
     30:                 "WISA30"
         key:            "WISA 2030"
         name:
@@ -14459,8 +15000,8 @@ wisa:
         month:
             @0:         aug
             @1:         aug
+        pub:            springer_singapore
 pqcryptoname:          "Post-Quantum Cryptography"
-pqcryptopub:           springer
 pqcrypto:
     08:                 "PQCRYPTO08"
         key:            "PQCRYPTO 2008"
@@ -14473,6 +15014,7 @@ pqcrypto:
         month:
             @0:         oct # "~17--19,"
             @1:         oct
+        pub:            springer_berlin_heidelberg
     10:                 "PQCRYPTO10"
         key:            "PQCRYPTO 2010"
         name:           "The Third International Workshop on Post-Quantum Cryptography, PQCRYPTO 2010"
@@ -14484,6 +15026,7 @@ pqcrypto:
         month:
             @0:         may # "~25--28,"
             @1:         may
+        pub:            springer_berlin_heidelberg
     11:                 "PQCRYPTO11"
         key:            "PQCRYPTO 2011"
         name:           "Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011"
@@ -14495,6 +15038,7 @@ pqcrypto:
         month:
             @0:         nov # "~29~--~" # dec # "~2"
             @1:         nov # "~/~" # dec
+        pub:            springer_berlin_heidelberg
     13:                 "PQCRYPTO13"
         key:            "PQCRYPTO 2013"
         name:           "Post-Quantum Cryptography - 5th International Workshop, PQCrypto 2013"
@@ -14506,6 +15050,7 @@ pqcrypto:
         month:
             @0:         jun # "~4--7,"
             @1:         jun
+        pub:            springer_berlin_heidelberg
     14:                 "PQCRYPTO14"
         key:            "PQCRYPTO 2014"
         name:           "Post-Quantum Cryptography - 6th International Workshop, PQCrypto 2014"
@@ -14517,6 +15062,7 @@ pqcrypto:
         month:
             @0:         oct # "~1--3,"
             @1:         oct
+        pub:            springer_cham
     16:                 "PQCRYPTO16"
         key:            "PQCRYPTO 2016"
         name:           "Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016"
@@ -14528,6 +15074,7 @@ pqcrypto:
         month:
             @0:         feb # "~24--26,"
             @1:         ""
+        pub:            springer_cham
     17:                 "PQCRYPTO17"
         key:            "PQCRYPTO 2017"
         name:           "Post-Quantum Cryptography - 8th International Workshop, PQCrypto 2017"
@@ -14539,6 +15086,7 @@ pqcrypto:
         month:
             @0:         jun # "~26--28,"
             @1:         ""
+        pub:            springer_cham
     18:                 "PQCRYPTO18"
         key:            "PQCRYPTO 2018"
         name:           "Post-Quantum Cryptography - 9th International Conference, PQCrypto 2018"
@@ -14550,6 +15098,7 @@ pqcrypto:
         month:
             @0:         apr # "~9--11,"
             @1:         ""
+        pub:            springer_cham
     19:                 "PQCRYPTO19"
         key:            "PQCRYPTO 2019"
         name:           "Post-Quantum Cryptography - 10th International Conference, PQCrypto 2019"
@@ -14561,6 +15110,7 @@ pqcrypto:
         month:
             @0:         may # "~8--10,"
             @1:         ""
+        pub:            springer_cham
     20:                 "PQCRYPTO20"
         key:            "PQCRYPTO 2020"
         name:           "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2020"
@@ -14572,6 +15122,7 @@ pqcrypto:
         month:
             @0:         apr # "~15--17,"
             @1:         ""
+        pub:            springer_cham
     21:                 "PQCRYPTO21"
         key:            "PQCRYPTO 2021"
         name:           "Post-Quantum Cryptography - 12th International Workshop, PQCrypto 2021"
@@ -14583,6 +15134,7 @@ pqcrypto:
         month:
             @0:         jul # "~20--22,"
             @1:         ""
+        pub:            springer_cham
 csfname:                "Computer Security Foundations Symposium"
 csfpub:                 "{IEEE} Computer Society Press"
 csf:
@@ -14863,7 +15415,7 @@ csf:
             @0:         jun # "~25--28,"
             @1:         ""
 xxxxname:               ""
-xxxpub:                 springer
+xxxpub:                 
 xxxx:
     00:                 "XXXX00"
         key:            "XXXX 2000"
