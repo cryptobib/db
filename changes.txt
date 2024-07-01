@@ -1,3 +1,6 @@
+* 2024-06-30
+Added correct publisher cities for conference proceedings published by Springer.
+
 * 2024-06-12
 ACNS 2024, COSADE 2024, DCC 2024, CT-RSA 2024, ESORICS 2024, EUROCRYPT 2024
 
