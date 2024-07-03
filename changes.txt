@@ -1,4 +1,7 @@
 * 2024-06-30
+CiC vol 1, nr 1
+
+* 2024-06-30
 Added correct publisher cities for conference proceedings published by Springer.
 
 * 2024-06-12

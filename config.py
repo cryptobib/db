@@ -234,6 +234,8 @@ add_journal("DCC", 1933, "dcc", "Designs, Codes and Cryptography",
             url="https://dblp.uni-trier.de/db/journals/dcc/dcc${volume}.html")
     # Hack: DCC started in 1991, but published between 1995 and 2017 several volumes per year. By setting the start year to 1933, the correct volume is detected correctly after 2018 (incl.). For volumes before 2017 (incl.), the --volume option has to be used.
 
+add_journal("CiC", 2024, "cic", "IACR Communications in Cryptology",
+            url="https://dblp.uni-trier.de/db/journals/cic/cic${volume}.html", publisher="iacr_pub",)
 
 def get_conf_name(confkey):
     if confkey in confs:

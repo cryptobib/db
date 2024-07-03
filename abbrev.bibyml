@@ -30,6 +30,7 @@ comrev:                 "{ACM} Computer Communication Review"
 perscomm:               "Personal Communication"
 perf:                   "Performance Evaluation"
 bell:                   "Bell Systems Technical Journal"
+iacr_pub:               "IACR"
 springer:               "Springer"
 springer_newyork:
     @0:                 "Springer, New York, USA"
@@ -75,6 +76,9 @@ ieeetpds:               "{IEEE} Transactions on Parallel and Distributed Systems
 acm:
     @0:                 "Association for Computing Machinery"
     @2:                 "{ACM}"
+cic:
+    @0:                 "IACR Communications in Cryptology (CiC)"
+    @2:                 "{CiC}"
 dcc:
     @0:                 "Designs, Codes and Cryptography"
     @2:                 "{DCC}"
