@@ -148,7 +148,7 @@ add_conf("COSADE", "International Workshop on Constructive Side-Channel Analysis
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
 # Some CSF ('07-'16) are labeled csfw/csf, remaining csfw/csfw
 # 
-add_conf("CSF", "IEEE Computer Security Foundations Symposium", name="CSF", url="https://dblp.uni-trier.de/db/conf/csfw/csfw${url_year}.html")
+add_conf("CSF", "IEEE Computer Security Foundations Symposium", name="CSF", url="https://dblp.uni-trier.de/db/conf/csfw/csf${url_year}.html")
 add_conf("C", "International Cryptology Conference", name="CRYPTO")
 add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA", crossref="rsa",
          url="https://dblp.uni-trier.de/db/conf/ctrsa/ctrsa${url_year}.html")
@@ -230,6 +230,10 @@ add_journal("TCHES", 2018, "tches", "Transactions on Cryptographic Hardware and 
 
 add_misc("EPRINT", "Cryptology ePrint Archive", url="https://eprint.iacr.org/complete/compact")
 
+add_journal("DCC", 1933, "dcc", "Designs, Codes and Cryptography",
+            url="https://dblp.uni-trier.de/db/journals/dcc/dcc${volume}.html")
+    # Hack: DCC started in 1991, but published between 1995 and 2017 several volumes per year. By setting the start year to 1933, the correct volume is detected correctly after 2018 (incl.). For volumes before 2017 (incl.), the --volume option has to be used.
+
 
 def get_conf_name(confkey):
     if confkey in confs:
@@ -252,7 +256,7 @@ confs_missing_years = {
     "IMA": {1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020},
     "ISC": {1998},
     "LATIN": {1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019},
-    "LC": {2011, 2013, 2016, 2018, 2020},
+    "LC": {2011, 2013, 2016, 2018, 2020, 2022},
     "PAIRING": {2011},
     "PQCRYPTO": {2009, 2012, 2015},
     "SCN": {2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019},
