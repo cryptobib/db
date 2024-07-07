@@ -8153,10 +8153,73 @@ icisc:
             @0:         dec # "~2--4,"
             @1:         dec
         pub:            springer_cham
+    21:                 "ICISC21"
+        key:            "ICISC 2021"
+        name:
+            @0:         "ICISC 21: 24th " # iciscname
+            @2:         "ICISC 21" # iciscname
+        ed:             "Jong Hwan Park and Seung-Hyun Seo"
+        vol:            "13218"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         dec # "~1--3,"
+            @1:         dec
+        pub:            springer_cham
+    22:                 "ICISC22"
+        key:            "ICISC 2022"
+        name:
+            @0:         "ICISC 22: 25th " # iciscname
+            @2:         "ICISC 22" # iciscname
+        ed:             "Seung-Hyun Seo and Hwajeong Seo"
+        vol:            "13849"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~30~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
+        pub:            springer_cham
+    23:                 "ICISC23"
+        -1:             "ICISC23-1"
+        -2:             "ICISC23-2"
+        key1:           "ICISC 2023, Part~I"
+        key2:           "ICISC 2023, Part~II"
+        name1:
+            @0:         "ICISC 23: 26th " # iciscname # ", Part~I"
+            @2:         "ICISC 23" # iciscname # ", Part~I"
+        name2:
+            @0:         "ICISC 23: 26th " # iciscname # ", Part~II"
+            @2:         "ICISC 23" # iciscname # ", Part~II"
+        ed:             "Hwajeong Seo and Suhri Kim"
+        vol1:           "14561"
+        vol2:           "14562"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~30~--~" # dec # "~2,"
+            @1:         nov # "~/~" # dec
+        pub:            springer_singapore
 icitsname:
     @0:                 "International Conference on Information Theoretic Security"
     @2:                 ""
 icits:
+    07:                 "ICITS07"
+        key:            "ICITS 2007"
+        name:
+            @0:         "ICITS 07: 2nd " # icitsname
+            @2:         "ICITS 07" # icitsname
+        ed:             "Yvo Desmedt"
+        vol:            "4883"
+        addr:
+            @0:         "Madrid, Spain"
+            @1:         ""
+        month:
+            @0:         may # "~25--29,"
+            @1:         may
+        pub:            springer_berlin_heidelberg
     08:                 "ICITS08"
         key:            "ICITS 2008"
         name:
@@ -8824,16 +8887,16 @@ ima:
     23:                 "IMA23"
         key:            "IMA 2023"
         name:           "19th " # imaname
-        ed:             ""
-        vol:            ""
+        ed:             "Elizabeth A. Quaglia"
+        vol:            "14421"
         addr:
-            @0:         ""
+            @0:         "London, UK"
             @1:         ""
         month:
-            @0:         dec
+            @0:         dec # "~12--14,"
             @1:         dec
         pub:            springer_cham
-    25:                 "IMA23"
+    25:                 "IMA25"
         key:            "IMA 2025"
         name:           "20th " # imaname
         ed:             ""
@@ -9144,6 +9207,55 @@ indocrypt:
             @1:         ""
         month:
             @0:         dec # "~13--16,"
+            @1:         dec
+        pub:            springer_cham
+    21:                 "INDOCRYPT21"
+        key:            "INDOCRYPT 2021"
+        name:
+            @0:         indocryptname # "~2021: 22nd " # indocryptsuffix
+            @2:         indocryptname # "~2021" # indocryptsuffix
+        ed:             "Avishek Adhikari and Ralf K{\"u}sters and Bart Preneel"
+        vol:            "13143"
+        addr:
+            @0:         "Jaipur, India"
+            @1:         ""
+        month:
+            @0:         dec # "~12--15,"
+            @1:         dec
+        pub:            springer_cham
+    22:                 "INDOCRYPT22"
+        key:            "INDOCRYPT 2022"
+        name:
+            @0:         indocryptname # "~2022: 23rd " # indocryptsuffix
+            @2:         indocryptname # "~2022" # indocryptsuffix
+        ed:             "Takanori Isobe and Santanu Sarkar"
+        vol:            "13774"
+        addr:
+            @0:         "Kolkata, India"
+            @1:         ""
+        month:
+            @0:         dec # "~11--14,"
+            @1:         dec
+        pub:            springer_cham
+    23:                 "INDOCRYPT23"
+        -1:             "INDOCRYPT23-1"
+        -2:             "INDOCRYPT23-2"
+        key1:           "INDOCRYPT 2023, Part~I"
+        key2:           "INDOCRYPT 2023, Part~II"
+        name1:
+            @0:         indocryptname # "~2023: 24th " # indocryptsuffix # ", Part~I"
+            @2:         indocryptname # "~2023" # indocryptsuffix # ", Part~I"
+        name2:
+            @0:         indocryptname # "~2023: 24th " # indocryptsuffix # ", Part~II"
+            @2:         indocryptname # "~2023" # indocryptsuffix # ", Part~II"
+        ed:             "Anupam Chattopadhyay and Shivam Bhasin and Stjepan Picek and Chester Rebeiro"
+        vol1:           "14459"
+        vol2:           "14460"
+        addr:
+            @0:         "Goa, India"
+            @1:         ""
+        month:
+            @0:         dec # "~10--13,"
             @1:         dec
         pub:            springer_cham
 iscname_v:
@@ -9473,6 +9585,48 @@ isc:
         month:
             @0:         dec # "~16--18,"
             @1:         dec
+        pub:            springer_cham
+    21:                 "ISC21"
+        key:            "ISC 2021"
+        name:
+            @0:         "ISC~2021: 24th " # iscname_v2
+            @2:         "ISC~2021" # iscname_v2
+        ed:             "Joseph K. Liu and Sokratis Katsikas and Weizhi Meng and Willy Susilo and Rolly Intan"
+        vol:            "13118"
+        addr:
+            @0:         "Virtual Conference"
+            @1:         ""
+        month:
+            @0:         nov # "~10--12,"
+            @1:         nov
+        pub:            springer_cham
+    22:                 "ISC22"
+        key:            "ISC 2022"
+        name:
+            @0:         "ISC~2022: 25th " # iscname_v2
+            @2:         "ISC~2022" # iscname_v2
+        ed:             "Willy Susilo and Xiaofeng Chen and Fuchun Guo and Yudi Zhang and Rolly Intan"
+        vol:            "13640"
+        addr:
+            @0:         "Bali, Indonesia"
+            @1:         ""
+        month:
+            @0:         dec # "~18--22,"
+            @1:         dec
+        pub:            springer_cham
+    23:                 "ISC23"
+        key:            "ISC 2023"
+        name:
+            @0:         "ISC~2023: 26th " # iscname_v2
+            @2:         "ISC~2023" # iscname_v2
+        ed:             "Elias Athanasopoulos and Bart Mennink"
+        vol:            "14411"
+        addr:
+            @0:         "Groningen, The Netherlands"
+            @1:         ""
+        month:
+            @0:         nov # "~15--17,"
+            @1:         nov
         pub:            springer_cham
 itcname:
     @0:                 "Conference on Information-Theoretic Cryptography"
@@ -9926,6 +10080,48 @@ iwsec:
             @0:         sep # "~2--4,"
             @1:         sep
         pub:            springer_cham
+    21:                 "IWSEC21"
+        key:            "IWSEC 2021"
+        name:
+            @0:         "IWSEC 21: 16th " # iwsecname
+            @2:         "IWSEC 21" # iwsecname
+        ed:             "Toru Nakanishi and Ryo Nojima"
+        vol:            "12835"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         sep # "~8--10,"
+            @1:         sep
+        pub:            springer_cham
+    22:                 "IWSEC22"
+        key:            "IWSEC 2022"
+        name:
+            @0:         "IWSEC 22: 17th " # iwsecname
+            @2:         "IWSEC 22" # iwsecname
+        ed:             "Chen-Mou Cheng and Mitsuaki Akiyama"
+        vol:            "13504"
+        addr:
+            @0:         "Tokyo, Japan"
+            @1:         ""
+        month:
+            @0:         aug # "~31~--~" # sep # "~2,"
+            @1:         aug # "~/~" # sep
+        pub:            springer_cham
+    23:                 "IWSEC23"
+        key:            "IWSEC 2023"
+        name:
+            @0:         "IWSEC 23: 18th " # iwsecname
+            @2:         "IWSEC 23" # iwsecname
+        ed:             "Junji Shikata and Hiroki Kuzuno"
+        vol:            "14128"
+        addr:
+            @0:         "Yokohama, Japan"
+            @1:         ""
+        month:
+            @0:         aug # "~29--31,"
+            @1:         aug
+        pub:            springer_cham
 latinname:
     @0:                 "Latin American Symposium"
     @2:                 ""
@@ -10125,6 +10321,41 @@ latin:
         month:
             @0:         jan # "~5--8,"
             @1:         jan
+        pub:            springer_cham
+    22:                 "LATIN22"
+        key:            "LATIN 2022"
+        name:
+            @0:         "LATIN 2022: Theoretical Informatics, 15th " # latinname
+            @2:         "LATIN 2022" # latinname
+        ed:             "Armando Casta{\~n}eda and Francisco Rodr{\'i}guez-Henr{\'i}quez"
+        vol:            "13568"
+        addr:
+            @0:         "Guanajuato, Mexico"
+            @1:         ""
+        month:
+            @0:         nov # "~7--11,"
+            @1:         nov
+        pub:            springer_cham
+    24:                 "LATIN24"
+        -1:             "LATIN24-1"
+        -2:             "LATIN24-2"
+        key1:           "LATIN 2024, Part~I"
+        key2:           "LATIN 2024, Part~II"
+        name1:
+            @0:         "LATIN 2024: Theoretical Informatics, 16th " # latinname # ", Part~I"
+            @2:         "LATIN 2024" # latinname # ", Part~I"
+        name2:
+            @0:         "LATIN 2024: Theoretical Informatics, 16th " # latinname # ", Part~II"
+            @2:         "LATIN 2024" # latinname # ", Part~II"
+        ed:             "Jos{\'e} A. Soto and Andreas Wiese"
+        vol1:           "14578"
+        vol2:           "14579"
+        addr:
+            @0:         "Puerto Varas, Chile"
+            @1:         ""
+        month:
+            @0:         mar # "~18--22,"
+            @1:         mar
         pub:            springer_cham
 latincryptname:
     @0:                 "Progress in Cryptology - {LATINCRYPT}"
@@ -12023,6 +12254,48 @@ provsec:
             @0:         nov # "~29~--~" # dec # "~1,"
             @1:         nov # "~/~" # dec
         pub:            springer_cham
+    21:                 "PROVSEC21"
+        key:            "PROVSEC 2021"
+        name:
+            @0:         "ProvSec 2021: 15th " # provsecname
+            @2:         "ProvSec 2021" # provsecname
+        ed:             "Qiong Huang and Yu Yu"
+        vol:            "13059"
+        addr:
+            @0:         "Guangzhou, China"
+            @1:         ""
+        month:
+            @0:         nov # "~5--8,"
+            @1:         nov
+        pub:            springer_cham
+    22:                 "PROVSEC22"
+        key:            "PROVSEC 2022"
+        name:
+            @0:         "ProvSec 2022: 16th " # provsecname
+            @2:         "ProvSec 2022" # provsecname
+        ed:             "Chunpeng Ge and Fuchun Guo"
+        vol:            "13600"
+        addr:
+            @0:         "Nanjing, China"
+            @1:         ""
+        month:
+            @0:         nov # "~11--12,"
+            @1:         nov
+        pub:            springer_cham
+    23:                 "PROVSEC23"
+        key:            "PROVSEC 2023"
+        name:
+            @0:         "ProvSec 2023: 17th " # provsecname
+            @2:         "ProvSec 2023" # provsecname
+        ed:             "Mingwu Zhang and Man Ho Au and Yudi Zhang"
+        vol:            "14217"
+        addr:
+            @0:         "Wuhan, China"
+            @1:         ""
+        month:
+            @0:         oct # "~20--22,"
+            @1:         oct
+        pub:            springer_cham
 sacname:
     @0:                 "Annual International Workshop on Selected Areas in Cryptography"
     @2:                 ""
@@ -12408,13 +12681,13 @@ sac:
         name:
             @0:         "SAC 2022: 29th " # sacname
             @2:         "SAC 2022" # sacname
-        ed:             ""
-        vol:            ""
+        ed:             "Benjamin Smith and Huapeng Wu"
+        vol:            "13742"
         addr:
-            @0:         ""
+            @0:         "Windsor, Canada"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~24-26,"
             @1:         aug
         pub:            springer_cham
     23:                 "SAC23"
@@ -12422,13 +12695,13 @@ sac:
         name:
             @0:         "SAC 2023: 30th " # sacname
             @2:         "SAC 2023" # sacname
-        ed:             ""
-        vol:            ""
+        ed:             "Claude Carlet and Kalikinkar Mandal and Vincent Rijmen"
+        vol:            "14201"
         addr:
-            @0:         ""
+            @0:         "Fredericton, Canada"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~14-18,"
             @1:         aug
         pub:            springer_cham
     24:                 "SAC24"
@@ -12627,6 +12900,20 @@ scn:
             @1:         ""
         month:
             @0:         sep # "~14--16,"
+            @1:         sep
+        pub:            springer_cham
+    22:                 "SCN22"
+        key:            "SCN 2022"
+        name:
+            @0:         "SCN 22: 13th " # scnname
+            @2:         "SCN 22" # scnname
+        ed:             "Clemente Galdi and Stanislaw Jarecki"
+        vol:            "13409"
+        addr:
+            @0:         "Amalfi, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~12--14,"
             @1:         sep
         pub:            springer_cham
 sodaname:
@@ -14155,6 +14442,34 @@ trustbus:
             @0:         sep # "~14--17,"
             @1:         sep
         pub:            springer_cham
+    21:                 "TRUSTBUS21"
+        key:            "TRUSTBUS 2021"
+        name:
+            @0:         "TrustBus 2021: Trust and Privacy in Digital Business, 18th " # trustbusname
+            @2:         "TrustBus 2021" # trustbusname
+        ed:             "Simone Fischer-H{\"u}bner and Costas Lambrinoudakis and Gabriele Kotsis and A Min Tjoa and Ismail Khalil"
+        vol:            "12927"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         sep # "~27--30,"
+            @1:         sep
+        pub:            springer_cham
+    22:                 "TRUSTBUS21"
+        key:            "TRUSTBUS 2022"
+        name:
+            @0:         "TrustBus 2022: Trust and Privacy in Digital Business, 19th " # trustbusname
+            @2:         "TrustBus 2022" # trustbusname
+        ed:             "Sokratis Katsikas and Steven Furnell"
+        vol:            "13582"
+        addr:
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month:
+            @0:         aug # "~24,"
+            @1:         aug
+        pub:            springer_cham
 tosc:
     @0:                 "{IACR} Transactions on Symmetric Cryptology"
     @2:                 "{IACR} Trans. Symm. Cryptol."
@@ -14898,13 +15213,13 @@ wisa:
         name:
             @0:         "WISA 23: 24th " # wisaname
             @2:         "WISA 23" # wisaname
-        ed:             ""
-        vol:            ""
+        ed:             "Howon Kim and Jonghee Youn"
+        vol:            "14402"
         addr:
             @0:         "Jeju Island, Korea"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~23--25,"
             @1:         aug
         pub:            springer_singapore
     24:                 "WISA24"
@@ -15138,6 +15453,47 @@ pqcrypto:
         month:
             @0:         jul # "~20--22,"
             @1:         ""
+        pub:            springer_cham
+    22:                 "PQCRYPTO22"
+        key:            "PQCRYPTO 2022"
+        name:           "Post-Quantum Cryptography - 13th International Workshop, PQCrypto 2022"
+        ed:             "Jung Hee Cheon and Thomas Johansson"
+        vol:            "13512"
+        addr:
+            @0:         "Virtual Event"
+            @1:         ""
+        month:
+            @0:         sep # "~28--30,"
+            @1:         sep
+        pub:            springer_cham
+    23:                 "PQCRYPTO23"
+        key:            "PQCRYPTO 2023"
+        name:           "Post-Quantum Cryptography - 14th International Workshop, PQCrypto 2023"
+        ed:             "Thomas Johansson and Daniel Smith-Tone"
+        vol:            "14154"
+        addr:
+            @0:         "College Park, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~16--18,"
+            @1:         aug
+        pub:            springer_cham
+    24:                 "PQCRYPTO24"
+        -1:             "PQCRYPTO24-1"
+        -2:             "PQCRYPTO24-2"
+        key1:           "PQCRYPTO 2024, Part~I"
+        key2:           "PQCRYPTO 2024, Part~II"
+        name1:          "Post-Quantum Cryptography - 15th International Workshop, PQCrypto 2024, Part~I"
+        name2:          "Post-Quantum Cryptography - 15th International Workshop, PQCrypto 2024, Part~II"
+        ed:             "Markku-Juhani Saarinen and Daniel Smith-Tone"
+        vol1:           "14771"
+        vol2:           "14772"
+        addr:
+            @0:         "Oxford, UK"
+            @1:         ""
+        month:
+            @0:         jun # "~12--14,"
+            @1:         jun
         pub:            springer_cham
 csfname:                "Computer Security Foundations Symposium"
 csfpub:                 "{IEEE} Computer Society Press"
