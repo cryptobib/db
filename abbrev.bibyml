@@ -5601,18 +5601,25 @@ fc:
             @1:         may
         pub:            springer_cham
     23:                 "FC23"
-        key:            "FC 2023"
-        name:
-            @0:         "FC 2023: 27th " # fcname_v2
-            @2:         "FC 2023" # fcname_v2
-        ed:             ""
-        vol:            ""
+        -1:             "FC23-1"
+        -2:             "FC23-2"
+        key1:           "FC 2023, Part~I"
+        key2:           "FC 2023, Part~II"
+        name1:
+            @0:         "FC 2023: 27th " # fcname_v2# ", Part~I"
+            @2:         "FC 2023" # fcname_v2# ", Part~I"
+        name2:
+            @0:         "FC 2023: 27th " # fcname_v2# ", Part~II"
+            @2:         "FC 2023" # fcname_v2# ", Part~II"
+        ed:             "Foteini Baldimtsi and Christian Cachin"
+        vol1:           "13950"
+        vol2:           "13951"
         addr:
-            @0:         ""
+            @0:         "Bol, Bra{\v{c}}, Croatia"
             @1:         ""
         month:
-            @0:         apr
-            @1:         apr
+            @0:         may # "~1--5,"
+            @1:         may
         pub:            springer_cham
     24:                 "FC24"
         key:            "FC 2024"
@@ -5758,22 +5765,22 @@ fcw:
     22:                 "FCW22"
         key:            "FCW 2022"
         name:           "FC 2022 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "{Shin'ichiro} Matsuo and Lewis Gudgeon and Ariah {Klages-Mundt} and Daniel Perez Hernandez and Sam Werner and Thomas Haines and Aleksander Essex and Andrea Bracciali and Massimiliano Sala"
+        vol:            "13412"
         addr:           fc22addr
         month:
-            @0:         may
+            @0:         may # "~6,"
             @1:         may
         pub:            fc22pub
     23:                 "FCW23"
         key:            "FCW 2023"
         name:           "FC 2023 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Aleksander Essex and {Shin'ichiro} Matsuo and Oksana Kulyk and Lewis Gudgeon and Ariah {Klages-Mundt} and Daniel Perez and Sam Werner and Andrea Bracciali and Geoff Goodell"
+        vol:            "13953"
         addr:           fc23addr
         month:
-            @0:         apr
-            @1:         apr
+            @0:         may # "~5,"
+            @1:         may
         pub:            fc23pub
     24:                 "FCW24"
         key:            "FCW 2024"
