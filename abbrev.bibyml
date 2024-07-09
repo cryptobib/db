@@ -926,7 +926,7 @@ ccs:
             @1:         nov
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
-    @2:                 ""International Conference on Applied Cryptography and Network Security
+    @2:                 "International Conference on Applied Cryptography and Network Security"
 acns:
     03:                 "ACNS03"
         key:            "ACNS 2003"
