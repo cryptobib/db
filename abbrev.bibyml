@@ -14824,24 +14824,24 @@ usenix:
         name:
             @0:         "USENIX Security 2023: 32nd " # usenixname
             @2:         "USENIX Security 2023" # usenixname
-        ed:             ""
+        ed:             "Joseph A. Calandrino and Carmela Troncoso"
         addr:
             @0:         "Anaheim, CA, USA"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~9--11,"
             @1:         aug
     24:                 "USENIX24"
         key:            "USENIX Security 2024"
         name:
             @0:         "USENIX Security 2024: 33rd " # usenixname
             @2:         "USENIX Security 2024" # usenixname
-        ed:             ""
+        ed:             "Davide Balzarotti and Wenyuan Xu"
         addr:
-            @0:         ""
+            @0:         "Philadelphia, PA, USA"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~14--16,"
             @1:         aug
     25:                 "USENIX25"
         key:            "USENIX Security 2025"
