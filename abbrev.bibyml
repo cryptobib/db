@@ -14836,12 +14836,12 @@ usenix:
         name:
             @0:         "USENIX Security 2024: 33rd " # usenixname
             @2:         "USENIX Security 2024" # usenixname
-        ed:             ""
+        ed:             "Davide Balzarotti and Wenyuan Xu"
         addr:
-            @0:         ""
+            @0:         "Philadelphia, PA, USA"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~14--16,"
             @1:         aug
     25:                 "USENIX25"
         key:            "USENIX Security 2025"
