@@ -6290,11 +6290,11 @@ focs:
         name:           "64th " # focsname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Santa Cruz, CA, USA"
             @1:         ""
         month:
-            @0:         oct
-            @1:         oct
+            @0:         nov # "~6--9,"
+            @1:         nov
     24:                 "FOCS24"
         key:            "FOCS 2024"
         name:           "65th " # focsname
@@ -13782,12 +13782,12 @@ stoc:
     24:                 "STOC24"
         key:            "STOC 2024"
         name:           "56th " # stocname
-        ed:             ""
+        ed:             "Bojan Mohar and Igor Shinkar and Ryan {O'Donnell}"
         addr:
-            @0:         ""
+            @0:         "Vancouver, BC, Canada"
             @1:         ""
         month:
-            @0:         jun
+            @0:         jun # "~24--28,"
             @1:         jun
     25:                 "STOC25"
         key:            "STOC 2025"
