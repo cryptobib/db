@@ -9873,40 +9873,40 @@ itcs:
         name:
             @0:         "ITCS 2022: 13th " # itcsname_v4
             @2:         "ITCS 2022" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Mark Braverman"
+        vol:            "215"
         addr:
-            @0:         ""
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month:
-            @0:         jan
-            @1:         jan
+            @0:         jan # "~31~--~" # feb # "~3,"
+            @1:         jan # "~/~" # feb
     23:               "ITCS23"
         key:            "ITCS 2023"
         name:
             @0:         "ITCS 2023: 14th " # itcsname_v4
             @2:         "ITCS 2023" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Yael Tauman Kalai"
+        vol:            "251"
         addr:
-            @0:         ""
+            @0:         "Cambridge, MA, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~10--13,"
             @1:         jan
     24:               "ITCS24"
         key:            "ITCS 2024"
         name:
             @0:         "ITCS 2024: 15th " # itcsname_v4
             @2:         "ITCS 2024" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Venkatesan Guruswami"
+        vol:            "287"
         addr:
-            @0:         ""
+            @0:         "Berkeley, CA, USA"
             @1:         ""
         month:
-            @0:         jan
-            @1:         jan
+            @0:         jan # "~30~--~" # feb # "~2,"
+            @1:         jan # "~/~" # feb
     25:               "ITCS25"
         key:            "ITCS 2025"
         name:
@@ -10837,8 +10837,8 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb
-            @1:         feb
+            @0:         feb # "~27~--~" # mar # "~3,"
+            @1:         feb # "~/~" # mar
     25:                 "NDSS25"
         key:            "NDSS 2025"
         name:           ndssname # "~2025"
@@ -12037,13 +12037,13 @@ podc:
     24:                 "PODC24"
         key:            "PODC 2024"
         name:           "43rd " # podcname
-        ed:             ""
+        ed:             "Ran Gelles and Dennis Olivetti and Petr Kuznetsov"
         addr:
-            @0:         ""
+            @0:         "Nantes, France"
             @1:         ""
         month:
-            @0:         jul # "~15--18,"
-            @1:         jul
+            @0:         jun # "~17--21,"
+            @1:         jun
     25:                 "PODC25"
         key:            "PODC 2025"
         name:           "44th " # podcname
