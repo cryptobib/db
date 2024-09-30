@@ -1073,7 +1073,7 @@ acns:
         name:
             @0:         "ACNS 13: 11th " # acnsname
             @2:         "ACNS 13" # acnsname
-        ed:             "Michael J. {Jacobson Jr.} and Michael E. Locasto and Payman Mohassel and Reihaneh Safavi-Naini"
+        ed:             "Jacobson, Jr., Michael J. and Michael E. Locasto and Payman Mohassel and Reihaneh Safavi-Naini"
         vol:            "7954"
         addr:
             @0:         "Banff, AB, Canada"
@@ -2810,7 +2810,7 @@ ches:
     02:                 "CHES02"
         key:            "CHES 2002"
         name:           chesname # "~2002"
-        ed:             "Burton S. {Kaliski Jr.} and {\c{C}etin Kaya} Ko\c{c} and Christof Paar"
+        ed:             "Kaliski, Jr., Burton S. and {\c{C}etin Kaya} Ko\c{c} and Christof Paar"
         vol:            "2523"
         addr:
             @0:         "Redwood Shores, CA, USA"
@@ -3359,7 +3359,7 @@ crypto:
     97:                 "C97"
         key:            "CRYPTO 1997"
         name:           cryptoname # "'97"
-        ed:             "Burton S. {Kaliski Jr.}"
+        ed:             "Kaliski, Jr., Burton S."
         vol:            "1294"
         month:
             @0:         aug # "~17--21,"
@@ -10978,7 +10978,7 @@ pets:
         name:
             @0:         "PET~2004: 4th " # petsname_v1
             @2:         "PET~2004" # petsname_v1
-        ed:             "David M. {Martin Jr.} and Andrei Serjantov"
+        ed:             "Martin, Jr., David M. and Andrei Serjantov"
         vol:            "3424"
         addr:
             @0:         "Toronto, Canada"
@@ -10992,7 +10992,7 @@ pets:
         name:
             @0:         "PET~2005: 5th " # petsname_v1
             @2:         "PET~2005" # petsname_v1
-        ed:             "George Danezis and David M. {Martin Jr.}"
+        ed:             "George Danezis and Martin, Jr., David M."
         vol:            "3856"
         addr:
             @0:         "Cavtat, Croatia"
@@ -12554,7 +12554,7 @@ sac:
         name:
             @0:         "SAC 2009: 16th " # sacname
             @2:         "SAC 2009" # sacname
-        ed:             "Michael J. {Jacobson Jr.} and Vincent Rijmen and Reihaneh Safavi-Naini"
+        ed:             "Jacobson, Jr., Michael J. and Vincent Rijmen and Reihaneh {Safavi-Naini}"
         vol:            "5867"
         addr:
             @0:         "Calgary, Alberta, Canada"
@@ -12680,7 +12680,7 @@ sac:
         name:
             @0:         "SAC 2018: 25th " # sacname
             @2:         "SAC 2018" # sacname
-        ed:             "Carlos Cid and Michael J. {Jacobson Jr}:"
+        ed:             "Carlos Cid and Jacobson, Jr., Michael J.:"
         vol:            "11349"
         addr:
             @0:         "Calgary, AB, Canada"
@@ -12708,7 +12708,7 @@ sac:
         name:
             @0:         "SAC 2020: 27th " # sacname
             @2:         "SAC 2020" # sacname
-        ed:             "Orr Dunkelman and Michael J. Jacobson Jr. and Colin O'Flynn"
+        ed:             "Orr Dunkelman and Jacobson, Jr., Michael J. and Colin O'Flynn"
         vol:            "12804"
         addr:
             @0:         "Halifax, NS, Canada (Virtual Event)"
