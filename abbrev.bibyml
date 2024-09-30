@@ -4233,7 +4233,7 @@ esorics:
         name:
             @0:         "ESORICS~2005: 10th " # esoricsname
             @2:         "ESORICS~2005" # esoricsname
-        ed:             "Sabrina De Capitani {di Vimercati} and Paul F. Syverson and Dieter Gollmann"
+        ed:             "Sabrina {De Capitani di Vimercati} and Paul F. Syverson and Dieter Gollmann"
         vol:            "3679"
         addr:
             @0:         "Milan, Italy"
@@ -4775,7 +4775,7 @@ eurocrypt:
     94:                 "EC94"
         key:            "EUROCRYPT 1994"
         name:           eurocryptname # "'94"
-        ed:             "Alfredo De Santis"
+        ed:             "Alfredo {De Santis}"
         vol:            "950"
         addr:
             @0:         "Perugia, Italy"
@@ -12850,7 +12850,7 @@ scn:
         name:
             @0:         "SCN 06: 5th " # scnname
             @2:         "SCN 06" # scnname
-        ed:             "Roberto De Prisco and Moti Yung"
+        ed:             "Roberto {De Prisco} and Moti Yung"
         vol:            "4116"
         addr:
             @0:         "Maiori, Italy"
@@ -12864,7 +12864,7 @@ scn:
         name:
             @0:         "SCN 08: 6th " # scnname
             @2:         "SCN 08" # scnname
-        ed:             "Rafail Ostrovsky and Roberto De Prisco and Ivan Visconti"
+        ed:             "Rafail Ostrovsky and Roberto {De Prisco} and Ivan Visconti"
         vol:            "5229"
         addr:
             @0:         "Amalfi, Italy"
@@ -12878,7 +12878,7 @@ scn:
         name:
             @0:         "SCN 10: 7th " # scnname
             @2:         "SCN 10" # scnname
-        ed:             "Juan A. Garay and Roberto De Prisco"
+        ed:             "Juan A. Garay and Roberto {De Prisco}"
         vol:            "6280"
         addr:
             @0:         "Amalfi, Italy"
@@ -12892,7 +12892,7 @@ scn:
         name:
             @0:         "SCN 12: 8th " # scnname
             @2:         "SCN 12" # scnname
-        ed:             "Ivan Visconti and Roberto De Prisco"
+        ed:             "Ivan Visconti and Roberto {De Prisco}"
         vol:            "7485"
         addr:
             @0:         "Amalfi, Italy"
@@ -12906,7 +12906,7 @@ scn:
         name:
             @0:         "SCN 14: 9th " # scnname
             @2:         "SCN 14" # scnname
-        ed:             "Michel Abdalla and Roberto De Prisco"
+        ed:             "Michel Abdalla and Roberto {De Prisco}"
         vol:            "8642"
         addr:
             @0:         "Amalfi, Italy"
