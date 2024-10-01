@@ -147,7 +147,7 @@ add_conf("CHES", "Workshop on Cryptographic Hardware and Embedded Systems")
 add_conf("COSADE", "International Workshop on Constructive Side-Channel Analysis and Secure Design")
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
 # Some CSF ('07-'16) are labeled csfw/csf, remaining csfw/csfw
-# 
+#
 add_conf("CSF", "IEEE Computer Security Foundations Symposium", name="CSF", url="https://dblp.uni-trier.de/db/conf/csfw/csf${url_year}.html")
 add_conf("C", "International Cryptology Conference", name="CRYPTO")
 add_conf("RSA", "RSA Conference, Cryptographers' Track", name="CT-RSA", crossref="rsa",
@@ -237,6 +237,7 @@ add_journal("DCC", 1933, "dcc", "Designs, Codes and Cryptography",
 add_journal("CiC", 2024, "cic", "IACR Communications in Cryptology",
             url="https://dblp.uni-trier.de/db/journals/cic/cic${volume}.html", publisher="iacr_pub",)
 
+
 def get_conf_name(confkey):
     if confkey in confs:
         return confs[confkey]["name"]
@@ -244,7 +245,7 @@ def get_conf_name(confkey):
         return confkey.upper()
 
 
-# Missing years for conferences (used by lib.confs_years
+# Missing years for conferences (used by lib.confs_years)
 
 confs_missing_years = {
     "AC": {1993, 1995, 1997},
