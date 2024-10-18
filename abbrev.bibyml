@@ -97,7 +97,9 @@ mylncs:
 myisc:
     @0:                 "Information Security and Cryptography"
     @2:                 "{ISC}"
-mylipics:               "{LIPIcs}"
+mylipics:               
+    @0:                 "Leibniz International Proceedings in Informatics (LIPIcs)"
+    @2:                 "{LIPIcs}"
 acispname:
     @0:                 "Australasian Conference on Information Security and Privacy"
     @2:                 ""
@@ -506,20 +508,33 @@ acisp:
             @0:         jul # "~5--7,"
             @1:         jul
         pub:            springer_cham
-    24:                 "ACISP24"
-        key:            "ACISP 2024"
-        name:
-            @0:         "ACISP 24: 29th " # acispname
-            @2:         "ACISP 24" # acispname
-        ed:             ""
-        vol:            ""
+    24:
+        -1:             "ACISP24-1"
+        -2:             "ACISP24-2"
+        -3:             "ACISP24-3"
+        key1:           "ACISP 2024, Part~I"
+        key2:           "ACISP 2024, Part~II"
+        key3:           "ACISP 2024, Part~III"
+        name1:
+            @0:         "ACISP 24: 29th " # acispname # ", Part~I"
+            @2:         "ACISP 24" # acispname # ", Part~I"
+        name2:
+            @0:         "ACISP 24: 29th " # acispname # ", Part~II"
+            @2:         "ACISP 24" # acispname # ", Part~II"
+        name3:
+            @0:         "ACISP 24: 29th " # acispname # ", Part~III"
+            @2:         "ACISP 24" # acispname # ", Part~III"
+        ed:             "Tianqing Zhu, Yannan Li"
+        vol1:           "14895"
+        vol2:           "14896"
+        vol3:           "14897"
         addr:
-            @0:         ""
+            @0:         "Sydney, NSW, Australia"
             @1:         ""
         month:
-            @0:         dec # "~1--3,"
-            @1:         dec
-        pub:            springer_cham
+            @0:         jul # "~15--17,"
+            @1:         jul
+        pub:            springer_singapore
     25:                 "ACISP25"
         key:            "ACISP 2025"
         name:
@@ -1496,14 +1511,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 24: 15th " # africacryptname
             @2:         "AFRICACRYPT 24" # africacryptname
-        ed:             ""
-        vol:            ""
+        ed:             "Serge Vaudenay and Christophe Petit"
+        vol:            "14861"
         addr:
-            @0:         ""
+            @0:         "Douala, Cameroon"
             @1:         ""
         month:
-            @0:         may
-            @1:         may
+            @0:         jul # "~10--12,"
+            @1:         jul
         pub:            springer_cham
     25:                 "AFRICACRYPT25"
         key:            "AFRICACRYPT 2025"
@@ -1801,13 +1816,13 @@ asiaccs:
         name:
             @0:         "ASIACCS 24: 19th " # asiaccsname
             @2:         "ASIACCS 24" # asiaccsname
-        ed:             ""
+        ed:             "Jianying Zhou and Tony Q. S. Quek and Debin Gao and Alvaro A. C{\'a}rdenas"
         addr:
-            @0:         ""
+            @0:         "Singapore"
             @1:         ""
         month:
-            @0:         jun # "~7--11,"
-            @1:         jun
+            @0:         jul # "~1--5,"
+            @1:         jul
     25:                 "ASIACCS25"
         key:            "ASIACCS 2025"
         name:
@@ -1815,7 +1830,7 @@ asiaccs:
             @2:         "ASIACCS 25" # asiaccsname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         ""
             @1:         ""
         month:
             @0:         jun # "~7--11,"
@@ -4603,16 +4618,16 @@ esorics:
         name4:
             @0:         "ESORICS~2024: 29th " # esoricsname # ", Part~IV"
             @2:         "ESORICS~2024" # esoricsname # ", Part~IV"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
-        vol4:           ""
+        ed:             "Joaquin Garcia-Alfaro and Rafa{\l} Kozik and Micha{\l} Chora{\'s} and Sokratis Katsikas"
+        vol1:           "14982"
+        vol2:           "14983"
+        vol3:           "14984"
+        vol4:           "14985"
         addr:
-            @0:         ""
+            @0:         "Bydgoszcz, Poland"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~16--20,"
             @1:         sep
         pub:            springer_cham
     25:
@@ -8707,7 +8722,7 @@ ieeesp:
             @0:         "San Francisco, CA, USA"
             @1:         ""
         month:
-            @0:         may
+            @0:         may # "~19--23,"
             @1:         may
     25:                 "SP25"
         key:            "IEEE S\&P 2025"
@@ -8769,6 +8784,99 @@ ieeesp:
         month:
             @0:         may
             @1:         may
+ieeeeurospname:        "{IEEE} European Symposium on Security and Privacy"
+ieeeeurosppub:         "{IEEE} Computer Society Press"
+ieeeeurosp:
+    16:                 "EUROSP16"
+        key:            "IEEE EuroS\&P 2016"
+        name:           "2016 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Saarbr{\"u}cken, Germany"
+            @1:         ""
+        month:
+            @0:         mar # "~21--24,"
+            @1:         mar
+    17:                 "EUROSP17"
+        key:            "IEEE EuroS\&P 2017"
+        name:           "2017 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         apr # "~26--28,"
+            @1:         apr
+    18:                 "EUROSP18"
+        key:            "IEEE EuroS\&P 2018"
+        name:           "2018 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "London, United Kingdom"
+            @1:         ""
+        month:
+            @0:         apr # "~24--26,"
+            @1:         apr
+    19:                 "EUROSP19"
+        key:            "IEEE EuroS\&P 2019"
+        name:           "2019 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Stockholm, Sweden"
+            @1:         ""
+        month:
+            @0:         jun # "~17--19,"
+            @1:         jun
+    20:                 "EUROSP20"
+        key:            "IEEE EuroS\&P 2020"
+        name:           "2020 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Genoa, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~7--11,"
+            @1:         sep
+    21:                 "EUROSP21"
+        key:            "IEEE EuroS\&P 2021"
+        name:           "2021 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month:
+            @0:         sep # "~6--10,"
+            @1:         sep
+    22:                 "EUROSP22"
+        key:            "IEEE EuroS\&P 2022"
+        name:           "2022 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Genoa, Italy"
+            @1:         ""
+        month:
+            @0:         jun # "~6--10,"
+            @1:         jun
+    23:                 "EUROSP23"
+        key:            "IEEE EuroS\&P 2023"
+        name:           "2023 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Delft, The Netherlands"
+            @1:         ""
+        month:
+            @0:         jul # "~3--7,"
+            @1:         jul
+    24:                 "EUROSP24"
+        key:            "IEEE EuroS\&P 2024"
+        name:           "2024 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Vienna, Austria"
+            @1:         ""
+        month:
+            @0:         jul # "~8--12,"
+            @1:         jul
 imaname:                "IMA International Conference on Cryptography and Coding"
 ima:
     95:                 "IMA95"
@@ -9694,13 +9802,65 @@ itc:
             @0:         "ITC 2020: 1st " # itcname
             @2:         "ITC 2020" # itcname
         ed:             "Yael Tauman Kalai and Adam D. Smith and Daniel Wichs"
-        vol:            ""
+        vol:            "163"
         addr:
             @0:         "Boston, MA, USA"
             @1:         ""
         month:
             @0:         jun # "~17--19,"
             @1:         jun
+    21:                 "ITC21"
+        key:            "ITC 2021"
+        name:
+            @0:         "ITC 2021: 2nd " # itcname
+            @2:         "ITC 2021" # itcname
+        ed:             "Stefano Tessaro"
+        vol:            "199"
+        addr:
+            @0:         "Seattle, WA, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~23--26,"
+            @1:         jul
+    22:                 "ITC22"
+        key:            "ITC 2022"
+        name:
+            @0:         "ITC 2022: 3rd " # itcname
+            @2:         "ITC 2022" # itcname
+        ed:             "Dana Dachman-Soled"
+        vol:            "230"
+        addr:
+            @0:         "Cambridge, MA, USA"
+            @1:         ""
+        month:
+            @0:         jul # "~5--7,"
+            @1:         jul
+    23:                 "ITC23"
+        key:            "ITC 2023"
+        name:
+            @0:         "ITC 2023: 4th " # itcname
+            @2:         "ITC 2023" # itcname
+        ed:             "Kai-Min Chung"
+        vol:            "267"
+        addr:
+            @0:         "Aarhus, Denmark"
+            @1:         ""
+        month:
+            @0:         jun # "~6--8,"
+            @1:         jun
+    24:                 "ITC24"
+        key:            "ITC 2024"
+        name:
+            @0:         "ITC 2024: 5th " # itcname
+            @2:         "ITC 2024" # itcname
+        ed:             "Divesh Aggarwal"
+        vol:            "304"
+        addr:
+            @0:         "Stanford, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~14--16,"
+            @1:         aug
 itcsname_v:
     1:
         @0:             "Innovations in Computer Science"
@@ -10177,6 +10337,20 @@ iwsec:
             @0:         aug # "~29--31,"
             @1:         aug
         pub:            springer_cham
+    24:                 "IWSEC23"
+        key:            "IWSEC 2024"
+        name:
+            @0:         "IWSEC 24: 19th " # iwsecname
+            @2:         "IWSEC 24" # iwsecname
+        ed:             "Kazuhiko Minematsu and Mamoru Mimura"
+        vol:            "14977"
+        addr:
+            @0:         "Kyoto, Japan"
+            @1:         ""
+        month:
+            @0:         sep # "~17--19,"
+            @1:         sep
+        pub:            springer_singapore
 latinname:
     @0:                 "Latin American Symposium"
     @2:                 ""
@@ -10837,7 +11011,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~27~--~" # mar # "~3,"
+            @0:         feb # "~26~--~" # mar # "~1,"
             @1:         feb # "~/~" # mar
     25:                 "NDSS25"
         key:            "NDSS 2025"
@@ -12971,6 +13145,27 @@ scn:
             @0:         sep # "~12--14,"
             @1:         sep
         pub:            springer_cham
+    24:
+        -1:             "SCN24-1"
+        -2:             "SCN24-2"
+        key1:           "SCN 2024, Part~I"
+        key2:           "SCN 2024, Part~II"
+        name1:
+            @0:         "SCN 24: 14th " # scnname # ", Part~I"
+            @2:         "SCN 24" # scnname # ", Part~I"
+        name2:
+            @0:         "SCN 24: 14th " # scnname # ", Part~II"
+            @2:         "SCN 24" # scnname # ", Part~II"
+        ed:             "Clemente Galdi and Duong Hieu Phan"
+        vol1:           "14973"
+        vol2:           "14974"
+        addr:
+            @0:         "Amalfi, Italy"
+            @1:         ""
+        month:
+            @0:         sep # "~11--13,"
+            @1:         sep
+        pub:            springer_cham
 sodaname:
     @0:                 "Annual {ACM}-{SIAM} Symposium on Discrete Algorithms"
     @2:                 "SODA"
@@ -13299,32 +13494,32 @@ soda:
     22:                 "SODA22"
         key:            "SODA 2022"
         name:           "33rd " # sodaname
-        ed:             ""
+        ed:             "Joseph (Seffi) Naor and Niv Buchbinder"
         addr:
-            @0:         ""
+            @0:         "Virtual Conference / Alexandria, VA, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~9--12,"
             @1:         jan
     23:                 "SODA23"
         key:            "SODA 2023"
         name:           "34th " # sodaname
-        ed:             ""
+        ed:             "Nikhil Bansal and Viswanath Nagarajan"
         addr:
-            @0:         ""
+            @0:         "Florence, Italy"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~22--25,"
             @1:         jan
     24:                 "SODA24"
         key:            "SODA 2024"
         name:           "35th " # sodaname
-        ed:             ""
+        ed:             "David P. Woodruff"
         addr:
-            @0:         ""
+            @0:         "Alexandria, VA, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~7--10,"
             @1:         jan
     25:                 "SODA25"
         key:            "SODA 2025"
@@ -15764,11 +15959,11 @@ csf:
             @2:         "CSF 2024 " # csfname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Enschede, The Netherlands"
             @1:         ""
         month:
-            @0:         jul
-            @1:         ""
+            @0:         jul # "~8--12,"
+            @1:         jul
     25:                 "CSF25"
         key:            "CSF 2025"
         name:
