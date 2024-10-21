@@ -2673,7 +2673,7 @@ cans:
     22:                 "CANS22"
         key:            "CANS 2022"
         name:
-            @0:         "CANS 22: 21th " # cansname
+            @0:         "CANS 22: 21st " # cansname
             @2:         "CANS 22" # cansname
         ed:             "Alastair R. Beresford and Arpita Patra and Emanuele Bellini"
         vol:            "13641"
@@ -2687,7 +2687,7 @@ cans:
     23:                 "CANS23"
         key:            "CANS 2023"
         name:
-            @0:         "CANS 23: 22th " # cansname
+            @0:         "CANS 23: 22nd " # cansname
             @2:         "CANS 23" # cansname
         ed:             "Jing Deng and Vladimir Kolesnikov and Alexander A. Schwarzmann"
         vol:            "14342"
@@ -2698,19 +2698,26 @@ cans:
             @0:         oct # "~31~--~" # nov # "~2,"
             @1:         oct # "~/~" # nov
         pub:            springer_singapore
-    24:                 "CANS24"
-        key:            "CANS 2024"
-        name:
-            @0:         "CANS 24: 23th " # cansname
-            @2:         "CANS 24" # cansname
-        ed:             ""
-        vol:            ""
+    24:
+        -1:             "CANS24-1"
+        -2:             "CANS24-2"
+        key1:           "CANS 2014, Part~I"
+        key2:           "CANS 2014, Part~II"
+        name1:
+            @0:         "CANS~2014: 23rd " # cansname # ", Part~I"
+            @2:         "CANS~2014" # cansname # ", Part~I"
+        name2:
+            @0:         "CANS~2014: 23rd " # cansname # ", Part~II"
+            @2:         "CANS~2014" # cansname # ", Part~II"
+        ed:             "Markulf Kohlweiss and Roberto {Di Pietro} and Alastair R. Beresford"
+        vol1:           "14905"
+        vol2:           "14906"
         addr:
-            @0:         ""
+            @0:         "Cambridge, UK"
             @1:         ""
         month:
-            @0:         oct
-            @1:         oct
+            @0:         sep # "~24--27,"
+            @1:         sep
         pub:            springer_singapore
     25:                 "CANS25"
         key:            "CANS 2025"
@@ -7320,20 +7327,20 @@ icalp:
     24:                 "ICALP24"
         key:            "ICALP 2024"
         name:
-            @0:         "ICALP 2024: 51th " # icalpname
+            @0:         "ICALP 2024: 51st " # icalpname
             @2:         "ICALP 2024" # icalpname
-        ed:             ""
-        vol:            ""
+        ed:             "Karl Bringmann and Martin Grohe and Gabriele Puppis and Ola Svensson"
+        vol:            "297"
         addr:
-            @0:         ""
+            @0:         "Tallinn, Estonia"
             @1:         ""
         month:
-            @0:         jul # "~4--8,"
+            @0:         jul # "~8--12,"
             @1:         jul
     25:                 "ICALP25"
         key:            "ICALP 2025"
         name:
-            @0:         "ICALP 2025: 52th " # icalpname
+            @0:         "ICALP 2025: 52nd " # icalpname
             @2:         "ICALP 2025" # icalpname
         ed:             ""
         vol:            ""
@@ -15433,7 +15440,7 @@ wisa:
     21:                 "WISA21"
         key:            "WISA 2021"
         name:
-            @0:         "WISA 21: 22th " # wisaname
+            @0:         "WISA 21: 22nd " # wisaname
             @2:         "WISA 21" # wisaname
         ed:             "Hyoungshick Kim"
         vol:            "13009"
@@ -15447,7 +15454,7 @@ wisa:
     22:                 "WISA22"
         key:            "WISA 2022"
         name:
-            @0:         "WISA 22: 23th " # wisaname
+            @0:         "WISA 22: 23rd " # wisaname
             @2:         "WISA 22" # wisaname
         ed:             "Ilsun You and Taek-Young Youn"
         vol:            "13720"
