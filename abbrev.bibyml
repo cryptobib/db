@@ -10827,7 +10827,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb
+            @0:         feb # "~27--~" # mar # "~3,"
             @1:         feb
     24:                 "NDSS24"
         key:            "NDSS 2024"
@@ -10837,7 +10837,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~27~--~" # mar # "~3,"
+            @0:         feb # "~26~--~" # mar # "~1,"
             @1:         feb # "~/~" # mar
     25:                 "NDSS25"
         key:            "NDSS 2025"
