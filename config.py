@@ -171,7 +171,7 @@ add_conf("EUROSP", "IEEE European Symposium on Security and Privacy", name="IEEE
          url="https://dblp.uni-trier.de/db/conf/eurosp/eurosp${url_year}.html", crossref="ieeeeurosp")
 add_conf("INDOCRYPT", "International Conference on Cryptology in India")
 add_conf("ISC", "Information Security Conference",
-         url="https://dblp.uni-trier.de/db/conf/isw/isc${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/isw/isc${url_year}${dis}.html")
 add_conf("ITC", "Information-Theoretic Cryptography",
          url="https://dblp.uni-trier.de/db/conf/citc/citc${url_year}.html")
 add_conf("ITCS", "Innovations in Theoretical Computer Science",

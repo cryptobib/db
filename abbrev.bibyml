@@ -6322,10 +6322,10 @@ focs:
         name:           "65th " # focsname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Chicago, IL, USA"
             @1:         ""
         month:
-            @0:         oct
+            @0:         oct # "~27--30,"
             @1:         oct
     25:                 "FOCS25"
         key:            "FOCS 2025"
@@ -9797,6 +9797,27 @@ isc:
         month:
             @0:         nov # "~15--17,"
             @1:         nov
+        pub:            springer_cham
+    24:
+        -1:             "ISC24-1"
+        -2:             "ISC24-2"
+        key1:           "ISC 2024, Part~I"
+        key2:           "ISC 2024, Part~II"
+        name1:
+            @0:         "ISC~2024: 27th " # iscname_v2 # ", Part~I"
+            @2:         "ISC~2024" # iscname_v2 # ", Part~I"
+        name2:
+            @0:         "ISC~2024: 27th " # iscname_v2 # ", Part~II"
+            @2:         "ISC~2024" # iscname_v2 # ", Part~II"
+        ed:             "Nicky Mouha and Nick Nikiforakis"
+        vol1:           "15257"
+        vol2:           "15258"
+        addr:
+            @0:         "Arlington, VA, USA"
+            @1:         ""
+        month:
+            @0:         oct # "~23--25,"
+            @1:         oct
         pub:            springer_cham
 itcname:
     @0:                 "Conference on Information-Theoretic Cryptography"
@@ -14402,9 +14423,11 @@ tcc:
         -1:             "TCC24-1"
         -2:             "TCC24-2"
         -3:             "TCC24-3"
+        -4:             "TCC24-4"
         key1:           "TCC 2024, Part~I"
         key2:           "TCC 2024, Part~II"
         key3:           "TCC 2024, Part~III"
+        key4:           "TCC 2024, Part~IV"
         name1:
             @0:         "TCC~2024: 22nd " # tccname # ", Part~I"
             @2:         "TCC~2024" # tccname  # ", Part~I"
@@ -14414,16 +14437,20 @@ tcc:
         name3:
             @0:         "TCC~2024: 22nd " # tccname # ", Part~III"
             @2:         "TCC~2024" # tccname  # ", Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:
+            @0:         "TCC~2024: 22nd " # tccname # ", Part~IV"
+            @2:         "TCC~2024" # tccname  # ", Part~IV"
+        ed:             "Elette Boyle and Mohammad Mahmoody"
+        vol1:           "15364"
+        vol2:           "15365"
+        vol3:           "15366"
+        vol4:           "15367"
         addr:
-            @0:         ""
+            @0:         "Milan, Italy"
             @1:         ""
         month:
-            @0:         nov
-            @1:         nov
+            @0:         dec # "~2--6,"
+            @1:         dec
         pub:            springer_cham
     25:
         -1:             "TCC25-1"
