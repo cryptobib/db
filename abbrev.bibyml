@@ -920,13 +920,13 @@ ccs:
         name:
             @0:         "ACM CCS 2024: 31st " # ccsname
             @2:         "ACM CCS 2024" # ccsname
-        ed:             ""
+        ed:             "Bo Luo and Xiaojing Liao and Jun Xu and Engin Kirda and David Lie"
         addr:
-            @0:         ""
+            @0:         "Salt Lake City, UT, USA"
             @1:         ""
         month:
-            @0:         nov
-            @1:         nov
+            @0:         oct # "~14--18,"
+            @1:         oct
     25:                 "CCS24"
         key:            "ACM CCS 2025"
         name:
@@ -2355,6 +2355,7 @@ asiacrypt:
         -6:             "AC24-6"
         -7:             "AC24-7"
         -8:             "AC24-8"
+        -9:             "AC24-9"
         key1:           "ASIACRYPT 2024, Part~I"
         key2:           "ASIACRYPT 2024, Part~II"
         key3:           "ASIACRYPT 2024, Part~III"
@@ -2363,6 +2364,7 @@ asiacrypt:
         key6:           "ASIACRYPT 2024, Part~VI"
         key7:           "ASIACRYPT 2024, Part~VII"
         key8:           "ASIACRYPT 2024, Part~VIII"
+        key9:           "ASIACRYPT 2024, Part~IX"
         name1:          asiacryptname # "~2024, Part~I"
         name2:          asiacryptname # "~2024, Part~II"
         name3:          asiacryptname # "~2024, Part~III"
@@ -2371,20 +2373,22 @@ asiacrypt:
         name6:          asiacryptname # "~2024, Part~VI"
         name7:          asiacryptname # "~2024, Part~VII"
         name8:          asiacryptname # "~2024, Part~VIII"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
-        vol4:           ""
-        vol5:           ""
-        vol6:           ""
-        vol7:           ""
-        vol8:           ""
+        name9:          asiacryptname # "~2024, Part~IX"
+        ed:             "Kai-Min Chung and Yu Sasaki"
+        vol1:           "15484"
+        vol2:           "15485"
+        vol3:           "15486"
+        vol4:           "15487"
+        vol5:           "15488"
+        vol6:           "15489"
+        vol7:           "15490"
+        vol8:           "15491"
+        vol9:           "15492"
         addr:
-            @0:         ""
+            @0:         "Kolkata, India"
             @1:         ""
         month:
-            @0:         dec # "~7--11,"
+            @0:         dec # "~9--13,"
             @1:         dec
         pub:            springer_singapore
     25:
