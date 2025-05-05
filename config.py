@@ -13,7 +13,8 @@ def add_conf(
         full_name="",
         name=None,
         url="https://dblp.uni-trier.de/db/conf/${namelower}/${namelower}${url_year}${dis}.html",
-        crossref=None
+        crossref=None,
+        use_ee_as_url=False,
 ):
     if name is None:
         name = key
@@ -43,7 +44,9 @@ def add_conf(
         "fields_add":
             {
                 "crossref": crossref + "${short_year}${dis}"
-            }
+            },
+        "use_ee_as_url":      # use the ee field in DBLP as url if no DOI present
+            use_ee_as_url,
     }
 
 
@@ -56,6 +59,7 @@ def add_journal(
         name=None,
         url="https://dblp.uni-trier.de/db/journals/${name}/${name}${volume}.html",
         publisher="springer",
+        use_ee_as_url=False,
 ):
     if name is None:
         name = key
@@ -85,7 +89,9 @@ def add_journal(
             {
                 "publisher": publisher,
                 "journal": journalkey
-            }
+            },
+        "use_ee_as_url":      # use the ee field in DBLP as url if no DOI present
+            use_ee_as_url,
     }
     if months:
         # if months is a non-empty array
@@ -98,7 +104,8 @@ def add_misc(
         full_name,
         url,
         name=None,
-        crossref=None
+        crossref=None,
+        use_ee_as_url=False,
 ):
     if name is None:
         name = key
@@ -123,7 +130,9 @@ def add_misc(
         "fields_dblp":        # not used
             set(),
         "fields_add":         # not used
-            dict([])
+            dict([]),
+        "use_ee_as_url":      # use the ee field in DBLP as url if no DOI present
+            use_ee_as_url,
     }
 
 
@@ -195,7 +204,8 @@ add_conf("STOC", "ACM Symposium on Theory of Computing")
 add_conf("TCC", "Theory of Cryptography Conference")
 add_conf("TRUSTBUS", "International Conference on Trust, Privacy &amp; Security in Digital Business")
 add_conf("USENIX", "USENIX Security Symposium",
-         url="https://dblp.uni-trier.de/db/conf/uss/uss${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/uss/uss${url_year}.html",
+         use_ee_as_url=True)
 add_conf("VIETCRYPT", "International Conference on Cryptology in Vietnam")
 add_conf("WISA", "International Workshop on Information Security Applications")
 
