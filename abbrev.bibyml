@@ -5280,22 +5280,42 @@ eurocrypt:
         -1:             "EC25-1"
         -2:             "EC25-2"
         -3:             "EC25-3"
+        -4:             "EC25-4"
+        -5:             "EC25-5"
+        -6:             "EC25-6"
+        -7:             "EC25-7"
+        -8:             "EC25-8"
         key1:           "EUROCRYPT 2025, Part~I"
         key2:           "EUROCRYPT 2025, Part~II"
         key3:           "EUROCRYPT 2025, Part~III"
+        key4:           "EUROCRYPT 2025, Part~IV"
+        key5:           "EUROCRYPT 2025, Part~V"
+        key6:           "EUROCRYPT 2025, Part~VI"
+        key7:           "EUROCRYPT 2025, Part~VII"
+        key8:           "EUROCRYPT 2025, Part~VIII"
         name1:          eurocryptname # "~2025, Part~I"
         name2:          eurocryptname # "~2025, Part~II"
         name3:          eurocryptname # "~2025, Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:          eurocryptname # "~2025, Part~IV"
+        name5:          eurocryptname # "~2025, Part~V"
+        name6:          eurocryptname # "~2025, Part~VI"
+        name7:          eurocryptname # "~2025, Part~VII"
+        name8:          eurocryptname # "~2025, Part~VIII"
+        ed:             "Serge Fehr and Pierre-Alain Fouque"
+        vol1:           "15601"
+        vol2:           "15602"
+        vol3:           "15603"
+        vol4:           "15604"
+        vol5:           "15605"
+        vol6:           "15606"
+        vol7:           "15607"
+        vol8:           "15608"
         addr:
-            @0:         ""
+            @0:         "Madrid, Spain"
             @1:         ""
         month:
-            @0:         jun
-            @1:         jun
+            @0:         may # "~4--8,"
+            @1:         may
         pub:            springer_cham
 fcname_v:
     1:
@@ -5680,11 +5700,11 @@ fc:
         key1:           "FC 2023, Part~I"
         key2:           "FC 2023, Part~II"
         name1:
-            @0:         "FC 2023: 27th " # fcname_v2# ", Part~I"
-            @2:         "FC 2023" # fcname_v2# ", Part~I"
+            @0:         "FC 2023: 27th " # fcname_v2 # ", Part~I"
+            @2:         "FC 2023" # fcname_v2 # ", Part~I"
         name2:
-            @0:         "FC 2023: 27th " # fcname_v2# ", Part~II"
-            @2:         "FC 2023" # fcname_v2# ", Part~II"
+            @0:         "FC 2023: 27th " # fcname_v2 # ", Part~II"
+            @2:         "FC 2023" # fcname_v2 # ", Part~II"
         ed:             "Foteini Baldimtsi and Christian Cachin"
         vol1:           "13950"
         vol2:           "13951"
@@ -5695,18 +5715,25 @@ fc:
             @0:         may # "~1--5,"
             @1:         may
         pub:            springer_cham
-    24:                 "FC24"
-        key:            "FC 2024"
-        name:
-            @0:         "FC 2024: 28th " # fcname_v2
-            @2:         "FC 2024" # fcname_v2
-        ed:             ""
-        vol:            ""
+    24:
+        -1:             "FC24-1"
+        -2:             "FC24-2"
+        key1:           "FC 2024, Part~I"
+        key2:           "FC 2024, Part~II"
+        name1:
+            @0:         "FC 2024: 28th " # fcname_v2 # ", Part~I"
+            @2:         "FC 2024" # fcname_v2 # ", Part~I"
+        name2:
+            @0:         "FC 2024: 28th " # fcname_v2 # ", Part~II"
+            @2:         "FC 2024" # fcname_v2 # ", Part~II"
+        ed:             "Jeremy Clark and Elaine Shi"
+        vol1:           "14744"
+        vol2:           "14745"
         addr:
-            @0:         ""
+            @0:         "Willemstad, Cura\c{c}ao"
             @1:         ""
         month:
-            @0:         mar
+            @0:         mar # "~4--8,"
             @1:         mar
         pub:            springer_cham
     25:                 "FC25"
@@ -5859,11 +5886,11 @@ fcw:
     24:                 "FCW24"
         key:            "FCW 2024"
         name:           "FC 2024 Workshops"
-        ed:             ""
-        vol:            ""
+        ed:             "Jurlind Budurushi and Oksana Kulyk and Sarah Allen and Theo Diamandis and Ariah Klages-Mundt and Andrea Bracciali and Geoffrey Goodell and Shin’ichiro Matsuo"
+        vol:            "14746"
         addr:           fc24addr
         month:
-            @0:         mar
+            @0:         mar # "~4--8,"
             @1:         mar
         pub:            fc24pub
     25:                 "FCW25"
@@ -7878,19 +7905,26 @@ icics:
             @0:         nov # "~18--20,"
             @1:         nov
         pub:            springer_singapore
-    24:                 "ICICS24"
-        key:            "ICICS 2024"
-        name:
-            @0:         "ICICS 24: 26th " # icicsname
-            @2:         "ICICS 24" # icicsname
-        ed:             ""
-        vol:            ""
+    24:
+        -1:             "ICICS24-1"
+        -2:             "ICICS24-2"
+        key1:           "ICICS 2024, Part~I"
+        key2:           "ICICS 2024, Part~II"
+        name1:
+            @0:         "ICICS 24: 26th " # icicsname # ", Part~I"
+            @2:         "ICICS 24" # icicsname # ", Part~I"
+        name2:
+            @0:         "ICICS 24: 26th " # icicsname # ", Part~II"
+            @2:         "ICICS 24" # icicsname # ", Part~II"
+        ed:             "Sokratis Katsikas and Christos Xenakis and Christos Kalloniatis and Costas Lambrinoudakis"
+        vol1:           "15056"
+        vol2:           "15057"
         addr:
-            @0:         ""
+            @0:         "Mytilene, Greece"
             @1:         ""
         month:
-            @0:         dec # "~16--17,"
-            @1:         dec
+            @0:         aug # "~26--28,"
+            @1:         aug
         pub:            springer_singapore
     25:                 "ICICS25"
         key:            "ICICS 2025"
@@ -9430,6 +9464,27 @@ indocrypt:
             @1:         ""
         month:
             @0:         dec # "~10--13,"
+            @1:         dec
+        pub:            springer_cham
+    24:                 "INDOCRYPT24"
+        -1:             "INDOCRYPT24-1"
+        -2:             "INDOCRYPT24-2"
+        key1:           "INDOCRYPT 2024, Part~I"
+        key2:           "INDOCRYPT 2024, Part~II"
+        name1:
+            @0:         indocryptname # "~2024: 25th " # indocryptsuffix # ", Part~I"
+            @2:         indocryptname # "~2024" # indocryptsuffix # ", Part~I"
+        name2:
+            @0:         indocryptname # "~2024: 25th " # indocryptsuffix # ", Part~II"
+            @2:         indocryptname # "~2024" # indocryptsuffix # ", Part~II"
+        ed:             "Sourav Mukhopadhyay and Pantelimon St\u{a}nic\u{a}"
+        vol1:           "15495"
+        vol2:           "15496"
+        addr:
+            @0:         "Chennai, India"
+            @1:         ""
+        month:
+            @0:         dec # "~18--21,"
             @1:         dec
         pub:            springer_cham
 iscname_v:
@@ -12557,6 +12612,27 @@ provsec:
             @0:         oct # "~20--22,"
             @1:         oct
         pub:            springer_cham
+    24:
+        -1:             "PROVSEC24-1"
+        -2:             "PROVSEC24-2"
+        key1:           "PROVSEC 2024, Part~I"
+        key2:           "PROVSEC 2024, Part~II"
+        name1:
+            @0:         "ProvSec 2023: 18th " # provsecname # ", Part~I"
+            @2:         "ProvSec 2023" # provsecname # ", Part~I"
+        name2:
+            @0:         "ProvSec 2023: 18th " # provsecname # ", Part~II"
+            @2:         "ProvSec 2023" # provsecname # ", Part~II"
+        ed:             "Joseph K. Liu and Liqun Chen and Shi-Feng Sun and Xiaoning Liu"
+        vol1:           "14903"
+        vol2:           "14904"
+        addr:
+            @0:         "Gold Coast, {QLD}, Australia"
+            @1:         ""
+        month:
+            @0:         sep # "~25--27,"
+            @1:         sep
+        pub:            springer_singapore
 sacname:
     @0:                 "Annual International Workshop on Selected Areas in Cryptography"
     @2:                 ""
@@ -12965,18 +13041,25 @@ sac:
             @0:         aug # "~14-18,"
             @1:         aug
         pub:            springer_cham
-    24:                 "SAC24"
-        key:            "SAC 2024"
-        name:
-            @0:         "SAC 2024: 31st " # sacname
-            @2:         "SAC 2024" # sacname
-        ed:             "Antoine Joux and Amr M. Youssef"
-        vol:            ""
+    24:
+        -1:             "SAC24-1"
+        -2:             "SAC24-2"
+        key1:           "SAC 2024, Part~I"
+        key2:           "SAC 2024, Part~II"
+        name1:
+            @0:         "SAC 2024: 31st " # sacname # ", Part~I"
+            @2:         "SAC 2024" # sacname # ", Part~I"
+        name2:
+            @0:         "SAC 2024: 31st " # sacname # ", Part~II"
+            @2:         "SAC 2024" # sacname # ", Part~II"
+        ed:             "Maria Eichlseder and S\'{e}bastien Gambs"
+        vol1:           "15516"
+        vol2:           "15517"
         addr:
-            @0:         ""
+            @0:         "Montreal, Canada"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~28-30,"
             @1:         aug
         pub:            springer_cham
     25:                 "SAC25"
@@ -15515,13 +15598,13 @@ wisa:
         name:
             @0:         "WISA 24: 25th " # wisaname
             @2:         "WISA 24" # wisaname
-        ed:             ""
-        vol:            ""
+        ed:             "Jong-Hyouk Lee and Keita Emura and Sokjoon Lee"
+        vol:            "15499"
         addr:
             @0:         "Jeju Island, Korea"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~21--23,"
             @1:         aug
         pub:            springer_singapore
     25:                 "WISA25"

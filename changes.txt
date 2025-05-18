@@ -1,4 +1,7 @@
 * 2025-05-18
+Added missing volumes from PoPETS 2023, Added EC 2025, FC 2024, FCW 2024, ICICS 2024, INDOCRYPT 24, PROVSEC 2024, SAC 2024, WISA 2024
+
+* 2025-05-18
 ACNS: Full name no longer display for abbrev2 and abbrev3 (as for other conferences).
 
 * 2025-04-04

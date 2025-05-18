@@ -197,7 +197,7 @@ add_conf("PODC", "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Compu
 add_conf("PQCRYPTO", "International Conference on Post-Quantum Cryptography")
 add_conf("PROVSEC", "International Conference on Provable Security")
 add_conf("SAC", "Workshop on Selected Areas in Cryptography",
-         url="https://dblp.uni-trier.de/db/conf/sacrypt/sacrypt${url_year}.html")
+         url="https://dblp.uni-trier.de/db/conf/sacrypt/sacrypt${url_year}${dis}.html")
 add_conf("SCN", "Conference on Security and Cryptography for Networks")
 add_conf("SODA", "ACM-SIAM Symposium on Discrete Algorithms")
 add_conf("STOC", "ACM Symposium on Theory of Computing")
