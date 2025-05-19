@@ -946,8 +946,8 @@ acns:
     03:                 "ACNS03"
         key:            "ACNS 2003"
         name:
-            @0:         "ACNS 03: 1st " # acnsname
-            @2:         "ACNS 03" # acnsname
+            @0:         "ACNS 2003: 1st " # acnsname
+            @2:         "ACNS 2003" # acnsname
         ed:             "Jianying Zhou and Moti Yung and Yongfei Han"
         vol:            "2846"
         addr:
@@ -960,8 +960,8 @@ acns:
     04:                 "ACNS04"
         key:            "ACNS 2004"
         name:
-            @0:         "ACNS 04: 2nd " # acnsname
-            @2:         "ACNS 04" # acnsname
+            @0:         "ACNS 2004: 2nd " # acnsname
+            @2:         "ACNS 2004" # acnsname
         ed:             "Markus Jakobsson and Moti Yung and Jianying Zhou"
         vol:            "3089"
         addr:
@@ -974,8 +974,8 @@ acns:
     05:                 "ACNS05"
         key:            "ACNS 2005"
         name:
-            @0:         "ACNS 05: 3rd " # acnsname
-            @2:         "ACNS 05" # acnsname
+            @0:         "ACNS 2005: 3rd " # acnsname
+            @2:         "ACNS 2005" # acnsname
         ed:             "John Ioannidis and Angelos Keromytis and Moti Yung"
         vol:            "3531"
         addr:
@@ -988,8 +988,8 @@ acns:
     06:                 "ACNS06"
         key:            "ACNS 2006"
         name:
-            @0:         "ACNS 06: 4th " # acnsname
-            @2:         "ACNS 06" # acnsname
+            @0:         "ACNS 2006: 4th " # acnsname
+            @2:         "ACNS 2006" # acnsname
         ed:             "Jianying Zhou and Moti Yung and Feng Bao"
         vol:            "3989"
         addr:
@@ -1002,8 +1002,8 @@ acns:
     07:                 "ACNS07"
         key:            "ACNS 2007"
         name:
-            @0:         "ACNS 07: 5th " # acnsname
-            @2:         "ACNS 07" # acnsname
+            @0:         "ACNS 2007: 5th " # acnsname
+            @2:         "ACNS 2007" # acnsname
         ed:             "Jonathan Katz and Moti Yung"
         vol:            "4521"
         addr:
@@ -1016,8 +1016,8 @@ acns:
     08:                 "ACNS08"
         key:            "ACNS 2008"
         name:
-            @0:         "ACNS 08: 6th " # acnsname
-            @2:         "ACNS 08" # acnsname
+            @0:         "ACNS 2008: 6th " # acnsname
+            @2:         "ACNS 2008" # acnsname
         ed:             "Steven M. Bellovin and Rosario Gennaro and Angelos D. Keromytis and Moti Yung"
         vol:            "5037"
         addr:
@@ -1030,8 +1030,8 @@ acns:
     09:                 "ACNS09"
         key:            "ACNS 2009"
         name:
-            @0:         "ACNS 09: 7th " # acnsname
-            @2:         "ACNS 09" # acnsname
+            @0:         "ACNS 2009: 7th " # acnsname
+            @2:         "ACNS 2009" # acnsname
         ed:             "Michel Abdalla and David Pointcheval and Pierre-Alain Fouque and Damien Vergnaud"
         vol:            "5536"
         addr:
@@ -1044,8 +1044,8 @@ acns:
     10:                 "ACNS10"
         key:            "ACNS 2010"
         name:
-            @0:         "ACNS 10: 8th " # acnsname
-            @2:         "ACNS 10" # acnsname
+            @0:         "ACNS 2010: 8th " # acnsname
+            @2:         "ACNS 2010" # acnsname
         ed:             "Jianying Zhou and Moti Yung"
         vol:            "6123"
         addr:
@@ -1058,8 +1058,8 @@ acns:
     11:                 "ACNS11"
         key:            "ACNS 2011"
         name:
-            @0:         "ACNS 11: 9th " # acnsname
-            @2:         "ACNS 11" # acnsname
+            @0:         "ACNS 2011: 9th " # acnsname
+            @2:         "ACNS 2011" # acnsname
         ed:             "Javier Lopez and Gene Tsudik"
         vol:            "6715"
         addr:
@@ -1072,8 +1072,8 @@ acns:
     12:                 "ACNS12"
         key:            "ACNS 2012"
         name:
-            @0:         "ACNS 12: 10th " # acnsname
-            @2:         "ACNS 12" # acnsname
+            @0:         "ACNS 2012: 10th " # acnsname
+            @2:         "ACNS 2012" # acnsname
         ed:             "Feng Bao and Pierangela Samarati and Jianying Zhou"
         vol:            "7341"
         addr:
@@ -1086,8 +1086,8 @@ acns:
     13:                 "ACNS13"
         key:            "ACNS 2013"
         name:
-            @0:         "ACNS 13: 11th " # acnsname
-            @2:         "ACNS 13" # acnsname
+            @0:         "ACNS 2013: 11th " # acnsname
+            @2:         "ACNS 2013" # acnsname
         ed:             "Jacobson, Jr., Michael J. and Michael E. Locasto and Payman Mohassel and Reihaneh Safavi-Naini"
         vol:            "7954"
         addr:
@@ -1100,8 +1100,8 @@ acns:
     14:                 "ACNS14"
         key:            "ACNS 2014"
         name:
-            @0:         "ACNS 14: 12th " # acnsname
-            @2:         "ACNS 14" # acnsname
+            @0:         "ACNS 2014: 12th " # acnsname
+            @2:         "ACNS 2014" # acnsname
         ed:             "Ioana Boureanu and Philippe Owesarski and Serge Vaudenay"
         vol:            "8479"
         addr:
@@ -1114,8 +1114,8 @@ acns:
     15:                 "ACNS15"
         key:            "ACNS 2015"
         name:
-            @0:         "ACNS 15: 13th " # acnsname
-            @2:         "ACNS 15" # acnsname
+            @0:         "ACNS 2015: 13th " # acnsname
+            @2:         "ACNS 2015" # acnsname
         ed:             "Tal Malkin and Vladimir Kolesnikov and Allison Bishop Lewko and Michalis Polychronakis"
         vol:            "9092"
         addr:
@@ -1128,8 +1128,8 @@ acns:
     16:                 "ACNS16"
         key:            "ACNS 2016"
         name:
-            @0:         "ACNS 16: 14th " # acnsname
-            @2:         "ACNS 16" # acnsname
+            @0:         "ACNS 2016: 14th " # acnsname
+            @2:         "ACNS 2016" # acnsname
         ed:             "Mark Manulis and Ahmad-Reza Sadeghi and Steve Schneider"
         vol:            "9696"
         addr:
@@ -1142,8 +1142,8 @@ acns:
     17:                 "ACNS17"
         key:            "ACNS 2017"
         name:
-            @0:         "ACNS 17: 15th " # acnsname
-            @2:         "ACNS 17" # acnsname
+            @0:         "ACNS 2017: 15th " # acnsname
+            @2:         "ACNS 2017" # acnsname
         ed:             "Dieter Gollmann and Atsuko Miyaji and Hiroaki Kikuchi"
         vol:            "10355"
         addr:
@@ -1156,8 +1156,8 @@ acns:
     18:                 "ACNS18"
         key:            "ACNS 2018"
         name:
-            @0:         "ACNS 18: 16th " # acnsname
-            @2:         "ACNS 18" # acnsname
+            @0:         "ACNS 2018: 16th " # acnsname
+            @2:         "ACNS 2018" # acnsname
         ed:             "Bart Preneel and Frederik Vercauteren"
         vol:            "10892"
         addr:
@@ -1170,8 +1170,8 @@ acns:
     19:                 "ACNS19"
         key:            "ACNS 2019"
         name:
-            @0:         "ACNS 19: 17th " # acnsname
-            @2:         "ACNS 19" # acnsname
+            @0:         "ACNS 2019: 17th " # acnsname
+            @2:         "ACNS 2019" # acnsname
         ed:             "Robert H. Deng and Val{\'e}rie {Gauthier-Uma{\~n}a} and Mart{\'i}n Ochoa and Moti Yung"
         vol:            "11464"
         addr:
@@ -1187,11 +1187,11 @@ acns:
         key1:           "ACNS 2020, Part~I"
         key2:           "ACNS 2020, Part~II"
         name1:
-            @0:         "ACNS 20: 18th " # acnsname # ", Part~I"
-            @2:         "ACNS 20" # acnsname # ", Part~I"
+            @0:         "ACNS 2020: 18th " # acnsname # ", Part~I"
+            @2:         "ACNS 2020" # acnsname # ", Part~I"
         name2:
-            @0:         "ACNS 20: 18th " # acnsname # ", Part~II"
-            @2:         "ACNS 20" # acnsname # ", Part~II"
+            @0:         "ACNS 2020: 18th " # acnsname # ", Part~II"
+            @2:         "ACNS 2020" # acnsname # ", Part~II"
         ed:             "Mauro Conti and Jianying Zhou and Emiliano Casalicchio and Angelo Spognardi"
         vol1:           "12146"
         vol2:           "12147"
@@ -1208,11 +1208,11 @@ acns:
         key1:           "ACNS 2021, Part~I"
         key2:           "ACNS 2021, Part~II"
         name1:
-            @0:         "ACNS 21: 19th " # acnsname # ", Part~I"
-            @2:         "ACNS 21" # acnsname # ", Part~I"
+            @0:         "ACNS 2021: 19th " # acnsname # ", Part~I"
+            @2:         "ACNS 2021" # acnsname # ", Part~I"
         name2:
-            @0:         "ACNS 21: 19th " # acnsname # ", Part~II"
-            @2:         "ACNS 21" # acnsname # ", Part~II"
+            @0:         "ACNS 2021: 19th " # acnsname # ", Part~II"
+            @2:         "ACNS 2021" # acnsname # ", Part~II"
         ed:             "Kazue Sako and Nils Ole Tippenhauer"
         vol1:           "12726"
         vol2:           "12727"
@@ -1226,8 +1226,8 @@ acns:
     22:                 "ACNS22"
         key:            "ACNS 2022"
         name:
-            @0:         "ACNS 22: 20th " # acnsname
-            @2:         "ACNS 22" # acnsname
+            @0:         "ACNS 2022: 20th " # acnsname
+            @2:         "ACNS 2022" # acnsname
         ed:             "Giuseppe Ateniese and Daniele Venturi"
         vol:            "13269"
         addr:
@@ -1243,11 +1243,11 @@ acns:
         key1:           "ACNS 2023, Part~I"
         key2:           "ACNS 2023, Part~II"
         name1:
-            @0:         "ACNS 23: 21st " # acnsname # ", Part~I"
-            @2:         "ACNS 23" # acnsname # ", Part~I"
+            @0:         "ACNS 2023: 21st " # acnsname # ", Part~I"
+            @2:         "ACNS 2023" # acnsname # ", Part~I"
         name2:
-            @0:         "ACNS 23: 21st " # acnsname # ", Part~II"
-            @2:         "ACNS 23" # acnsname # ", Part~II"
+            @0:         "ACNS 2023: 21st " # acnsname # ", Part~II"
+            @2:         "ACNS 2023" # acnsname # ", Part~II"
         ed:             "Mehdi Tibouchi and Xiaofeng Wang"
         vol1:           "13905"
         vol2:           "13906"
@@ -1266,14 +1266,14 @@ acns:
         key2:           "ACNS 2024, Part~II"
         key3:           "ACNS 2024, Part~III"
         name1:
-            @0:         "ACNS 24: 22nd " # acnsname # ", Part~I"
-            @2:         "ACNS 24" # acnsname # ", Part~I"
+            @0:         "ACNS 2024: 22nd " # acnsname # ", Part~I"
+            @2:         "ACNS 2024" # acnsname # ", Part~I"
         name2:
-            @0:         "ACNS 24: 22nd " # acnsname # ", Part~II"
-            @2:         "ACNS 24" # acnsname # ", Part~II"
+            @0:         "ACNS 2024: 22nd " # acnsname # ", Part~II"
+            @2:         "ACNS 2024" # acnsname # ", Part~II"
         name3:
-            @0:         "ACNS 24: 22nd " # acnsname # ", Part~III"
-            @2:         "ACNS 24" # acnsname # ", Part~III"
+            @0:         "ACNS 2024: 22nd " # acnsname # ", Part~III"
+            @2:         "ACNS 2024" # acnsname # ", Part~III"
         ed:             "Christina P{\"o}pper and Lejla Batina"
         vol1:           "14583"
         vol2:           "14584"
@@ -1291,11 +1291,11 @@ acns:
         key1:           "ACNS 2025, Part~I"
         key2:           "ACNS 2025, Part~II"
         name1:
-            @0:         "ACNS 25: 23rd " # acnsname # ", Part~I"
-            @2:         "ACNS 25" # acnsname # ", Part~I"
+            @0:         "ACNS 2025: 23rd " # acnsname # ", Part~I"
+            @2:         "ACNS 2025" # acnsname # ", Part~I"
         name2:
-            @0:         "ACNS 25: 23rd " # acnsname # ", Part~II"
-            @2:         "ACNS 25" # acnsname # ", Part~II"
+            @0:         "ACNS 2025: 23rd " # acnsname # ", Part~II"
+            @2:         "ACNS 2025" # acnsname # ", Part~II"
         ed:             ""
         vol1:           ""
         vol2:           ""
