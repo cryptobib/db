@@ -11852,22 +11852,40 @@ pkc:
     25:                 "PKC25"
         -1:             "PKC25-1"
         -2:             "PKC25-2"
+        -3:             "PKC25-3"
+        -4:             "PKC25-4"
+        -5:             "PKC25-5"
         key1:           "PKC 2025, Part~I"
         key2:           "PKC 2025, Part~II"
+        key3:           "PKC 2025, Part~III"
+        key4:           "PKC 2025, Part~IV"
+        key5:           "PKC 2025, Part~V"
         name1:
             @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~I"
             @2:         "PKC~2025" # pkcname_v2 # ", Part~I"
         name2:
             @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~II"
             @2:         "PKC~2025" # pkcname_v2 # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:
+            @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~III"
+            @2:         "PKC~2025" # pkcname_v2 # ", Part~III"
+        name4:
+            @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~IV"
+            @2:         "PKC~2025" # pkcname_v2 # ", Part~IV"
+        name5:
+            @0:         "PKC~2025: 28th " # pkcname_v2 # ", Part~V"
+            @2:         "PKC~2025" # pkcname_v2 # ", Part~V"
+        ed:             "Tibor Jager and Jiaxin Pan"
+        vol1:           "15674"
+        vol2:           "15675"
+        vol3:           "15676"
+        vol4:           "15677"
+        vol5:           "15678"
         addr:
-            @0:         ""
+            @0:         "R\o{}ros, Norway"
             @1:         ""
         month:
-            @0:         may # "~10--13,"
+            @0:         may # "~12--15,"
             @1:         may
         pub:            springer_cham
 podcname:
