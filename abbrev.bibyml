@@ -2705,14 +2705,14 @@ cans:
     24:
         -1:             "CANS24-1"
         -2:             "CANS24-2"
-        key1:           "CANS 2014, Part~I"
-        key2:           "CANS 2014, Part~II"
+        key1:           "CANS 2024, Part~I"
+        key2:           "CANS 2024, Part~II"
         name1:
-            @0:         "CANS~2014: 23rd " # cansname # ", Part~I"
-            @2:         "CANS~2014" # cansname # ", Part~I"
+            @0:         "CANS~2024: 23rd " # cansname # ", Part~I"
+            @2:         "CANS~2024" # cansname # ", Part~I"
         name2:
-            @0:         "CANS~2014: 23rd " # cansname # ", Part~II"
-            @2:         "CANS~2014" # cansname # ", Part~II"
+            @0:         "CANS~2024: 23rd " # cansname # ", Part~II"
+            @2:         "CANS~2024" # cansname # ", Part~II"
         ed:             "Markulf Kohlweiss and Roberto {Di Pietro} and Alastair R. Beresford"
         vol1:           "14905"
         vol2:           "14906"
