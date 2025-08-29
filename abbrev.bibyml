@@ -524,7 +524,7 @@ acisp:
         name3:
             @0:         "ACISP 24: 29th " # acispname # ", Part~III"
             @2:         "ACISP 24" # acispname # ", Part~III"
-        ed:             "Tianqing Zhu, Yannan Li"
+        ed:             "Tianqing Zhu and Yannan Li"
         vol1:           "14895"
         vol2:           "14896"
         vol3:           "14897"
@@ -535,20 +535,33 @@ acisp:
             @0:         jul # "~15--17,"
             @1:         jul
         pub:            springer_singapore
-    25:                 "ACISP25"
-        key:            "ACISP 2025"
-        name:
-            @0:         "ACISP 25: 30th " # acispname
-            @2:         "ACISP 25" # acispname
-        ed:             ""
-        vol:            ""
+    25:
+        -1:             "ACISP25-1"
+        -2:             "ACISP25-2"
+        -3:             "ACISP25-3"
+        key1:           "ACISP 2025, Part~I"
+        key2:           "ACISP 2025, Part~II"
+        key3:           "ACISP 2025, Part~III"
+        name1:
+            @0:         "ACISP 25: 30th " # acispname # ", Part~I"
+            @2:         "ACISP 25" # acispname # ", Part~I"
+        name2:
+            @0:         "ACISP 25: 30th " # acispname # ", Part~II"
+            @2:         "ACISP 25" # acispname # ", Part~II"
+        name3:
+            @0:         "ACISP 25: 30th " # acispname # ", Part~III"
+            @2:         "ACISP 25" # acispname # ", Part~III"
+        ed:             "Willy Susilo and Josef Pieprzyk"
+        vol1:           "15658"
+        vol2:           "15659"
+        vol3:           "15660"
         addr:
-            @0:         ""
+            @0:         "Wollongong, NSW, Australia"
             @1:         ""
         month:
-            @0:         dec # "~1--3,"
-            @1:         dec
-        pub:            springer_cham
+            @0:         jul # "~14--16,"
+            @1:         jul
+        pub:            springer_singapore
 ccsname:
     @0:                 "Conference on Computer and Communications Security"
     @2:                 ""
@@ -1288,22 +1301,28 @@ acns:
     25:
         -1:             "ACNS25-1"
         -2:             "ACNS25-2"
+        -3:             "ACNS25-3"
         key1:           "ACNS 2025, Part~I"
         key2:           "ACNS 2025, Part~II"
+        key3:           "ACNS 2025, Part~III"
         name1:
             @0:         "ACNS 2025: 23rd " # acnsname # ", Part~I"
             @2:         "ACNS 2025" # acnsname # ", Part~I"
         name2:
             @0:         "ACNS 2025: 23rd " # acnsname # ", Part~II"
             @2:         "ACNS 2025" # acnsname # ", Part~II"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
+        name3:
+            @0:         "ACNS 2025: 23rd " # acnsname # ", Part~III"
+            @2:         "ACNS 2025" # acnsname # ", Part~III"
+        ed:             "Marc Fischlin and Veelasha Moonsamy"
+        vol1:           "15825"
+        vol2:           "15826"
+        vol3:           "15827"
         addr:
-            @0:         ""
+            @0:         "Munich, Germany"
             @1:         ""
         month:
-            @0:         jun # "~21--24,"
+            @0:         jun # "~23--26,"
             @1:         jun
         pub:            springer_cham
 africacryptname:
@@ -1525,14 +1544,14 @@ africacrypt:
         name:
             @0:         "AFRICACRYPT 25: 16th " # africacryptname
             @2:         "AFRICACRYPT 25" # africacryptname
-        ed:             ""
-        vol:            ""
+        ed:             "Abderrahmane Nitaj and Svetla Petkova-Nikova and Vincent Rijmen"
+        vol:            "15651"
         addr:
-            @0:         ""
+            @0:         "Rabat, Morocco"
             @1:         ""
         month:
-            @0:         may
-            @1:         may
+            @0:         jul # "~21--23,"
+            @1:         jul
         pub:            springer_cham
     26:                 "AFRICACRYPT26"
         key:            "AFRICACRYPT 2026"
@@ -4115,14 +4134,14 @@ rsa:
     25:                 "RSA25"
         key:            "CT-RSA 2025"
         name:           rsaname # "~2025"
-        ed:             ""
-        vol:            ""
+        ed:             "Arpita Patra"
+        vol:            "15598"
         addr:
             @0:         "San Francisco, CA, USA"
             @1:         ""
         month:
-            @0:         feb # "~24--28,"
-            @1:         feb
+            @0:         apr # "~28~--~" # may # "~1,"
+            @1:         apr # "~/~" # may
         pub:            springer_cham
 esoricsname:
     @0:                 "European Symposium on Research in Computer Security"
@@ -7373,13 +7392,13 @@ icalp:
         name:
             @0:         "ICALP 2025: 52nd " # icalpname
             @2:         "ICALP 2025" # icalpname
-        ed:             ""
-        vol:            ""
+        ed:             "Keren {Censor-Hillel} and Fabrizio Grandoni and Jo{\"e}l Ouaknine and Gabriele Puppis"
+        vol:            "334"
         addr:
-            @0:         ""
+            @0:         "Aarhus, Denmark"
             @1:         ""
         month:
-            @0:         jul # "~4--8,"
+            @0:         jul # "~8--11,"
             @1:         jul
 iccsaname:
     @0:                 "Computational Science and Its Applications"
@@ -8317,6 +8336,20 @@ icisc:
             @0:         nov # "~30~--~" # dec # "~2,"
             @1:         nov # "~/~" # dec
         pub:            springer_singapore
+    24:                 "ICISC24"
+        key:            "ICISC 2024"
+        name:
+            @0:         "ICISC 24: 27th " # iciscname
+            @2:         "ICISC 24" # iciscname
+        ed:             "Jongsung Kim and Jungsoo Park and {Wai-Kong} Lee"
+        vol:            "15596"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~20--22,"
+            @1:         nov # 
+        pub:            springer_singapore
 icitsname:
     @0:                 "International Conference on Information Theoretic Security"
     @2:                 ""
@@ -8772,12 +8805,12 @@ ieeesp:
     25:                 "SP25"
         key:            "IEEE S\&P 2025"
         name:           "2025 " # ieeespname
-        ed:             ""
+        ed:             "Marina Blanton and William Enck and Cristina Nita-Rotaru"
         addr:
             @0:         "San Francisco, CA, USA"
             @1:         ""
         month:
-            @0:         may
+            @0:         may # "~12--15,"
             @1:         may
     26:                 "SP26"
         key:            "IEEE S\&P 2026"
@@ -10159,13 +10192,13 @@ itcs:
         name:
             @0:         "ITCS 2025: 16th " # itcsname_v4
             @2:         "ITCS 2025" # itcsname_v4
-        ed:             ""
-        vol:            ""
+        ed:             "Raghu Meka"
+        vol:            "325"
         addr:
-            @0:         ""
+            @0:         "New York, NY, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~7--10,"
             @1:         jan
 iwsecname:
     @0:                 "International Workshop on Security, Advances in Information and Computer Security"
@@ -11108,7 +11141,7 @@ ndss:
             @0:         "San Diego, CA, USA"
             @1:         ""
         month:
-            @0:         feb
+            @0:         feb # "~24--28,"
             @1:         feb
 pairingname:
     @0:                 "International Conference on Pairing-based Cryptography"
@@ -12326,13 +12359,13 @@ podc:
     25:                 "PODC25"
         key:            "PODC 2025"
         name:           "44th " # podcname
-        ed:             ""
+        ed:             "Alkida Balliu and Fabian Kuhn"
         addr:
-            @0:         ""
+            @0:         "Huatulco, Mexico"
             @1:         ""
         month:
-            @0:         jul # "~21--23,"
-            @1:         jul
+            @0:         jun # "~16--20,"
+            @1:         jun
     26:                 "PODC26"
         key:            "PODC 2026"
         name:           "45th " # podcname
@@ -13657,12 +13690,12 @@ soda:
     25:                 "SODA25"
         key:            "SODA 2025"
         name:           "36th " # sodaname
-        ed:             ""
+        ed:             "Yossi Azar and Debmalya Panigrahi:"
         addr:
-            @0:         ""
+            @0:         "New Orleans, LA, USA"
             @1:         ""
         month:
-            @0:         jan
+            @0:         jan # "~12--15,"
             @1:         jan
 stocname:
     @0:                 "Annual {ACM} Symposium on Theory of Computing"
@@ -14120,12 +14153,12 @@ stoc:
     25:                 "STOC25"
         key:            "STOC 2025"
         name:           "57th " # stocname
-        ed:             ""
+        ed:             "Michal Kouck\'{y} and Nikhil Bansal"
         addr:
-            @0:         ""
+            @0:         "Prague, Czechia"
             @1:         ""
         month:
-            @0:         jun
+            @0:         jun # "~23--27,"
             @1:         jun
 tccname:
     @0:                 "Theory of Cryptography Conference"
@@ -15883,6 +15916,23 @@ pqcrypto:
         month:
             @0:         jun # "~12--14,"
             @1:         jun
+        pub:            springer_cham
+    25:                 "PQCRYPTO25"
+        -1:             "PQCRYPTO25-1"
+        -2:             "PQCRYPTO25-2"
+        key1:           "PQCRYPTO 2025, Part~I"
+        key2:           "PQCRYPTO 2025, Part~II"
+        name1:          "Post-Quantum Cryptography - 16th International Workshop, PQCrypto 2025, Part~I"
+        name2:          "Post-Quantum Cryptography - 16th International Workshop, PQCrypto 2025, Part~II"
+        ed:             "Ruben Niederhagen and Markku-Juhani O. Saarinen"
+        vol1:           "15577"
+        vol2:           "15578"
+        addr:
+            @0:         "Taipei, Taiwan"
+            @1:         ""
+        month:
+            @0:         apr # "~08--10,"
+            @1:         apr
         pub:            springer_cham
 csfname:                "Computer Security Foundations Symposium"
 csfpub:                 "{IEEE} Computer Society Press"
