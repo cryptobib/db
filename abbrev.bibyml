@@ -8348,7 +8348,7 @@ icisc:
             @1:         ""
         month:
             @0:         nov # "~20--22,"
-            @1:         nov # 
+            @1:         nov
         pub:            springer_singapore
 icitsname:
     @0:                 "International Conference on Information Theoretic Security"
