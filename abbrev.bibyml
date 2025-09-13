@@ -3802,8 +3802,6 @@ crypto:
         -6:             "C25-6"
         -7:             "C25-7"
         -8:             "C25-8"
-        -9:             "C25-9"
-        -10:            "C25-10"
         key1:           "CRYPTO 2025, Part~I"
         key2:           "CRYPTO 2025, Part~II"
         key3:           "CRYPTO 2025, Part~III"
@@ -3812,8 +3810,6 @@ crypto:
         key6:           "CRYPTO 2025, Part~VI"
         key7:           "CRYPTO 2025, Part~VII"
         key8:           "CRYPTO 2025, Part~VIII"
-        key9:           "CRYPTO 2025, Part~IX"
-        key10:          "CRYPTO 2025, Part~X"
         name1:          cryptoname # "~2025, Part~I"
         name2:          cryptoname # "~2025, Part~II"
         name3:          cryptoname # "~2025, Part~III"
@@ -3822,21 +3818,17 @@ crypto:
         name6:          cryptoname # "~2025, Part~VI"
         name7:          cryptoname # "~2025, Part~VII"
         name8:          cryptoname # "~2025, Part~VIII"
-        name9:          cryptoname # "~2025, Part~IX"
-        name10:         cryptoname # "~2025, Part~X"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
-        vol4:           ""
-        vol5:           ""
-        vol6:           ""
-        vol7:           ""
-        vol8:           ""
-        vol9:           ""
-        vol10:          ""
+        ed:             "Yael Tauman Kalai and Seny F. Kamara"
+        vol1:           "16000"
+        vol2:           "16001"
+        vol3:           "16002"
+        vol4:           "16003"
+        vol5:           "16004"
+        vol6:           "16005"
+        vol7:           "16006"
+        vol8:           "16007"
         month:
-            @0:         aug
+            @0:         aug # "~17--21,"
             @1:         aug
         pub:            springer_cham
 rsaname:
@@ -9980,6 +9972,19 @@ itc:
             @1:         ""
         month:
             @0:         aug # "~14--16,"
+            @1:         aug
+    25:                 "ITC25"
+        key:            "ITC 2025"
+        name:
+            @0:         "ITC 2025: 6th " # itcname
+            @2:         "ITC 2025" # itcname
+        ed:             "Niv Gilboa"
+        vol:            "343"
+        addr:
+            @0:         "Santa Barbara, CA, USA"
+            @1:         ""
+        month:
+            @0:         aug # "~16--17,"
             @1:         aug
 itcsname_v:
     1:
