@@ -8947,6 +8947,16 @@ ieeeeurosp:
         month:
             @0:         jul # "~8--12,"
             @1:         jul
+    25:                 "EUROSP25"
+        key:            "IEEE EuroS\&P 2025"
+        name:           "2024 " # ieeeeurospname
+        ed:             ""
+        addr:
+            @0:         "Venice, Italy"
+            @1:         ""
+        month:
+            @0:         jun # "~30~--~" # jul # "~4,"
+            @1:         jun # "~/~" # jul
 imaname:                "IMA International Conference on Cryptography and Coding"
 ima:
     95:                 "IMA95"
