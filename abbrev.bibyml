@@ -940,18 +940,18 @@ ccs:
         month:
             @0:         oct # "~14--18,"
             @1:         oct
-    25:                 "CCS24"
+    25:                 "CCS25"
         key:            "ACM CCS 2025"
         name:
             @0:         "ACM CCS 2025: 32nd " # ccsname
             @2:         "ACM CCS 2025" # ccsname
-        ed:             ""
+        ed:             "Chun-Ying Huang and Jyh-Cheng Chen and Shiuh-Pyng Shieh and David Lie and Véronique Cortier"
         addr:
-            @0:         ""
+            @0:         "Taipei, Taiwan"
             @1:         ""
         month:
-            @0:         nov
-            @1:         nov
+            @0:         oct # "~13--17,"
+            @1:         oct
 acnsname:
     @0:                 "International Conference on Applied Cryptography and Network Security"
     @2:                 ""
