@@ -15319,12 +15319,12 @@ usenix:
         name:
             @0:         "USENIX Security 2025: 34th " # usenixname
             @2:         "USENIX Security 2025" # usenixname
-        ed:             ""
+        ed:             "Lujo Bauer and Giancarlo Pellegrino"
         addr:
-            @0:         ""
+            @0:         "Seattle, WA, USA"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~13--15,"
             @1:         aug
     26:                 "USENIX26"
         key:            "USENIX Security 2026"
