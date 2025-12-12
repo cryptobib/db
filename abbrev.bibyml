@@ -7937,19 +7937,32 @@ icics:
             @0:         aug # "~26--28,"
             @1:         aug
         pub:            springer_singapore
-    25:                 "ICICS25"
-        key:            "ICICS 2025"
-        name:
-            @0:         "ICICS 25: 27th " # icicsname
-            @2:         "ICICS 25" # icicsname
-        ed:             ""
-        vol:            ""
+    25:
+        -1:             "ICICS25-1"
+        -2:             "ICICS25-2"
+        -3:             "ICICS25-2"
+        key1:           "ICICS 2025, Part~I"
+        key2:           "ICICS 2025, Part~II"
+        key3:           "ICICS 2025, Part~III"
+        name1:
+            @0:         "ICICS 25: 27th " # icicsname # ", Part~I"
+            @2:         "ICICS 25" # icicsname # ", Part~I"
+        name2:
+            @0:         "ICICS 25: 27th " # icicsname # ", Part~II"
+            @2:         "ICICS 25" # icicsname # ", Part~II"
+        name3:
+            @0:         "ICICS 25: 27th " # icicsname # ", Part~III"
+            @2:         "ICICS 25" # icicsname # ", Part~III"
+        ed:             "Jinguang Han and Yang Xiang and Guang Cheng and Willy Susilo and Liquan Chen"
+        vol1:           "16217"
+        vol2:           "16218"
+        vol3:           "16219"
         addr:
-            @0:         ""
+            @0:         "Nanjing, China"
             @1:         ""
         month:
-            @0:         dec # "~9--11,"
-            @1:         dec
+            @0:         oct # "~29--31,"
+            @1:         oct
         pub:            springer_singapore
 iciscname:
     @0:                 "International Conference on Information Security and Cryptology"
@@ -10838,6 +10851,20 @@ latincrypt:
             @2:         ""
         month:
             @0:         oct # "~3--6,"
+            @1:         oct
+        pub:            springer_cham
+    25:                 "LC23"
+        key:            "LATINCRYPT 2025"
+        name:
+            @0:         latincryptname # "~2025: 9th " # latincryptsuffix
+            @2:         latincryptname # "~2025" # latincryptsuffix
+        ed:             "Daniel Escudero and Ivan Damg{\aa}rd:"
+        vol:            "16129"
+        addr:
+            @0:         "Medellín, Colombia"
+            @2:         ""
+        month:
+            @0:         oct # "~1--3,"
             @1:         oct
         pub:            springer_cham
 ndssname:
