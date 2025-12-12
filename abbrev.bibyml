@@ -1849,11 +1849,11 @@ asiaccs:
             @2:         "ASIACCS 25" # asiaccsname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Hanoi, Vietnam"
             @1:         ""
         month:
-            @0:         jun # "~7--11,"
-            @1:         jun
+            @0:         aug # "~25--29,"
+            @1:         aug
 asiacryptname:
     @0:                 "Advances in Cryptology -- {ASIACRYPT}"
     @2:                 "ASIACRYPT"
