@@ -12726,6 +12726,20 @@ provsec:
             @0:         sep # "~25--27,"
             @1:         sep
         pub:            springer_singapore
+    25:                 "PROVSEC25"
+        key:            "PROVSEC 2025"
+        name:
+            @0:         "ProvSec 2025: 19th " # provsecname
+            @2:         "ProvSec 2025" # provsecname
+        ed:             "Guomin Yang and Shengli Liu and Chunhua Su and Akira Otsuka and Zhuotao Lian"
+        vol:            "16172"
+        addr:
+            @0:         "Yokohama, Japan"
+            @1:         ""
+        month:
+            @0:         oct # "~10--12,"
+            @1:         oct
+        pub:            springer_cham
 sacname:
     @0:                 "Annual International Workshop on Selected Areas in Cryptography"
     @2:                 ""
