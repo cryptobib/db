@@ -2435,20 +2435,20 @@ asiacrypt:
         name6:          asiacryptname # "~2025, Part~VI"
         name7:          asiacryptname # "~2025, Part~VII"
         name8:          asiacryptname # "~2025, Part~VIII"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
-        vol4:           ""
-        vol5:           ""
-        vol6:           ""
-        vol7:           ""
-        vol8:           ""
+        ed:             "Goichiro Hanaoka and Bo-Yin Yang"
+        vol1:           "16245"
+        vol2:           "16246"
+        vol3:           "16247"
+        vol4:           "16248"
+        vol5:           "16249"
+        vol6:           "16250"
+        vol7:           "16251"
+        vol8:           "16252"
         addr:
-            @0:         ""
+            @0:         "Melbourne, VIC, Australia"
             @1:         ""
         month:
-            @0:         dec # "~7--11,"
+            @0:         dec # "~8--12,"
             @1:         dec
         pub:            springer_singapore
 cansname:
@@ -2747,14 +2747,14 @@ cans:
         name:
             @0:         "CANS 25: 24th " # cansname
             @2:         "CANS 25" # cansname
-        ed:             ""
-        vol:            ""
+        ed:             "Yongdae Kim and Atsuko Miyaji and Mehdi Tibouchi"
+        vol:            "16351"
         addr:
-            @0:         ""
+            @0:         "Osaka, Japan"
             @1:         ""
         month:
-            @0:         dec
-            @1:         dec
+            @0:         nov # "~17--20,"
+            @1:         nov
         pub:            springer_singapore
     26:                 "CANS26"
         key:            "CANS 2026"
@@ -4656,9 +4656,11 @@ esorics:
         -1:             "ESORICS25-1"
         -2:             "ESORICS25-2"
         -3:             "ESORICS25-3"
+        -4:             "ESORICS25-4"
         key1:           "ESORICS 2025, Part~I"
         key2:           "ESORICS 2025, Part~II"
         key3:           "ESORICS 2025, Part~III"
+        key4:           "ESORICS 2025, Part~IV"
         name1:
             @0:         "ESORICS~2025: 30th " # esoricsname # ", Part~I"
             @2:         "ESORICS~2025" # esoricsname # ", Part~I"
@@ -4668,15 +4670,19 @@ esorics:
         name3:
             @0:         "ESORICS~2025: 30th " # esoricsname # ", Part~III"
             @2:         "ESORICS~2025" # esoricsname # ", Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:
+            @0:         "ESORICS~2025: 30th " # esoricsname # ", Part~IV"
+            @2:         "ESORICS~2025" # esoricsname # ", Part~IV"
+        ed:             "Vincent Nicomette and Abdelmalek Benzekri and Nora Boulahia-Cuppens and Jaideep Vaidya"
+        vol1:           "16053"
+        vol2:           "16054"
+        vol3:           "16055"
+        vol4:           "16056"
         addr:
-            @0:         ""
+            @0:         "Toulouse, France"
             @1:         ""
         month:
-            @0:         sep
+            @0:         sep # "~22--24,"
             @1:         sep
         pub:            springer_cham
 eurocryptname:
@@ -9535,6 +9541,20 @@ indocrypt:
             @0:         dec # "~18--21,"
             @1:         dec
         pub:            springer_cham
+    25:                 "INDOCRYPT25"
+        key:            "INDOCRYPT 2025"
+        name:
+            @0:         indocryptname # "~2025: 26th " # indocryptsuffix
+            @2:         indocryptname # "~2025" # indocryptsuffix
+        ed:             "Ratna Dutta and Luca De Feo and Sugata Gangopadhyay"
+        vol:            "16372"
+        addr:
+            @0:         "Bhubaneshwar, India"
+            @1:         ""
+        month:
+            @0:         dec # "~14--17,"
+            @1:         dec
+        pub:            springer_cham
 iscname_v:
     1:
         @0:             "International Workshop on Information Security"
@@ -9924,6 +9944,20 @@ isc:
             @1:         ""
         month:
             @0:         oct # "~23--25,"
+            @1:         oct
+        pub:            springer_cham
+    25:                 "ISC25"
+        key:            "ISC 2025"
+        name:
+            @0:         "ISC~2025: 28th " # iscname_v2
+            @2:         "ISC~2025" # iscname_v2
+        ed:             "Sang Kil Cha and Jeongeun Park"
+        vol:            "16186"
+        addr:
+            @0:         "Seoul, South Korea"
+            @1:         ""
+        month:
+            @0:         oct # "~20--22,"
             @1:         oct
         pub:            springer_cham
 itcname:
@@ -10485,7 +10519,7 @@ iwsec:
             @0:         aug # "~29--31,"
             @1:         aug
         pub:            springer_cham
-    24:                 "IWSEC23"
+    24:                 "IWSEC24"
         key:            "IWSEC 2024"
         name:
             @0:         "IWSEC 24: 19th " # iwsecname
@@ -10498,6 +10532,20 @@ iwsec:
         month:
             @0:         sep # "~17--19,"
             @1:         sep
+        pub:            springer_singapore
+    25:                 "IWSEC25"
+        key:            "IWSEC 2025"
+        name:
+            @0:         "IWSEC 25: 20th " # iwsecname
+            @2:         "IWSEC 25" # iwsecname
+        ed:             "Carlos Cid and Naoto Yanai"
+        vol:            "16208"
+        addr:
+            @0:         "Fukuoka, Japan"
+            @1:         ""
+        month:
+            @0:         nov # "~25--27,"
+            @1:         nov
         pub:            springer_singapore
 latinname:
     @0:                 "Latin American Symposium"
@@ -14650,9 +14698,11 @@ tcc:
         -1:             "TCC25-1"
         -2:             "TCC25-2"
         -3:             "TCC25-3"
+        -4:             "TCC25-4"
         key1:           "TCC 2025, Part~I"
         key2:           "TCC 2025, Part~II"
         key3:           "TCC 2025, Part~III"
+        key4:           "TCC 2025, Part~IV"
         name1:
             @0:         "TCC~2025: 23rd " # tccname # ", Part~I"
             @2:         "TCC~2025" # tccname  # ", Part~I"
@@ -14662,16 +14712,20 @@ tcc:
         name3:
             @0:         "TCC~2025: 23rd " # tccname # ", Part~III"
             @2:         "TCC~2025" # tccname  # ", Part~III"
-        ed:             ""
-        vol1:           ""
-        vol2:           ""
-        vol3:           ""
+        name4:
+            @0:         "TCC~2025: 23rd " # tccname # ", Part~IV"
+            @2:         "TCC~2025" # tccname  # ", Part~IV"
+        ed:             "Benny Applebaum and Huijia (Rachel) Lin"
+        vol1:           "16268"
+        vol2:           "16269"
+        vol3:           "16270"
+        vol4:           "16271"
         addr:
-            @0:         ""
+            @0:         "Aarhus, Denmark"
             @1:         ""
         month:
-            @0:         nov
-            @1:         nov
+            @0:         dec # "~1--5,"
+            @1:         dec
         pub:            springer_cham
 tches:
     @0:                 "{IACR} Transactions on Cryptographic Hardware and Embedded Systems"
@@ -16216,11 +16270,11 @@ csf:
             @2:         "CSF 2025 " # csfname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Santa Cruz, CA, USA"
             @1:         ""
         month:
-            @0:         jul
-            @1:         ""
+            @0:         jun # "~16--20,"
+            @1:         jun
     26:                 "CSF26"
         key:            "CSF 2026"
         name:
