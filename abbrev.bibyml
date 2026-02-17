@@ -6380,11 +6380,11 @@ focs:
         name:           "66th " # focsname
         ed:             ""
         addr:
-            @0:         ""
+            @0:         "Sydney, Australia"
             @1:         ""
         month:
-            @0:         oct
-            @1:         oct
+            @0:         dec # "~14--17,"
+            @1:         dec
 fsename:
     @0:                 "Fast Software Encryption -- {FSE}"
     @2:                 "FSE"
@@ -13222,13 +13222,13 @@ sac:
         name:
             @0:         "SAC 2025: 32nd " # sacname
             @2:         "SAC 2025" # sacname
-        ed:             ""
-        vol:            ""
+        ed:             "Christina Boura and Atefeh Mashatan and Ali Miri"
+        vol:            "16207"
         addr:
-            @0:         ""
+            @0:         "Toronto, ON, Canada"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~13-15,"
             @1:         aug
         pub:            springer_cham
 scnname:
