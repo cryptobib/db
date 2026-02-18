@@ -181,6 +181,8 @@ add_conf("EUROSP", "IEEE European Symposium on Security and Privacy", name="IEEE
 add_conf("INDOCRYPT", "International Conference on Cryptology in India")
 add_conf("ISC", "Information Security Conference",
          url="https://dblp.uni-trier.de/db/conf/isw/isc${url_year}${dis}.html")
+add_conf("ISTCS", "Israel Symposium on Theory of Computing Systems",
+         url="https://dblp.uni-trier.de/db/conf/istcs/istcs${url_year}.html")
 add_conf("ITC", "Information-Theoretic Cryptography",
          url="https://dblp.uni-trier.de/db/conf/citc/citc${url_year}.html")
 add_conf("ITCS", "Innovations in Theoretical Computer Science",
@@ -270,6 +272,7 @@ confs_missing_years = {
     "ICITS": {2010, 2014},
     "IMA": {1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024},
     "ISC": {1998},
+    "ISTCS": {1994},
     "LATIN": {1993, 1994, 1996, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019, 2021, 2023, 2025},
     "LC": {2011, 2013, 2016, 2018, 2020, 2022, 2024},
     "PAIRING": {2011},

@@ -9960,6 +9960,79 @@ isc:
             @0:         oct # "~20--22,"
             @1:         oct
         pub:            springer_cham
+istcsname_v:
+    1:
+        @0:             "Israel Symposium on Theory of Computing Systems"
+        @2:             ""
+istcspub_v:
+    1:                  "IEEE Computer Society"
+istcs:
+    92:                 "ISTCS92"
+        key:            "ISTCS 1992"
+        name:
+            @0:         "ISTCS 1992: 1st " # istcsname_v1
+            @2:         "ISTCS 1992" # istcsname_v1
+        ed:             ""
+        addr:
+            @0:         "Haifa, Israel"
+            @1:         ""
+        month:
+            @0:         may
+            @1:         may
+        pub:            istcspub_v1
+    93:                 "ISTCS93"
+        key:            "ISTCS 1993"
+        name:
+            @0:         "ISTCS 1993: 2nd " # istcsname_v1
+            @2:         "ISTCS 1993" # istcsname_v1
+        ed:             ""
+        addr:
+            @0:         "Natanya, Israel"
+            @1:         ""
+        month:
+            @0:         jun # "~7--9,"
+            @1:         jun
+        pub:            istcspub_v1
+    95:                 "ISTCS95"
+        key:            "ISTCS 1995"
+        name:
+            @0:         "ISTCS 1995: 3rd " # istcsname_v1
+            @2:         "ISTCS 1995" # istcsname_v1
+        ed:             ""
+        addr:
+            @0:         "Tel Aviv, Israel"
+            @1:         ""
+        month:
+            @0:         jan # "~4--6,"
+            @1:         jan
+        pub:            istcspub_v1
+    96:                 "ISTCS96"
+        key:            "ISTCS 1996"
+        name:
+            @0:         "ISTCS 1996: 4th " # istcsname_v1
+            @2:         "ISTCS 1996" # istcsname_v1
+        ed:             ""
+        addr:
+            @0:         "Jerusalem, Israel"
+            @1:         ""
+        month:
+            @0:         jun # "~10--12,"
+            @1:         jun
+        pub:            istcspub_v1
+    97:                 "ISTCS97"
+        key:            "ISTCS 1997"
+        name:
+            @0:         "ISTCS 1997: 5th " # istcsname_v1
+            @2:         "ISTCS 1997" # istcsname_v1
+        ed:             ""
+        vol:            ""
+        addr:
+            @0:         "Ramat-Gan, Israel"
+            @1:         ""
+        month:
+            @0:         jun # "~17--19,"
+            @1:         jun
+        pub:            istcspub_v1
 itcname:
     @0:                 "Conference on Information-Theoretic Cryptography"
     @2:                 ""
@@ -10151,10 +10224,10 @@ itcs:
             @0:         "ITCS 2017: 8th " # itcsname_v4
             @2:         "ITCS 2017" # itcsname_v4
         ed:             "Christos H. Papadimitriou"
-        vol:            "4266"
+        vol:            "67"
         addr:
             @0:         "Berkeley, CA, USA"
-            @1:         "67"
+            @1:         ""
         month:
             @0:         jan # "~9--11,"
             @1:         jan
