@@ -15925,11 +15925,15 @@ wisa:
             @0:         aug
             @1:         aug
         pub:            springer_singapore
-pqcryptoname:          "Post-Quantum Cryptography"
+pqcryptoname:
+    @0:                 "Post-Quantum Cryptography"
+    @2:                 "PQCrypto"
 pqcrypto:
     08:                 "PQCRYPTO08"
         key:            "PQCRYPTO 2008"
-        name:           "Post-quantum cryptography, second international workshop, PQCRYPTO 2008"
+        name:
+            @0:         "Post-quantum cryptography, second international workshop, PQCRYPTO 2008"
+            @2:         "PQCrypto~2008"
         ed:             "Johannes Buchmann and Jintai Ding"
         vol:            "5299"
         addr:
@@ -15941,7 +15945,9 @@ pqcrypto:
         pub:            springer_berlin_heidelberg
     10:                 "PQCRYPTO10"
         key:            "PQCRYPTO 2010"
-        name:           "The Third International Workshop on Post-Quantum Cryptography, PQCRYPTO 2010"
+        name:
+            @0:         "The Third International Workshop on Post-Quantum Cryptography, PQCRYPTO 2010"
+            @2:         "PQCrypto~2010"
         ed:             "Nicolas Sendrier"
         vol:            "6061"
         addr:
@@ -15953,7 +15959,9 @@ pqcrypto:
         pub:            springer_berlin_heidelberg
     11:                 "PQCRYPTO11"
         key:            "PQCRYPTO 2011"
-        name:           "Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011"
+        name:
+            @0:         "Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011"
+            @2:         "PQCrypto~2011"
         ed:             "Bo-Yin Yang"
         vol:            "7071"
         addr:
@@ -15965,7 +15973,9 @@ pqcrypto:
         pub:            springer_berlin_heidelberg
     13:                 "PQCRYPTO13"
         key:            "PQCRYPTO 2013"
-        name:           "Post-Quantum Cryptography - 5th International Workshop, PQCrypto 2013"
+        name:
+            @0:         "Post-Quantum Cryptography - 5th International Workshop, PQCrypto 2013"
+            @2:         "PQCrypto~2013"
         ed:             "Philippe Gaborit"
         vol:            "7932"
         addr:
@@ -15977,7 +15987,9 @@ pqcrypto:
         pub:            springer_berlin_heidelberg
     14:                 "PQCRYPTO14"
         key:            "PQCRYPTO 2014"
-        name:           "Post-Quantum Cryptography - 6th International Workshop, PQCrypto 2014"
+        name:
+            @0:         "Post-Quantum Cryptography - 6th International Workshop, PQCrypto 2014"
+            @2:         "PQCrypto~2014"
         ed:             "Michele Mosca"
         vol:            "8772"
         addr:
@@ -15989,7 +16001,9 @@ pqcrypto:
         pub:            springer_cham
     16:                 "PQCRYPTO16"
         key:            "PQCRYPTO 2016"
-        name:           "Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016"
+        name:
+            @0:         "Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016"
+            @2:         "PQCrypto~2016"
         ed:             "Tsuyoshi Takagi"
         vol:            "9606"
         addr:
@@ -16001,7 +16015,9 @@ pqcrypto:
         pub:            springer_cham
     17:                 "PQCRYPTO17"
         key:            "PQCRYPTO 2017"
-        name:           "Post-Quantum Cryptography - 8th International Workshop, PQCrypto 2017"
+        name:
+            @0:         "Post-Quantum Cryptography - 8th International Workshop, PQCrypto 2017"
+            @2:         "PQCrypto~2017"
         ed:             "Tanja Lange and Tsuyoshi Takagi"
         vol:            "10346"
         addr:
@@ -16013,7 +16029,9 @@ pqcrypto:
         pub:            springer_cham
     18:                 "PQCRYPTO18"
         key:            "PQCRYPTO 2018"
-        name:           "Post-Quantum Cryptography - 9th International Conference, PQCrypto 2018"
+        name:
+            @0:         "Post-Quantum Cryptography - 9th International Conference, PQCrypto 2018"
+            @2:         "PQCrypto~2018"
         ed:             "Tanja Lange and Rainer Steinwandt"
         vol:            "10786"
         addr:
@@ -16025,7 +16043,9 @@ pqcrypto:
         pub:            springer_cham
     19:                 "PQCRYPTO19"
         key:            "PQCRYPTO 2019"
-        name:           "Post-Quantum Cryptography - 10th International Conference, PQCrypto 2019"
+        name:
+            @0:         "Post-Quantum Cryptography - 10th International Conference, PQCrypto 2019"
+            @2:         "PQCrypto~2019"
         ed:             "Jintai Ding and Rainer Steinwandt"
         vol:            "11505"
         addr:
@@ -16037,7 +16057,9 @@ pqcrypto:
         pub:            springer_cham
     20:                 "PQCRYPTO20"
         key:            "PQCRYPTO 2020"
-        name:           "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2020"
+        name:
+            @0:         "Post-Quantum Cryptography - 11th International Conference, PQCrypto 2020"
+            @2:         "PQCrypto~2020"
         ed:             "Jintai Ding and Jean-Pierre Tillich"
         vol:            "12100"
         addr:
@@ -16049,7 +16071,9 @@ pqcrypto:
         pub:            springer_cham
     21:                 "PQCRYPTO21"
         key:            "PQCRYPTO 2021"
-        name:           "Post-Quantum Cryptography - 12th International Workshop, PQCrypto 2021"
+        name:
+            @0:         "Post-Quantum Cryptography - 12th International Workshop, PQCrypto 2021"
+            @2:         "PQCrypto~2021"
         ed:             "Jung Hee Cheon and Jean-Pierre Tillich"
         vol:            "12841"
         addr:
@@ -16061,7 +16085,9 @@ pqcrypto:
         pub:            springer_cham
     22:                 "PQCRYPTO22"
         key:            "PQCRYPTO 2022"
-        name:           "Post-Quantum Cryptography - 13th International Workshop, PQCrypto 2022"
+        name:
+            @0:         "Post-Quantum Cryptography - 13th International Workshop, PQCrypto 2022"
+            @2:         "PQCrypto~2022"
         ed:             "Jung Hee Cheon and Thomas Johansson"
         vol:            "13512"
         addr:
@@ -16073,7 +16099,9 @@ pqcrypto:
         pub:            springer_cham
     23:                 "PQCRYPTO23"
         key:            "PQCRYPTO 2023"
-        name:           "Post-Quantum Cryptography - 14th International Workshop, PQCrypto 2023"
+        name:
+            @0:         "Post-Quantum Cryptography - 14th International Workshop, PQCrypto 2023"
+            @2:         "PQCrypto~2023"
         ed:             "Thomas Johansson and Daniel Smith-Tone"
         vol:            "14154"
         addr:
@@ -16088,8 +16116,12 @@ pqcrypto:
         -2:             "PQCRYPTO24-2"
         key1:           "PQCRYPTO 2024, Part~I"
         key2:           "PQCRYPTO 2024, Part~II"
-        name1:          "Post-Quantum Cryptography - 15th International Workshop, PQCrypto 2024, Part~I"
-        name2:          "Post-Quantum Cryptography - 15th International Workshop, PQCrypto 2024, Part~II"
+        name1:
+            @0:         "Post-Quantum Cryptography - 15th International Workshop, PQCrypto 2024, Part~I"
+            @2:         "PQCrypto~2024, Part~I"
+        name2:
+            @0:         "Post-Quantum Cryptography - 15th International Workshop, PQCrypto 2024, Part~II"
+            @2:         "PQCrypto~2024, Part~II"
         ed:             "Markku-Juhani Saarinen and Daniel Smith-Tone"
         vol1:           "14771"
         vol2:           "14772"
