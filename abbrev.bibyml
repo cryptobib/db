@@ -9977,7 +9977,7 @@ istcs:
             @0:         "Haifa, Israel"
             @1:         ""
         month:
-            @0:         may
+            @0:         may # "~27--28,"
             @1:         may
         pub:            istcspub_v1
     93:                 "ISTCS93"
