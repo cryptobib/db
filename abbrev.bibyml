@@ -5334,6 +5334,43 @@ eurocrypt:
             @0:         may # "~4--8,"
             @1:         may
         pub:            springer_cham
+    26:                 "EC26"
+        -1:             "EC26-1"
+        -2:             "EC26-2"
+        -3:             "EC26-3"
+        -4:             "EC26-4"
+        -5:             "EC26-5"
+        -6:             "EC26-6"
+        -7:             "EC26-7"
+        key1:           "EUROCRYPT 2026, Part~I"
+        key2:           "EUROCRYPT 2026, Part~II"
+        key3:           "EUROCRYPT 2026, Part~III"
+        key4:           "EUROCRYPT 2026, Part~IV"
+        key5:           "EUROCRYPT 2026, Part~V"
+        key6:           "EUROCRYPT 2026, Part~VI"
+        key7:           "EUROCRYPT 2026, Part~VII"
+        name1:          eurocryptname # "~2026, Part~I"
+        name2:          eurocryptname # "~2026, Part~II"
+        name3:          eurocryptname # "~2026, Part~III"
+        name4:          eurocryptname # "~2026, Part~IV"
+        name5:          eurocryptname # "~2026, Part~V"
+        name6:          eurocryptname # "~2026, Part~VI"
+        name7:          eurocryptname # "~2026, Part~VII"
+        ed:             "Joan Daemen and Emmanuel Thom{\'e}"
+        vol1:           "16541"
+        vol2:           "16542"
+        vol3:           "16543"
+        vol4:           "16545"
+        vol5:           "16545"
+        vol6:           "16546"
+        vol7:           "16547"
+        addr:
+            @0:         "Rome, Italy"
+            @1:         ""
+        month:
+            @0:         may # "~10--14,"
+            @1:         may
+        pub:            springer_cham
 fcname_v:
     1:
         @0:             "International Conference on Financial Cryptography"
@@ -5753,19 +5790,26 @@ fc:
             @0:         mar # "~4--8,"
             @1:         mar
         pub:            springer_cham
-    25:                 "FC25"
-        key:            "FC 2025"
-        name:
-            @0:         "FC 2025: 29th " # fcname_v2
-            @2:         "FC 2025" # fcname_v2
-        ed:             ""
-        vol:            ""
+    25: 
+        -1:             "FC25-1"
+        -2:             "FC25-2"
+        key1:           "FC 2025, Part~I"
+        key2:           "FC 2025, Part~II"
+        name1:
+            @0:         "FC 2025: 29th " # fcname_v2 # ", Part~I"
+            @2:         "FC 2025" # fcname_v2 # ", Part~I"
+        name2:
+            @0:         "FC 2025: 29th " # fcname_v2 # ", Part~II"
+            @2:         "FC 2025" # fcname_v2 # ", Part~II"
+        ed:             "Christina Garman and Pedro Moreno-Sanchez"
+        vol1:           "15751"
+        vol2:           "15752"
         addr:
-            @0:         ""
+            @0:         "Miyakojima, Japan"
             @1:         ""
         month:
-            @0:         jan
-            @1:         jan
+            @0:         apr # "~14--18,"
+            @1:         apr
         pub:            springer_cham
 fcw:
     10:                 "FCW10"
@@ -5910,15 +5954,20 @@ fcw:
             @0:         mar # "~4--8,"
             @1:         mar
         pub:            fc24pub
-    25:                 "FCW25"
-        key:            "FCW 2025"
-        name:           "FC 2025 Workshops"
-        ed:             ""
-        vol:            ""
+    25:
+        -1:             "FCW25-1"
+        -2:             "FCW25-2"
+        key1:           "FCW 2025, Part~I"
+        key2:           "FCW 2025, Part~II"
+        name1:          "FC 2025 Workshops, Part~I"
+        name2:          "FC 2025 Workshops, Part~II"
+        ed:             "Bernhard Haslhofer and Java Xu and Friedhelm Victor and Massimo Bartoletti and Andrea Bracciali and Kanta Matsuura and Jarek Nabrzyski and Vero Estrada-Gali{\~n}anes and Claudio Tessone and Jurlind Budurushi and Karola Marky"
+        vol1:           "15753"
+        vol2:           "15754"
         addr:           fc25addr
         month:
-            @0:         jan
-            @1:         jan
+            @0:         apr # "~18,"
+            @1:         apr
         pub:            fc25pub
 focsname:
     @0:                 "Annual Symposium on Foundations of Computer Science"
@@ -8359,6 +8408,20 @@ icisc:
             @1:         ""
         month:
             @0:         nov # "~20--22,"
+            @1:         nov
+        pub:            springer_singapore
+    25:                 "ICISC25"
+        key:            "ICISC 2025"
+        name:
+            @0:         "ICISC 25: 28th " # iciscname
+            @2:         "ICISC 25" # iciscname
+        ed:             "Hwajeong Seo"
+        vol:            "16487"
+        addr:
+            @0:         "Seoul, Korea"
+            @1:         ""
+        month:
+            @0:         nov # "~19--21,"
             @1:         nov
         pub:            springer_singapore
 icitsname:
@@ -12082,6 +12145,39 @@ pkc:
             @1:         ""
         month:
             @0:         may # "~12--15,"
+            @1:         may
+        pub:            springer_cham
+    26:                 "PKC26"
+        -1:             "PKC26-1"
+        -2:             "PKC26-2"
+        -3:             "PKC26-3"
+        -4:             "PKC26-4"
+        key1:           "PKC 2026, Part~I"
+        key2:           "PKC 2026, Part~II"
+        key3:           "PKC 2026, Part~III"
+        key4:           "PKC 2026, Part~IV"
+        name1:
+            @0:         "PKC~2026: 29th " # pkcname_v2 # ", Part~I"
+            @2:         "PKC~2026" # pkcname_v2 # ", Part~I"
+        name2:
+            @0:         "PKC~2026: 29th " # pkcname_v2 # ", Part~II"
+            @2:         "PKC~2026" # pkcname_v2 # ", Part~II"
+        name3:
+            @0:         "PKC~2026: 29th " # pkcname_v2 # ", Part~III"
+            @2:         "PKC~2026" # pkcname_v2 # ", Part~III"
+        name4:
+            @0:         "PKC~2026: 29th " # pkcname_v2 # ", Part~IV"
+            @2:         "PKC~2026" # pkcname_v2 # ", Part~IV"
+        ed:             "Shi Bai and Edoardo Persichetti"
+        vol1:           "16551"
+        vol2:           "16552"
+        vol3:           "16553"
+        vol4:           "16554"
+        addr:
+            @0:         "West Palm Beach, FL, USA"
+            @1:         ""
+        month:
+            @0:         may # "~25--28,"
             @1:         may
         pub:            springer_cham
 podcname:
@@ -15846,13 +15942,13 @@ wisa:
         name:
             @0:         "WISA 25: 26th " # wisaname
             @2:         "WISA 25" # wisaname
-        ed:             ""
-        vol:            ""
+        ed:             "Ki-Woong Park and Jungsoo Park"
+        vol:            "16434"
         addr:
             @0:         "Jeju Island, Korea"
             @1:         ""
         month:
-            @0:         aug
+            @0:         aug # "~20--22,"
             @1:         aug
         pub:            springer_singapore
     26:                 "WISA26"
