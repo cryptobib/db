@@ -8894,7 +8894,7 @@ ieeesp:
             @0:         "San Francisco, CA, USA"
             @1:         ""
         month:
-            @0:         may
+            @0:         may # "~18--20,"
             @1:         may
     27:                 "SP27"
         key:            "IEEE S\&P 2027"
