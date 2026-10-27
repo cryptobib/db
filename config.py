@@ -152,6 +152,8 @@ add_conf("ASIACCS", "ACM Symposium on Information, Computer and Communications S
 add_conf("AC", "International Conference on the Theory and Application of Cryptology and Information Security",
          name="ASIACRYPT")
 add_conf("CANS", "International Conference on Cryptology and Network Security")
+add_conf("CARDIS", "International Conference on Smart Card Research and Advanced Application")
+add_conf("CASCADE", "International Conference on Constructive Approaches for Security Analysis and Design of Embedded Systems")
 add_conf("CHES", "Workshop on Cryptographic Hardware and Embedded Systems")
 add_conf("COSADE", "International Workshop on Constructive Side-Channel Analysis and Secure Design")
 add_conf("CQRE", "International Exhibition and Congress on Network Security", name="CQRE")
@@ -265,6 +267,7 @@ confs_missing_years = {
     "AC": {1993, 1995, 1997},
     "AFRICACRYPT": {2015, 2021},
     "CCS": {1995},
+    "CARDIS": {1997, 1999, 2001, 2003, 2005, 2007, 2009},
     "EC": {1983},
     "ESORICS": {1991, 1993, 1995, 1997, 1999, 2001},
     "FSE": {1995},

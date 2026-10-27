@@ -49,6 +49,8 @@ dagstuhl:
     @1:                 "Schloss Dagstuhl"
 degruyter:              "De Gruyter"
 sciendo:                "Sciendo"
+smc:                    "Stichting Mathematisch Centrum, Centrum Wiskunde \& Informatica (CWI)"
+kap:                    "Kluwer Academic Publishers"
 plenumpress:            "Plenum Press, New York, USA"
 ucsb-ece:               "U.C. Santa Barbara, Dept. of Elec. and Computer Eng."
 sigcomm:                "Proceedings of {ACM} {SIGCOMM}"
@@ -72,6 +74,7 @@ jcss:                   "Journal of Computer and System Sciences"
 ijns:                   "International Journal of Network Security"
 ijwmc:                  "International Journal of Wireless and Mobile Computing"
 ipl:                    "Information Processing Letters"
+ifip:                   "{IFIP} Advances in Information and Communication Technology"
 ieeetpds:               "{IEEE} Transactions on Parallel and Distributed Systems"
 acm:
     @0:                 "Association for Computing Machinery"
@@ -2812,6 +2815,334 @@ cans:
             @0:         oct
             @1:         oct
         pub:            springer_singapore
+cardisname:
+    @0:                 "International Conference on Smart Card Research and Advanced Applications"
+    @2:                 ""
+cardis:
+    96:                 "CARDIS96"
+        key:            "CARDIS 1996"
+        name:           
+            @0:         "CARDIS 1996: 2nd " # cardisname
+            @2:         "CARDIS 1996" # cardisname
+        ed:             "Pieter H. Hartel and Pierre Paradinas and Jean-Jacques Quisquater"
+        addr:
+            @0:         "Amsterdam, The Netherlands"
+            @1:         ""
+        month:
+            @0:         sep # "~18--20,"
+            @1:         sep
+        pub:            smc
+    98:                 "CARDIS98"
+        key:            "CARDIS 1998"
+        name:
+            @0:         "CARDIS 1998: 3rd " # cardisname
+            @2:         "CARDIS 1998" # cardisname
+        ed:             "Jean-Jacques Quisquater and Bruce Schneier"
+        vol:            "1820"
+        addr:
+            @0:         "Louvain-la-Neuve, Belgium"
+            @1:         ""
+        month:
+            @0:         sep # "~14--16,"
+            @1:         sep
+        pub:            springer_berlin_heidelberg
+    00:                 "CARDIS00"
+        key:            "CARDIS 2000"
+        name:
+            @0:         "CARDIS 2000: IFIP TC8 / WG8.8 4th Working Conference on Smart Card Research and Advanced Applications"
+            @2:         "CARDIS 2000" # cardisname
+        ed:             "Josep Domingo-Ferrer and David Chan and Anthony Watson"
+        vol:            "52"
+        addr:
+            @0:         "Bristol, United Kingdom"
+            @1:         ""
+        month:
+            @0:         sep # "~20--22,"
+            @1:         sep
+        pub:            kap
+    02:                 "CARDIS02"
+        key:            "CARDIS 2002"
+        name:
+            @0:         "CARDIS 2002: 5th Smart Card Research and Advanced Application Conference"
+            @2:         "CARDIS 2002" # cardisname
+        ed:             "Peter Honeyman"
+        addr:
+            @0:         "San Jose, CA, USA"
+            @1:         ""
+        month:
+            @0:         nov # "~21--22,"
+            @1:         nov
+        pub:            "{USENIX}"
+    04:                 "CARDIS04"
+        key:            "CARDIS 2004"
+        name:
+            @0:         "CARDIS 2004: IFIP 18th World Computer Congress TC8 / WG8.8 \& TC11 / WG11.2 6th " # cardisname
+            @2:         "CARDIS 2004" # cardisname
+        ed:             "Jean-Jacques Quisquater and Pierre Paradinas and Yves Deswarte and Anas Abou Kalam"
+        vol:            "153"
+        addr:
+            @0:         "Toulouse, France"
+            @1:         ""
+        month:
+            @0:         aug # "~22--27,"
+            @1:         aug
+        pub:            kap
+    06:                 "CARDIS06"
+        key:            "CARDIS 2006"
+        name:
+            @0:         "CARDIS 2006: 7th IFIP WG8.8/11.2 " # cardisname
+            @2:         "CARDIS 2006" # cardisname
+        ed:             "Josep Domingo-Ferrer and Joachim Posegga and Daniel Schreckling"
+        vol:            "3928"
+        addr:
+            @0:         "Tarragona, Spain"
+            @1:         ""
+        month:
+            @0:         apr # "~19--21,"
+            @1:         apr
+        pub:            springer_berlin_heidelberg
+    08:                 "CARDIS08"
+        key:            "CARDIS 2008"
+        name:
+            @0:         "CARDIS 2008: 8th IFIP WG8.8/11.2 " # cardisname
+            @2:         "CARDIS 2008" # cardisname
+        ed:             "Gilles Grimaud and Fran\c{c}ois-Xavier Standaert"
+        vol:            "5189"
+        addr:
+            @0:         "London, UK"
+            @1:         ""
+        month:
+            @0:         sep # "~8--11,"
+            @1:         sep
+        pub:            springer_berlin_heidelberg
+    10:                 "CARDIS10"
+        key:            "CARDIS 2010"
+        name:
+            @0:         "CARDIS 2010: 9th IFIP WG8.8/11.2 " # cardisname
+            @2:         "CARDIS 2010" # cardisname
+        ed:             "Dieter Gollmann and Jean-Louis Lanet and Julien Iguchi-Cartigny"
+        vol:            "6035"
+        addr:
+            @0:         "Passau, Germany"
+            @1:         ""
+        month:
+            @0:         apr # "~14--16,"
+            @1:         apr
+        pub:            springer_berlin_heidelberg
+    11:                 "CARDIS11"
+        key:            "CARDIS 2011"
+        name:
+            @0:         "CARDIS 2011: 10th IFIP WG8.8/11.2 " # cardisname
+            @2:         "CARDIS 2011" # cardisname
+        ed:             "Emmanuel Prouff"
+        vol:            "7079"
+        addr:
+            @0:         "Leuven, Belgium"
+            @1:         ""
+        month:
+            @0:         sep # "~14--16,"
+            @1:         sep
+        pub:            springer_berlin_heidelberg
+    12:                 "CARDIS12"
+        key:            "CARDIS 2012"
+        name:
+            @0:         "CARDIS 2012: 11th " # cardisname
+            @2:         "CARDIS 2012" # cardisname
+        ed:             "Stefan Mangard"
+        vol:            "7771"
+        addr:
+            @0:         "Graz, Austria"
+            @1:         ""
+        month:
+            @0:         nov # "~28--30,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    13:                 "CARDIS13"
+        key:            "CARDIS 2013"
+        name:
+            @0:         "CARDIS 2013: 12th " # cardisname
+            @2:         "CARDIS 2013" # cardisname
+        ed:             "Aur{\'e}lien Francillon and Pankaj Rohatgi"
+        vol:            "8419"
+        addr:
+            @0:         "Berlin, Germany"
+            @1:         ""
+        month:
+            @0:         nov # "~27--29,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    14:                 "CARDIS14"
+        key:            "CARDIS 2014"
+        name:
+            @0:         "CARDIS 2014: 13th " # cardisname
+            @2:         "CARDIS 2014" # cardisname
+        ed:             "Marc Joye and Amir Moradi"
+        vol:            "8968"
+        addr:
+            @0:         "Paris, France"
+            @1:         ""
+        month:
+            @0:         nov # "~5--7,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    15:                 "CARDIS15"
+        key:            "CARDIS 2015"
+        name:
+            @0:         "CARDIS 2015: 14th " # cardisname
+            @2:         "CARDIS 2015" # cardisname
+        ed:             "Naofumi Homma and Marcel Medwed"
+        vol:            "9514"
+        addr:
+            @0:         "Bochum, Germany"
+            @1:         ""
+        month:
+            @0:         nov # "~4--6,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    16:                 "CARDIS16"
+        key:            "CARDIS 2016"
+        name:
+            @0:         "CARDIS 2016: 15th " # cardisname
+            @2:         "CARDIS 2016" # cardisname
+        ed:             "Kerstin Lemke-Rust and Michael Tunstall"
+        vol:            "10146"
+        addr:
+            @0:         "Cannes, France"
+            @1:         ""
+        month:
+            @0:         nov # "~7--9,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    17:                 "CARDIS17"
+        key:            "CARDIS 2017"
+        name:
+            @0:         "CARDIS 2017: 16th " # cardisname
+            @2:         "CARDIS 2017" # cardisname
+        ed:             "Thomas Eisenbarth and Yannick Teglia"
+        vol:            "10728"
+        addr:
+            @0:         "Lugano, Switzerland"
+            @1:         ""
+        month:
+            @0:         nov # "~13--15,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    18:                 "CARDIS18"
+        key:            "CARDIS 2018"
+        name:
+            @0:         "CARDIS 2018: 17th " # cardisname
+            @2:         "CARDIS 2018" # cardisname
+        ed:             "Beg{\"u}l Bilgin and Jean-Bernard Fischer"
+        vol:            "11389"
+        addr:
+            @0:         "Montpellier, France"
+            @1:         ""
+        month:
+            @0:         nov # "~12--14,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    19:                 "CARDIS19"
+        key:            "CARDIS 2019"
+        name:
+            @0:         "CARDIS 2019: 18th " # cardisname
+            @2:         "CARDIS 2019" # cardisname
+        ed:             "Sonia Bela{\"i}d and Tim G{\"u}neysu"
+        vol:            "11833"
+        addr:
+            @0:         "Prague, Czech Republic"
+            @1:         ""
+        month:
+            @0:         nov # "~11--13,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    20:                 "CARDIS20"
+        key:            "CARDIS 2020"
+        name:
+            @0:         "CARDIS 2020: 19th " # cardisname
+            @2:         "CARDIS 2020" # cardisname
+        ed:             "Pierre-Yvan Liardet and Nele Mentens"
+        vol:            "12609"
+        addr:
+            @0:         virtual
+            @1:         ""
+        month:
+            @0:         nov # "~18--19,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    21:                 "CARDIS21"
+        key:            "CARDIS 2021"
+        name:
+            @0:         "CARDIS 2021: 20th " # cardisname
+            @2:         "CARDIS 2021" # cardisname
+        ed:             "Vincent Grosso and Thomas P{\"o}ppelmann"
+        vol:            "13173"
+        addr:
+            @0:         "L{\"u}beck, Germany"
+            @1:         ""
+        month:
+            @0:         nov # "~11--12,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    22:                 "CARDIS22"
+        key:            "CARDIS 2022"
+        name:
+            @0:         "CARDIS 2022: 21th " # cardisname
+            @2:         "CARDIS 2022" # cardisname
+        ed:             "Ileana Buhan and Tobias Schneider"
+        vol:            "13820"
+        addr:
+            @0:         "Birmingham, UK"
+            @1:         ""
+        month:
+            @0:         nov # "~7--9,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+    23:                 "CARDIS23"
+        key:            "CARDIS 2023"
+        name:
+            @0:         "CARDIS 2023: 22th " # cardisname
+            @2:         "CARDIS 2023" # cardisname
+        ed:             "Shivam Bhasin and Thomas Roche"
+        vol:            "14530"
+        addr:
+            @0:         "Amsterdam, The Netherlands"
+            @1:         ""
+        month:
+            @0:         nov # "~14--16,"
+            @1:         nov
+        pub:            springer_berlin_heidelberg
+cascadename:
+    @0:                 "International Conference on Constructive Approaches for Security Analysis and Design of Embedded Systems"
+    @2:                 ""
+cascade:
+    25:                 "CASCADE25"
+        key:            "CASCADE 2025"
+        name:
+            @0:         "CASCADE 2025: 1st " # cascadename
+            @2:         "CASCADE 2025" # cascadename
+        ed:             "Matthieu Rivain and Pascal Sasdrich"
+        vol:            "15952"
+        addr:
+            @0:         "Saint-Etienne, France"
+            @1:         ""
+        month:
+            @0:         apr # "~2--4,"
+            @1:         apr
+        pub:            springer_cham
+    26:                 "CASCADE26"
+        key:            "CASCADE 2026"
+        name:
+            @0:         "CASCADE 2026: 2nd " # cascadename
+            @2:         "CASCADE 2026" # cascadename
+        ed:             "Ga{\"e}tan Cassiers and Patrick Haddad"
+        vol:            "16532"
+        addr:
+            @0:         "Regensburg, Germany"
+            @1:         ""
+        month:
+            @0:         mar # "~30--~" # apr # "~1," 
+            @1:         apr # "~/~" # apr
+        pub:            springer_cham
 chesname:
     @0:                 "Cryptographic Hardware and Embedded Systems -- {CHES}"
     @2:                 "CHES"
