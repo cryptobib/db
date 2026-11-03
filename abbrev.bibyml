@@ -25,7 +25,9 @@ com:                    "{IEEE} Communications Magazine"
 netmag:                 "{IEEE} Network Magazine"
 net:                    netmag
 isdn:                   "Computer Networks and {ISDN} Systems"
-cacm:                   "Communications of the Association for Computing Machinery"
+cacm:
+    @0:                 "Communications of the {ACM}"
+    @2:                 "Commun.~{ACM}"
 comrev:                 "{ACM} Computer Communication Review"
 perscomm:               "Personal Communication"
 perf:                   "Performance Evaluation"
@@ -53,7 +55,9 @@ plenumpress:            "Plenum Press, New York, USA"
 ucsb-ece:               "U.C. Santa Barbara, Dept. of Elec. and Computer Eng."
 sigcomm:                "Proceedings of {ACM} {SIGCOMM}"
 struct:                 "Proceedings of Structures in Complexity Theory"
-siamjc:                 "{SIAM} Journal on Computing"
+siamjc:
+    @0:                 "{SIAM} Journal on Computing"
+    @2:                 "{SIAM} J.~Comput."
 sicomp:                 siamjc
 transcomp:              "{IEEE} Transactions on Computer"
 tcomm:                  "{IEEE} Transactions on Communications"
@@ -66,8 +70,12 @@ acmosr:                 "{ACM SIGOPS} Operating Systems Review"
 jcryptoeng:             "Journal of Cryptographic Engineering"
 jcrypto:                "Journal of Cryptology"
 jcrypt:                 jcrypto
-infth:                  "{IEEE} Transactions on Information Theory"
-jacm:                   "Journal of the {ACM}"
+infth:
+    @0:                 "{IEEE} Transactions on Information Theory"
+    @2:                 "{IEEE} Trans.~Inf.~Theory"
+jacm:
+    @0:                 "Journal of the {ACM}"
+    @2:                 "J.~{ACM}"
 jcss:                   "Journal of Computer and System Sciences"
 ijns:                   "International Journal of Network Security"
 ijwmc:                  "International Journal of Wireless and Mobile Computing"
