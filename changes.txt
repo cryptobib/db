@@ -1,3 +1,7 @@
+* 2026-10-31
+Corrected Pavel Hubáček's author-name spelling and TeX encoding throughout the database.
+Protected Nash capitalization in titles, including Nash-Williams, Brewer-Nash, Nashian, and Nashification.
+
 * 2026-06-23
 FC 2025, FCW 2025, ICISC 2025, WISA 2025, EC 2026, PKC 2026
 
