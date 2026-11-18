@@ -16069,7 +16069,7 @@ pqcrypto:
         ed:             "Bo-Yin Yang"
         vol:            "7071"
         addr:
-            @0:         "Tapei, Taiwan"
+            @0:         "Taipei, Taiwan"
             @1:         ""
         month:
             @0:         nov # "~29~--~" # dec # "~2"
