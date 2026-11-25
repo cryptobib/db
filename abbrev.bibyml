@@ -25,7 +25,9 @@ com:                    "{IEEE} Communications Magazine"
 netmag:                 "{IEEE} Network Magazine"
 net:                    netmag
 isdn:                   "Computer Networks and {ISDN} Systems"
-cacm:                   "Communications of the Association for Computing Machinery"
+cacm:
+    @0:                 "Communications of the {ACM}"
+    @2:                 "Commun.~{ACM}"
 comrev:                 "{ACM} Computer Communication Review"
 perscomm:               "Personal Communication"
 perf:                   "Performance Evaluation"
@@ -55,7 +57,9 @@ plenumpress:            "Plenum Press, New York, USA"
 ucsb-ece:               "U.C. Santa Barbara, Dept. of Elec. and Computer Eng."
 sigcomm:                "Proceedings of {ACM} {SIGCOMM}"
 struct:                 "Proceedings of Structures in Complexity Theory"
-siamjc:                 "{SIAM} Journal on Computing"
+siamjc:
+    @0:                 "{SIAM} Journal on Computing"
+    @2:                 "{SIAM} J.~Comput."
 sicomp:                 siamjc
 transcomp:              "{IEEE} Transactions on Computer"
 tcomm:                  "{IEEE} Transactions on Communications"
@@ -68,8 +72,12 @@ acmosr:                 "{ACM SIGOPS} Operating Systems Review"
 jcryptoeng:             "Journal of Cryptographic Engineering"
 jcrypto:                "Journal of Cryptology"
 jcrypt:                 jcrypto
-infth:                  "{IEEE} Transactions on Information Theory"
-jacm:                   "Journal of the {ACM}"
+infth:
+    @0:                 "{IEEE} Transactions on Information Theory"
+    @2:                 "{IEEE} Trans.~Inf.~Theory"
+jacm:
+    @0:                 "Journal of the {ACM}"
+    @2:                 "J.~{ACM}"
 jcss:                   "Journal of Computer and System Sciences"
 ijns:                   "International Journal of Network Security"
 ijwmc:                  "International Journal of Wireless and Mobile Computing"
@@ -4160,6 +4168,52 @@ crypto:
         vol8:           "16007"
         month:
             @0:         aug # "~17--21,"
+            @1:         aug
+        pub:            springer_cham
+    26:
+        -1:             "C26-1"
+        -2:             "C26-2"
+        -3:             "C26-3"
+        -4:             "C26-4"
+        -5:             "C26-5"
+        -6:             "C26-6"
+        -7:             "C26-7"
+        -8:             "C26-8"
+        -9:             "C26-9"
+        -10:            "C26-10"
+        key1:           "CRYPTO 2026, Part~I"
+        key2:           "CRYPTO 2026, Part~II"
+        key3:           "CRYPTO 2026, Part~III"
+        key4:           "CRYPTO 2026, Part~IV"
+        key5:           "CRYPTO 2026, Part~V"
+        key6:           "CRYPTO 2026, Part~VI"
+        key7:           "CRYPTO 2026, Part~VII"
+        key8:           "CRYPTO 2026, Part~VIII"
+        key9:           "CRYPTO 2026, Part~IX"
+        key10:          "CRYPTO 2026, Part~X"
+        name1:          cryptoname # "~2026, Part~I"
+        name2:          cryptoname # "~2026, Part~II"
+        name3:          cryptoname # "~2026, Part~III"
+        name4:          cryptoname # "~2026, Part~IV"
+        name5:          cryptoname # "~2026, Part~V"
+        name6:          cryptoname # "~2026, Part~VI"
+        name7:          cryptoname # "~2026, Part~VII"
+        name8:          cryptoname # "~2026, Part~VIII"
+        name9:          cryptoname # "~2026, Part~IX"
+        name10:         cryptoname # "~2026, Part~X"
+        ed:             "Nadia Heninger and Mike Rosulek:"
+        vol1:           "16800"
+        vol2:           "16801"
+        vol3:           "16802"
+        vol4:           "16803"
+        vol5:           "16804"
+        vol6:           "16805"
+        vol7:           "16806"
+        vol8:           "16807"
+        vol9:           "16808"
+        vol10:          "16809"
+        month:
+            @0:         aug # "~17--20,"
             @1:         aug
         pub:            springer_cham
 rsaname:
@@ -16392,7 +16446,7 @@ pqcrypto:
         ed:             "Bo-Yin Yang"
         vol:            "7071"
         addr:
-            @0:         "Tapei, Taiwan"
+            @0:         "Taipei, Taiwan"
             @1:         ""
         month:
             @0:         nov # "~29~--~" # dec # "~2"
