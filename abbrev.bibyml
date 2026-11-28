@@ -2839,7 +2839,7 @@ cardis:
         month:
             @0:         sep # "~18--20,"
             @1:         sep
-        pub:            smc
+        pub:            cwi
     98:                 "CARDIS98"
         key:            "CARDIS 1998"
         name:
@@ -2867,7 +2867,7 @@ cardis:
         month:
             @0:         sep # "~20--22,"
             @1:         sep
-        pub:            kap
+        pub:            kluwer
     02:                 "CARDIS02"
         key:            "CARDIS 2002"
         name:
@@ -2894,7 +2894,7 @@ cardis:
         month:
             @0:         aug # "~22--27,"
             @1:         aug
-        pub:            kap
+        pub:            kluwer
     06:                 "CARDIS06"
         key:            "CARDIS 2006"
         name:
